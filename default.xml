@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com/" />
            
   <remote  name="gh"
-           fetch="http://github.com/"
+           fetch="https://github.com/"
            revision="master" />
            
   <remote  name="kang"
@@ -13,7 +13,7 @@
            revision="master" />
            
   <remote  name="cm"
-           fetch="http://github.com/CyanogenMod/"
+           fetch="https://github.com/CyanogenMod/"
            revision="ics" />
 
   <default revision="refs/tags/android-4.0.3_r1"
