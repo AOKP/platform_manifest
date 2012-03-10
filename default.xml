@@ -181,7 +181,7 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="AOKP/external_yaffs2" remote="gh" revision="master" />
   <project path="external/zlib" name="AOKP/external_zlib" remote="gh" revision="master" />
-  <project path="frameworks/base" name="AOKP/frameworks_base" remote="gh" revision="4.0.3" />
+  <project path="frameworks/base" name="AOKP-SGS2/frameworks_base" remote="gh" revision="4.0.3" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" remote="gh" revision="ics" />
@@ -196,8 +196,8 @@
   <project path="hardware/cm" name="AOKP/hardware_cm" remote="gh" revision="ics" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="gh" revision="ics" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
-  <project path="hardware/libhardware" name="AOKP/hardware_libhardware" remote="gh" revision="master" />
-  <project path="hardware/libhardware_legacy" name="AOKP/android_hardware_libhardware_legacy" remote="gh" revision="ics" />
+  <project path="hardware/libhardware" name="AOKP-SGS2/hardware_libhardware" remote="gh" revision="master" />
+  <project path="hardware/libhardware_legacy" name="AOKP-SGS2/android_hardware_libhardware_legacy" remote="gh" revision="ics" />
   <project path="hardware/qcom/display" name="AOKP/android_hardware_qcom_display" remote="gh" revision="ics" />
   <project path="hardware/qcom/camera" name="AOKP/android_hardware_qcom_camera" remote="gh" revision="ics" />
   <project path="hardware/msm7k" name="AOKP/hardware_msm7k" remote="gh" revision="master" />
@@ -272,9 +272,9 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="AOKP/system_vold" remote="gh" revision="master" />
   
-  <project path="vendor/samsung" name="AOKP/vendor_samsung" remote="gh" revision="master" />
+  <project path="vendor/samsung" name="koush/proprietary_vendor_samsung" remote="gh" revision="ics" />
   <project path="vendor/imgtec" name="AOKP/vendor_imgtec" remote="gh" revision="master" />
-  <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="gh" revision="ics" />
+  <project path="vendor/aokp" name="AOKP-SGS2/vendor_aokp" remote="gh" revision="ics" />
   <project path="vendor/moto" name="AOKP/vendor_moto" remote="gh" revision="ics" />
   <project path="vendor/hp/tenderloin" name="AOKP/vendor_hp_tenderloin" remote="gh" revision="aokp" />
   <project path="vendor/htc" name="AOKP/vendor_htc" remote="gh" revision="master" />
@@ -288,4 +288,5 @@
   <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="gh" revision="master" />
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" remote="gh" revision="ics" />
 
+  <project path="device/samsung/galaxys2" name="hydraosp-ics/android_device_samsung_galaxys2" remote="gh" revision="ics" />
 </manifest>
