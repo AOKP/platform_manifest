@@ -270,7 +270,7 @@
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="gh" revision="ics" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
-  <project path="system/vold" name="AOKP/system_vold" remote="gh" revision="master" />
+  <project path="system/vold" name="CyanogenMod/system_vold" remote="gh" revision="ics" />
   
   <project path="vendor/samsung" name="koush/proprietary_vendor_samsung" remote="gh" revision="ics" />
   <project path="vendor/imgtec" name="AOKP/vendor_imgtec" remote="gh" revision="master" />
