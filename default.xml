@@ -20,7 +20,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="AOKP/android_build" revision="ics" remote="gh">
+  <project path="build" name="AOKP-SGS2/android_build" revision="ics" remote="gh">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
