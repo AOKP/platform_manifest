@@ -33,6 +33,7 @@
   <project path="development" name="AOKP/platform_development" remote="gh" revision="ics-mr1-release" />
   <project path="device/amazon/otter" name="AOKP/device_amazon_otter" remote="gh" revision="ics" />
   <project path="device/acer/a500" name="AOKP/device_acer_a500" remote="gh" revision="ics" />
+  <project path="device/asus/tf101" name="AOKP-SGS2/android_device_asus_tf101" remote="gh" revision="ics" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
