@@ -282,6 +282,7 @@
   <project path="vendor/samsung" name="koush/proprietary_vendor_samsung" remote="gh" revision="ics" />
   <project path="vendor/imgtec" name="AOKP/vendor_imgtec" remote="gh" revision="master" />
   <project path="vendor/aokp" name="AOKP-SGS2/vendor_aokp" remote="gh" revision="ics" />
+  <project path="vendor/asus" name="AOKP-SGS2/proprietary_vendor_asus" remote="gh" revision="ics" />
   <project path="vendor/moto" name="AOKP/vendor_moto" remote="gh" revision="ics" />
   <project path="vendor/hp/tenderloin" name="AOKP/vendor_hp_tenderloin" remote="gh" revision="aokp" />
   <project path="vendor/htc" name="AOKP/vendor_htc" remote="gh" revision="master" />
