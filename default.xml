@@ -141,7 +141,7 @@
   <project path="external/libxml2" name="platform/external/libxml2" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/libxslt" name="platform/external/libxslt" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/libyuv" name="platform/external/libyuv" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
-  <project path="external/llvm" name="platform/external/llvm" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
+  <project path="external/llvm" name="CyanogenMod/android_external_llvm" remote="gh" revision="ics"/>
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="gh" revision="ics" />
   <project path="external/markdown" name="platform/external/markdown" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
