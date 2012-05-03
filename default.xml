@@ -57,6 +57,7 @@
   <project path="device/samsung/crespo4g" name="AOKP/device_samsung_crespo4g" remote="gh" revision="ics" />
   <project path="device/samsung/fascinatemtd" name="AOKP/device_samsung_fascinatemtd" remote="gh" revision="ics" />
   <project path="device/samsung/galaxysmtd" name="AOKP/device_samsung_galaxysmtd" remote="gh" revision="ics" />
+  <project path="device/samsung/galaxys2" name="AOKP/device_samsung_galaxys2" remote="gh" revision="ics" />
   <project path="device/samsung/maguro" name="AOKP/device_samsung_maguro" remote="gh" revision="ics" />
   <project path="device/samsung/p4" name="AOKP/device_samsung_p4" remote="gh" revision="ics" />
   <project path="device/samsung/p4-common" name="AOKP/device_samsung_p4-common" remote="gh" revision="ics" />
@@ -287,7 +288,7 @@
   <project path="system/netd" name="platform/system/netd" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="system/vold" name="AOKP/system_vold" remote="gh" revision="ics" />
 
-  <project path="vendor/samsung" name="AOKP/vendor_samsung" remote="gh" revision="ics" />
+  <project path="vendor/samsung" name="koush/proprietary_vendor_samsung" remote="gh" revision="ics" />
   <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="gh" revision="ics" />
   <project path="vendor/moto" name="AOKP/vendor_moto" remote="gh" revision="ics" />
   <project path="vendor/hp/tenderloin" name="AOKP/vendor_hp_tenderloin" remote="gh" revision="aokp" />
