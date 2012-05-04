@@ -14,7 +14,7 @@
            revision="ics" />
            
   <remote  name="mt"
-           fetch="https://github.com/Moto-tegra/"
+           fetch="git@github.com/Moto-tegra/"
            revision="ics" />
 
   <default remote="aosp"
