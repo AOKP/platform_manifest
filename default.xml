@@ -39,7 +39,7 @@
   <project path="device/moto/stingray" name="AOKP/device_moto_stingray" remote="gh" revision="ics" />
   <project path="device/moto/wingray" name="AOKP/device_moto_wingray" remote="gh" revision="ics" />
   <project path="device/moto/sunfire" name="Moto-tegra/aokp_sunfire" remote="mt" revision="ics" />
-  <project path="device/moto/olympus" name="Moto-tegra/aokp_device_motorola_olympus" remote="mt" revision="ics" />
+  <project path="device/moto/olympus" name="Moto-tegra/android_device_motorola_olympus" remote="mt" revision="ics" />
   <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="device/samsung/crespo" name="AOKP/device_samsung_crespo" remote="gh" revision="ics" />
   <project path="device/samsung/maguro" name="AOKP/device_samsung_maguro" remote="gh" revision="ics" />
