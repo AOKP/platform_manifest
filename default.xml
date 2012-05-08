@@ -225,6 +225,7 @@
   <project path="kernel/hp/tenderloin" name="CyanogenMod/hp-kernel-tenderloin" remote="gh" revision="ics" />
   <project path="kernel/lge/star" name="AOKP/lge-kernel-star" remote="gh" revision="android-tegra-2.6.32-ics" />
   <project path="kernel/samsung/tuna" name="CyanogenMod/android_kernel_samsung_tuna" remote="gh" revision="ics" />
+  <project path="kernel/samsung'aries" name="GlitchKernel/Glitch" remote="gh" revision="V14" />
   <project path="libcore" name="platform/libcore" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
