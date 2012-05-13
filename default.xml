@@ -12,10 +12,6 @@
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/"
            revision="ics" />
-           
-  <remote  name="ap"
-           fetch="https://github.com/AOKP-PASSION/"
-           revision="ics" />
    
   <default remote="aosp"
            sync-j="4" />
@@ -40,7 +36,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"  />
   <project path="device/htc/bravo" name="AOKP/device_htc_bravo" remote="gh" revision="ics" />
-  <project path="device/htc/passion" name="AOKP-PASSION/device_htc_passion" remote="ap" revision="ics" />
+  <project path="device/htc/passion" name="AOKP-PASSION/device_htc_passion" remote="gh" revision="ics" />
   <project path="device/htc/inc" name="AOKP/android_device_htc_inc" remote="gh" revision="ics" />
   <project path="device/htc/supersonic" name="AOKP/android_device_htc_supersonic" remote="gh" revision="ics" />
   <project path="device/htc/vivow" name="AOKP/android_device_htc_vivow" remote="gh" revision="ics" />
@@ -297,10 +293,10 @@
   <project path="system/vold" name="AOKP/system_vold" remote="gh" revision="ics" />
 
   <project path="vendor/samsung" name="AOKP/vendor_samsung" remote="gh" revision="ics" />
-  <project path="vendor/aokp" name="AOKP-PASSION/vendor_aokp" remote="ap" revision="ics" />
+  <project path="vendor/aokp" name="AOKP-PASSION/vendor_aokp" remote="gh" revision="ics" />
   <project path="vendor/moto" name="AOKP/vendor_moto" remote="gh" revision="ics" />
   <project path="vendor/hp/tenderloin" name="AOKP/vendor_hp_tenderloin" remote="gh" revision="aokp" />
-  <project path="vendor/htc" name="AOKP-PASSION/vendor_htc" remote="ap" revision="ics" />
+  <project path="vendor/htc" name="AOKP-PASSION/vendor_htc" remote="gh" revision="ics" />
   <project path="vendor/htc/pyramid" name="AOKP/android_vendor_htc_pyramid" remote="gh" revision="ics" />
   <project path="vendor/lge" name="AOKP/vendor_lge" remote="gh" revision="ics" />
   <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="gh" revision="ics" />
@@ -318,6 +314,6 @@
   <project path="packages/apps/GanOptimizer" name="CyanogenMod/android_packages_apps_GanOptimizer" remote="gh" revision="gb-release-7.2" />
   <project path="packages/apps/AppWidgetPicker" name="AOKP/packages_apps_AppWidgetPicker" remote="gh" revision="ics" />
 
-  <project path="platform_manifest" name="AOKP-PASSION/platform_manifest" remote="ap" revision="ics" />
+  <project path="platform_manifest" name="AOKP-PASSION/platform_manifest" remote="gh" revision="ics" />
 
 </manifest>
