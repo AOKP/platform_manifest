@@ -38,6 +38,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"  />
   <project path="device/htc/bravo" name="AOKP/device_htc_bravo" remote="gh" revision="ics" />
   <project path="device/htc/passion" name="AOKP-PASSION/device_htc_passion" remote="gh" revision="ics" />
+  <project path="device/htc/qsd8k-common" name="AOKP-PASSION/device_htc_qsd8k-common" remote="gh" revision="ics" />
   <project path="device/htc/inc" name="AOKP/android_device_htc_inc" remote="gh" revision="ics" />
   <project path="device/htc/supersonic" name="AOKP/android_device_htc_supersonic" remote="gh" revision="ics" />
   <project path="device/htc/ville" name="AOKP/android_device_htc_ville" remote="gh" revision="ics" />
