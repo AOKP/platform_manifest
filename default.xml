@@ -232,6 +232,7 @@
   <project path="hardware/ti/wpan" name="AOKP/android_hardware_ti_wpan" remote="gh" revision="ics" />
   <project path="libcore" name="AOKP/libcore" remote="gh" revision="ics" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
+  <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="gh" revision="ics" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/Bluetooth" name="AOKP/packages_apps_Bluetooth" remote="gh" revision="ics"/>
   <project path="packages/apps/Browser" name="AOKP/packages_apps_Browser" remote="gh" revision="ics" />
@@ -242,6 +243,7 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/Contacts" name="AOKP/packages_apps_Contacts" remote="gh" revision="ics" />
   <project path="packages/apps/DeskClock" name="AOKP/packages_apps_DeskClock" remote="gh" revision="ics" />
+  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="gh" revision="ics" />
   <project path="packages/apps/Email" name="AOKP/packages_apps_Email" remote="gh" revision="ics"/>
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
@@ -250,8 +252,6 @@
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/Mms" name="AOKP/packages_apps_Mms" remote="gh" revision="ics" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
-  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/Nfc" name="AOKP/packages_apps_Nfc" remote="gh" revision="ics"/>
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/Phone" name="AOKP/packages_apps_Phone" remote="gh" revision="ics" />
