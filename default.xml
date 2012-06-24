@@ -62,6 +62,7 @@
   <project path="device/samsung/fascinatemtd" name="AOKP/device_samsung_fascinatemtd" remote="gh" revision="ics" />
   <project path="device/samsung/galaxysmtd" name="AOKP/device_samsung_galaxysmtd" remote="gh" revision="ics" />
   <project path="device/samsung/hercules" name="AOKP/android_device_samsung_hercules" remote="gh" revision="ics" />
+  <project path="device/samsung/i9300" name="Faryaab/android_device_samsung_i9300" remote="gh" revision="ics" />
   <project path="device/samsung/maguro" name="AOKP/device_samsung_maguro" remote="gh" revision="ics" />
   <project path="device/samsung/mesmerizemtd" name="AOKP/android_device_samsung_mesmerizemtd" remote="gh" revision="ics" />
   <project path="device/samsung/msm8660-common" name="AOKP/android_device_samsung_msm8660-common" remote="gh" revision="ics" />
@@ -263,6 +264,7 @@
   <project path="packages/apps/AOKPtips" name="AOKP/packages_apps_AOKPtips" remote="gh" revision="ics"/>
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
+  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="gh" revision="ics" />
   <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="gh" revision="ics" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
