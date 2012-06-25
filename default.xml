@@ -12,7 +12,7 @@
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/"
            revision="ics" />
-
+   
   <default remote="aosp"
            sync-j="4" />
 
@@ -37,6 +37,8 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"  />
   <project path="device/htc/bravo" name="AOKP/device_htc_bravo" remote="gh" revision="ics" />
+  <project path="device/htc/passion" name="AOKP-PASSION/device_htc_passion" remote="gh" revision="ics" />
+  <project path="device/htc/qsd8k-common" name="AOKP-PASSION/device_htc_qsd8k-common" remote="gh" revision="ics" />
   <project path="device/htc/inc" name="AOKP/android_device_htc_inc" remote="gh" revision="ics" />
   <project path="device/htc/supersonic" name="AOKP/android_device_htc_supersonic" remote="gh" revision="ics" />
   <project path="device/htc/ville" name="AOKP/android_device_htc_ville" remote="gh" revision="ics" />
@@ -205,7 +207,7 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/yaffs2" name="AOKP/external_yaffs2" remote="gh" revision="ics" />
   <project path="external/zlib" name="AOKP/external_zlib" remote="gh" revision="ics" />
-  <project path="frameworks/base" name="AOKP/frameworks_base" remote="gh" revision="ics" />
+  <project path="frameworks/base" name="AOKP-PASSION/frameworks_base" remote="gh" revision="ics" />
   <project path="frameworks/compile/libbcc" name="AOKP/android_frameworks_compile_libbcc" remote="gh" revision="ics" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" remote="gh" revision="ics" />
@@ -302,10 +304,12 @@
   <project path="system/vold" name="AOKP/system_vold" remote="gh" revision="ics" />
 
   <project path="vendor/samsung" name="AOKP/vendor_samsung" remote="gh" revision="ics" />
-  <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="gh" revision="ics" />
+  <project path="vendor/aokp" name="AOKP-PASSION/vendor_aokp" remote="gh" revision="ics" />
   <project path="vendor/moto" name="AOKP/vendor_moto" remote="gh" revision="ics" />
   <project path="vendor/hp/tenderloin" name="AOKP/vendor_hp_tenderloin" remote="gh" revision="aokp" />
-  <project path="vendor/htc" name="AOKP/vendor_htc" remote="gh" revision="ics" />
+
+  <project path="vendor/htc" name="AOKP-PASSION/vendor_htc" remote="gh" revision="ics" />
+
   <project path="vendor/lge" name="AOKP/vendor_lge" remote="gh" revision="ics" />
   <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="gh" revision="ics" />
   <project path="vendor/acer" name="AOKP/vendor_acer" remote="gh" revision="ics" />
@@ -330,6 +334,6 @@
   <project name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" path="vendor/tmobile/providers/ThemeManager" revision="refs/heads/ics" remote="gh" />
   <project name="CyanogenMod/android_vendor_tmobile_products_themes" path="vendor/tmobile/products/themes" revision="refs/heads/ics" remote="gh" />
 
-  <project path="platform_manifest" name="AOKP/platform_manifest" remote="gh" revision="ics" />
+  <project path="platform_manifest" name="AOKP-PASSION/platform_manifest" remote="gh" revision="ics" />
 
 </manifest>

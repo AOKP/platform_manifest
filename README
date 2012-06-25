@@ -1,4 +1,4 @@
-$ repo init -u https://github.com/AOKP/platform_manifest.git -b ics
+$ repo init -u https://github.com/AOKP-PASSION/platform_manifest.git -b ics
 $ repo sync
 
 temporary fix to build:
