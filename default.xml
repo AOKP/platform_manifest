@@ -31,18 +31,63 @@
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="dalvik" name="AOKP/platform_dalvik" remote="gh" revision="ics" />
   <project path="development" name="AOKP/platform_development" remote="gh" revision="ics" />
+  <project path="device/acer/picasso" name="AOKP/android_device_acer_picasso" remote="gh" revision="ics" />
+  <project path="device/acer/t20-common" name="AOKP/android_device_acer_t20-common" remote="gh" revision="ics" />
+  <project path="device/amazon/otter" name="AOKP/device_amazon_otter" remote="gh" revision="ics" />
+  <project path="device/asus/tf101" name="AOKP/device_asus_tf101" remote="gh" revision="ics" />
+  <project path="device/asus/tf201" name="AOKP/device_asus_tf201" remote="gh" revision="ics" />
   <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"  />
+  <project path="device/htc/bravo" name="AOKP/device_htc_bravo" remote="gh" revision="ics" />
+  <project path="device/htc/inc" name="AOKP/android_device_htc_inc" remote="gh" revision="ics" />
+  <project path="device/htc/supersonic" name="AOKP/android_device_htc_supersonic" remote="gh" revision="ics" />
+  <project path="device/htc/ville" name="AOKP/android_device_htc_ville" remote="gh" revision="ics" />
+  <project path="device/htc/vivow" name="AOKP/android_device_htc_vivow" remote="gh" revision="ics" />
+  <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" remote="gh" revision="gingerbread" />
+  <project path="device/htc/msm7x30-common" name="AOKP/android_device_htc_msm7x30-common" remote="gh" revision="ics" />
+  <project path="device/htc/msm8660-common" name="AOKP/android_device_htc_msm8660-common" remote="gh" revision="ics" />
+  <project path="device/htc/msm8960-common" name="AOKP/android_device_htc_msm8960-common" remote="gh" revision="ics" />
+  <project path="device/htc/pyramid" name="AOKP/android_device_htc_pyramid" remote="gh" revision="ics" />
+  <project path="device/hp/tenderloin" name="AOKP/android_device_hp_tenderloin" remote="gh" revision="ics" />
+  <project path="device/lge/p990" name="AOKP/android_device_lge_p990" remote="gh" revision="ics" />
+  <project path="device/lge/p999" name="AOKP/android_device_lge_p999" remote="gh" revision="ics" />
+  <project path="device/lge/star-common" name="AOKP/android_device_lge_star-common" remote="gh" revision="ics" />
   <project path="device/moto/common" name="device/moto/common" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="device/moto/stingray" name="AOKP/device_moto_stingray" remote="gh" revision="ics" />
   <project path="device/moto/wingray" name="AOKP/device_moto_wingray" remote="gh" revision="ics" />
   <project path="device/moto/sunfire" name="Moto-tegra/aokp_sunfire" remote="mt" revision="ics" />
   <project path="device/moto/olympus" name="Moto-tegra/android_device_motorola_olympus" remote="mt" revision="ics" />
   <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
+  <project path="device/samsung/aries-common" name="AOKP/device_samsung_aries-common" remote="gh" revision="ics" />
+  <project path="device/samsung/captivatemtd" name="AOKP/device_samsung_captivatemtd" remote="gh" revision="ics" />
   <project path="device/samsung/crespo" name="AOKP/device_samsung_crespo" remote="gh" revision="ics" />
+  <project path="device/samsung/crespo4g" name="AOKP/device_samsung_crespo4g" remote="gh" revision="ics" />
+  <project path="device/samsung/espressowifi" name="AOKP/android_device_samsung_espressowifi" remote="gh" revision="ics" />
+  <project path="device/samsung/fascinatemtd" name="AOKP/device_samsung_fascinatemtd" remote="gh" revision="ics" />
+  <project path="device/samsung/galaxysmtd" name="AOKP/device_samsung_galaxysmtd" remote="gh" revision="ics" />
+  <project path="device/samsung/hercules" name="AOKP/device_samsung_hercules" remote="gh" revision="ics" />
   <project path="device/samsung/maguro" name="AOKP/device_samsung_maguro" remote="gh" revision="ics" />
+  <project path="device/samsung/mesmerizemtd" name="AOKP/android_device_samsung_mesmerizemtd" remote="gh" revision="ics" />
+  <project path="device/samsung/msm8660-common" name="AOKP/android_device_samsung_msm8660-common" remote="gh" revision="ics" />
+  <project path="device/samsung/n7000" name="AOKP/android_device_samsung_n7000" remote="gh" revision="ics" />
+  <project path="device/samsung/p4" name="AOKP/device_samsung_p4" remote="gh" revision="ics" />
+  <project path="device/samsung/p4-common" name="AOKP/device_samsung_p4-common" remote="gh" revision="ics" />
+  <project path="device/samsung/p4vzw" name="AOKP/device_samsung_p4vzw" remote="gh" revision="ics" />
+  <project path="device/samsung/p4wifi" name="AOKP/device_samsung_p4wifi" remote="gh" revision="ics" />
+  <project path="device/samsung/p5" name="AOKP/android_device_samsung_p5" remote="gh" revision="ics" />
+  <project path="device/samsung/p5-common" name="AOKP/android_device_samsung_p5-common" remote="gh" revision="ics" />
+  <project path="device/samsung/p5wifi" name="AOKP/android_device_samsung_p5wifi" remote="gh" revision="ics" />
+  <project path="device/samsung/showcasemtd" name="AOKP/android_device_samsung_showcasemtd" remote="gh" revision="ics" />
+  <project path="device/samsung/skyrocket" name="AOKP/android_device_samsung_skyrocket" remote="gh" revision="ics" />
+  <project path="device/samsung/toro" name="AOKP/device_samsung_toro" remote="gh" revision="ics" />
+  <project path="device/samsung/toroplus" name="AOKP/android_device_samsung_toroplus" remote="gh" revision="ics" />
+  <project path="device/samsung/tuna" name="AOKP/device_samsung_tuna" remote="gh" revision="ics" />
+  <project path="device/samsung/vibrantmtd" name="AOKP/device_samsung_vibrantmtd" remote="gh" revision="ics" />
+  <project path="device/samsung/p1c" name="AOKP/device_samsung_p1c" remote="gh" revision="ics" />
+  <project path="device/samsung/p1-common" name="AOKP/device_samsung_p1-common" remote="gh" revision="ics" />
+  <project path="device/ti/panda" name="device/ti/panda" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="external/antlr" name="platform/external/antlr" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
@@ -191,6 +236,7 @@
   <project path="hardware/qcom/gps" name="AOKP/hardware_qcom_gps" remote="gh" revision="ics" />
   <project path="hardware/qcom/media" name="AOKP/android_hardware_qcom_media" remote="gh" revision="ics" />
   <project path="hardware/ril" name="AOKP/android_hardware_ril" remote="gh" revision="ics" />
+  <project path="hardware/samsung" name="AOKP/android_hardware_samsung" remote="gh" revision="ics" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="hardware/ti/wlan" name="AOKP/android_hardware_ti_wlan" remote="gh" revision="ics" />
