@@ -108,7 +108,7 @@
   <project path="external/jsilver" name="platform/external/jsilver" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/jsr305" name="platform/external/jsr305" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/junit" name="platform/external/junit" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="external/kernel-headers" name="platform/external/kernel-headers" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
+  <project path="external/kernel-headers" name="AOKP/external_kernel-headers" remote="gh" revision="jb" />
   <project path="external/libffi" name="platform/external/libffi" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/libgsm" name="platform/external/libgsm" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/liblzf" name="platform/external/liblzf" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
