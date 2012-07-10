@@ -248,7 +248,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="gh" revision="jb" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
@@ -310,5 +310,6 @@
   <project path="system/vold" name="platform/system/vold" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
 
   <project path="platform_manifest" name="AOKP/platform_manifest" remote="gh" revision="jb" />
+  <project path="packages/apps/ROMControl" name="packages_apps_ROMControl" remote="gh" revision="jb" />
 
 </manifest>
