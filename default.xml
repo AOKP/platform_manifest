@@ -9,6 +9,11 @@
            review="gerrit.aokp.co"
            revision="jb" />
 
+<remote  name="cm"
+           fetch="https://github.com/CyanogenMod/"
+           review="review.cyanogenmod.com"
+           revision="jellybean" />
+
   <default remote="aosp"
            sync-j="4" />
 
@@ -56,7 +61,7 @@
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/bsdiff" name="platform/external/bsdiff" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="gh" revision="jellybean" />
+  <project path="external/busybox" name="android_external_busybox" remote="cm" revision="jellybean" />
   <project path="external/bzip2" name="platform/external/bzip2" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/chromium" name="platform/external/chromium" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
