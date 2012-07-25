@@ -16,7 +16,7 @@
            fetch="https://github.com/" />
 
   <default remote="aosp"
-           sync-j="4" />
+           sync-j="16" />
 
   <project path="build" name="AOKP/android_build" remote="aokp" revision="jb" >
     <copyfile src="core/root.mk" dest="Makefile" />
