@@ -3,5 +3,6 @@
   <project path="kernel/samsung/aries" name="android_kernel_samsung_aries" remote="cm" revision="jellybean" />
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="jellybean" />
   <project path="kernel/samsung/msm8660-common" name="android_kernel_samsung_msm8660-common" remote="cm" revision="jellybean" />
+  <project path="kernel/samsung/p1c" name="jt1134/android_kernel_samsung_galaxytab-cdma" remote="aokp revision="jellybean" />
   <project path="kernel/samsung/smdk4210" name="android_kernel_samsung_smdk4210" remote="cm" revision="jellybean" />
 </manifest>
