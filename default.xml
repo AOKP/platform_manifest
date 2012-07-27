@@ -43,6 +43,8 @@
   <project path="device/samsung/d2tmo" name="AOKP/android_device_samsung_d2tmo" remote="aokp" revision="jb" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/samsung/msm8960-common" name="AOKP/android_device_samsung_msm8960-common" remote="aokp" revision="jb" />
+  <project path="device/samsung/p4wifi" name="AOKP/device_samsung_p4wifi" remote="aokp" revision="jb" />
+  <project path="device/samsung/p4-common" name="AOKP/device_samsung_p4-common" remote="aokp" revision="jb" />
   <project path="device/samsung/toro" name="AOKP/device_samsung_toro" remote="aokp" revision="jb" />
   <project path="device/samsung/torospr" name="device/samsung/torospr" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/samsung/tuna" name="AOKP/device_samsung_tuna" remote="aokp" revision="jb" />
