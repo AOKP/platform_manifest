@@ -337,4 +337,12 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="jellybean" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="jellybean" />
 
+  <project path="kernel/samsung/espresso10" name="cmenard/android_kernel_samsung_espresso10" remote="aokp" revision="jb" />
+  <project path="device/samsung/p5100" name="cmenard/android_device_samsung_p5100" remote="aokp" revision="jb" />
+  <project path="device/samsung/p5110" name="cmenard/android_device_samsung_p5110" remote="aokp" revision="jb" />
+  <project path="device/samsung/p5113" name="cmenard/android_device_samsung_p5113" remote="aokp" revision="jb" />
+  <project path="device/samsung/p3100" name="cmenard/android_device_samsung_p3100" remote="aokp" revision="jb" />
+  <project path="device/samsung/p3110" name="cmenard/android_device_samsung_p3110" remote="aokp" revision="jb" />
+  <project path="device/samsung/p3113" name="cmenard/android_device_samsung_p3113" remote="aokp" revision="jb" />
+
 </manifest>
