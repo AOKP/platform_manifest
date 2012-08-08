@@ -1,2 +1,7 @@
-$ repo init -u https://github.com/AOKP/platform_manifest.git -b jb
+To initialize the build environment:
+
+$ repo init -u https://github.com/rmgeren/platform_manifest.git -b jb
+
+To checkout the code:
+
 $ repo sync
