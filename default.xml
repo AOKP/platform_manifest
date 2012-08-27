@@ -276,7 +276,7 @@
   <project path="packages/inputmethods/LatinIME" name="AOKP/packages_input_LatinIME" remote="aokp" revision="jb" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
+  <project path="packages/providers/ApplicationsProvider" name="AOKP/packages_providers_ApplicationsProvider" remote="aokp" revision="jb" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="packages/providers/ContactsProvider" name="AOKP/packages_providers_ContactsProvider" remote="aokp" revision="jb" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
