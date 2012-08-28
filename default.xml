@@ -45,6 +45,12 @@
   <project path="device/samsung/maguro" name="device/samsung/maguro" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/samsung/msm8660-common" name="AOKP/android_device_samsung_msm8660-common" remote="aokp" revision="jb" />
   <project path="device/samsung/msm8960-common" name="AOKP/android_device_samsung_msm8960-common" remote="aokp" revision="jb" />
+  <project path="device/samsung/p3100" name="AOKP/android_device_samsung_p3100" remote="aokp" revision="jb" />
+  <project path="device/samsung/p3110" name="AOKP/android_device_samsung_p3110" remote="aokp" revision="jb" />
+  <project path="device/samsung/p3113" name="AOKP/android_device_samsung_p3113" remote="aokp" revision="jb" />
+  <project path="device/samsung/p5100" name="AOKP/android_device_samsung_p5100" remote="aokp" revision="jb" />
+  <project path="device/samsung/p5110" name="AOKP/android_device_samsung_p5110" remote="aokp" revision="jb" />
+  <project path="device/samsung/p5113" name="AOKP/android_device_samsung_p5113" remote="aokp" revision="jb" />
   <project path="device/samsung/toro" name="AOKP/device_samsung_toro" remote="aokp" revision="jb" />
   <project path="device/samsung/torospr" name="device/samsung/torospr" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/samsung/tuna" name="AOKP/device_samsung_tuna" remote="aokp" revision="jb" />
@@ -340,11 +346,4 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="jellybean" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="jellybean" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="jellybean" />
-
-  <project path="device/samsung/p5100" name="AOKP/android_device_samsung_p5100" remote="aokp" revision="jb" />
-  <project path="device/samsung/p5110" name="AOKP/android_device_samsung_p5110" remote="aokp" revision="jb" />
-  <project path="device/samsung/p5113" name="AOKP/android_device_samsung_p5113" remote="aokp" revision="jb" />
-  <project path="device/samsung/p3100" name="AOKP/android_device_samsung_p3100" remote="aokp" revision="jb" />
-  <project path="device/samsung/p3110" name="AOKP/android_device_samsung_p3110" remote="aokp" revision="jb" />
-  <project path="device/samsung/p3113" name="AOKP/android_device_samsung_p3113" remote="aokp" revision="jb" />
 </manifest>
