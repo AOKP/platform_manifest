@@ -347,5 +347,5 @@
   <project path="device/samsung/p3100" name="AOKP/android_device_samsung_p3100" remote="aokp" revision="jb" />
   <project path="device/samsung/p3110" name="AOKP/android_device_samsung_p3110" remote="aokp" revision="jb" />
   <project path="device/samsung/p3113" name="AOKP/android_device_samsung_p3113" remote="aokp" revision="jb" />
-  <project path="device/samsung/skyrocket" name="AOKP/device_samsung_skyrocket" remote="aokp" revision="jb" />
+  <project path="device/samsung/skyrocket" name="R4INS/device_samsung_skyrocket" remote="aokp" revision="jb" />
 </manifest>
