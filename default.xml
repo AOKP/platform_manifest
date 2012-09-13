@@ -9,7 +9,7 @@
            review="gerrit.aokp.co" />
 
   <remote  name="cm"
-           fetch="https://github.com/CyanogenMod/"
+           fetch="https://github.com/"
            review="review.cyanogenmod.com" />
 
   <default remote="aosp"
@@ -20,9 +20,9 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
   <project path="bionic" name="AOKP/android_bionic" remote="aokp" revision="jb" />
-  <project path="bootable/bootloader/legacy" name="android_bootable_bootloader_legacy" remote="cm" revision="jellybean" />
-  <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" revision="jellybean" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="jellybean" />
+  <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" remote="cm" revision="jellybean" />
+  <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" remote="cm" revision="jellybean" />
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="jellybean" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
   <project path="dalvik" name="AOKP/platform_dalvik" remote="aokp" revision="jb" />
   <project path="development" name="AOKP/platform_development" remote="aokp" revision="jb" />
@@ -65,7 +65,7 @@
   <project path="external/apache-http" name="platform/external/apache-http" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
   <project path="external/apache-xml" name="platform/external/apache-xml" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
   <project path="external/astl" name="platform/external/astl" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
-  <project path="external/bash" name="android_external_bash" remote="cm" revision="jellybean" />
+  <project path="external/bash" name="CyanogenMod/android_external_bash" remote="cm" revision="jellybean" />
   <project path="external/bison" name="platform/external/bison" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
   <project path="external/blktrace" name="platform/external/blktrace" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
   <project path="external/bluetooth/bluez" name="AOKP/external_bluetooth_bluez" remote="aokp" revision="jb" />
@@ -73,7 +73,7 @@
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
   <project path="external/bsdiff" name="platform/external/bsdiff" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
-  <project path="external/busybox" name="android_external_busybox" remote="cm" revision="jellybean" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="cm" revision="jellybean" />
   <project path="external/bzip2" name="platform/external/bzip2" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
   <project path="external/chromium" name="AOKP/external_chromium" remote="aokp" revision="jb" />
@@ -131,7 +131,7 @@
   <project path="external/libgsm" name="platform/external/libgsm" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
   <project path="external/liblzf" name="platform/external/liblzf" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
   <project path="external/libmtp" name="platform/external/libmtp" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
-  <project path="external/libncurses" name="android_external_libncurses" remote="cm" revision="jellybean" />
+  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="cm" revision="jellybean" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
   <project path="external/libpcap" name="platform/external/libpcap" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
@@ -149,7 +149,7 @@
   <project path="external/littlemock" name="platform/external/littlemock" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
   <project path="external/llvm" name="platform/external/llvm" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
-  <project path="external/lzo" name="android_external_lzo" remote="cm" revision="jellybean" />
+  <project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="cm" revision="jellybean" />
   <project path="external/markdown" name="platform/external/markdown" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
   <project path="external/mesa3d" name="platform/external/mesa3d" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
@@ -164,9 +164,9 @@
   <project path="external/oauth" name="platform/external/oauth" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
   <project path="external/opencv" name="platform/external/opencv" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
   <project path="external/openfst" name="platform/external/openfst" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
-  <project path="external/openssh" name="android_external_openssh" remote="cm" revision="jellybean" />
+  <project path="external/openssh" name="CyanogenMod/android_external_openssh" remote="cm" revision="jellybean" />
   <project path="external/openssl" name="platform/external/openssl" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
-  <project path="external/openvpn" name="android_external_openvpn" remote="cm" revision="jellybean" />
+  <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" remote="cm" revision="jellybean" />
   <project path="external/oprofile" name="platform/external/oprofile" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
   <project path="external/ping" name="platform/external/ping" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
   <project path="external/ping6" name="platform/external/ping6" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
@@ -175,7 +175,7 @@
   <project path="external/protobuf" name="platform/external/protobuf" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
   <project path="external/qemu" name="AOKP/android_external_qemu" remote="aokp" revision="jb" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
-  <project path="external/qrngd" name="android_external_qrngd" remote="cm" revision="jellybean" />
+  <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="cm" revision="jellybean" />
   <project path="external/quake" name="platform/external/quake" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
   <project path="external/regex-re2" name="platform/external/regex-re2" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
   <project path="external/replicaisland" name="platform/external/replicaisland" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
@@ -205,8 +205,8 @@
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
   <project path="external/wpa_supplicant_8" name="AOKP/android_external_wpa_supplicant_8" remote="aokp" revision="jb" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
-  <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="jellybean" />
-  <project path="external/zlib" name="android_external_zlib" remote="cm" revision="jellybean" />
+  <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="cm" revision="jellybean" />
+  <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="cm" revision="jellybean" />
   <project path="external/zxing" name="platform/external/zxing" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
   <project path="frameworks/av" name="AOKP/frameworks_av" remote="aokp" revision="jb" />
   <project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" revision="jb" />
@@ -230,15 +230,15 @@
   <project path="gdk" name="platform/gdk" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
   <project path="hardware/broadcom/wlan" name="AOKP/android_hardware_broadcom_wlan" remote="aokp" revision="jb" />
   <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="jellybean" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="jellybean" />
-  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="cm" revision="jellybean" />
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" revision="jellybean" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="jellybean" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="jellybean" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" revision="jellybean" />
+  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="cm" revision="jellybean" />
+  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="cm" revision="jellybean" />
+  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" remote="cm" revision="jellybean" />
+  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="cm" revision="jellybean" />
+  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="cm" revision="jellybean" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="cm" revision="jellybean" />
+  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="cm" revision="jellybean" />
   <project path="hardware/ril" name="AOKP/android_hardware_ril" remote="aokp" revision="jb" />
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="jellybean" />
+  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="cm" revision="jellybean" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
@@ -331,24 +331,24 @@
   <project path="system/core" name="AOKP/android_system_core" remote="aokp" revision="jb" />
   <project path="system/extras" name="AOKP/system_extras" remote="aokp" revision="jb" />
   <project path="system/media" name="platform/system/media" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
-  <project path="system/netd" name="android_system_netd" remote="cm" revision="jellybean" />
+  <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="jellybean" />
   <project path="system/security" name="platform/system/security" remote="aosp" revision="refs/tags/android-4.1.1_r4" />
-  <project path="system/vold" name="android_system_vold" remote="cm" revision="jellybean" />
+  <project path="system/vold" name="CyanogenMod/android_system_vold" remote="cm" revision="jellybean" />
 
   <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" revision="jb" />
   <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="jb" />
   <project path="vendor/samsung" name="AOKP/vendor_samsung" remote="aokp" revision="jb" />
   <project path="vendor/asus" name="AOKP/vendor_asus" remote="aokp" revision="jb" />
 
-  <project path="system/su" name="android_system_su" remote="cm" revision="jellybean" />
+  <project path="system/su" name="CyanogenMod/android_system_su" remote="cm" revision="jellybean" />
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb" />
 
   <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" revision="jb" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="AOKP/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="jellybean" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="jellybean" />
-  <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="jellybean" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="jellybean" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="jellybean" />
+  <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" remote="cm" revision="jellybean" />
 
   <project path="device/samsung/p5100" name="AOKP/android_device_samsung_p5100" remote="aokp" revision="jb" />
   <project path="device/samsung/p5110" name="AOKP/android_device_samsung_p5110" remote="aokp" revision="jb" />
