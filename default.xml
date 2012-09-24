@@ -13,8 +13,7 @@
            fetch="https://github.com/CyanogenMod/"
            revision="ics" />
 
-  <default remote="aosp"
-           sync-j="4" />
+  <default remote="aosp" />
 
   <project path="build" name="AOKP/android_build" revision="ics" remote="gh">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -225,13 +224,13 @@
   <project path="hardware/cm" name="AOKP/hardware_cm" remote="gh" revision="ics" />
   <project path="hardware/broadcom/wlan" name="AOKP/android_hardware_broadcom_wlan" remote="gh" revision="ics" />
   <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
-  <project path="hardware/libhardware" name="AOKP/android_hardware_libhardware" remote="gh" revision="ics" />
+  <project path="hardware/libhardware" name="AOKP/hardware_libhardware" remote="gh" revision="ics" />
   <project path="hardware/libhardware_legacy" name="AOKP/android_hardware_libhardware_legacy" remote="gh" revision="ics" />
   <project path="hardware/qcom/display" name="AOKP/android_hardware_qcom_display" remote="gh" revision="ics" />
   <project path="hardware/qcom/camera" name="AOKP/android_hardware_qcom_camera" remote="gh" revision="ics" />
-  <project path="hardware/msm7k" name="AOKP/android_hardware_msm7k" remote="gh" revision="ics" />
+  <project path="hardware/msm7k" name="AOKP/hardware_msm7k" remote="gh" revision="ics" />
   <project path="hardware/qcom/gps" name="AOKP/hardware_qcom_gps" remote="gh" revision="ics" />
-  <project path="hardware/qcom/media" name="AOKP/android_hardware_qcom_media" remote="gh" revision="ics" />
+  <project path="hardware/qcom/media" name="AOKP/hardware_qcom_media" remote="gh" revision="ics" />
   <project path="hardware/ril" name="AOKP/android_hardware_ril" remote="gh" revision="ics" />
   <project path="hardware/samsung" name="AOKP/android_hardware_samsung" remote="gh" revision="ics" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
