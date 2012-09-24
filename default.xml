@@ -12,6 +12,9 @@
            fetch="https://github.com/CyanogenMod/"
            review="review.cyanogenmod.com" />
 
+  <remote  name="imo"
+           fetch="https://github.com/imoseyon/" />
+
   <default remote="aosp"
            sync-j="4" />
 
