@@ -36,6 +36,9 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
   <project path="device/htc/evita" name="AOKP/android_device_htc_evita" remote="aokp" revision="jb" />
+  <project path="device/htc/primoc" name="AOKP/android_device_htc_primoc" remote="aokp" revision="jb" />
+  <project path="device/htc/primou" name="AOKP/android_device_htc_primou" remote="aokp" revision="jb" />
+  <project path="device/htc/msm7x30-common" name="AOKP/android_device_htc_msm7x30-common" remote="aokp" revision="jb" />
   <project path="device/htc/msm8960-common" name="AOKP/android_device_htc_msm8960-common" remote="aokp" revision="jb" />
   <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
   <project path="device/samsung/aries-common" name="AOKP/device_samsung_aries-common" remote="aokp" revision="jb" />
