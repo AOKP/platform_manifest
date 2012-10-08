@@ -62,6 +62,20 @@
   <project path="device/samsung/toroplus" name="AOKP/android_device_samsung_toroplus" remote="aokp" revision="jb" />
   <project path="device/samsung/tuna" name="AOKP/device_samsung_tuna" remote="aokp" revision="jb" />
   <project path="device/samsung/vibrantmtd" name="AOKP/device_samsung_vibrantmtd" remote="aokp" revision="jb" />
+  <project path="device/semc/anzu" name="AOKP/android_device_semc_anzu" remote="aokp" revision="jellybean" />
+  <project path="device/semc/urushi" name="AOKP/android_device_semc_urushi" remote="aokp" revision="jellybean" />
+  <project path="device/semc/haida" name="AOKP/android_device_semc_haida" remote="aokp" revision="jellybean" />
+  <project path="device/semc/hallon" name="AOKP/android_device_semc_hallon" remote="aokp" revision="jellybean" />
+  <project path="device/semc/coconut" name="AOKP/android_device_semc_coconut" remote="aokp" revision="jellybean" />
+  <project path="device/semc/smultron" name="AOKP/android_device_semc_smultron" remote="aokp" revision="jellybean" />
+  <project path="device/semc/satsuma" name="AOKP/android_device_semc_satsuma" remote="aokp" revision="jellybean" />
+  <project path="device/semc/mogami-common" name="AOKP/device_semc_mogami-common" remote="aokp" revision="jb" />
+  <project path="device/semc/zeus" name="AOKP/android_device_semc_zeus" remote="aokp" revision="jellybean" />
+  <project path="device/semc/zeus-common" name="AOKP/android_device_semc_zeus-common" remote="aokp" revision="jellybean" />
+  <project path="device/semc/msm7x30-common" name="AOKP/device_semc_msm7x30-common" remote="aokp" revision="jb" />
+  <project path="device/sony/nozomi" name="AOKP/android_device_sony_nozomi" remote="aokp" revision="jellybean" />
+  <project path="device/sony/hikari" name="AOKP/android_device_sony_hikari" remote="aokp" revision="jellybean" />
+  <project path="device/sony/fuji-common" name="AOKP/device_sony_fuji-common" remote="aokp" revision="jb" />
   <project path="device/ti/panda" name="device/ti/panda" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
   <project path="external/aac" name="platform/external/aac" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
@@ -245,10 +259,12 @@
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" revision="jellybean" />
   <project path="hardware/ril" name="AOKP/android_hardware_ril" remote="aokp" revision="jb" />
   <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="jellybean" />
+  <project path="hardware/somc/dash" name="android_hardware_sony_DASH" remote="cm" revision="jellybean"/>
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
+  <project path="hardware/ti/fmradio" name="android_hardware_ti_fmradio" remote="cm" revision="jellybean" />
   <project path="libcore" name="platform/libcore" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
   <project path="libnativehelper" name="platform/libnativehelper" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.1.1_r6" />
@@ -346,6 +362,8 @@
   <project path="vendor/htc" name="AOKP/vendor_htc" remote="aokp" revision="jb" />
   <project path="vendor/samsung" name="AOKP/vendor_samsung" remote="aokp" revision="jb" />
   <project path="vendor/asus" name="AOKP/vendor_asus" remote="aokp" revision="jb" />
+  <project path="vendor/semc" name="TheMuppets/proprietary_vendor_semc" remote="aokp" revision="jellybean" />
+  <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" remote="aokp" revision="jellybean" />
 
   <project path="system/su" name="android_system_su" remote="cm" revision="jellybean" />
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb" />
