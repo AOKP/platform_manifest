@@ -9,4 +9,8 @@
   <project path="kernel/asus/grouper" name="faux123/Nexus-grouper" remote="aokp" revision="jb_exp" />
   <project path="kernel/asus/tf101" name="AOKP/kernel_asus_tf101" remote="aokp" revision="jb" />
   <project path="kernel/samsung/t1" name="android_kernel_samsung_t1" remote="cm" revision="jellybean" />
+  <project path="kernel/semc/msm7x30" name="AOKP/kernel_semc_msm7x30" remote="aokp" revision="jb" />
+  <project path="kernel/sony/msm8660" name="AOKP/kernel_sony_msm8660" remote="aokp" revision="jb" />
+  <project path="kernel/sony/msm8960" name="sony-kernel-msm8960" remote="cm" revision="jellybean" />
+
 </manifest>
