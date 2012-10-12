@@ -58,6 +58,8 @@
   <project path="device/samsung/msm8660-common" name="AOKP/android_device_samsung_msm8660-common" remote="aokp" revision="jb" />
   <project path="device/samsung/msm8960-common" name="AOKP/android_device_samsung_msm8960-common" remote="aokp" revision="jb" />
   <project path="device/samsung/qcom-common" name="AOKP/device_samsung_qcom-common" remote="aokp" revision="jb" />
+  <project path="device/samsung/quincy-common" name="aokp/device_samsung_quincy-common" remote="aokp" revision="jb" />
+  <project path="device/samsung/quincyatt" name="aokp/device_samsung_quincyatt" remote="aokp" revision="jb" />
   <project path="device/samsung/toro" name="AOKP/device_samsung_toro" remote="aokp" revision="jb" />
   <project path="device/samsung/toroplus" name="AOKP/android_device_samsung_toroplus" remote="aokp" revision="jb" />
   <project path="device/samsung/tuna" name="AOKP/device_samsung_tuna" remote="aokp" revision="jb" />
@@ -363,6 +365,4 @@
   <project path="device/samsung/p3100" name="AOKP/android_device_samsung_p3100" remote="aokp" revision="jb" />
   <project path="device/samsung/p3110" name="AOKP/android_device_samsung_p3110" remote="aokp" revision="jb" />
   <project path="device/samsung/p3113" name="AOKP/android_device_samsung_p3113" remote="aokp" revision="jb" />
-  <project path="device/samsung/quincy-common" name="aokp/android_device_samsung_quincy-common" remote="aokp" revision="jb" />
-  <project path="device/samsung/quincyatt" name="aokp/android_device_samsung_quincyatt" remote="aokp" revision="jb" />
 </manifest>
