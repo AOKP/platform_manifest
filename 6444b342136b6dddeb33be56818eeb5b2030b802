@@ -1,0 +1,8 @@
+Change-Id: I6444b342136b6dddeb33be56818eeb5b2030b802
+Code-Review+2: Gergely Szell (sethyx) <sethyx@gmail.com>
+Verified+1: Gergely Szell (sethyx) <sethyx@gmail.com>
+Submitted-by: Gergely Szell (sethyx) <sethyx@gmail.com>
+Submitted-at: Wed, 28 Nov 2012 12:05:53 +0000
+Reviewed-on: http://gerrit.sudoservers.com/4395
+Project: AOKP/platform_manifest
+Branch: refs/heads/jb-mr1
