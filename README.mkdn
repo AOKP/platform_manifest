@@ -26,11 +26,10 @@ Building
 
 After sync, type the following commands to remove these two files:
 
-    rm device/htc/vigor/overlay/packages/apps/Settings/res/values/config.xml
     rm device/htc/vigor/overlay/packages/apps/Torch/res/values/config.xml
 
-Removing these two lines could cause Torch to break. Once we have a stable Tree I'll 
-fix it. For now pull from working ROM.
+Removing this lines could cause Torch to break. Once we have a stable Tree I'll 
+look into fixing it. For now, just pull from working ROM.
 
 Go into your "build" directory:
 
