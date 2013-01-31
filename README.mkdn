@@ -1,0 +1,75 @@
+Android Open Kang Project
+=========================
+
+
+
+
+
+Getting Started
+---------------
+
+Please see the [Android source page](http://source.android.com/source/index.html) for building instructions.
+
+To initialize your local repository using my trees, use the following command from your root working folder:
+
+    repo init -u https://github.com/TheBr0ken/AOKPplatform_manifest.git -b jb-mr1
+
+then:
+
+    repo sync
+
+
+
+
+Building
+--------
+
+After sync, type the following commands to remove these two files:
+
+    rm device/htc/vigor/overlay/packages/apps/Settings/res/values/config.xml
+    rm device/htc/vigor/overlay/packages/apps/Torch/res/values/config.xml
+
+Removing these two lines could cause Torch to break. Once we have a stable Tree I'll 
+fix it. For now pull from working ROM.
+
+Go into your "build" directory:
+
+    cd build
+
+edit envsetup.sh and change:
+
+    arm) toolchaindir=arm/arm-linux-androideabi-4.6/bin
+
+to:
+
+    arm) toolchaindir=linaro/bin
+
+Now go back to your root working folder and build your setup:
+
+    . build/envsetup.sh
+
+Then initiate the following commands one by one by typing them in and hitting enter after each:
+
+    make clean
+    make clobber
+    make installclean
+
+Have some lunch:
+
+    lunch
+
+select aokp_vigor-userdebug and hit enter then wait a minute.
+
+Was it good?
+
+Now build the rom:
+
+    brunch vigor
+
+This will Build a JellyBean 4.2 AOKP pmem rom using the latest Linaro Toolchain for the HTC Rezound ;)
+
+    
+    
+Special Thanks
+--------------
+Huge thanks to IAmTheOneTheyCallNeo for his assistance. Thank him!
