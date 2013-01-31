@@ -8,6 +8,11 @@
   <remote  name="aokp"
            fetch="https://github.com/"
            review="gerrit.sudoservers.com" />
+           
+  <remote name="gh"
+           fetch="https://github.com/"
+           review="gerrit.aokp.co"
+           revision="jb-mr1" />
 
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/"
@@ -36,6 +41,8 @@
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
   <project path="device/generic/common" name="device/generic/common" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
+  <project name="Chad0989/device_htc_vigor" path="device/htc/vigor" remote="gh" revision="cm-10.1" />
+  <project name="Chad0989/android_device_htc_msm8660-common" path="device/htc/msm8660-common" remote="gh" revision="cm-10.1" />
   <project path="device/generic/mips" name="device/generic/mips" />
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
@@ -238,6 +245,7 @@
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/rs" name="AOKP/frameworks_rs" remote="aokp" revision="jb-mr1" />
   <project path="frameworks/support" name="platform/frameworks/support" />
+  <project path="kernel/htc/vigor-3.0" name="Chad0989/vigor_aosp_kernel" remote="gh" revision="jellybean" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="gdk" name="platform/gdk" />
@@ -367,8 +375,9 @@
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
 
-  <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/aokp" name="TheBr0ken/vendor_aokp" remote="gh" revision="jb-mr1" />
   <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="jb-mr1" />
+  <project name="Chad0989/vendor_htc_vigor" path="vendor/htc/vigor" remote="gh" revision="cm-10.1" />
   <project path="vendor/lge" name="AOKP/vendor_lge" remote="aokp" revision="jb-mr1" />
   <project path="vendor/samsung" name="AOKP/vendor_samsung" remote="aokp" revision="jb-mr1" />
   <project path="vendor/acer/a510" name="AOKP/vendor_acer_a510" remote="aokp" revision="jb-mr1" />
