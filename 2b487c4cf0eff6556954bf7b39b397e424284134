@@ -1,0 +1,10 @@
+Change-Id: I2b487c4cf0eff6556954bf7b39b397e424284134
+Code-Review+2: Gergely Szell (sethyx) <sethyx@gmail.com>
+Verified+1: Gergely Szell (sethyx) <sethyx@gmail.com>
+Code-Review+1: Brandon McAnsh <bmc08gt.teamb00sted@gmail.com>
+Code-Review+1: Bajee B. <bajee11@gmail.com>
+Submitted-by: Gergely Szell (sethyx) <sethyx@gmail.com>
+Submitted-at: Sun, 10 Feb 2013 09:08:27 +0000
+Reviewed-on: http://gerrit.sudoservers.com/5438
+Project: AOKP/platform_manifest
+Branch: refs/heads/jb-mr1
