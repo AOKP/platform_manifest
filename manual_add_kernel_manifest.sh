@@ -3,25 +3,27 @@
 # NOT FROM THE PLATFORM_MANIFEST DIRECTORY!!!
 # -KhasMek
 
+manifest=.repo/local_manifests/kernel_manifest.xml
+
 echo "adding kernel repos to your build tree"
 
-if [ -f .repo/local_manifest.xml ]; then
-        echo "local manifest already present."
-        echo "merging with kernel manifest for safety."
+if [ -f $manifest ]; then
+        echo "kernel manifest already present."
+        echo "merging manifests for safety."
         cat platform_manifest/kernel_manifest.xml | while read line
         do
-                kernel=`grep "$line" .repo/local_manifest.xml`
+                kernel=`grep "$line" $manifest`
                 if [ -z "$kernel" ]; then
-                        echo "  $line" >> .repo/local_manifest.xml
+                        echo "  $line" >> $manifest
                 fi
         done
         # Cleanup
-        grep -Ev "^</manifest>" .repo/local_manifest.xml > .repo/local_manifest.new
-        echo "</manifest>" >> .repo/local_manifest.new
-        mv .repo/local_manifest.new .repo/local_manifest.xml
+        grep -Ev "^</manifest>" $manifest > '$manifest'.new
+        echo "</manifest>" >> '$manifest'.new
+        mv '$manifest'.new $manifest
 fi
 
-cp platform_manifest/kernel_manifest.xml .repo/local_manifest.xml
+cp platform_manifest/kernel_manifest.xml $manifest
 echo "syncing kernel repos"
 tail -n +3 platform_manifest/kernel_manifest.xml | head -n -1 | cut -f2 -d '"' > .sync
 
