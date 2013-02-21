@@ -1,0 +1,8 @@
+Change-Id: I99b5aac22a56930086ab6849d1a29658dbf05342
+Code-Review+2: Jonathan Steadman <xxwhitehawk@gmail.com>
+Verified+1: Jonathan Steadman <xxwhitehawk@gmail.com>
+Submitted-by: Jonathan Steadman <xxwhitehawk@gmail.com>
+Submitted-at: Thu, 21 Feb 2013 23:11:22 +0000
+Reviewed-on: http://gerrit.sudoservers.com/6879
+Project: AOKP/platform_manifest
+Branch: refs/heads/jb-mr1
