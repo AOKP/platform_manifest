@@ -12,6 +12,9 @@
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/"
            review="review.cyanogenmod.com" />
+          
+  <remote  name="Mysterious"
+           fetch="https://github.com/Mysterious-ROM" />
 
   <remote  name="omapzoom"
            fetch="git://git.omapzoom.org/"
@@ -408,6 +411,7 @@
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
 
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb-mr1" />
-
+  
+  <project path="packages/apps/Mysterious" name="Mysterious-app" remote="Mysterious" revision="master"
   <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" revision="jb-mr1" />
 </manifest>
