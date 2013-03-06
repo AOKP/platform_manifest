@@ -183,6 +183,8 @@
   <project path="external/littlemock" name="platform/external/littlemock" />
   <project path="external/llvm" name="platform/external/llvm" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
+  <project name="external/koush/Superuser" path="AOKP/external_koush_Superuser" remote="aokp" revision="master" />
+  <project name="external/koush/Widgets" path="AOKP/external_koush_Widgets" remote="aokp" revision="master" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" />
   <project path="external/mesa3d" name="platform/external/mesa3d" />
