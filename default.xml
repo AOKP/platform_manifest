@@ -86,6 +86,11 @@
   <project path="device/samsung/toroplus" name="AOKP/device_samsung_toroplus" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/tuna" name="AOKP/device_samsung_tuna" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/vibrantmtd" name="AOKP/device_samsung_vibrantmtd" remote="aokp" revision="jb-mr1" />
+  <project path="device/sony/mint" name="AOKP/device_sony_mint" remote="aokp" revision="jb-mr1" />
+  <project path="device/sony/tsubasa" name="AOKP/device_sony_tsubasa" remote="aokp" revision="jb-mr1" />
+  <project path="device/sony/blue-common" name="AOKP/device_sony_blue-common" remote="aokp" revision="jb-mr1" />
+  <project path="device/sony/qcom-common" name="android_device_sony_qcom-common" remote="cm" revision="cm-10.1" />
+  <project path="device/sony/common" name="AOKP/device_sony_common" remote="aokp" revision="jb-mr1" />
   <project path="device/ti/panda" name="device/ti/panda" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
@@ -296,6 +301,7 @@
   <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="cm-10.1" />
   <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-10.1" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
+  <project path="hardware/sony/DASH" name="android_hardware_sony_DASH" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
@@ -408,6 +414,7 @@
   <project path="vendor/lge" name="AOKP/vendor_lge" remote="aokp" revision="jb-mr1" />
   <project path="vendor/motorola" name="AOKP/vendor_motorola" remote="aokp" revision="jb-mr1" />
   <project path="vendor/samsung" name="AOKP/vendor_samsung" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/sony" name="AOKP/vendor_sony" remote="aokp" revision="jb-mr1" />
   <project path="vendor/acer/a510" name="AOKP/vendor_acer_a510" remote="aokp" revision="jb-mr1" />
   <project path="vendor/asus" name="AOKP/vendor_asus" remote="aokp" revision="jb-mr1" />
 
