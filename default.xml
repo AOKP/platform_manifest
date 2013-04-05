@@ -314,7 +314,7 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="AOKP/packages_apps_Contacts" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/DeskClock" name="AOKP/packages_apps_DeskClock" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" />
+  <project path="packages/apps/Email" name="AOKP/packages_apps_Email" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" remote="cm" revision="cm-10.1" />
