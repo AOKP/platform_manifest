@@ -16,7 +16,7 @@
   <remote  name="mithun46"
            fetch="https://github.com/mithun46/"
 
-  <remote  name="omapzoom"
+   <remote  name="omapzoom"
            fetch="git://git.omapzoom.org/"
            review="http://review.omapzoom.org/" />
 
