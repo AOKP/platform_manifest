@@ -13,12 +13,8 @@
            fetch="https://github.com/"
            review="review.cyanogenmod.com" />
            
-  <remote  name="oomapzoom"
-           fetch="git://git.omapzoom.org/"
-           review="http://review.omapzoom.org/"
-           
   <remote  name="mithun46"
-           fetch="https://github.com/mithun46/"
+           fetch="https://github.com/mithun46/" />
 
   <remote  name="omapzoom"
            fetch="git://git.omapzoom.org/"
@@ -72,6 +68,7 @@
   <project path="device/samsung/d2tmo" name="AOKP/device_samsung_d2tmo" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/d2usc" name="AOKP/device_samsung_d2usc" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/d2vzw" name="AOKP/device_samsung_d2vzw" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/n7100" name="device_samsung_n7100" remote="mithun46" revision="master" />
   <project path="device/samsung/galaxys2-common" name="AOKP/device_samsung_galaxys2-common" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/hercules" name="AOKP/device_samsung_hercules" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/i605" name="AOKP/device_samsung_i605" remote="aokp" revision="jb-mr1" />
@@ -86,7 +83,6 @@
   <project path="device/samsung/omap4-common" name="CyanogenMod/android_device_samsung_omap4-common" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/qcom-common" name="AOKP/device_samsung_qcom-common" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/smdk4412-common" name="AOKP/device_samsung_smdk4412-common" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/n7100" name="AOKP/device_samsung_n7100" remote="mithun46" revision="master" />
   <project path="device/samsung/smdk4412-qcom-common" name="CyanogenMod/android_device_samsung_smdk4412-qcom-common" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/t0lte" name="AOKP/device_samsung_t0lte" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/t0ltecdma" name="AOKP/device_samsung_t0ltecdma" remote="aokp" revision="jb-mr1" />
@@ -428,5 +424,5 @@
 
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb-mr1" />
 
-  <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" revision="jb-mr1" />
+  <project path="platform_manifest" name="platform_manifest" remote="mithun46" revision="jb-mr1" />
 </manifest>
