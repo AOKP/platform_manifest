@@ -13,7 +13,7 @@
            fetch="https://github.com/"
            review="review.cyanogenmod.com" />
            
-    <remote  name="mithun46"
+  <remote  name="mithun46"
            fetch="https://github.com/mithun46/"
 
   <remote  name="omapzoom"
