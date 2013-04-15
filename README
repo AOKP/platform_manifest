@@ -1,14 +1,15 @@
-====
-AOKP
-====
+======
+#AOKP
+======
 
+---------------
 Getting Started
 ---------------
 
 To get started with Android/AOKP, you'll need to get
 familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
-To initialize your local repository using the CyanogenMod trees, use a command like this:
+To initialize your local repository using the AOKP trees, use a command like this:
 
     repo init -u git://github.com/mithun46/platform_manifest.git -b jellybean
 
