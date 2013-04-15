@@ -11,7 +11,7 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the AOKP trees, use a command like this:
 
-    repo init -u git://github.com/mithun46/platform_manifest.git -b jellybean
+    repo init -u git://github.com/mithun46/platform_manifest.git -b jb-mr1
 
 Then to sync up:
 
