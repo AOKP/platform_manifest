@@ -12,9 +12,6 @@
   <remote  name="cm"
            fetch="https://github.com/"
            review="review.cyanogenmod.com" />
-           
-  <remote  name="mithun46"
-           fetch="https://github.com/mithun46/" />
 
   <remote  name="omapzoom"
            fetch="git://git.omapzoom.org/"
@@ -65,18 +62,16 @@
   <project path="device/samsung/celox-common" name="AOKP/device_samsung_celox-common" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/d2-common" name="AOKP/device_samsung_d2-common" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/d2att" name="AOKP/device_samsung_d2att" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/t0lteatt" name="AOKP/device_samsung_t0lteatt" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/t0ltetmo" name="AOKP/device_samsung_t0ltetmo" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/d2tmo" name="AOKP/device_samsung_d2tmo" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/d2usc" name="AOKP/device_samsung_d2usc" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/d2vzw" name="AOKP/device_samsung_d2vzw" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/n7100" name="device_samsung_n7100" remote="mithun46" revision="jb-mr1" />
   <project path="device/samsung/galaxys2-common" name="AOKP/device_samsung_galaxys2-common" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/hercules" name="AOKP/device_samsung_hercules" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/i605" name="AOKP/device_samsung_i605" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/i9100" name="AOKP/device_samsung_i9100" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/i9100g" name="AOKP/device_samsung_i9100g" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/i9300" name="AOKP/device_samsung_i9300" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/i9300" name="mithun46/device_samsung_n7100" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/l900" name="AOKP/device_samsung_l900" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/maguro" name="AOKP/device_samsung_maguro" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/manta" name="AOKP/device_samsung_manta" remote="aokp" revision="jb-mr1" />
@@ -87,7 +82,9 @@
   <project path="device/samsung/smdk4412-common" name="AOKP/device_samsung_smdk4412-common" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/smdk4412-qcom-common" name="CyanogenMod/android_device_samsung_smdk4412-qcom-common" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/t0lte" name="AOKP/device_samsung_t0lte" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/t0lteatt" name="AOKP/device_samsung_t0lteatt" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/t0ltecdma" name="AOKP/device_samsung_t0ltecdma" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/t0ltetmo" name="AOKP/device_samsung_t0ltetmo" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/toro" name="AOKP/device_samsung_toro" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/toroplus" name="AOKP/device_samsung_toroplus" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/tuna" name="AOKP/device_samsung_tuna" remote="aokp" revision="jb-mr1" />
@@ -411,12 +408,12 @@
 
   <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" revision="jb-mr1" />
   <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="jb-mr1" />
-  <project path="vendor/htc" name="TheMuppets/vendor_htc" remote="aokp" revision="jb-mr1" />
-  <project path="vendor/lge" name="TheMuppets/vendor_lge" remote="aokp" revision="jb-mr1" />
-  <project path="vendor/motorola" name="TheMuppets/vendor_motorola" remote="aokp" revision="jb-mr1" />
-  <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/htc" name="AOKP/vendor_htc" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/lge" name="AOKP/vendor_lge" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/motorola" name="AOKP/vendor_motorola" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/samsung" name="TheMuppets/vendor_samsung" remote="aokp" revision="jb-mr1" />
   <project path="vendor/acer/a510" name="AOKP/vendor_acer_a510" remote="aokp" revision="jb-mr1" />
-  <project path="vendor/asus" name="TheMuppets/vendor_asus" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/asus" name="AOKP/vendor_asus" remote="aokp" revision="jb-mr1" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="AOKP/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
@@ -443,5 +440,5 @@
   <project path="kernel/samsung/smdk4412" name="CyanogenMod/android_kernel_samsung_smdk4412" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/t1" name="CyanogenMod/android_kernel_samsung_t1" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/tuna" name="imoseyon/leanKernel-galaxy-nexus" remote="aokp" revision="lk-jb-mr1" />
-  
+
 </manifest>
