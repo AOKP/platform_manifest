@@ -424,7 +424,7 @@
 
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb-mr1" />
 
-  <project path="platform_manifest" name="platform_manifest" remote="mithun46" revision="jb-mr1" />
+  <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" revision="jb-mr1" />
   
   <project path="kernel/acer/t30" name="AOKP/kernel_acer_t30" remote="aokp" revision="jb-mr1" />
   <project path="kernel/asus/grouper" name="kernel/tegra" remote="aosp" revision="android-tegra3-grouper-3.1-jb-mr1.1" />
