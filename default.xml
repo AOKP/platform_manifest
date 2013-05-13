@@ -91,8 +91,11 @@
   <project path="device/samsung/vibrantmtd" name="AOKP/device_samsung_vibrantmtd" remote="aokp" revision="jb-mr1" />
   <project path="device/sony/hayabusa" name="AOKP/device_sony_hayabusa" remote="aokp" revision="jb-mr1" />
   <project path="device/sony/mint" name="AOKP/device_sony_mint" remote="aokp" revision="jb-mr1" />
+  <project path="device/sony/odin" name="AOKP/device_sony_odin" remote="aokp" revision="jb-mr1" />
   <project path="device/sony/tsubasa" name="AOKP/device_sony_tsubasa" remote="aokp" revision="jb-mr1" />
+  <project path="device/sony/yuga" name="AOKP/device_sony_yuga" remote="aokp" revision="jb-mr1" />
   <project path="device/sony/blue-common" name="AOKP/device_sony_blue-common" remote="aokp" revision="jb-mr1" />
+  <project path="device/sony/fusion3-common" name="AOKP/device_sony_fusion3-common" remote="aokp" revision="jb-mr1" />
   <project path="device/sony/qcom-common" name="CyanogenMod/android_device_sony_qcom-common" remote="cm" revision="cm-10.1" />
   <project path="device/sony/common" name="AOKP/device_sony_common" remote="aokp" revision="jb-mr1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
