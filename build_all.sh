@@ -128,7 +128,7 @@ PACKAGEm7ul=$OUT/$VERSION1.zip
 if [ "$RELEASE" == "nightly" ]
 then
     find "$OUT" -name *aokp_m7ul_*${DATE}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
-    scp "$PACKAGEm7ul" Mysterious@upload.goo.im:~/public_html/Nightlies/m7ul
+    scp "$PACKAGEm7ul" Mysterious@upload.goo.im:~/public_html/AOKP/Nightlies/m7ul
 else
     find "$OUT" -name *aokp_m7ul_release_*${RB_BUILD}*.zip -j {} "$rdir"/changelog.txt \;
     scp "$PACKAGEm7ul" Mysterious@upload.goo.im:~/public_html/AOKP/AOKP_m7ul_jb
@@ -151,7 +151,7 @@ PACKAGEmako=$OUT/$VERSION1.zip
 if [ "$RELEASE" == "nightly" ]
 then
     find "$OUT" -name *aokp_mako_*${DATE}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
-    scp "$PACKAGEmako" Mysterious@upload.goo.im:~/public_html/Nightlies/mako
+    scp "$PACKAGEmako" Mysterious@upload.goo.im:~/public_html/AOKP/Nightlies/mako
 else
     find "$OUT" -name *aokp_mako_release_*${RB_BUILD}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
     scp "$PACKAGEmako" Mysterious@upload.goo.im:~/public_html/AOKP/AOKP_mako_jb
@@ -174,7 +174,7 @@ PACKAGEgrouper=$OUT/$VERSION2.zip
 if [ "$RELEASE" == "nightly" ]
 then
     find "$OUT" -name *aokp_grouper_*${DATE}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
-    scp "$PACKAGEgrouper" Mysterious@upload.goo.im:~/public_html/Nightlies/grouper
+    scp "$PACKAGEgrouper" Mysterious@upload.goo.im:~/public_html/AOKP/Nightlies/grouper
 else
     find "$OUT" -name *aokp_grouper_release*${RB_BUILD}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
     scp "$PACKAGEgrouper" Mysterious@upload.goo.im:~/public_html/AOKP/AOKP_grouper_jb
@@ -197,7 +197,7 @@ PACKAGEi9100=$OUT/$VERSION6.zip
 if [ "$RELEASE" == "nightly" ]
 then
     find "$OUT" -name *aokp_i9100_*${DATE}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
-    scp "$PACKAGEi9100" Mysterious@upload.goo.im:~/public_html/AOKP/Nightlies/i9100
+    scp "$PACKAGEi9100" Mysterious@upload.goo.im:~/public_html/AOKP/AOKP/Nightlies/i9100
 else
     find "$OUT" -name *aokp_i9100_release*${RB_BUILD}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
     scp "$PACKAGEi9100" Mysterious@upload.goo.im:~/public_html/AOKP/MysteriousAOKP_i9100_jb
@@ -220,7 +220,7 @@ PACKAGEd2usc=$OUT/$VERSION9.zip
 if [ "$RELEASE" == "nightly" ]
 then
     find "$OUT" -name *aokp_d2usc_*${DATE}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
-    scp "$PACKAGEd2usc" Mysterious@upload.goo.im:~/public_html/Nightlies/d2usc
+    scp "$PACKAGEd2usc" Mysterious@upload.goo.im:~/public_html/AOKP/Nightlies/d2usc
 else
     find "$OUT" -name *aokp_d2usc_release_*${RB_BUILD}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
     scp "$PACKAGEd2usc" Mysterious@upload.goo.im:~/public_html/AOKP/AOKP_d2usc_jb
@@ -243,7 +243,7 @@ PACKAGEevita=$OUT/$VERSION9.zip
 if [ "$RELEASE" == "nightly" ]
 then
     find "$OUT" -name *aokp_evita_*${DATE}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
-    scp "$PACKAGEevita" Mysterious@upload.goo.im:~/public_html/Nightlies/evita
+    scp "$PACKAGEevita" Mysterious@upload.goo.im:~/public_html/AOKP/Nightlies/evita
 else
     find "$OUT" -name *aokp_evita_release_*${RB_BUILD}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
     scp "$PACKAGEevita" Mysterious@upload.goo.im:~/public_html/AOKP/AOKP_evita_jb
@@ -266,7 +266,7 @@ PACKAGEmaguro=$OUT/$VERSION9.zip
 if [ "$RELEASE" == "nightly" ]
 then
     find "$OUT" -name *aokp_maguro_*${DATE}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
-    scp "$PACKAGEmaguro" Mysterious@upload.goo.im:~/public_html/Nightlies/maguro
+    scp "$PACKAGEmaguro" Mysterious@upload.goo.im:~/public_html/AOKP/Nightlies/maguro
 else
     find "$OUT" -name *aokp_maguro_release_*${RB_BUILD}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
     scp "$PACKAGEmaguro" Mysterious@upload.goo.im:~/public_html/AOKP/AOKP_maguro_jb
@@ -289,7 +289,7 @@ PACKAGEm7att=$OUT/$VERSION1.zip
 if [ "$RELEASE" == "nightly" ]
 then
     find "$OUT" -name *aokp_m7att_*${DATE}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
-    scp "$PACKAGEm7att" Mysterious@upload.goo.im:~/public_html/Nightlies/m7att
+    scp "$PACKAGEm7att" Mysterious@upload.goo.im:~/public_html/AOKP/Nightlies/m7att
 else
     find "$OUT" -name *aokp_m7att_release_*${RB_BUILD}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
     scp "$PACKAGEm7att" Mysterious@upload.goo.im:~/public_html/AOKP/AOKP_m7att_jb
@@ -312,7 +312,7 @@ PACKAGEmako=$OUT/$VERSION1.zip
 if [ "$RELEASE" == "nightly" ]
 then
     find "$OUT" -name *aokp_mako_*${DATE}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
-    scp "$PACKAGEmako" Mysterious@upload.goo.im:~/public_html/Nightlies/mako
+    scp "$PACKAGEmako" Mysterious@upload.goo.im:~/public_html/AOKP/Nightlies/mako
 else
     find "$OUT" -name *aokp_mako_release_*${RB_BUILD}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
     scp "$PACKAGEmako" Mysterious@upload.goo.im:~/public_html/AOKP/AOKP_mako_jb
@@ -335,7 +335,7 @@ PACKAGEmaserati=$OUT/$VERSION1.zip
 if [ "$RELEASE" == "nightly" ]
 then
     find "$OUT" -name *aokp_maserati_*${DATE}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
-    scp "$PACKAGEmaserati" Mysterious@upload.goo.im:~/public_html/Nightlies/maserati
+    scp "$PACKAGEmaserati" Mysterious@upload.goo.im:~/public_html/AOKP/Nightlies/maserati
 else
     find "$OUT" -name *aokp_maserati_release_*${RB_BUILD}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
     scp "$PACKAGEmaserati" Mysterious@upload.goo.im:~/public_html/AOKP/AOKP_maserati_jb
@@ -358,7 +358,7 @@ PACKAGEm7tmo=$OUT/$VERSION1.zip
 if [ "$RELEASE" == "nightly" ]
 then
     find "$OUT" -name *aokp_m7tmo_*${DATE}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
-    scp "$PACKAGEm7tmo" Mysterious@upload.goo.im:~/public_html/Nightlies/m7tmo
+    scp "$PACKAGEm7tmo" Mysterious@upload.goo.im:~/public_html/AOKP/Nightlies/m7tmo
 else
     find "$OUT" -name *aokp_m7tmo_release*${RB_BUILD}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
     scp "$PACKAGEm7tmo" Mysterious@upload.goo.im:~/public_html/AOKP/AOKP_m7tmo_jb
@@ -381,7 +381,7 @@ PACKAGEjfltetmo=$OUT/$VERSION1.zip
 if [ "$RELEASE" == "nightly" ]
 then
     find "$OUT" -name *aokp_jfltetmo_*${DATE}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
-    scp "$PACKAGEjfltetmo" Mysterious@upload.goo.im:~/public_html/Nightlies/jfltetmo
+    scp "$PACKAGEjfltetmo" Mysterious@upload.goo.im:~/public_html/AOKP/Nightlies/jfltetmo
 else
     find "$OUT" -name *aokp_jfltetmo_release*${RB_BUILD}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
     scp "$PACKAGEjfltetmo" Mysterious@upload.goo.im:~/public_html/AOKP/AOKP_jfltetmo_jb
@@ -404,7 +404,7 @@ PACKAGEherclues=$OUT/$VERSION1.zip
 if [ "$RELEASE" == "nightly" ]
 then
     find "$OUT" -name *aokp_hercules_*${DATE}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
-    scp "$PACKAGEhercules" Mysterious@upload.goo.im:~/public_html/Nightlies/hercules
+    scp "$PACKAGEhercules" Mysterious@upload.goo.im:~/public_html/AOKP/Nightlies/hercules
 else
     find "$OUT" -name *aokp_hercules_release_*${RB_BUILD}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
     scp "$PACKAGEhercules" Mysterious@upload.goo.im:~/public_html/AOKP/AOKP_hercules_jb
@@ -430,7 +430,7 @@ then
     scp "$PACKAGEtoro" Mysterious@upload.goo.im:~/public_html/Nightlies/toro
 else
     find "$OUT" -name *aokp_toro_release_*${RB_BUILD}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
-    scp "$PACKAGEtoro" Mysterious@upload.goo.im:~/public_html/AOKP/AOKP_toro_jb
+    scp "$PACKAGEtoro" Mysterious@upload.goo.im:~/public_html/AOKP/AOKP/AOKP_toro_jb
 fi
 
 ##########################################################################################
@@ -451,7 +451,7 @@ PACKAGEd2att=$OUT/$VERSION3.zip
 if [ "$RELEASE" == "nightly" ]
 then
     find "$OUT" -name *aokp_d2att_*${DATE}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
-    scp "$PACKAGEd2att" Mysterious@upload.goo.im:~/public_html/Nightlies/d2att
+    scp "$PACKAGEd2att" Mysterious@upload.goo.im:~/public_html/AOKP/Nightlies/d2att
 else
     find "$OUT" -name *aokp_d2att_release_*${RB_BUILD}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
     scp "$PACKAGEd2att" Mysterious@upload.goo.im:~/public_html/AOKP/AOKP_d2att_jb
@@ -474,7 +474,7 @@ PACKAGEd2tmo=$OUT/$VERSION4.zip
 if [ "$RELEASE" == "nightly" ]
 then
     find "$OUT" -name *aokp_d2tmo_*${DATE}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
-    scp "$PACKAGEd2tmo" Mysterious@upload.goo.im:~/public_html/Nightlies/d2tmo
+    scp "$PACKAGEd2tmo" Mysterious@upload.goo.im:~/public_html/AOKP/Nightlies/d2tmo
 else
     find "$OUT" -name *aokp_d2tmo_release_*${RB_BUILD}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
     scp "$PACKAGEd2tmo" Mysterious@upload.goo.im:~/public_html/AOKP/AOKP_d2tmo_jb
@@ -497,7 +497,7 @@ PACKAGEd2vzw=$OUT/$VERSION5.zip
 if [ "$RELEASE" == "nightly" ]
 then
     find "$OUT" -name *aokp_d2vzw_*${DATE}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
-    scp "$PACKAGEd2vzw" Mysterious@upload.goo.im:~/public_html/Nightlies/d2vzw
+    scp "$PACKAGEd2vzw" Mysterious@upload.goo.im:~/public_html/AOKP/Nightlies/d2vzw
 else
     find "$OUT" -name *aokp_d2vzw_release_*${RB_BUILD}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
     scp "$PACKAGEd2vzw" Mysterious@upload.goo.im:~/public_html/AOKP/AOKP_d2vzw_jb
@@ -520,7 +520,7 @@ PACKAGEd2spr=$OUT/$VERSION17.zip
 if [ "$RELEASE" == "nightly" ]
 then
     find "$OUT" -name *aokp_d2spr_*${DATE}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
-    scp "$PACKAGEd2spr" Mysterious@upload.goo.im:~/public_html/Nightlies/d2spr
+    scp "$PACKAGEd2spr" Mysterious@upload.goo.im:~/public_html/AOKP/Nightlies/d2spr
 else
     find "$OUT" -name *aokp_d2spr_release_*${RB_BUILD}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
     scp "$PACKAGEd2spr" Mysterious@upload.goo.im:~/public_html/AOKP/AOKP_d2spr_jb
@@ -544,7 +544,7 @@ PACKAGEn7100=$OUT/$VERSION16.zip
 if [ "$RELEASE" == "nightly" ]
 then
     find "$OUT" -name *aokp_n7100_*${DATE}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
-    scp "$PACKAGEn7100" Mysterious@upload.goo.im:~/public_html/Nightlies/n7100
+    scp "$PACKAGEn7100" Mysterious@upload.goo.im:~/public_html/AOKP/Nightlies/n7100
 else
     find "$OUT" -name *aokp_n7100_release_*${RB_BUILD}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
     scp "$PACKAGEn7100" Mysterious@upload.goo.im:~/public_html/AOKP/AOKP_n7100_jb
@@ -568,7 +568,7 @@ PACKAGEt0lte=$OUT/$VERSION11.zip
 if [ "$RELEASE" == "nightly" ]
 then
     find "$OUT" -name *aokp_t0lte_*${DATE}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
-    scp "$PACKAGEt0lte" Mysterious@upload.goo.im:~/public_html/Nightlies/t0lte
+    scp "$PACKAGEt0lte" Mysterious@upload.goo.im:~/public_html/AOKP/Nightlies/t0lte
 else
     find "$OUT" -name *aokp_t0lte_release_*${RB_BUILD}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
     scp "$PACKAGEt0lte" Mysterious@upload.goo.im:~/public_html/AOKP/AOKP_t0lte_jb
@@ -592,7 +592,7 @@ PACKAGEi605=$OUT/$VERSION12.zip
 if [ "$RELEASE" == "nightly" ]
 then
     find "$OUT" -name *aokp_i605_*${DATE}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
-    scp "$PACKAGEi605" Mysterious@upload.goo.im:~/public_html/Nightlies/i605
+    scp "$PACKAGEi605" Mysterious@upload.goo.im:~/public_html/AOKP/Nightlies/i605
 else
     find "$OUT" -name *aokp_i605_release*${RB_BUILD}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
     scp "$PACKAGEi605" Mysterious@upload.goo.im:~/public_html/AOKP/AOKP_i605_jb
@@ -616,7 +616,7 @@ PACKAGEl900=$OUT/$VERSION13.zip
 if [ "$RELEASE" == "nightly" ]
 then
     find "$OUT" -name *aokp_l900_*${DATE}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
-    scp "$PACKAGEl900" Mysterious@upload.goo.im:~/public_html/Nightlies/l900
+    scp "$PACKAGEl900" Mysterious@upload.goo.im:~/public_html/AOKP/Nightlies/l900
 else
     find "$OUT" -name *aokp_l900_release_*${RB_BUILD}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
     scp "$PACKAGEl900" Mysterious@upload.goo.im:~/public_html/AOKP/AOKP_l900_jb
@@ -640,7 +640,7 @@ PACKAGEt0lteatt=$OUT/$VERSION15.zip
 if [ "$RELEASE" == "nightly" ]
 then
     find "$OUT" -name *aokp_t0lteatt_*${DATE}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
-    scp "$PACKAGEt0lteatt" Mysterious@upload.goo.im:~/public_html/Nightlies/t0lteatt
+    scp "$PACKAGEt0lteatt" Mysterious@upload.goo.im:~/public_html/AOKP/Nightlies/t0lteatt
 else
     find "$OUT" -name *aokp_t0lteatt_release_*${RB_BUILD}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
     scp "$PACKAGEt0lteatt" Mysterious@upload.goo.im:~/public_html/AOKP/AOKP_t0lteatt_jb
@@ -664,7 +664,7 @@ PACKAGEp930=$OUT/$VERSION14.zip
 if [ "$RELEASE" == "nightly" ]
 then
     find "$OUT" -name *aokp_p930_*${DATE}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
-    scp "$PACKAGEp930" Mysterious@upload.goo.im:~/public_html/Nightlies/p930
+    scp "$PACKAGEp930" Mysterious@upload.goo.im:~/public_html/AOKP/Nightlies/p930
 else
     find "$OUT" -name *aokp_p930_release_*${RB_BUILD}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
     scp "$PACKAGEp930" Mysterious@upload.goo.im:~/public_html/AOKP_p930_jb
@@ -688,7 +688,7 @@ PACKAGEn7000=$OUT/$VERSION14.zip
 if [ "$RELEASE" == "nightly" ]
 then
     find "$OUT" -name *aokp_n7000_*${DATE}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
-    scp "$PACKAGEn7000" Mysterious@upload.goo.im:~/public_html/Nightlies/n7000
+    scp "$PACKAGEn7000" Mysterious@upload.goo.im:~/public_html/AOKP/Nightlies/n7000
 else
     find "$OUT" -name *aokp_n7000_release_*${RB_BUILD}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
     scp "$PACKAGEn7000" Mysterious@upload.goo.im:~/public_html/AOKP_n7000_jb
@@ -711,7 +711,7 @@ PACKAGEi9100g=$OUT/$VERSION7.zip
 if [ "$RELEASE" == "nightly" ]
 then
     find "$OUT" -name *aokp_i9100g_*${DATE}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
-    scp "$PACKAGEi9100g" Mysterious@upload.goo.im:~/public_html/Nightlies/i9100g
+    scp "$PACKAGEi9100g" Mysterious@upload.goo.im:~/public_html/AOKP/Nightlies/i9100g
 else
     find "$OUT" -name *aokp_i9100g_release_*${RB_BUILD}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
     scp "$PACKAGEi9100g" Mysterious@upload.goo.im:~/public_html/AOKP/AOKP_i9100g_jb
@@ -734,7 +734,7 @@ PACKAGEi9300=$OUT/$VERSION8.zip
 if [ "$RELEASE" == "nightly" ]
 then
     find "$OUT" -name *aokp_i9300_*${DATE}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
-    scp "$PACKAGEi9300" Mysterious@upload.goo.im:~/public_html/Nightlies/i9300
+    scp "$PACKAGEi9300" Mysterious@upload.goo.im:~/public_html/AOKP/Nightlies/i9300
 else
     find "$OUT" -name *aokp_i9300_release_*${RB_BUILD}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
     scp "$PACKAGEi9300" Mysterious@upload.goo.im:~/public_html/AOKP/MysteriousAOKP_i9300_jb
@@ -757,7 +757,7 @@ PACKAGEmanta=$OUT/$VERSION8.zip
 if [ "$RELEASE" == "nightly" ]
 then
     find "$OUT" -name *aokp_manta_*${DATE}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
-    scp "$PACKAGEi9300" Mysterious@upload.goo.im:~/public_html/Nightlies/manta
+    scp "$PACKAGEi9300" Mysterious@upload.goo.im:~/public_html/AOKP/Nightlies/manta
 else
     find "$OUT" -name *aokp_manta_release_*${RB_BUILD}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
     scp "$PACKAGEi9300" Mysterious@upload.goo.im:~/public_html/AOKP/MysteriousAOKP_manta_jb
@@ -780,7 +780,7 @@ PACKAGEsolana=$OUT/$VERSION1.zip
 if [ "$RELEASE" == "nightly" ]
 then
     find "$OUT" -name *aokp_solana_*${DATE}.zip -exec zip -j {} "$rdir"/changelog.txt \;
-    scp "$PACKAGEsolana" Mysterious@upload.goo.im:~/public_html/Nightlies/solana
+    scp "$PACKAGEsolana" Mysterious@upload.goo.im:~/public_html/AOKP/Nightlies/solana
 else
     find "$OUT" -name *aokp_solana_release*${RB_BUILD}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
     scp "$PACKAGEsolana" Mysterious@upload.goo.im:~/public_html/AOKP/AOKP_solana_jb
@@ -803,7 +803,7 @@ PACKAGEtilapia=$OUT/$VERSION8.zip
 if [ "$RELEASE" == "nightly" ]
 then
     find "$OUT" -name *aokp_tilapia_*${DATE}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
-    scp "$PACKAGEi9300" Mysterious@upload.goo.im:~/public_html/Nightlies/tilapia
+    scp "$PACKAGEi9300" Mysterious@upload.goo.im:~/public_html/AOKP/Nightlies/tilapia
 else
     find "$OUT" -name *aokp_tilapia_release*${RB_BUILD}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
     scp "$PACKAGEi9300" Mysterious@upload.goo.im:~/public_html/AOKP/MysteriousAOKP_tilapia_jb
@@ -826,7 +826,7 @@ PACKAGtoroplus=$OUT/$VERSION6.zip
 if [ "$RELEASE" == "nightly" ]
 then
     find "$OUT" -name *aokp_toroplus_*${DATE}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
-    scp "$PACKAGEtoroplus" Mysterious@upload.goo.im:~/public_html/Nightlies/toroplus
+    scp "$PACKAGEtoroplus" Mysterious@upload.goo.im:~/public_html/AOKP/Nightlies/toroplus
 else
     find "$OUT" -name *aokp_toroplus_release*${RB_BUILD}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
     scp "$PACKAGEtoroplus" Mysterious@upload.goo.im:~/public_html/AOKP/MysteriousAOKP_toroplus_jb
