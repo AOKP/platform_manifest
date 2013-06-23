@@ -7,14 +7,14 @@
 
   <remote  name="aokp"
            fetch="https://github.com/"
-           review="gerrit.sudoservers.com" />
+           review="gerrit.aokp.co" />
 
   <remote  name="cm"
-           fetch="https://github.com/CyanogenMod/"
+           fetch="https://github.com/"
            review="review.cyanogenmod.com" />
           
   <remote  name="Mysterious"
-           fetch="https://github.com/Mysterious-ROM" />
+           fetch="https://github.com/" />
 
   <remote  name="omapzoom"
            fetch="git://git.omapzoom.org/"
