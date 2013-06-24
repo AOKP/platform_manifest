@@ -49,9 +49,6 @@
   <remote  name="koz"
            fetch="git://github.com/kozmikkick/" />
 
-  <remote  name="gh"
-           fetch="git://github.com/" />
-
   <remote  name="dori"
            fetch="git://github.com/dorimanx/" />
 
