@@ -135,7 +135,8 @@
   <project path="device/samsung/manta" name="AOKP/device_samsung_manta" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/msm8660-common" name="AOKP/device_samsung_msm8660-common" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/msm8960-common" name="AOKP/device_samsung_msm8960-common" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/n7000" name="android_device_samsung_n7000" remote="ls" revision="jb2" />
+  <project path="device/samsung/n7000" name="device_samsung_n7000" remote="rootbox" revision="jb-mr1" />
+  <project path="device/samsung/n7100" name="device_samsung_n7100" remote="rootbox" revision="jb-mr1" />
   <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" remote="ls" revision="jb2" />
   <project path="device/samsung/jflteatt" name="android_device_samsung_jflteatt" remote="ls" revision="jb2" />
   <project path="device/samsung/jfltecan" name="android_device_samsung_jfltecan" remote="ls" revision="jb2" />
