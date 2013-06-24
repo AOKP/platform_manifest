@@ -217,7 +217,7 @@
   <project path="external/jdiff" name="platform/external/jdiff" />
   <project path="external/jhead" name="platform/external/jhead" />
   <project path="external/jmdns" name="platform/external/jmdns" />
-  <project path="external/jmonkeyengine" name="android_external_jmonkeyengine" remote="cm" revision="cm-10.1" />
+  <project path="external/jmonkeyengine" name="CyanogenMod/android_external_jmonkeyengine" remote="cm" revision="cm-10.1" />
   <project path="external/jpeg" name="AOKP/external_jpeg" remote="aokp" revision="jb-mr1" />
   <project path="external/jsilver" name="platform/external/jsilver" />
   <project path="external/jsr305" name="platform/external/jsr305" />
