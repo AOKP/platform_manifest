@@ -104,7 +104,7 @@
   <project path="device/sony/yuga" name="AOKP/device_sony_yuga" remote="aokp" revision="jb-mr1" />
   <project path="device/sony/blue-common" name="AOKP/device_sony_blue-common" remote="aokp" revision="jb-mr1" />
   <project path="device/sony/fusion3-common" name="AOKP/device_sony_fusion3-common" remote="aokp" revision="jb-mr1" />
-  <project path="device/sony/qcom-common" name="AOKP/android_device_sony_qcom-common" remote="aokp" revision="jb-mr1" />
+  <project path="device/sony/qcom-common" name="AOKP/device_sony_qcom-common" remote="aokp" revision="jb-mr1" />
   <project path="device/sony/common" name="AOKP/device_sony_common" remote="aokp" revision="jb-mr1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
