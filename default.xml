@@ -418,6 +418,8 @@
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/DeskClock" name="AOKP/packages_apps_DeskClock" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/DashClock" name="android_packages_apps_DashClock" remote="ls" revision="jb2" />
+  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
