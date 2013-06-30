@@ -1,4 +1,3 @@
 $ repo init -u https://github.com/Mysterious-ROM/platform_manifest.git -b jb-mr1
 $ repo sync
-$ . build_server1.sh && repo sync && build_server2.sh && repo sync && build_server3.sh && repo sync && build_server4.sh
-
+$ prebuilts/misc/linux-x86/ccache/ccache -M 50G repo sync && . build_server1.sh && repo sync && build_server2.sh && repo sync && build_server3.sh && repo sync && build_server4.sh
