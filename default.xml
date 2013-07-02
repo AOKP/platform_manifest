@@ -87,7 +87,7 @@
            remote="aosp"
            sync-j="8" />
 
-  <project path="build" name="AOKP/build" remote="aokp" revision="jb-mr1" >
+  <project path="build" name="AOKP/build" remote="mr" revision="jb-mr1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
