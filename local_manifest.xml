@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="kecinzer" fetch="https://github.com/kecinzer/" />
+    <remote name="aokpk" fetch="https://github.com/AOKPK/" />
+    <remote name="pub" fetch="https://github.com/" />
+
+<!-- removals -->
+    <remove-project name="AOKP/build" />
+    <remove-project name="CyanogenMod/android_bionic" />
+    <remove-project name="AOKP/dalvik" />
+    <remove-project name="platform/development" />
+    <remove-project name="AOKP/device_samsung_tuna" />
+    <remove-project name="AOKP/device_lge_mako" />
+    <remove-project name="AOKP/device_asus_grouper" />
+    <remove-project name="AOKP/device_samsung_t0lte" />
+    <remove-project name="AOKP/external_bluetooth_bluedroid" />
+    <remove-project name="AOKP/external_e2fsprogs" />
+    <remove-project name="platform/external/openssh" />
+    <remove-project name="platform/external/openssl" />
+    <remove-project name="platform/external/oprofile" />
+    <remove-project name="platform/external/ping" />
+    <remove-project name="AOKP/external_skia" />
+    <remove-project name="platform/external/stlport" />
+    <remove-project name="platform/external/v8" />
+    <remove-project name="AOKP/external_webkit" />
+    <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />
+    <remove-project name="platform/frameworks/compile/libbcc" />
+    <remove-project name="platform/frameworks/compile/mclinker" />
+    <remove-project name="platform/frameworks/compile/slang" />
+    <remove-project name="platform/frameworks/ex" />
+    <remove-project name="AOKP/frameworks_rs" />
+    <remove-project name="platform/frameworks/wilhelm" />
+    <remove-project name="CyanogenMod/android_hardware_qcom_display" />
+    <remove-project name="CyanogenMod/android_hardware_qcom_display-caf" />
+    <remove-project name="CyanogenMod/android_hardware_qcom_media" />
+    <remove-project name="CyanogenMod/android_hardware_ti_omap4xxx" />
+    <remove-project name="platform/libcore" />
+    <remove-project name="platform/packages/wallpapers/LivePicker" />
+    <remove-project name="platform/system/security" />
+    <remove-project name="AOKP/system_core" />
+
+<!-- AOKPK features -->
+    <project path="build" name="build" remote="aokpk" revision="sm" >
+        <copyfile src="core/root.mk" dest="Makefile" />
+    </project>
+    <project path="dalvik" name="dalvik" remote="aokpk" revision="jb-mr1" />
+    <!--<project path="dalvik" name="Open-Wise/mirage_dalvik" remote="pub" revision="mirage" />-->
+    <project path="external/skia" name="external_skia" remote="aokpk" revision="jb-mr1" />
+    <project path="external/dnsmasq" name="external_dnsmasq" remote="aokpk" revision="jb-mr1" />
+    <project path="external/e2fsprogs" name="external_e2fsprogs" remote="aokpk" revision="jb-mr1" />
+    <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="aokpk" revision="cm-10.1" />
+    <project path="device/samsung/tuna" name="device_samsung_tuna" remote="aokpk" revision="jb-mr1" />
+    <project path="device/lge/mako" name="device_lge_mako" remote="aokpk" revision="jb-mr1" />
+    <project path="device/asus/grouper" name="device_asus_grouper" remote="aokpk" revision="jb-mr1" />
+    <project path="vendor/aokp" name="vendor_aokpk" remote="aokpk" revision="jb-mr1" />
+    <project path="system/core" name="system_core" remote="aokpk" revision="jb-mr1" />
+
+<!-- PUB stuff -->
+    <project name="kejar31/android_bionic" path="bionic" remote="pub" revision="cm-10.1-linaro" />
+    <project path="development" name="android_development" remote="cmdev" revision="cm-10.1-linaro" />
+    <project path="device/samsung/t0lte" name="DAGr8/android_device_samsung_t0lte" remote="pub" revision="PUB" />
+    <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="cmdev" revision="cm-10.1-linaro" />
+    <!--<project path="external/bluetooth/bluedroid" name="Open-Wise/external_bluetooth_bluedroid" remote="pub" revision="mirage" />-->
+    <project path="external/openssh" name="android_external_openssh" remote="cmdev" revision="cm-10.1-linaro" />
+    <project path="external/openssl" name="android_external_openssl" remote="cmdev" revision="cm-10.1-linaro" />
+    <project path="external/oprofile" name="UnicornButter/external_oprofile" remote="pub" revision="jb-mr1" />
+    <project path="external/ping" name="android_external_ping" remote="cmdev" revision="cm-10.1-linaro" />
+    <project path="external/stlport" name="android_external_stlport" remote="cmdev" revision="cm-10.1-linaro" />
+    <!--<project path="external/stlport" name="UnicornButter/external_stlport" remote="pub" revision="jb-mr1" />-->
+    <project path="external/v8" name="android_external_v8" remote="cmdev" revision="cm-10.1-linaro" />
+    <project path="external/webkit" name="android_external_webkit" remote="cmdev" revision="cm-10.1-linaro" />
+    <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="cmdev" revision="cm-10.1-linaro" />
+    <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" remote="cmdev" revision="cm-10.1-linaro" />
+    <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="cmdev" revision="cm-10.1-linaro" />
+    <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="cmdev" revision="cm-10.1-linaro" />
+    <project path="frameworks/ex" name="android_frameworks_ex" remote="cmdev" revision="cm-10.1-linaro" />
+    <project path="frameworks/rs" name="android_frameworks_rs" remote="cmdev" revision="cm-10.1-linaro" />
+    <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" remote="cmdev" revision="cm-10.1-linaro" />
+    <project path="hardware/qcom/display" name="UnicornButter/hardware_qcom_display" remote="pub" revision="jb-mr1" />
+    <project path="hardware/qcom/display-caf" name="UnicornButter/hardware_qcom_display-caf" remote="pub" revision="jb-mr1" />
+    <project path="hardware/qcom/media" name="UnicornButter/hardware_qcom_media" remote="pub" revision="jb-mr1" />
+    <project path="libcore" name="android_libcore" remote="cmdev" revision="cm-10.1-linaro" />
+    <project path="packages/wallpapers/LivePicker" name="UnicornButter/packages_wallpapers_LivePicker" remote="pub" revision="jb-mr1" />
+    <project path="system/security" name="android_system_security" remote="cmdev" revision="cm-10.1-linaro" />
+<!-- Own repo -->
+    <project path="packages/apps/XposedInstaller" name="XposedInstaller" remote="kecinzer" revision="master" />
+    <project path="kernel/samsung/tuna" name="francoKernel_tuna" remote="kecinzer" revision="sm" />
+    <project path="kernel/lge/mako" name="francoKernel_mako" remote="kecinzer" revision="sm" />
+    <project path="kernel/asus/grouper" name="francoKernel_grouper" remote="kecinzer" revision="sm" />
+<!-- Others -->
+
+    <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="linux,arm" revision="master" />
+    <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="linux,arm" revision="master" />
+</manifest>

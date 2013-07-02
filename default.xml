@@ -49,6 +49,9 @@
   <remote  name="mr"
            fetch="https://github.com/" />
 
+  <remote name="dj" 
+           fetch="https://github.com/DJLaMontagneIII/" />
+
   <remote  name="koz"
            fetch="git://github.com/kozmikkick/" />
 
@@ -191,7 +194,7 @@
   <project path="external/chromium" name="android_external_chromium" remote="ts" revision="cm-10.1-linaro" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" />
-  <project path="external/clang" name="android_external_clang" remote="ts" revision="cm-10.1-linaro" />
+  <project path="external/clang" name="android_external_clang" remote="dj" revision="DJL10.1" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
