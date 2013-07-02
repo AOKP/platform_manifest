@@ -5,7 +5,6 @@
     <remote name="pub" fetch="https://github.com/" />
 
 <!-- removals -->
-    <remove-project name="AOKP/build" />
     <remove-project name="CyanogenMod/android_bionic" />
     <remove-project name="AOKP/dalvik" />
     <remove-project name="platform/development" />
@@ -32,7 +31,6 @@
     <remove-project name="platform/frameworks/wilhelm" />
     <remove-project name="CyanogenMod/android_hardware_qcom_display" />
     <remove-project name="CyanogenMod/android_hardware_qcom_display-caf" />
-    <remove-project name="CyanogenMod/android_hardware_qcom_media" />
     <remove-project name="CyanogenMod/android_hardware_ti_omap4xxx" />
     <remove-project name="platform/libcore" />
     <remove-project name="platform/packages/wallpapers/LivePicker" />
