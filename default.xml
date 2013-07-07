@@ -476,6 +476,8 @@
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
+  <project path="packages/wallpapers/RootBox" name="RootBox_wallpapers" remote="rootbox" revision="jb-mr1" />
+  <project path="packages/wallpapers/Liquid" name="android_liquid_wallpapers" remote="ls" revision="jb2" />
   <project path="pdk" name="platform/pdk" />
   <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="cm" revision="cm-10.1" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" />
