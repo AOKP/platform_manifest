@@ -552,5 +552,4 @@
     <copyfile src="server3.sh" dest="server3.sh" />
     <copyfile src="server4.sh" dest="server4.sh" />
     <copyfile src="local_manifest.xml" dest=".repo/local_manifest/local_manifest.xml" />
-  </project>
 </manifest>
