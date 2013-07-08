@@ -40,7 +40,6 @@
     <remove-project name="platform/libcore" />
     <remove-project name="platform/packages/wallpapers/LivePicker" />
     <remove-project name="platform/system/security" />
-    <remove-project name="AOKP/vendor_aokp" />
     <remove-project name="AOKP/system_core" />
 
 <!-- AOKPK features -->
