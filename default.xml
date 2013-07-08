@@ -544,5 +544,10 @@
 
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb-mr1" />
   
-  <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" revision="jb-mr1" />
+  <project path="platform_manifest" name="Mysterious-ROM/platform_manifest" remote="mr" revision="jb-mr1" />
+    <copyfile src="build_release.sh" dest="build_release.sh" />
+    <copyfile src="server1.sh" dest="server1.sh" />
+    <copyfile src="server2.sh" dest="server2.sh" />
+    <copyfile src="server3.sh" dest="server3.sh" />
+    <copyfile src="server2.sh" dest="server4.sh" />
 </manifest>
