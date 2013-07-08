@@ -48,7 +48,6 @@ else
     find "$OUT" -name *Mysterious_"$DEVICE"_Nightly_*${AOKP_BUILD}*.zip -exec zip -j {} "$rdir"/changelog.txt \;
     scp "$PACKAGE" Mysterious@upload.goo.im:~/public_html/AOKP/Nightlies/"$DEVICE"
     scp "$PACKAGE" ftp -u ftp://ptichalouf:10031300@ftp.xdafileserver.nl:1337/Mysterious_ROM Mysterious_ROM/AOKP/Nightlies/"$DEVICE"
-else
     rm -rf out/target/product/"$DEVICE";
 fi
 
