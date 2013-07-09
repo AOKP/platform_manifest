@@ -21,6 +21,9 @@
   <remote  name="cr"
            fetch="git://github.com/CarbonDev/" />
 
+  <remote  name="xp"
+           fetch="git://github.com/xplodwild/" />
+
   <remote  name="baked"
             fetch="git://github.com/TeamBAKED/" />
 
@@ -117,6 +120,7 @@
   <project path="device/lge/p930" name="AOKP/device_lge_p930" remote="aokp" revision="jb-mr1" />
   <project path="device/lge/su640" name="AOKP/device_lge_su640" remote="aokp" revision="jb-mr1" />
   <project path="device/lge/vs920" name="AOKP/device_lge_vs920" remote="aokp" revision="jb-mr1" />
+  <project path="device/oppo/find5" name="Root-Box/device_oppo_find5" remote="gh" revision="jb-mr1" />
   <project path="device/motorola/maserati" name="AOKP/device_motorola_maserati" remote="aokp" revision="jb-mr1" />
   <project path="device/motorola/solana" name="AOKP/device_motorola_solana" remote="aokp" revision="jb-mr1" />
   <project path="device/motorola/spyder" name="AOKP/device_motorola_spyder" remote="aokp" revision="jb-mr1" />
