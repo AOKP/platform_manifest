@@ -80,6 +80,10 @@ fi
 
 . build_release.sh jfltetmo "$RELEASE" "$OFFICIAL"
 
+. build_release.sh jflteusc "$RELEASE" "$OFFICIAL"
+
+. build_release.sh jfltevzw "$RELEASE" "$OFFICIAL"
+
 . build_release.sh hercules "$RELEASE" "$OFFICIAL"
 
 . build_release.sh m7tmo "$RELEASE" "$OFFICIAL"
