@@ -82,6 +82,8 @@ fi
 
 . build_release.sh d2att "$RELEASE" "$OFFICIAL"
 
+. build_release.sh find5 "$RELEASE" "$OFFICIAL"
+
 . build_release.sh d2tmo "$RELEASE" "$OFFICIAL"
 
 . build_release.sh d2vzw "$RELEASE" "$OFFICIAL"
