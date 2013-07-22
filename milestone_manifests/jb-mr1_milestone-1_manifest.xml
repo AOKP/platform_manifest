@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://github.com/" name="aokp" review="gerrit.sudoservers.com"/>
+  <remote fetch="https://android.googlesource.com/" name="aosp" review="https://android-review.googlesource.com/"/>
+  <remote fetch="https://github.com/" name="cm" review="review.cyanogenmod.com"/>
+  <remote fetch="git://git.omapzoom.org/" name="omapzoom" review="http://review.omapzoom.org/"/>
+
+  <default remote="aosp" revision="refs/tags/android-4.2.2_r1" sync-j="4"/>
+
+  <project name="AOKP/build" path="build" remote="aokp" revision="284e61eb246aff6bd05258660baadf1f571741ac" upstream="jb-mr1">
+    <copyfile dest="Makefile" src="core/root.mk"/>
+  </project>
+  <project name="AOKP/dalvik" path="dalvik" remote="aokp" revision="337c5bdc16e7ebc60fba93aa836206783b3857f8" upstream="jb-mr1"/>
+  <project name="AOKP/device_acer_a510" path="device/acer/a510" remote="aokp" revision="0919e9454c71e01cebaadce8d44e4ae279af9715" upstream="jb-mr1"/>
+  <project name="AOKP/device_asus_grouper" path="device/asus/grouper" remote="aokp" revision="8775371630bcfda1f89af6d244930ac256a68a43" upstream="jb-mr1"/>
+  <project name="AOKP/device_asus_tilapia" path="device/asus/tilapia" remote="aokp" revision="8e699086cefff7dc5c1da07a64df6c11c7d7303a" upstream="jb-mr1"/>
+  <project name="AOKP/device_htc_evita" path="device/htc/evita" remote="aokp" revision="92c041272fa2698890302c233242a6d128006559" upstream="jb-mr1"/>
+  <project name="AOKP/device_htc_msm8960-common" path="device/htc/msm8960-common" remote="aokp" revision="d83bf46dc5d072ed338be72e9c99ebdc2a31d7e1" upstream="jb-mr1"/>
+  <project name="AOKP/device_lge_iprj-common" path="device/lge/iprj-common" remote="aokp" revision="830900426dd5975b9017ca04b40b4b8fb727fc8d" upstream="jb-mr1"/>
+  <project name="AOKP/device_lge_mako" path="device/lge/mako" remote="aokp" revision="8b77595ef87ddae5cb2eb574cf826c655bf55fa5" upstream="jb-mr1"/>
+  <project name="AOKP/device_lge_p930" path="device/lge/p930" remote="aokp" revision="772047b49d2578445f94ce12e6f14b4a1329c3e3" upstream="jb-mr1"/>
+  <project name="AOKP/device_lge_su640" path="device/lge/su640" remote="aokp" revision="8d2349107bec4cd60548ca381658573168a481ce" upstream="jb-mr1"/>
+  <project name="AOKP/device_lge_vs920" path="device/lge/vs920" remote="aokp" revision="17482bd1f8f3364222ffadd256d3cde945861644" upstream="jb-mr1"/>
+  <project name="AOKP/device_motorola_maserati" path="device/motorola/maserati" remote="aokp" revision="508306455200ccd51543f42753740f6323fa156c" upstream="jb-mr1"/>
+  <project name="AOKP/device_motorola_omap4-common" path="device/motorola/omap4-common" remote="aokp" revision="a7af377bf550f24244b112583e38d766406ee501" upstream="jb-mr1"/>
+  <project name="AOKP/device_motorola_solana" path="device/motorola/solana" remote="aokp" revision="c6b88d1a79d2cb2dc6e9daa5298c9d18c4fa2ba6" upstream="jb-mr1"/>
+  <project name="AOKP/device_motorola_spyder" path="device/motorola/spyder" remote="aokp" revision="0b6b08b9666ea5576596c16005a58f411b50fd89" upstream="jb-mr1"/>
+  <project name="AOKP/device_motorola_targa" path="device/motorola/targa" remote="aokp" revision="784a3d2a748134dcbfb3e4967e38f224890ddf09" upstream="jb-mr1"/>
+  <project name="AOKP/device_motorola_umts_spyder" path="device/motorola/umts_spyder" remote="aokp" revision="ff75dde688828357987e2cddf6fbc617c99a61bf" upstream="jb-mr1"/>
+  <project name="AOKP/device_samsung_aries-common" path="device/samsung/aries-common" remote="aokp" revision="0758cc72538945fd28a7718face7ff939193948c" upstream="jb-mr1"/>
+  <project name="AOKP/device_samsung_celox-common" path="device/samsung/celox-common" remote="aokp" revision="b35b4b48556c0ac875f44acdcdfc4dcd3bff1cf6" upstream="jb-mr1"/>
+  <project name="AOKP/device_samsung_d2-common" path="device/samsung/d2-common" remote="aokp" revision="4b704eef5a5bb8d8c3be74d60ce9864e5489e12b" upstream="jb-mr1"/>
+  <project name="AOKP/device_samsung_d2att" path="device/samsung/d2att" remote="aokp" revision="feefe6ecdd88f5169f7a4ec2828aa33d084d9f26" upstream="jb-mr1"/>
+  <project name="AOKP/device_samsung_d2tmo" path="device/samsung/d2tmo" remote="aokp" revision="a65d514de1b25a9a6d5186cd297a85fc481c6a8a" upstream="jb-mr1"/>
+  <project name="AOKP/device_samsung_d2usc" path="device/samsung/d2usc" remote="aokp" revision="04092904180c90a38b21ecdc348e9358f4a5115d" upstream="jb-mr1"/>
+  <project name="AOKP/device_samsung_d2vzw" path="device/samsung/d2vzw" remote="aokp" revision="d12619bead2c465f80ae90f20d663ce0f4b93d2f" upstream="jb-mr1"/>
+  <project name="AOKP/device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="aokp" revision="d6b843ed18276ca2e66bcfc62676078826c4498e" upstream="jb-mr1"/>
+  <project name="AOKP/device_samsung_hercules" path="device/samsung/hercules" remote="aokp" revision="2ce5b0b3528c8984e3dafea533da99c620245168" upstream="jb-mr1"/>
+  <project name="AOKP/device_samsung_i605" path="device/samsung/i605" remote="aokp" revision="155b6337fe88923462da3515db77ac591fd461b9" upstream="jb-mr1"/>
+  <project name="AOKP/device_samsung_i9100" path="device/samsung/i9100" remote="aokp" revision="8555169a23af558bc8bd5841b5603776a6946f3f" upstream="jb-mr1"/>
+  <project name="AOKP/device_samsung_i9100g" path="device/samsung/i9100g" remote="aokp" revision="c8dfc45a34f7eceedc88dd2c99ef3c19fc39d7a7" upstream="jb-mr1"/>
+  <project name="AOKP/device_samsung_i9300" path="device/samsung/i9300" remote="aokp" revision="7d8231c6af928aa0a7e69cacb8185feab142db2a" upstream="jb-mr1"/>
+  <project name="AOKP/device_samsung_l900" path="device/samsung/l900" remote="aokp" revision="a59d836c124c00563a8259dc904f974ca8cde2bb" upstream="jb-mr1"/>
+  <project name="AOKP/device_samsung_maguro" path="device/samsung/maguro" remote="aokp" revision="c53da7c76de78e1850552d70ea0e90d9eb7dfb86" upstream="jb-mr1"/>
+  <project name="AOKP/device_samsung_manta" path="device/samsung/manta" remote="aokp" revision="7fcabf6d71ebb23a4cb1786d36e21403c984d30e" upstream="jb-mr1"/>
+  <project name="AOKP/device_samsung_msm8660-common" path="device/samsung/msm8660-common" remote="aokp" revision="d7bb6cb7870c4e21f274e3841a73947db98bad6a" upstream="jb-mr1"/>
+  <project name="AOKP/device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="aokp" revision="7d11ca4b82f80122141e42ad3924cce630d4dfc3" upstream="jb-mr1"/>
+  <project name="AOKP/device_samsung_qcom-common" path="device/samsung/qcom-common" remote="aokp" revision="5b8d92e6d3d166a85babbb2ea2da27b1a8f7780e" upstream="jb-mr1"/>
+  <project name="AOKP/device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="aokp" revision="380d5c73333bd0f8ffa7eedff9ebd954bae3348a" upstream="jb-mr1"/>
+  <project name="AOKP/device_samsung_t0lte" path="device/samsung/t0lte" remote="aokp" revision="89faa4ae5abcb144ac1fd45d68aa873e5c395da2" upstream="jb-mr1"/>
+  <project name="AOKP/device_samsung_t0ltecdma" path="device/samsung/t0ltecdma" remote="aokp" revision="1a0eae26bdda1ec09818a077635d11d13c59dfdc" upstream="jb-mr1"/>
+  <project name="AOKP/device_samsung_toro" path="device/samsung/toro" remote="aokp" revision="67bd0c07da42f4eebc229c8e7f0fa1883abef32f" upstream="jb-mr1"/>
+  <project name="AOKP/device_samsung_toroplus" path="device/samsung/toroplus" remote="aokp" revision="f1392a1092f128411b1b8f62c413e46aaf5113fd" upstream="jb-mr1"/>
+  <project name="AOKP/device_samsung_tuna" path="device/samsung/tuna" remote="aokp" revision="d785c70a8acf32b8a501f9c226e2b9e407a18ec5" upstream="jb-mr1"/>
+  <project name="AOKP/device_samsung_vibrantmtd" path="device/samsung/vibrantmtd" remote="aokp" revision="ce9afca6ec9e7c4e5c88402820444dddce3d8e2b" upstream="jb-mr1"/>
+  <project name="AOKP/external_bluetooth_bluedroid" path="external/bluetooth/bluedroid" remote="aokp" revision="90385a5ecdb5ecccc0fc438f3a28f79cbdd8ee7d" upstream="jb-mr1"/>
+  <project name="AOKP/external_dnsmasq" path="external/dnsmasq" remote="aokp" revision="f770893767331b574f05ca2520fac94c90a47fca" upstream="jb-mr1"/>
+  <project name="AOKP/external_e2fsprogs" path="external/e2fsprogs" remote="aokp" revision="4ecbd86b5e17a3e7d19db9a50c03bcbe27c4d85a" upstream="jb-mr1"/>
+  <project name="AOKP/external_jbirdvegas_mGerrit" path="external/jbirdvegas/mGerrit" remote="aokp" revision="023c9d348d226f821db5962fabc25a8220f871d8" upstream="master"/>
+  <project name="AOKP/external_jpeg" path="external/jpeg" remote="aokp" revision="f1fd6bd45e6adcf3259d35d1dbe361260c0ccc05" upstream="jb-mr1"/>
+  <project name="AOKP/external_koush_Superuser" path="external/koush/Superuser" remote="aokp" revision="bce907166d32ca8d8ccccc5faf9c1a3570e5a28c" upstream="master"/>
+  <project name="AOKP/external_koush_Widgets" path="external/koush/Widgets" remote="aokp" revision="e076c7c358eab6fb3d823882744e48bf5f92fc1e" upstream="master"/>
+  <project name="AOKP/external_libpng" path="external/libpng" remote="aokp" revision="0fdb3374056b0aa9d165a607e6d3e6a8135c1712" upstream="jb-mr1"/>
+  <project name="AOKP/external_qrngd" path="external/qrngd" remote="aokp" revision="6b04a774064928a1e9b36d6c5449e1623a2b59c4" upstream="jb-mr1"/>
+  <project name="AOKP/external_skia" path="external/skia" remote="aokp" revision="f5a741937306c7546f69b6ddf57dd9878f3f630f" upstream="jb-mr1"/>
+  <project name="AOKP/external_webkit" path="external/webkit" remote="aokp" revision="376f1a8c7de94da54c399ebbb1a441f0de9ded18" upstream="jb-mr1"/>
+  <project name="AOKP/frameworks_av" path="frameworks/av" remote="aokp" revision="d3794a62ee622300214ac62d4039f0fb5b3fed0d" upstream="jb-mr1"/>
+  <project name="AOKP/frameworks_base" path="frameworks/base" remote="aokp" revision="cb7a8af241da37f71bda10dc4dcb3248d97b0993" upstream="jb-mr1"/>
+  <project name="AOKP/frameworks_native" path="frameworks/native" remote="aokp" revision="04d9afb05713219dcfe71e24964178c164600e85" upstream="jb-mr1"/>
+  <project name="AOKP/frameworks_rs" path="frameworks/rs" remote="aokp" revision="d253682a51498e241bf0bd7079d9bf0fb6c4cc5c" upstream="jb-mr1"/>
+  <project name="AOKP/hardware_qcom_power" path="hardware/qcom/power" remote="aokp" revision="6e23f678db68ca2cb6f231cee51e2c086840ad0b" upstream="jb-mr1"/>
+  <project name="AOKP/kernel_acer_t30" path="kernel/acer/t30" remote="aokp" revision="21b7497b4df411c973113247d8f4d0982694d6d0" upstream="jb-mr1"/>
+  <project name="AOKP/kernel_asus_tf101" path="kernel/asus/tf101" remote="aokp" revision="b81faee5d4100d600785dd1f75bd34e36f49fc87" upstream="jb"/>
+  <project name="AOKP/kernel_samsung_d2" path="kernel/samsung/d2" remote="aokp" revision="2b8fa2839194489bdc44d686e277041869beca72" upstream="jb-mr1"/>
+  <project name="AOKP/kernel_samsung_manta" path="kernel/samsung/manta" remote="aokp" revision="a46ced87d43233a456aab7b51d2b00674e50b869" upstream="jb-mr1"/>
+  <project name="AOKP/packages_apps_Browser" path="packages/apps/Browser" remote="aokp" revision="0e80569b0236dbc551505e597f856f914dc636e5" upstream="jb-mr1"/>
+  <project name="AOKP/packages_apps_CDMATools" path="packages/apps/CDMATools" remote="aokp" revision="32b126c2f702636af1b685005972a20aca764dea" upstream="jb-mr1"/>
+  <project name="AOKP/packages_apps_Camera" path="packages/apps/Camera" remote="aokp" revision="0aeb50fadb725f6e5943e7d7393ba56f8f5e80a3" upstream="jb-mr1"/>
+  <project name="AOKP/packages_apps_Contacts" path="packages/apps/Contacts" remote="aokp" revision="3b1ca5f9c390aa074fb2aeb848f543d0e6d01094" upstream="jb-mr1"/>
+  <project name="AOKP/packages_apps_DeskClock" path="packages/apps/DeskClock" remote="aokp" revision="167466f7eff0676f655607c24742ec034ad2a4f9" upstream="jb-mr1"/>
+  <project name="AOKP/packages_apps_Email" path="packages/apps/Email" remote="aokp" revision="f11da417dbca37b16a754bac4ddfa30fbc457248" upstream="jb-mr1"/>
+  <project name="AOKP/packages_apps_Launcher2" path="packages/apps/Launcher2" remote="aokp" revision="4bbc91c6ea09ee116d8bcdaccb7835370bdb4347" upstream="jb-mr1"/>
+  <project name="AOKP/packages_apps_Mms" path="packages/apps/Mms" remote="aokp" revision="7a6d147b91aed1568e01657235a54d298717b074" upstream="jb-mr1"/>
+  <project name="AOKP/packages_apps_Nfc" path="packages/apps/Nfc" remote="aokp" revision="d7acbbece6ff4cd607afd9bafcabf77fa330660c" upstream="jb-mr1"/>
+  <project name="AOKP/packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="aokp" revision="b79048c0532fed01afa8918529a841bf4acf0bc7" upstream="jb-mr1"/>
+  <project name="AOKP/packages_apps_PerformanceControl" path="packages/apps/PerformanceControl" remote="aokp" revision="b9424ddc1077ae8ff866675886fc2f35e10b5c2c" upstream="jb-mr1"/>
+  <project name="AOKP/packages_apps_Phone" path="packages/apps/Phone" remote="aokp" revision="81fc638f6aecfd1011c71cccd071e557a0e0d4e2" upstream="jb-mr1"/>
+  <project name="AOKP/packages_apps_QuickSearchBox" path="packages/apps/QuickSearchBox" remote="aokp" revision="54c7cc2a463fa1181c7a36598a4e680e6975f936" upstream="jb-mr1"/>
+  <project name="AOKP/packages_apps_ROMControl" path="packages/apps/ROMControl" remote="aokp" revision="d8085cdf7515035454de3611def15b6fec35d4c8" upstream="jb-mr1"/>
+  <project name="AOKP/packages_apps_Settings" path="packages/apps/Settings" remote="aokp" revision="ff00f177ff8634be2fed5c1add1d4096a4c52a72" upstream="jb-mr1"/>
+  <project name="AOKP/packages_apps_Torch" path="packages/apps/Torch" remote="aokp" revision="e7ff98ac37edca753241dfb494ab1b8d47610e16" upstream="jb-mr1"/>
+  <project name="AOKP/packages_apps_VoiceDialer" path="packages/apps/VoiceDialer" remote="aokp" revision="fbfefcc180b60620f045ab759a100d51e5eafd7d" upstream="jb-mr1"/>
+  <project name="AOKP/packages_input_LatinIME" path="packages/inputmethods/LatinIME" remote="aokp" revision="4187e908da404681c653a175680f1036d1f9f0eb" upstream="jb-mr1"/>
+  <project name="AOKP/packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" remote="aokp" revision="b015c340cb04d775171fdd5190d1ab8182e372be" upstream="jb-mr1"/>
+  <project name="AOKP/packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="aokp" revision="64aefca02f1f5fe95a5b0bdcfe10a6fa117e3632" upstream="jb-mr1"/>
+  <project name="AOKP/packages_wallpapers_SwagPapers_v2" path="packages/wallpapers/SwagPapers" remote="aokp" revision="44b7c6f2b9e3d19bb54882afdc3a1639738e76a2" upstream="jb-mr1"/>
+  <project name="AOKP/platform_manifest" path="platform_manifest" remote="aokp" revision="36cd7e145ee76d8f5c5b0c80c412ee28f77c5667" upstream="jb-mr1"/>
+  <project name="AOKP/prebuilts_misc" path="prebuilts/misc" remote="aokp" revision="048761c3db3074e49e87b1aa5b8366435ca091e8" upstream="jb-mr1"/>
+  <project name="AOKP/pseudo_buildbot" path="vendor/aokp/bot" remote="aokp" revision="eb569f4bd56d624c51f47fca1ca872d111d3e70d" upstream="jb-mr1"/>
+  <project name="AOKP/system_core" path="system/core" remote="aokp" revision="9f042312fd8dc1c3c204343cca51f2649ce3a85b" upstream="jb-mr1"/>
+  <project name="AOKP/system_extras" path="system/extras" remote="aokp" revision="30944520e3f16871504506cb7825e237bdd3a277" upstream="jb-mr1"/>
+  <project name="AOKP/system_vold" path="system/vold" remote="aokp" revision="243d86dbbf51e69c671d658538c6af6cd1d23e03" upstream="jb-mr1"/>
+  <project name="AOKP/themes-platform-vendor-tmobile-apps-ThemeChooser" path="vendor/tmobile/apps/ThemeChooser" remote="aokp" revision="b1c2014586ccd7aa82ff605ec7b9c80ee69c2714" upstream="jb-mr1"/>
+  <project name="AOKP/vendor_acer_a510" path="vendor/acer/a510" remote="aokp" revision="1e4f90ae77256230e538e467a2018452f6fc0a2b" upstream="jb-mr1"/>
+  <project name="AOKP/vendor_aokp" path="vendor/aokp" remote="aokp" revision="0989c250f5f117a7be2ffc876bbf255f4423874e" upstream="jb-mr1"/>
+  <project name="AOKP/vendor_asus" path="vendor/asus" remote="aokp" revision="b1d3bb145a17ae3367d86aa9c607af1851eb6df2" upstream="jb-mr1"/>
+  <project name="AOKP/vendor_htc" path="vendor/htc" remote="aokp" revision="119692497dffed7e3159201d8abc86d877412cfa" upstream="jb-mr1"/>
+  <project name="AOKP/vendor_lge" path="vendor/lge" remote="aokp" revision="75d7c3b9f14cdd0f16c3e9b4f9ce202275f25aea" upstream="jb-mr1"/>
+  <project name="AOKP/vendor_motorola" path="vendor/motorola" remote="aokp" revision="dea43892a759917c36ea96f41398a8244eb78bd4" upstream="jb-mr1"/>
+  <project name="AOKP/vendor_samsung" path="vendor/samsung" remote="aokp" revision="674a06b57a9c3273af8c1d841162bcf2296e6b99" upstream="jb-mr1"/>
+  <project name="CyanogenMod/android_bionic" path="bionic" remote="cm" revision="ed26d701c4955bc3a4720bc2c7d9b6654a6956f1" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_bootable_recovery" path="bootable/recovery" remote="cm" revision="4d9a03bbf5a57bc6c874b8146c34fc46e596c15a" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_device_common" path="device/common" remote="cm" revision="201208b201b9dfe79d7469b73c1b48b6a3e8b21f" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_device_samsung_omap4-common" path="device/samsung/omap4-common" remote="cm" revision="93f92b2649e6c5c924e38aaa7be33799599d68f1" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_device_samsung_smdk4412-qcom-common" path="device/samsung/smdk4412-qcom-common" remote="cm" revision="2073a105fa7adde10d2ccebc17419634bcf8fc10" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="cm" revision="823694de2bdebdce3d7708fb251962226f12e02a" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_external_clang" path="external/clang" remote="cm" revision="a3a0b1efddcbc2d9a81654f911e5f00b32adc407" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="cm" revision="5735c9995574669adeed9380e86fbf0f24287477" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_external_yaffs2" path="external/yaffs2" remote="cm" revision="f58e662da7d160694d554500acea0af00e5c60b9" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_external_zlib" path="external/zlib" remote="cm" revision="b481bdc48de9d5883a9fc986ef9a7f708302e717" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="cm" revision="1b9060697bbb5f13cd89bc89f9df599711c52303" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" remote="cm" revision="7ada57e40b81b6cb5a2a796921b205cf87c2cdff" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_hardware_libhardware" path="hardware/libhardware" remote="cm" revision="347e17240adf07ec02d7ae1adab89a18b7e77187" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="cm" revision="e7b58b249036231b667665fcd6c86ed6f73b16dc" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_hardware_msm7k" path="hardware/msm7k" remote="cm" revision="e2d92ef15492cdecc2c495e962a39e3669d945a7" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio" remote="cm" revision="12de8f9578890e2fe7ad9f1a4b4ee5fa228f598a" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf" remote="cm" revision="428bdd1819f8bb2fcad7f255b0d99fd061846a45" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_hardware_qcom_bt" path="hardware/qcom/bt" remote="cm" revision="ad7eab092dae95101a71f1dd758086ad042dcf1d" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_hardware_qcom_camera" path="hardware/qcom/camera" remote="cm" revision="bc283bd0139f959581a18f56ad63452ff54bbcc5" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display" remote="cm" revision="c962bf8b8fa4d9a6400811296fb270f47db68cf4" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_hardware_qcom_display-caf" path="hardware/qcom/display-caf" remote="cm" revision="fc5c7c577a1d3657bec8d813e38dfa482d9ab174" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_hardware_qcom_gps" path="hardware/qcom/gps" remote="cm" revision="80a6e9b904214c5a967a3708b5bc67946e6b844c" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media" remote="cm" revision="f480d5ca6d04cf0fe3fae6eefa64c6a4eb6639e7" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_hardware_ril" path="hardware/ril" remote="cm" revision="e5c01c05e408ab2bd8f59c2bd6695520b0777668" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="cm" revision="7800b3bc1b6fe88f67eacb1e0df919526fe1904e" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_hardware_ti_omap4xxx" path="hardware/ti/omap4xxx" remote="cm" revision="de825f2f08fad153116807ea18002e4590bd71bb" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_hardware_ti_wlan" path="hardware/ti/wlan" remote="cm" revision="6db38e28e0f4abd0a6cd43e2e1237013304c9b24" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_hardware_ti_wpan" path="hardware/ti/wpan" remote="cm" revision="70d3d9f7c230387fcdcb1eefb79a8e3e0208e33e" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_kernel_htc_msm8960" path="kernel/htc/msm8960" remote="cm" revision="ab9ae4009ec5c34ea6f91ba1aa0f829d26b8b920" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_kernel_motorola_omap4-common" path="kernel/motorola/omap4-common" remote="cm" revision="8d15fe80276391e8eb0355362dc3a4cfc22bf780" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_kernel_motorola_omap4-kexec-common" path="kernel/motorola/omap4-kexec-common" remote="cm" revision="b613271a171285eeb2dbb99d1279207fc75107c2" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_kernel_samsung_aries" path="kernel/samsung/aries" remote="cm" revision="b429ec3fd774ebb511a76377caebbbafe5e1ae9f" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_kernel_samsung_msm8660-common" path="kernel/samsung/msm8660-common" remote="cm" revision="ae4880e79750aa2aa3e0068fa92614acfad8bb88" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_kernel_samsung_smdk4210" path="kernel/samsung/smdk4210" remote="cm" revision="fd46d49743a930021c4099ddabeb96198ca39c4f" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="cm" revision="43aaedbcde478c8e032771d62a1956133b29b1d4" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_kernel_samsung_t1" path="kernel/samsung/t1" remote="cm" revision="a19a5772bb59106eafaa2a1235ab7bcb2089eaad" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_packages_apps_Calculator" path="packages/apps/Calculator" remote="cm" revision="8f96b82d0731401e76c44a4e95fe4719fabd5966" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="cm" revision="bffa11174ba8f85ada239e3044b441d61ac4c3ba" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_prebuilt" path="prebuilt" remote="cm" revision="8cd7b1da50074241e6d86e7d60150e096c7206c8" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" path="vendor/tmobile/libs/com.tmobile.themes" remote="cm" revision="4c0f151c11b3de7b70f5ef1d67a69501147bf263" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_vendor_tmobile_products_themes" path="vendor/tmobile/products/themes" remote="cm" revision="671cd64ee2d932c5836942c9cde9bcc70d9d9f25" upstream="cm-10.1"/>
+  <project name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" path="vendor/tmobile/providers/ThemeManager" remote="cm" revision="74a2338d1707fb658474ca847eecbc57a5350f9e" upstream="cm-10.1"/>
+  <project name="CyanogenMod/lge-kernel-iproj" path="kernel/lge/iproj" remote="cm" revision="3a2bda2c28dd21a6b1503a8507fd477eefc42752" upstream="cm-10.1"/>
+  <project name="device/generic/armv7-a" revision="700aab170ce712a62b268055637c0afded59bf04" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="device/generic/armv7-a-neon" revision="8a52ffa74a764bfe0445c2eac59048217302e152" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="device/generic/common" revision="11c092a6cbfcf6207f07a9a8e3398e747e7f5461" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="device/generic/goldfish" revision="f0397b68bd158c97f8c83ad7c299f8962d6c885e" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="device/generic/mips" revision="764fe788f7e9cefdd3be6ea29847f19a4f818f94" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="device/generic/x86" revision="ae8e76ccfa7666e4eee9f0e584e3d02720a65651" upstream="refs/tags/android-4.2.2_r1"/>
+  <project groups="device" name="device/google/accessory/arduino" revision="abc5159a3ca9dbb5c7e364a1eab99901a4440ac5" upstream="refs/tags/android-4.2.2_r1"/>
+  <project groups="device" name="device/google/accessory/demokit" revision="7dfe7f89a3b174709c773fe319531006e46440d9" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="device/sample" revision="c331ea1f30b9699a523852d8eeded031267ba6a4" upstream="refs/tags/android-4.2.2_r1"/>
+  <project groups="device" name="device/ti/panda" revision="d2236a551043baa28bf5b5f9662aaaa8f19398ac" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="faux123/mako" path="kernel/lge/mako" remote="aokp" revision="5760a3dc7e59a806bf3f0d885675ab95904e73e5" upstream="enhanced_stock"/>
+  <project name="imoseyon/leanKernel-galaxy-nexus" path="kernel/samsung/tuna" remote="aokp" revision="a9b2cc80aa48bec190672bd5eb8a068aa9cd7932" upstream="lk-jb-mr1"/>
+  <project name="kernel/tegra" path="kernel/asus/grouper" revision="05b777c19883248ea341945a243ddb64859cd3e7" upstream="android-tegra3-grouper-3.1-jb-mr1.1"/>
+  <project name="platform/abi/cpp" path="abi/cpp" revision="eb789ea833d8d800662b67914d9c1785a58c2caa" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" revision="3c491d6efb8ff2534a6934702760a6273f197918" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/bootable/diskinstaller" path="bootable/diskinstaller" revision="60d078a5924284a452a8fe739247704f8b31c754" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/cts" path="cts" revision="f511e6dad586423e31802dc949b6c9188ee82b0b" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/development" path="development" revision="04e0a9cfd0b56178562b788cfa9f249bc8272d4f" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/docs/source.android.com" path="docs/source.android.com" revision="e30dbd19a0d334de0ae526b6f3927b92da8ef34c" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/aac" path="external/aac" revision="6ab36997af5d5acda4f21d33031f4e45c85f96b7" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/android-clat" path="external/android-clat" revision="62ea9b6658a4c2116eeb6450c8244269448e79aa" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/android-mock" path="external/android-mock" revision="1922306d33d16f143d5a01daebba4e2cb477d0f5" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/ant-glob" path="external/ant-glob" revision="0f189400fd2a36bf11bfb058e7f3917eb7ed163a" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/antlr" path="external/antlr" revision="324c4644fee44b9898524c09511bd33c3f12e2df" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/apache-harmony" path="external/apache-harmony" revision="db08d5168e51be52dd50e3bb9015fe69f106fb36" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/apache-http" path="external/apache-http" revision="3be157fc74e12c82abfa92ee804a35dfb68f4410" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/apache-qp" path="external/apache-qp" revision="64ea622b23e6612eb8e7dcae6bfd4314beb022a8" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/apache-xml" path="external/apache-xml" revision="66ca8092e7de32f4e4c5a3feac68e1c736601f0a" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/arduino" path="external/arduino" revision="d5790d78880d4bd60be277ee20e53a851aa8c116" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/astl" path="external/astl" revision="f2ee14f99092efb28cfd07a5c8db4d15d09908b8" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/bison" path="external/bison" revision="4af3c477523bc96a5a535500a722cd563f1d486f" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/blktrace" path="external/blktrace" revision="d345431f16b8f76f30a58193ff2b26d5853e1109" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/bouncycastle" path="external/bouncycastle" revision="e0c8f22188026985f304bc28da6fb41d3bffb517" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/bsdiff" path="external/bsdiff" revision="23e322ab19fb7d74c2c37e40ce364d9f709bdcee" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/bzip2" path="external/bzip2" revision="8a81a414914781498381ad24153c5e6c4a7ed525" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/checkpolicy" path="external/checkpolicy" revision="a6834194069d4dd2f5883b57a0783b97def7e9ab" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/chromium" path="external/chromium" revision="db1b8993439cc1b0f741735e15d72a8cd67a6752" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/chromium-trace" path="external/chromium-trace" revision="a0cfa1db34523c908b00b443d227b6a516ce2010" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/cibu-fonts" path="external/cibu-fonts" revision="04031024425e067f6b0fdc40def6e04516c31c4f" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/compiler-rt" path="external/compiler-rt" revision="1f922a5259510f70a12576e7a61eaa0033a02b16" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/dbus" path="external/dbus" revision="75c4b89fa7ffa66b07164ca1c5b109e36e5e97aa" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/dexmaker" path="external/dexmaker" revision="8d4cf4fbc6d164960275e2993baad28702681393" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/dhcpcd" path="external/dhcpcd" revision="f90995451089db8e5d4a72641e74cf2e5c35074f" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/doclava" path="external/doclava" revision="a75af37150ebca7cdca4869b72948ae0ac5abfc3" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/dropbear" path="external/dropbear" revision="23022b83136aed155988e760f890ad01b2b77f92" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/easymock" path="external/easymock" revision="c9a234086537e5fd820b110bbd99e3cdc695004c" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/eclipse-basebuilder" path="external/eclipse-basebuilder" revision="6134da6347cc997e0cf2921aaadfb46f21c05d85" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/eclipse-windowbuilder" path="external/eclipse-windowbuilder" revision="47395d9511ba43b05cc630193e89187f4361c6cc" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/elfutils" path="external/elfutils" revision="101941576c52a1270c9c2d63ea95d48729d6cf96" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/embunit" path="external/embunit" revision="336b7c65098af0d1be69f2db55f4e75342d73b3f" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/emma" path="external/emma" revision="05f1ab8ceee67b9e89f36a713e04509d6f6d8934" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/esd" path="external/esd" revision="224a67f2683a7ee997179fc5dd16115e39987b0f" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/expat" path="external/expat" revision="bb9f3f74212ef523ff693cba9d782575ebba7418" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/eyes-free" path="external/eyes-free" revision="16bd4c7a4d1bfe229068b637614dad7c48dd2ceb" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/fat32lib" path="external/fat32lib" revision="6950a7fcfda2d03446514e315b6bf6bd5c476496" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/fdlibm" path="external/fdlibm" revision="24856709256f5243a6c29446577052f15fb1ab3b" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/flac" path="external/flac" revision="686d6ff2afda2ea3211bec37ad0daa655c24e6d4" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/freetype" path="external/freetype" revision="8afe960626dbf326354b836fd4d63e05b6974195" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/fsck_msdos" path="external/fsck_msdos" revision="ed86a9f77e796aa5923a5b2d1455a7739b86e60b" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/ganymed-ssh2" path="external/ganymed-ssh2" revision="8d1992afbc3c2560bc3d6395473bd3ad2981300b" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/gcc-demangle" path="external/gcc-demangle" revision="d6f70187df96e4f1968adbe9b52035dc474b7590" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/genext2fs" path="external/genext2fs" revision="2e672fab1b8935ab6df5c2fc69386fe6b4ade873" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/giflib" path="external/giflib" revision="b027dc00b076d1820924bdcefeb987bb5d2dbf35" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/google-diff-match-patch" path="external/google-diff-match-patch" revision="cecbe12841337860291c2d6a5728b681ec5fca2a" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/grub" path="external/grub" revision="5c3bee7defca81362e98cf8fbd6c20cf47dff00b" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/gtest" path="external/gtest" revision="344e5f3db17615cc853073a02968a603efd39109" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/guava" path="external/guava" revision="515370823799decea74751ff3a78b80e44e71219" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/hamcrest" path="external/hamcrest" revision="84ee3dc21ec5d2dd99cee722d058029f1027e9ef" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/harfbuzz" path="external/harfbuzz" revision="6842c622d8b68251f7d696d22bfa44a16c0bef46" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/hyphenation" path="external/hyphenation" revision="bfa84834dfeb7fe8d058c2e7e07b5981451ddf82" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/icu4c" path="external/icu4c" revision="7c2b59472f5086b12884891153b07ab11726fb99" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/iproute2" path="external/iproute2" revision="f145162f3afe38720a6b53d77d453a7b2365703f" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/ipsec-tools" path="external/ipsec-tools" revision="f24812ba17f2e7cc7fafdffaa21c6e54195f26c9" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/iptables" path="external/iptables" revision="42ea6673b74e0ee9ad17f5462dc171fbe1491137" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/jack" path="external/jack" revision="5ceb2025ac5d25ed48183ac2d3dac4691fe761fb" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/javasqlite" path="external/javasqlite" revision="c508dc69793e188873a46e8dff480264dad7eb83" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/javassist" path="external/javassist" revision="9566207cff5871c672fac1f0d4332d93292036d7" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/jdiff" path="external/jdiff" revision="e4694302d6a3786c64d954e0b3cf42786283bd3c" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/jhead" path="external/jhead" revision="dc4fa4c9d4d0246b900c587cbeb6dabbbe813199" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/jmdns" path="external/jmdns" revision="f4eb7466d5c09098f9dc54137ed3235e3c43fc9f" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/jmonkeyengine" path="external/jmonkeyengine" revision="a6b44658eb1c55295f132a36233a11aa2bd8f9cf" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/jsilver" path="external/jsilver" revision="a618b151d54625078424bc5940f6bfd63344d11b" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/jsr305" path="external/jsr305" revision="5c7719ffff2b6b6acfde07b0e41c08224f443a7b" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/junit" path="external/junit" revision="f4e7f982bdd63feb52e5d63e7a5605d5a7f8df36" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/kernel-headers" path="external/kernel-headers" revision="66111e8ee366cc5401fceaf4053edf3ea5e4888b" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/libcap-ng" path="external/libcap-ng" revision="1d1011a3c5049a7f9eef99d22f3704e4367579cc" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/libffi" path="external/libffi" revision="bcb9a592a47ec641d7cec89e10fcf556132713aa" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/libgsm" path="external/libgsm" revision="43b81e9497e8e467b95062f3effd6c7613c1d676" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/liblzf" path="external/liblzf" revision="6946aa575b0949d045722794850896099d937cbb" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/libmtp" path="external/libmtp" revision="afc55a0d0657e4e12b17ea4bac5472c0f17d338a" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/libnfc-nci" path="external/libnfc-nci" revision="e9df6ba5a8fcccf306a80b1670b423be8fe7746a" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/libnfc-nxp" path="external/libnfc-nxp" revision="54222dd9925b48b9d124a1f73302866cb5256788" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/libnl-headers" path="external/libnl-headers" revision="6ccf7349d61f73ac26a0675d735d903ab919c658" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/libogg" path="external/libogg" revision="ec0b24fb1468abe37be4164a6feb16568e036bde" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/libpcap" path="external/libpcap" revision="3a7bce5dda6a8db92c9248846d0255e68c3a5b2a" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/libphonenumber" path="external/libphonenumber" revision="bf5d9756fe9b13f5b2e0696c62949cea77396687" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/libppp" path="external/libppp" revision="706e567fc5ff6b79738a5f470e5aa7b2cae76459" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/libselinux" path="external/libselinux" revision="895b446e8b4844f2da7354e74d5d96cc7f4418f3" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/libsepol" path="external/libsepol" revision="6617731185f5d7c899b376d1bfa2dea11eb494a0" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/libusb" path="external/libusb" revision="2801917fe150393d4f4a354165fe89550ae22613" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/libusb-compat" path="external/libusb-compat" revision="94867ba54eb7faa8efca81cf2214d00bb9143d27" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/libvorbis" path="external/libvorbis" revision="de559619fd4dd0d2d9608436696fd44bdf74eba8" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/libvpx" path="external/libvpx" revision="b9c4e676b7be3cf3a9e45e06d71bf0ca92344a5b" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/libxml2" path="external/libxml2" revision="a2bb4a267ee7c62c48bf6089e3da51d8283a97f3" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/libxslt" path="external/libxslt" revision="98f5140c33273d3bd67ca03566f8417406001016" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/libyuv" path="external/libyuv" revision="a88a10a6ed9f9801852929bac34bdf10510116f4" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/linux-tools-perf" path="external/linux-tools-perf" revision="48630d72aea6bab5223eb2538c34d87c1500d7f6" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/littlemock" path="external/littlemock" revision="ef05251bc732a206bd6ba19110277045767482fd" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/llvm" path="external/llvm" revision="99e8132d3daedcebd061aacb0b08d1e1a6dab14c" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/lohit-fonts" path="external/lohit-fonts" revision="1f372455cf70c4981061dc61db33027a46e6065b" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/markdown" path="external/markdown" revision="6f2e3554ae38cc90518d32e02cb57d05988270a6" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/mdnsresponder" path="external/mdnsresponder" revision="8d61c6ee30ea24755dfd111fb497c0533c0ff461" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/mesa3d" path="external/mesa3d" revision="359cceccdd5673460cf06d1b80b70c80f887b0dd" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/mksh" path="external/mksh" revision="93bd42c789325fdd5f8c9ba8f000abd65281f241" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/mockwebserver" path="external/mockwebserver" revision="7f665a12afb94eae4ffd53d2e351eeb4618ed946" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/mp4parser" path="external/mp4parser" revision="36e04c3847e93ccf4c3e0cde617eecea72c2605d" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/mtpd" path="external/mtpd" revision="ccbf67d1286770e6cbfd2de9d2c7c2e14836dd30" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/naver-fonts" path="external/naver-fonts" revision="9238a39d60763f81b98d96f02b087d52b9d4fd52" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/netcat" path="external/netcat" revision="e4e83f8147f92141cd02cc46cccca088c527ea2a" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/netperf" path="external/netperf" revision="58ecd3b7c76263900e38921360e334a416aec362" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/neven" path="external/neven" revision="fcb93b178d5b59a0a229d9d7a087fb36853e10b1" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/nist-sip" path="external/nist-sip" revision="b23dbfce7ea84c39cea75b612868a5832cb9af2b" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/oauth" path="external/oauth" revision="bc170f58de82000ed6460f111686a850a1890c07" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/okhttp" path="external/okhttp" revision="975568b5b9bdfdb3fe76359d13eba0f0babca7be" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/opencv" path="external/opencv" revision="1691b57dbad9cfc15b9a8b72f8b376733b934ffe" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/openfst" path="external/openfst" revision="f4c12fce1ee58e670f9c3fce46c40296ba9ee8a2" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/openssh" path="external/openssh" revision="2e12148014504c51b8e28b2d206f904057ffe690" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/openssl" path="external/openssl" revision="ba352abc91bee1349bbdcbababd38e954e2020c7" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/oprofile" path="external/oprofile" revision="18536b6cb0c5e4f316b98ba471d138cb45b490b7" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/ping" path="external/ping" revision="351fb705d76aa9b12ea69b1ffe456c23029f1064" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/ping6" path="external/ping6" revision="d758e6092bbd733f608ea49ffdd00f0d421b4fc7" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/ppp" path="external/ppp" revision="e644c9d23cce70bf4e7db4a63325e5dc8ba87363" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/proguard" path="external/proguard" revision="10aa7224f49abe49d123bde5d34346202d49aaca" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/protobuf" path="external/protobuf" revision="db9ab02c090cdc5d2b31399867a4052351b8793d" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/qemu" path="external/qemu" revision="0f809250987b64f491bd3b4b73c0f0d33036a786" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/qemu-pc-bios" path="external/qemu-pc-bios" revision="20349dae98d7de09a7e390d4a706c64f1db6edc2" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/quake" path="external/quake" revision="7a5374d597eac72560bb5a3f8209438896cfe8a7" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/regex-re2" path="external/regex-re2" revision="2ee91b4af4353b9e6a9d591c32fedfc58fd4ef35" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/replicaisland" path="external/replicaisland" revision="99e2e54c5d036048caf09bb05eea0969de093104" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/safe-iop" path="external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/sepolicy" path="external/sepolicy" revision="acbded32b2663b65605878f32d45894f4948a388" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/smali" path="external/smali" revision="28333561005524c15818b98c7f8f07409451ff30" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/sonivox" path="external/sonivox" revision="4a213147dbe60416aa26ebdba0f3c631b2e2b013" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/speex" path="external/speex" revision="fb7db5853ffb841a4d32fea8b5c3a43e6b875cae" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/sqlite" path="external/sqlite" revision="42c3f41862cfff8d4539903e47a42cae97d13d37" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/srec" path="external/srec" revision="0ea9fd9cea14dd70b809238e07d85f383f1fa747" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/srtp" path="external/srtp" revision="b7cb8944d4dfcdbfa53d25519b6e8d4b04b856f4" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/stlport" path="external/stlport" revision="30865cb901602ed078ff2ed534529d847b3b54b5" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/strace" path="external/strace" revision="7d2d23fd9b87c3a1fc61a51e6cb62923d952fb79" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/stressapptest" path="external/stressapptest" revision="0956427aa995561acb4471764158ae057a36dad5" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/svox" path="external/svox" revision="0256c986f7ff678bee07ca0462505e1de18efa62" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/tagsoup" path="external/tagsoup" revision="68c2ec9e0acdb3214b7fb91dbab8c9fab8736817" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/tcpdump" path="external/tcpdump" revision="532b8f38c144da9a298260a5d8978ab9e8e3856c" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/tinyalsa" path="external/tinyalsa" revision="ff2e54293f32b5bb5ff75b4cb25babb00f429ca4" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/tinyxml" path="external/tinyxml" revision="d589f7e4a51e75bd5c98a3defd8ee84d7059e86e" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/tinyxml2" path="external/tinyxml2" revision="c74b546f5af36968ffa56d7fd4529f4273b96f48" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/tremolo" path="external/tremolo" revision="3eec17965b3e2974e120e864b351a916f59835ba" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/v8" path="external/v8" revision="1271ef1d193abf567937ab57edf19913f5800166" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/valgrind" path="external/valgrind" revision="0d909f54d46a5c4e5143a0469f77472673fdd06a" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/webp" path="external/webp" revision="5a50414796e9a458925c7a13a15055d02406bf43" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/webrtc" path="external/webrtc" revision="cf20dbf9d2547baa8a0fb631f282109e7a58a6cc" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/wpa_supplicant_6" path="external/wpa_supplicant_6" revision="e9780b9481b88ef37fdac2a0171e50cab6112781" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/wpa_supplicant_8_ti" path="external/wpa_supplicant_8_ti" remote="omapzoom" revision="8000cb59347ca0685a7fac842ed22a77eb71bd56" upstream="p-jb-mr1-release"/>
+  <project name="platform/external/xmlwriter" path="external/xmlwriter" revision="e95d92246ee35273dde2bee8b00485cc14c12be5" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/xmp_toolkit" path="external/xmp_toolkit" revision="f12f744843a67c910ec325fc6dfa73988f67b97c" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/external/zxing" path="external/zxing" revision="7620644768ffc235607b3a94671e49518c18686f" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="6f3138bbc93b7105ddb49a803c15c3f98077f533" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/frameworks/compile/linkloader" path="frameworks/compile/linkloader" revision="02ec342181a6ec32ba594a1409680ab4fedc0e4c" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/frameworks/compile/llvm-ndk-cc" path="frameworks/compile/llvm-ndk-cc" revision="a57b3dcfde6356263c6ee22619340f504e297262" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" revision="cedee4b38f4786845183be7f5916dd520a170ae0" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="f7f66c5cfa9e6f7dd56edd3e30d95d64bcd22c17" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/frameworks/ex" path="frameworks/ex" revision="a918fec5a1dc028e9b04a71d0e37ee1bab6caa61" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/frameworks/mff" path="frameworks/mff" revision="b9669b8540a1e5c953374d53b115514335e23c27" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/frameworks/ml" path="frameworks/ml" revision="984e52f31d596840cfa51b1238e1c43d2e1918f8" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/frameworks/opt/calendar" path="frameworks/opt/calendar" revision="a30f9f3ab4e0e42e02540518dd37b352257cd98d" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/frameworks/opt/carddav" path="frameworks/opt/carddav" revision="f08aa2df132dd8dc32a0013d3750137d9dd9280a" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/frameworks/opt/emoji" path="frameworks/opt/emoji" revision="0805d75d3c4319f54fb3c854be2f7baab561cf1b" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/frameworks/opt/inputmethodcommon" path="frameworks/opt/inputmethodcommon" revision="df9dd39c2047992a43b64e13bb0fc348a1630f3b" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/frameworks/opt/mailcommon" path="frameworks/opt/mailcommon" revision="cf87374d113b26ad611260fb69de9ad68bf0ca2c" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/frameworks/opt/mms" path="frameworks/opt/mms" revision="b43774ad8fe7855acb2b23837003b44cebabdc73" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/frameworks/opt/photoviewer" path="frameworks/opt/photoviewer" revision="9c3046a1b1ee9d806562d280e4a0143d1cd428b0" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/frameworks/opt/vcard" path="frameworks/opt/vcard" revision="7a2ac0405decebde94bb4e3a139d62162e6e15a0" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/frameworks/support" path="frameworks/support" revision="0bb301ec35dcaf2ea9c2010790d7eadb1918b8cb" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/frameworks/testing" path="frameworks/testing" revision="c23cd41c2c540419490f425f0c481ed9d7845011" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/frameworks/wilhelm" path="frameworks/wilhelm" revision="4a4c728965b10df683d37b4b7ac27211e02006ad" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/gdk" path="gdk" revision="4cad58ef8e2fc58576b4f3b00a19fa508d139536" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/hardware/invensense" path="hardware/invensense" revision="33ce91b37062fa63af192f5643de93f3beebe854" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster" revision="fb5cdde80ba39d571e3281f3619717a3a5361cf0" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/hardware/qcom/msm8960" path="hardware/qcom/msm8960" revision="1527a7f45985b21726df5dbcce10af54646d62c0" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors" revision="07c5bcdb36158e22d33bac02eecd83d4ff1fb2f8" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="59d7a95be90328306ac2dfef31a5663f1f2d76fc" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/hardware/samsung_slsi/exynos5" path="hardware/samsung_slsi/exynos5" revision="e1b99ca8589f7f5bc0b019f7b50b8776a8f85bf0" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/hardware/ti/omap3" path="hardware/ti/omap3" revision="efbb6b2de5fa16ef72bbf02526e3c0a7a6d63a4f" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/libcore" path="libcore" revision="cc55503ccef76a3b443b1dba3a2f05049b2b34f4" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/libnativehelper" path="libnativehelper" revision="73d3c2e3ed100f1d0ccc08a9675844bf8a0848fa" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/ndk" path="ndk" revision="6d6807c76da40a9c9a27ea235c7518557c95219c" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="58b8a2b8822b7356f8da1d30f79cda6e775cef4c" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="fa5a6affffb0efe6c41ea44499b0e9b619bee161" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/apps/Calendar" path="packages/apps/Calendar" revision="2c6ac828a5a6107390d5061471a9c947a494b9bf" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" revision="ac36d01380ada5f7d6acf3a5d55e0127edfae15f" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller" revision="e46af364c64b173ee83eac7b80c598a1583cb723" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/apps/Exchange" path="packages/apps/Exchange" revision="2fd0058c0204b60966a77265e75bfbc471416aa8" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/apps/Gallery" path="packages/apps/Gallery" revision="2ff3681f5a1fe071b629a06ad846b9d93cb16211" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" revision="e688d4d402ed98a6c82a1706c16894e6d59f458d" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain" revision="c8b0463643df1f1a4035d641e155f5e1cef8e1b0" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/apps/LegacyCamera" path="packages/apps/LegacyCamera" revision="9d6aaa8c6818b41b4c356d78232206e8a0593c8a" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/apps/Music" path="packages/apps/Music" revision="c37b200d0198deaf488d0bfe1b114d1fd9037382" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX" revision="bc778ede573dc74646d42dfe96997f74b23ac61d" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/apps/Protips" path="packages/apps/Protips" revision="d3815b7cfdd90ba39b7deafc758085f0a21fdd88" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/apps/Provision" path="packages/apps/Provision" revision="10c3003a034b9c18b7d17e967135088b95b9ca31" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/apps/SmartCardService" path="packages/apps/SmartCardService" revision="29eae320a4bd222b5ff1c092f84f1aebba88d0b7" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" revision="15fadb4a27fc01ec6a244993f0094c3e1ed93546" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts" revision="4db997871e3f4c3f84660815096e5276b47c5c91" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/apps/SpeechRecorder" path="packages/apps/SpeechRecorder" revision="536aa74ff3a77186bef29dc9333a34688fa59d13" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/apps/Stk" path="packages/apps/Stk" revision="ac72bff9a1fdb69260e53b277547bf4e32e8e43f" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/apps/Tag" path="packages/apps/Tag" revision="5f90b8ac1de415b3081525936b094e9a326c659e" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/apps/VideoEditor" path="packages/apps/VideoEditor" revision="906cf88e638a24760c8ed09fc83b552f90717e79" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/experimental" path="packages/experimental" revision="1e0c48bb3760be078159c785396621e90d275ae0" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/inputmethods/OpenWnn" path="packages/inputmethods/OpenWnn" revision="59aefa242169b7a51c2381daee58ff22fd1834ce" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/inputmethods/PinyinIME" path="packages/inputmethods/PinyinIME" revision="a08d08cdea4319fb74b55289e1b4e1b1a5249bc2" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/providers/ApplicationsProvider" path="packages/providers/ApplicationsProvider" revision="f4c7588927f130acb0427e368ba355ed8c50cb3c" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/providers/CalendarProvider" path="packages/providers/CalendarProvider" revision="49b7d3c4222a6b9e8e4639ba6d5128df5eac7e73" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/providers/DrmProvider" path="packages/providers/DrmProvider" revision="086b365871211ff97f26f3bd6514ff1a39b20300" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/providers/MediaProvider" path="packages/providers/MediaProvider" revision="0ac6e4efb267b3c22938bcbfcd6935009566a449" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/providers/PartnerBookmarksProvider" path="packages/providers/PartnerBookmarksProvider" revision="96d0a80af45923767baf449fc8c735c2f71d64ae" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/providers/TelephonyProvider" path="packages/providers/TelephonyProvider" revision="15156cd6afcc7ed57ac7be40ef2d32a615e83599" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/providers/UserDictionaryProvider" path="packages/providers/UserDictionaryProvider" revision="c387029cf67358eea21f9fd60e6cac60049839b7" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/screensavers/Basic" path="packages/screensavers/Basic" revision="d3042ca894df518184dc88117d129e545c9566f3" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/screensavers/PhotoTable" path="packages/screensavers/PhotoTable" revision="948a38658241c8379e6efc743cd3a70a71d37421" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/screensavers/WebView" path="packages/screensavers/WebView" revision="6e0a80f6faed6191acc8ce1b6c79eada09e9e042" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/wallpapers/Basic" path="packages/wallpapers/Basic" revision="087f4a16d91506a326e7587522d27a1d3986727f" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/wallpapers/Galaxy4" path="packages/wallpapers/Galaxy4" revision="9cc201742a70ab0879965d23d2c2b33ee6c18e70" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/wallpapers/HoloSpiral" path="packages/wallpapers/HoloSpiral" revision="dcc502f8570a018d6cdf8ba8491409f79598b89d" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/wallpapers/LivePicker" path="packages/wallpapers/LivePicker" revision="fbbdc9f61cea305cbba3830bad6397bf2ffb7587" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/wallpapers/MagicSmoke" path="packages/wallpapers/MagicSmoke" revision="0bc134c3cc8216af2ca277fa69c2f81dfe7aa406" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/wallpapers/MusicVisualization" path="packages/wallpapers/MusicVisualization" revision="f6987612ffa546d2397df73d2b8cde747544db1d" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/wallpapers/NoiseField" path="packages/wallpapers/NoiseField" revision="2215802fd84dfb4dfe5b11c05aacd6f1d1eb890f" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/packages/wallpapers/PhaseBeam" path="packages/wallpapers/PhaseBeam" revision="5d8b4d21d4e85754608be68e34b05486079a01d4" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/pdk" path="pdk" revision="4c9d0b3b746700dd5398edd65510af1f6db4b752" upstream="refs/tags/android-4.2.2_r1"/>
+  <project groups="darwin" name="platform/prebuilts/clang/darwin-x86/3.1" path="prebuilts/clang/darwin-x86/3.1" revision="426233405bef3c7c825095ab14256c3773894b9b" upstream="refs/tags/android-4.2.2_r1"/>
+  <project groups="darwin" name="platform/prebuilts/clang/darwin-x86/3.2" path="prebuilts/clang/darwin-x86/3.2" revision="af856d77b3cbb1f6afccdc531bee991403c28907" upstream="refs/tags/android-4.2.2_r1"/>
+  <project groups="linux" name="platform/prebuilts/clang/linux-x86/3.1" path="prebuilts/clang/linux-x86/3.1" revision="e95b4ce22c825da44d14299e1190ea39a5260bde" upstream="refs/tags/android-4.2.2_r1"/>
+  <project groups="linux" name="platform/prebuilts/clang/linux-x86/3.2" path="prebuilts/clang/linux-x86/3.2" revision="471afab478649078ad7c75ec6b252481a59e19b8" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/prebuilts/eclipse" path="prebuilts/eclipse" revision="c271db8ee0361092b49841f66673296107b9c5d9" upstream="refs/tags/android-4.2.2_r1"/>
+  <project groups="darwin,arm" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" revision="21b2cba584638ed5ffad8e3fd3e6808bfa299cf0" upstream="refs/tags/android-4.2.2_r1"/>
+  <project groups="darwin,arm" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" revision="cd1d69ca633c901c064b7f934735493025fa20d9" upstream="refs/tags/android-4.2.2_r1"/>
+  <project groups="darwin,mips" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" revision="837cdd9b3ac7231daaf961056c7505843130f667" upstream="refs/tags/android-4.2.2_r1"/>
+  <project groups="darwin,x86" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" revision="042d6130038c95be86fcea5dddda2db07bd5aa27" upstream="refs/tags/android-4.2.2_r1"/>
+  <project groups="linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" revision="d73a051b1fd1d98f5c2463354fb67898f0090bdb" upstream="refs/tags/android-4.2.2_r1"/>
+  <project groups="linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" revision="1aa5822560cdc5cf155e2a8300c73441cb519ec4" upstream="refs/tags/android-4.2.2_r1"/>
+  <project groups="linux" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" revision="10191e2f442c5409cb70783508658d474612a97e" upstream="refs/tags/android-4.2.2_r1"/>
+  <project groups="linux" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" revision="9e754ea754eac37d1cd20182cc5d37df85239b0d" upstream="refs/tags/android-4.2.2_r1"/>
+  <project groups="linux" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" revision="4b88bc4aafd69d02e14e2aa99046db67666f7f52" upstream="refs/tags/android-4.2.2_r1"/>
+  <project groups="linux,mips" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" revision="90fc0bd53f2d07ef2383bfad53671f76801c740e" upstream="refs/tags/android-4.2.2_r1"/>
+  <project groups="linux,x86" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" revision="b9ebba077c2f62e930b16240d7f3ad61f1ad1dfc" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/prebuilts/ndk" path="prebuilts/ndk" revision="9e04eb2e30bc8d5707c57c2787111b3a5b365fa9" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" revision="f1b132a1caaec8a89785f83f0201d07e72cce4cc" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/prebuilts/sdk" path="prebuilts/sdk" revision="de5b622335ccfbe24aaa11447edde3463350a074" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/prebuilts/tools" path="prebuilts/tools" revision="bbf7c256c4f5261c20599ec2f0d4f9316cb226bd" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/sdk" path="sdk" revision="779041f18578734729c41d172eee38e45dec4627" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/system/bluetooth" path="system/bluetooth" revision="8d2fef3fa40e01380774f47fb5741c0ad4d5a93a" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/system/media" path="system/media" revision="555aac882ed63e70019c78ccc58032a5be0f58ec" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/system/netd" path="system/netd" revision="d67cc366f769a84f56755b12d2c943113ec46f8c" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/system/security" path="system/security" revision="cd8df62842b81c93022feabfacda8efd257e1754" upstream="refs/tags/android-4.2.2_r1"/>
+  <project groups="toolsbuild" name="platform/tools/build" path="tools/build" revision="7eff27462d5989acf22839575ff0a8978e3369b5" upstream="refs/tags/android-4.2.2_r1"/>
+  <project name="platform/tools/motodev" path="tools/motodev" revision="6ddc6008c328cdb9f03e71bdbb44f48586026c43" upstream="refs/tags/android-4.2.2_r1"/>
+</manifest>
