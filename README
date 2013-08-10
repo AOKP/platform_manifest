@@ -1,3 +1,23 @@
-$ repo init -u https://github.com/AOKP/platform_manifest.git -b jb-mr2
-$ repo sync
-$ . ./platform_manifest/manual_add_kernel_manifest.sh
+Init repo without kernels :
+
+    $ repo init -u https://github.com/AOKP/platform_manifest.git -b jb-mr2
+
+Init repo with kernels :
+
+    $ repo init -u https://github.com/AOKP/platform_manifest.git -b jb-mr2 -g all,-notdefault,kernel
+
+Init repo without devices, vendors and kernels (add them manually to local_manifests yourself)
+
+    $ repo init -u https://github.com/AOKP/platform_manifest.git -b jb-mr2 -g all,-notdefault,-device,-vendor
+
+Init repo only for a particular device
+
+    $ repo init -u https://github.com/AOKP/platform_manifest.git -b jb-mr2 -g all,-notdefault,<devicename>,<vendorname>
+
+for example, to init only trees needed to build i9300
+
+    $ repo init -u https://github.com/AOKP/platform_manifest.git -b jb-mr2 -g all,-notdefault,i9300,samsung
+
+Sync repo
+
+    $ repo sync
