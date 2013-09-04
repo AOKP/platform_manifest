@@ -102,7 +102,7 @@
   <project path="device/samsung/t0ltetmo" name="AOKP/device_samsung_t0ltetmo" remote="aokp" revision="jb-mr2" groups="notdefault,device,t0lte" />
   <project path="device/samsung/toro" name="AOKP/device_samsung_toro" remote="aokp" revision="jb-mr2" groups="notdefault,device,toro" />
   <project path="device/samsung/toroplus" name="AOKP/device_samsung_toroplus" remote="aokp" revision="jb-mr2" groups="notdefault,device,toroplus" />
-  <project path="device/samsung/tuna" name="AOKP/device_samsung_tuna" remote="aokp" revision="jb-mr2" groups="notdefault,device,tuna" />
+  <project path="device/samsung/tuna" name="AOKP/device_samsung_tuna" remote="aokp" revision="jb-mr2" groups="notdefault,device,samsung" />
   <project path="device/samsung/vibrantmtd" name="AOKP/device_samsung_vibrantmtd" remote="aokp" revision="jb-mr2" groups="notdefault,device,vibrantmtd" />
   <project path="device/sony/mint" name="AOKP/device_sony_mint" remote="aokp" revision="jb-mr2" groups="notdefault,device,mint" />
   <project path="device/sony/pollux" name="AOKP/device_sony_pollux" remote="aokp" revision="jb-mr2" groups="notdefault,device,pollux" />
