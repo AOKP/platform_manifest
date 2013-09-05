@@ -355,7 +355,7 @@
   <project path="kernel/motorola/omap4-kexec-common" name="CyanogenMod/android_kernel_motorola_omap4-kexec-common" remote="cm" revision="cm-10.1" groups="notdefault,kernel,motorola" />
   <project path="kernel/samsung/aries" name="CyanogenMod/android_kernel_samsung_aries" remote="cm" revision="cm-10.2" groups="notdefault,kernel,samsung" />
   <project path="kernel/samsung/d2" name="CyanogenMod/android_kernel_samsung_d2" remote="cm" revision="cm-10.2" groups="notdefault,kernel,d2" />
-  <project path="kernel/samsung/manta" name="kernel/exynos" remote="aosp" revision="android-exynos-manta-3.4-jb-mr2" groups="notdefault,kernel,manta" />
+  <project path="kernel/samsung/manta" name="CyanogenMod/android_kernel_samsung_manta" remote="cm" revision="cm-10.2" groups="notdefault,kernel,manta" />
   <project path="kernel/samsung/msm8660-common" name="CyanogenMod/android_kernel_samsung_msm8660-common" remote="cm" revision="cm-10.2" groups="notdefault,kernel" />
   <project path="kernel/samsung/smdk4210" name="CyanogenMod/android_kernel_samsung_smdk4210" remote="cm" revision="cm-10.1" groups="notdefault,kernel" />
   <project path="kernel/samsung/smdk4412" name="CyanogenMod/android_kernel_samsung_smdk4412" remote="cm" revision="cm-10.2" groups="notdefault,kernel" />
