@@ -37,6 +37,7 @@
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" />
   <project path="device/acer/a510" name="AOKP/device_acer_a510" remote="aokp" revision="jb-mr2" groups="notdefault,device,a510" />
+  <project path="device/asus/flo" name="AOKP/device_asus_flo" remote="aokp" revision="jb-mr2" groups="notdefault,device,flo" />
   <project path="device/asus/grouper" name="AOKP/device_asus_grouper" remote="aokp" revision="jb-mr2" groups="notdefault,device,grouper" />
   <project path="device/asus/tilapia" name="AOKP/device_asus_tilapia" remote="aokp" revision="jb-mr2" groups="notdefault,device,tilapia" />
   <project path="device/common" name="CyanogenMod/android_device_common" remote="cm" revision="cm-10.2" groups="notdefault,device" />
