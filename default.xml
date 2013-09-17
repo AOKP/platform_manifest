@@ -371,7 +371,6 @@
   <project path="packages/apps/Browser" name="AOKP/packages_apps_Browser" remote="aokp" revision="jb-mr2" />
   <project path="packages/apps/Calculator" name="AOKP/packages_apps_Calculator" remote="aokp" revision="jb-mr2" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
-  <project path="packages/apps/Camera" name="AOKP/packages_apps_Camera" remote="aokp" revision="jb-mr2" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CDMATools" name="AOKP/packages_apps_CDMATools" remote="aokp" revision="jb-mr2" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
