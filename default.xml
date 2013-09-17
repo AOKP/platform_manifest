@@ -94,10 +94,10 @@
   <project path="device/samsung/msm8660-common" name="AOKP/device_samsung_msm8660-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,hercules" />
   <project path="device/samsung/msm8960-common" name="AOKP/device_samsung_msm8960-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,d2,jf" />
   <project path="device/samsung/omap4-common" name="CyanogenMod/android_device_samsung_omap4-common" remote="cm" revision="cm-10.2" groups="notdefault,device,i9100g" />
-  <project path="device/samsung/qcom-common" name="AOKP/device_samsung_qcom-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,d2,jf,t0lte,hercules,i605" />
-  <project path="device/samsung/smdk4412-common" name="AOKP/device_samsung_smdk4412-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,t0lte,i605" />
-  <project path="device/samsung/smdk4412-qcom-common" name="CyanogenMod/android_device_samsung_smdk4412-qcom-common" remote="cm" revision="cm-10.2" groups="notdefault,device,t0lte,i605" />
-  <project path="device/samsung/t0lte" name="AOKP/device_samsung_t0lte" remote="aokp" revision="jb-mr2" groups="notdefault,device,t0lte,i605" />
+  <project path="device/samsung/qcom-common" name="AOKP/device_samsung_qcom-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,d2,jf,hercules" />
+  <project path="device/samsung/smdk4412-common" name="AOKP/device_samsung_smdk4412-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,t0lte,i605,l900" />
+  <project path="device/samsung/smdk4412-qcom-common" name="CyanogenMod/android_device_samsung_smdk4412-qcom-common" remote="cm" revision="cm-10.2" groups="notdefault,device,t0lte,i605,l900" />
+  <project path="device/samsung/t0lte" name="AOKP/device_samsung_t0lte" remote="aokp" revision="jb-mr2" groups="notdefault,device,t0lte,i605,l900" />
   <project path="device/samsung/t0lteatt" name="AOKP/device_samsung_t0lteatt" remote="aokp" revision="jb-mr2" groups="notdefault,device,t0lte" />
   <project path="device/samsung/t0ltetmo" name="AOKP/device_samsung_t0ltetmo" remote="aokp" revision="jb-mr2" groups="notdefault,device,t0lte" />
   <project path="device/samsung/toro" name="AOKP/device_samsung_toro" remote="aokp" revision="jb-mr2" groups="notdefault,device,toro" />
@@ -359,7 +359,7 @@
   <project path="kernel/samsung/manta" name="CyanogenMod/android_kernel_samsung_manta" remote="cm" revision="cm-10.2" groups="notdefault,kernel,manta" />
   <project path="kernel/samsung/msm8660-common" name="CyanogenMod/android_kernel_samsung_msm8660-common" remote="cm" revision="cm-10.2" groups="notdefault,kernel,hercules" />
   <project path="kernel/samsung/smdk4210" name="CyanogenMod/android_kernel_samsung_smdk4210" remote="cm" revision="cm-10.1" groups="notdefault,kernel,i9100" />
-  <project path="kernel/samsung/smdk4412" name="CyanogenMod/android_kernel_samsung_smdk4412" remote="cm" revision="cm-10.2" groups="notdefault,kernel,t0lte,i605,i9300" />
+  <project path="kernel/samsung/smdk4412" name="CyanogenMod/android_kernel_samsung_smdk4412" remote="cm" revision="cm-10.2" groups="notdefault,kernel,t0lte,i605,i9300,l900" />
   <project path="kernel/samsung/jf" name="AOKP/kernel_samsung_jf" remote="aokp" revision="jb-mr2" groups="notdefault,kernel,jf" />
   <project path="kernel/samsung/t1" name="CyanogenMod/android_kernel_samsung_t1" remote="cm" revision="cm-10.2" groups="notdefault,kernel,t1" />
   <project path="kernel/samsung/tuna" name="kernel/omap" remote="aosp" revision="android-omap-tuna-3.0-jb-mr2" groups="notdefault,kernel,toro,toroplus,maguro" />
