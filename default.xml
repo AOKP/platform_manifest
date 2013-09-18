@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote  name="DAGr8"
+           fetch="https://github.com/" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
@@ -69,6 +71,7 @@
   <project path="device/motorola/spyder" name="AOKP/device_motorola_spyder" remote="aokp" revision="jb-mr2" groups="notdefault,device,spyder" />
   <project path="device/motorola/targa" name="AOKP/device_motorola_targa" remote="aokp" revision="jb-mr2" groups="notdefault,device,targa" />
   <project path="device/motorola/umts_spyder" name="AOKP/device_motorola_umts_spyder" remote="aokp" revision="jb-mr2" groups="notdefault,device,spyder" />
+  <project path="device/oppo/find5" name="DAGr8/device_oppo_find5" remote="DAGr8" revision="aokp" groups="notdefault,device,find5" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/aries-common" name="AOKP/device_samsung_aries-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,vibrantmtd" />
   <project path="device/samsung/celox-common" name="AOKP/device_samsung_celox-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,hercules" />
@@ -173,7 +176,7 @@
   <project path="external/harfbuzz" name="platform/external/harfbuzz" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" />
   <project path="external/hyphenation" name="platform/external/hyphenation" />
-  <project path="external/icu4c" name="platform/external/icu4c" groups="pdk" />
+  <project path="external/icu4c" name="platform/external/icu4c" remote="aosp" groups="pdk" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
@@ -354,6 +357,7 @@
   <project path="kernel/lge/iproj" name="CyanogenMod/lge-kernel-iproj" remote="cm" revision="cm-10.1" groups="notdefault,kernel,p930,su640,vs920" />
   <project path="kernel/lge/mako" name="CyanogenMod/lge-kernel-mako" remote="cm" revision="cm-10.2" groups="notdefault,kernel,mako" />
   <project path="kernel/motorola/omap4-common" name="CyanogenMod/android_kernel_motorola_omap4-common" remote="cm" revision="cm-10.1" groups="notdefault,kernel,solana,spyder,maserati,tyger,targa" />
+  <project path="kernel/oppo/find5" name="DAGr8/android_kernel_oppo_find5" remote="DAGr8" revision="kko" groups="notdefault,kernel,find5" />
   <project path="kernel/samsung/aries" name="CyanogenMod/android_kernel_samsung_aries" remote="cm" revision="cm-10.2" groups="notdefault,kernel,vibrantmtd" />
   <project path="kernel/samsung/d2" name="CyanogenMod/android_kernel_samsung_d2" remote="cm" revision="cm-10.2" groups="notdefault,kernel,d2" />
   <project path="kernel/samsung/manta" name="CyanogenMod/android_kernel_samsung_manta" remote="cm" revision="cm-10.2" groups="notdefault,kernel,manta" />
