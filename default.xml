@@ -40,7 +40,7 @@
   <project path="device/asus/flo" name="AOKP/device_asus_flo" remote="aokp" revision="jb-mr2" groups="notdefault,device,flo" />
   <project path="device/asus/grouper" name="AOKP/device_asus_grouper" remote="aokp" revision="jb-mr2" groups="notdefault,device,grouper" />
   <project path="device/asus/tilapia" name="AOKP/device_asus_tilapia" remote="aokp" revision="jb-mr2" groups="notdefault,device,tilapia" />
-  <project path="device/common" name="CyanogenMod/android_device_common" remote="cm" revision="cm-10.2" groups="notdefault,device" />
+  <project path="device/common" name="CyanogenMod/android_device_common" remote="cm" revision="cm-10.2" groups="device" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common"  groups="pdk" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
