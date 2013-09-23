@@ -350,7 +350,7 @@
   <project path="kernel/asus/grouper" name="CyanogenMod/android_kernel_asus_grouper" remote="cm" revision="cm-10.2" groups="notdefault,kernel,grouper" />
   <project path="kernel/asus/tf101" name="AOKP/kernel_asus_tf101" remote="aokp" revision="jb" groups="notdefault,kernel,tf101" />
   <project path="kernel/google/msm" name="CyanogenMod/android_kernel_google_msm" remote="cm" revision="cm-10.2" groups="notdefault,kernel,flo,mako" />
-  <project path="kernel/htc/m7" name="CyanogenMod/android_kernel_htc_m7" remote="cm" revision="cm-10.2" groups="notdefault,kernel,m7" />
+  <project path="kernel/htc/m7" name="AOKP/kernel_htc_m7" remote="aokp" revision="jb-mr2" groups="notdefault,kernel,m7" />
   <project path="kernel/htc/msm8960" name="CyanogenMod/android_kernel_htc_msm8960" remote="cm" revision="cm-10.2" groups="notdefault,kernel,evita" />
   <project path="kernel/lge/iproj" name="CyanogenMod/lge-kernel-iproj" remote="cm" revision="cm-10.1" groups="notdefault,kernel,p930,su640,vs920" />
   <project path="kernel/motorola/omap4-common" name="CyanogenMod/android_kernel_motorola_omap4-common" remote="cm" revision="cm-10.1" groups="notdefault,kernel,solana,spyder,maserati,tyger,targa" />
