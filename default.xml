@@ -337,7 +337,7 @@
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/power" name="AOKP/hardware_qcom_power" remote="aokp" revision="jb-mr2" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" />
+  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="cm" revision="cm-10.2" />
   <project path="hardware/ril" name="AOKP/hardware_ril" remote="aokp" revision="jb-mr2" groups="pdk" />
   <project path="hardware/samsung" name="AOKP/hardware_samsung" remote="aokp" revision="jb-mr2" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
@@ -476,6 +476,7 @@
   <project path="system/extras" name="AOKP/system_extras" remote="aokp" revision="jb-mr2" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-10.2" groups="pdk" />
+  <project path="system/qcom" name="CyanogenMod/android_system_qcom" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="AOKP/system_vold" remote="aokp" revision="jb-mr2" groups="pdk" />
 <!--
