@@ -207,7 +207,7 @@
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
   <project path="external/libpng" name="AOKP/external_libpng" remote="aokp" revision="jb-mr2" groups="pdk" />
   <project path="external/libppp" name="platform/external/libppp" />
-  <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
+  <project path="external/libselinux" name="AOKP/external_libselinux" remote="aokp" revision="jb-mr2" groups="pdk" />
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" remote="cm" revision="cm-10.2" />
   <project path="external/libusb" name="platform/external/libusb" />
   <project path="external/libusb_aah" name="platform/external/libusb_aah" groups="libusb_aah" />
@@ -484,7 +484,7 @@
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" />
-  <project path="tools/emulator" name="platform/tools/emulator" groups="notdefault,tools" />  
+  <project path="tools/emulator" name="platform/tools/emulator" groups="notdefault,tools" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
   <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="notdefault,tools" />
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
