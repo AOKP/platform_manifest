@@ -25,7 +25,6 @@ for example, to init trees needed to build mako and grouper :
 
     $ repo init -u https://github.com/AOKP/platform_manifest.git -b jb-mr2 -g all,-notdefault,mako,grouper,lge,asus
 
-
 sync repo :
 
     $ repo sync
