@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="Albinoman109"		
-	   fetch="https://github.com/" />
-
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
@@ -59,7 +56,7 @@
   <project path="device/htc/m7spr" name="AOKP/device_htc_m7spr" remote="aokp" revision="jb-mr2" groups="notdefault,device,m7,m7spr" />
   <project path="device/htc/m7tmo" name="AOKP/device_htc_m7tmo" remote="aokp" revision="jb-mr2" groups="notdefault,device,m7,m7tmo" />
   <project path="device/htc/m7ul" name="AOKP/device_htc_m7ul" remote="aokp" revision="jb-mr2" groups="notdefault,device,m7,m7ul" />
-  <project path="device/htc/dlx" name="Albinoman109/android_device_htc_dlx" remote="jb-aokp" revision="jb-mr2" groups="notdefault,device,htc" />
+  <project path="device/htc/dlx" name="Albinoman109/android_device_htc_dlx" remote="jb-aokp" revision="jb-mr2" groups="notdefault,device,dlx" />
   <project path="device/htc/m7-common" name="AOKP/device_htc_m7-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,m7,m7att,m7spr,m7tmo,m7ul" />
   <project path="device/htc/msm8960-common" name="AOKP/device_htc_msm8960-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,m7,m7att,m7spr,m7tmo,m7ul,evita" />
   <project path="device/htc/s4-common" name="AOKP/device_htc_s4-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,htc,evita" />
