@@ -1,6 +1,5 @@
 INITIALIZING REPOSITORY
 =======================
-
 Init core trees without any device/kernel/vendor :
 
     $ repo init -u https://github.com/AOKP/platform_manifest.git -b jb-mr2
