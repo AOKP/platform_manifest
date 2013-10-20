@@ -207,7 +207,7 @@
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
   <project path="external/libpng" name="AOKP/external_libpng" remote="aokp" revision="jb-mr2" groups="pdk" />
   <project path="external/libppp" name="platform/external/libppp" />
-  <project path="external/libselinux" name="external_libselinux" remote="aokp" revision="jb-mr2" groups="pdk" />
+  <project path="external/libselinux" name="AOKP/external_libselinux" remote="aokp" revision="jb-mr2" groups="pdk" />
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" remote="cm" revision="cm-10.2" />
   <project path="external/libusb" name="platform/external/libusb" />
   <project path="external/libusb_aah" name="platform/external/libusb_aah" groups="libusb_aah" />
