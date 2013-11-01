@@ -32,7 +32,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-10.2" />
   <project path="cts" name="platform/cts" groups="cts"/>
-  <project path="dalvik" name="AOKP/dalvik" remote="aokp" revision="kitkat" />
+  <project path="dalvik" name="dalvik" remote="obi" revision="kitkat" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
@@ -473,12 +473,12 @@
   <project path="vendor/aokp" name="vendor_aokp" remote="obi" revision="kitkat" />
   <!-- <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="kitkat" />
   <project path="vendor/htc" name="AOKP/vendor_htc" remote="aokp" revision="kitkat" groups="notdefault,vendor,htc" /> -->
-  <project path="vendor/lge" name="AOKP/vendor_lge" remote="aokp" revision="kitkat" groups="notdefault,vendor,lge" />
+  <project path="vendor/lge" name="vendor_lge" remote="obi" revision="kitkat" groups="notdefault,vendor,lge" />
   <project path="vendor/motorola" name="vendor_motorola" remote="obi" revision="kitkat" groups="notdefault,vendor,motorola" />
   <!-- <project path="vendor/oppo" name="AOKP/vendor_oppo" remote="aokp" revision="kitkat" groups="notdefault,vendor,oppo" /> -->
-  <project path="vendor/samsung" name="AOKP/vendor_samsung" remote="aokp" revision="kitkat" groups="notdefault,vendor,samsung" />
+  <project path="vendor/samsung" name="vendor_samsung" remote="obi" revision="kitkat" groups="notdefault,vendor,samsung" />
   <!--<project path="vendor/sony" name="AOKP/vendor_sony" remote="aokp" revision="kitkat" groups="notdefault,vendor,sony" /> -->
-  <project path="vendor/asus" name="AOKP/vendor_asus" remote="aokp" revision="kitkat" groups="notdefault,vendor,asus" />
+  <project path="vendor/asus" name="vendor_asus" remote="obi" revision="kitkat" groups="notdefault,vendor,asus" />
 
   <!-- <project path="vendor/tmobile/apps/ThemeChooser" name="AOKP/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="kitkat" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="AOKP/vendor_tmobile_libs_com.tmobile.themes" remote="aokp" revision="kitkat" />
