@@ -8,6 +8,9 @@
   <remote  name="aokp"
            fetch="https://github.com/"
            review="gerrit.aokp.co" />
+           
+  <remote  name="cm"
+           fetch="https://github.com/"         
 		   
   <remote  name="obi"
            fetch="https://github.com/ObiJuanKenobe/" />
@@ -24,7 +27,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk"/>
-  <project path="bionic" name="CyanogenMod/android_bionic" remote="cm" revision="cm-10.2" groups="pdk" />
+  <project path="bionic" name="bionic" remote="obi" revision="kitkat" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-10.2" />
@@ -318,16 +321,16 @@
   <project path="hardware/ril" name="hardware_ril" remote="obi" revision="kitkat" groups="pdk" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
-  <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.2" />
-  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="cm-10.2" />
-  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="cm-10.2" />
+  <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="obi" revision="kitkat" />
+  <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="obi" revision="kitkat" />
+  <project path="hardware/ti/wpan" name="hardware_ti_wpan" remote="obi" revision="kitkat" />
   <project path="kernel/asus/flo" name="kernel_asus_flo" remote="obi" revision="kitkat" groups="notdefault,kernel,flo" />
   <project path="kernel/asus/grouper" name="CyanogenMod/android_kernel_asus_grouper" remote="cm" revision="cm-10.2" groups="notdefault,kernel,grouper" />
   <project path="kernel/lge/mako" name="kernel_lge_mako" remote="obi" revision="kitkat" groups="notdefault,kernel,mako" />
   <project path="kernel/motorola/msm8960dt" name="kernel_motorola_msm8960dt" remote="obi" revision="kitkat" groups="notdefault,kernel,ghost,xt1053,xt1060" />
   <project path="kernel/samsung/manta" name="CyanogenMod/android_kernel_samsung_manta" remote="cm" revision="cm-10.2" groups="notdefault,kernel,manta" />
   <project path="kernel/samsung/tuna" name="kernel/omap" remote="aosp" revision="android-omap-tuna-3.0-jb-mr2" groups="notdefault,kernel,maguro,toro,toroplus" />
-  <project path="libcore" name="CyanogenMod/android_libcore" remote="cm" revision="cm-10.2" />
+  <project path="libcore" name="libcore" remote="obi" revision="kitkat" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
