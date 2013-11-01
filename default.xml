@@ -10,7 +10,7 @@
            review="gerrit.aokp.co" />
            
   <remote  name="cm"
-           fetch="https://github.com/"         
+           fetch="https://github.com/" />       
 		   
   <remote  name="obi"
            fetch="https://github.com/ObiJuanKenobe/" />
