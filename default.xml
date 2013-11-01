@@ -278,7 +278,7 @@
   <project path="frameworks/native" name="frameworks_native" remote="obi" revision="kitkat" groups="pdk" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
-  <project path="frameworks/opt/colorpicker" name="platform/rameworks/opt/colorpicker"/>
+  <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker"/>
   <project path="frameworks/opt/datetimepicker" name="frameworks_opt_datetimepicker" remote="obi" revision="kitkat" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
@@ -454,7 +454,7 @@
   <project path="system/extras" name="system_extras" remote="obi" revision="kitkat" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="system_netd" remote="obi" revision="kitkat" groups="pdk" />
-  <project path="system/qcom" name="platform/system/qcom" groups="pdk" />
+  <project path="system/qcom" name="system_qcom" remote="obi" revision="kitkat" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="system_vold" remote="obi" revision="kitkat" groups="pdk" />
 <!--
