@@ -30,7 +30,7 @@
   <project path="bionic" name="bionic" remote="obi" revision="kitkat" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-10.2" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" groups="cts"/>
   <project path="dalvik" name="dalvik" remote="obi" revision="kitkat" />
   <project path="developers/build" name="platform/developers/build" />
