@@ -26,6 +26,7 @@
   <project path="build" name="build" remote="obi" revision="kitkat" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="art" name="platform/art" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk"/>
   <project path="bionic" name="bionic" remote="obi" revision="kitkat" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
