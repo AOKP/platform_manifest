@@ -294,7 +294,6 @@
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="obi" revision="kitkat" groups="pdk" />
-  <project path="frameworks/opt/telephony-msim" name="frameworks_opt_telephony-msim" remote="obi" revision="kitkat" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/rs" name="frameworks_rs" remote="obi" revision="kitkat"  groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" />
