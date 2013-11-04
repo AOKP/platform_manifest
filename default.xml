@@ -42,7 +42,7 @@
   <project path="device/asus/flo" name="device_asus_flo" remote="obi" revision="kitkat" groups="notdefault,device,flo" />
   <project path="device/asus/grouper" name="device_asus_grouper" remote="obi" revision="kitkat" groups="notdefault,device,grouper" />
   <project path="device/asus/tilapia" name="device_asus_tilapia" remote="obi" revision="kitkat" groups="notdefault,device,tilapia" />
-  <project path="device/common" name="platform/device/common" groups="device" />
+  <project path="device/common" name="device/common" groups="device" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common"  groups="pdk" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
