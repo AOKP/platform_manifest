@@ -61,11 +61,12 @@
   <project path="device/motorola/xt1060" name="AOKP/device_motorola_xt1060" remote="aokp" revision="kitkat" groups="notdefault,device,ghost,xt1060" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/d2-common" name="device_samsung_d2-common" remote="obi" revision="kitkat" groups="notdefault,device,d2,d2att,d2tmo,d2usc,d2vzw" />
-  <project path="device/samsung/d2tmo" name="device_samsung_d2tmo" remote="obi" revision="kitkat" groups="notdefault,device,d2,d2tmo" />
+  <project path="device/samsung/d2tmo" name="AOKP/device_samsung_d2tmo" remote="aokp" revision="kitkat" groups="notdefault,device,d2,d2tmo" />
   <project path="device/samsung/maguro" name="device_samsung_maguro" remote="obi" revision="kitkat" groups="notdefault,device,maguro" />
   <project path="device/samsung/manta" name="device_samsung_manta" remote="obi" revision="kitkat" groups="notdefault,device,manta" />
   <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="obi" revision="kitkat" groups="notdefault,device,d2,d2att,d2tmo,d2usc,d2vzw,jf,jfltespr,jfltetmo,jflteusc,jfltevzw" />
   <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="obi" revision="kitkat" groups="notdefault,device,d2,d2att,d2tmo,d2usc,d2vzw,jf,jfltespr,jfltetmo,jflteusc,jfltevzw,hercules" />
+  <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="obi" revision="kitkat" groups="notdefault,device,jf,jflteatt,jfltecri,jfltecsp,jfltetmo,jflteusc,jfltevzw" />
   <project path="device/samsung/jfltevzw" name="AOKP/device_samsung_jfltevzw" remote="aokp" revision="kitkat" groups="notdefault,device,jf,jfltevzw" />
   <project path="device/samsung/toro" name="device_samsung_toro" remote="obi" revision="kitkat" groups="notdefault,device,toro" />
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="obi" revision="kitkat" groups="notdefault,device,maguro,toro,toroplus" />
