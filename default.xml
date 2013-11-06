@@ -69,6 +69,10 @@
   <project path="device/samsung/jfltevzw" name="AOKP/device_samsung_jfltevzw" remote="aokp" revision="kitkat" groups="notdefault,device,jf,jfltevzw" />
   <project path="device/samsung/toro" name="device_samsung_toro" remote="obi" revision="kitkat" groups="notdefault,device,toro" />
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="obi" revision="kitkat" groups="notdefault,device,maguro,toro,toroplus" />
+  <project path="device/sony/common" name="device_sony_common" remote="obi" revision="kitkat" groups="notdefault,device,sony" />
+  <project path="device/sony/qcom-common" name="device_sony_qcom-common" remote="obi" revision="kitkat" groups="notdefault,device,yuga" />
+  <project path="device/sony/fusion3-common" name="device_sony_fusion3-common" remote="obi" revision="kitkat" groups="notdefault,device,yuga" />
+  <project path="device/sony/yuga" name="device_sony_yuga" remote="obi" revision="kitkat" groups="notdefault,device,yuga" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -338,6 +342,7 @@
   <project path="kernel/samsung/jf" name="AOKP/kernel_samsung_jf" remote="aokp" revision="kitkat" groups="notdefault,kernel,jf,jfltespr,jfltetmo,jflteusc,jfltevzw" />
   <project path="kernel/samsung/manta" name="CyanogenMod/android_kernel_samsung_manta" remote="cm" revision="cm-10.2" groups="notdefault,kernel,manta" />
   <project path="kernel/samsung/tuna" name="kernel/omap" remote="aosp" revision="android-omap-tuna-3.0-jb-mr2" groups="notdefault,kernel,maguro,toro,toroplus" />
+  <project path="kernel/sony/apq8064" name="CyanogenMod/android_kernel_sony_apq8064" remote="cm" revision="cm-10.2" groups="notdefault,kernel,yuga" />
   <project path="libcore" name="libcore" remote="obi" revision="kitkat" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
