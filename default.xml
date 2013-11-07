@@ -490,7 +490,7 @@
   <project path="vendor/motorola" name="vendor_motorola" remote="obi" revision="kitkat" groups="notdefault,vendor,motorola" />
   <!-- <project path="vendor/oppo" name="AOKP/vendor_oppo" remote="aokp" revision="kitkat" groups="notdefault,vendor,oppo" /> -->
   <project path="vendor/samsung" name="vendor_samsung" remote="obi" revision="kitkat" groups="notdefault,vendor,samsung" />
-  <!--<project path="vendor/sony" name="AOKP/vendor_sony" remote="aokp" revision="kitkat" groups="notdefault,vendor,sony" /> -->
+  <project path="vendor/sony" name="AOKP/vendor_sony" remote="aokp" revision="jb-mr2" groups="notdefault,vendor,sony" />
   <project path="vendor/asus" name="vendor_asus" remote="obi" revision="kitkat" groups="notdefault,vendor,asus" />
 
   <!-- <project path="vendor/tmobile/apps/ThemeChooser" name="AOKP/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="kitkat" />
