@@ -179,8 +179,8 @@
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
   <project path="external/kissfft" name="external_kissfft" remote="obi" revision="kitkat" />
-  <!-- <project path="external/koush/Superuser" name="AOKP/external_koush_Superuser" remote="aokp" revision="kitkat" />
-  <project path="external/koush/Widgets" name="AOKP/external_koush_Widgets" remote="aokp" revision="kitkat" /> -->
+  <project path="external/koush/Superuser" name="CyanogenMod/Superuser" remote="cm" revision="cm-11.0" />
+  <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="cm" revision="cm-11.0" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
@@ -383,7 +383,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="obi" revision="kitkat" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
