@@ -332,6 +332,7 @@
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="obi" revision="kitkat" />
   <project path="hardware/ril" name="hardware_ril" remote="obi" revision="kitkat" groups="pdk" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
+  <project path="hardware/sony/DASH" name="CyanogenMod/hardware_sony_DASH" remote="cm" revision="cm-11.0" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="obi" revision="kitkat" />
   <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="obi" revision="kitkat" />
