@@ -53,6 +53,7 @@
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="notdefault,device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="notdefault,device" />
+  <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="obi" revision="kitkat" groups="notdefault,device,hammerhead" />
   <project path="device/lge/mako" name="device_lge_mako" remote="obi" revision="kitkat" groups="notdefault,device,mako" />
   <project path="device/motorola/msm8960dt-common" name="AOKP/device_motorola_msm8960dt-common" remote="aokp" revision="kitkat" groups="notdefault,device,ghost,xt1053,xt1060" />
   <project path="device/motorola/qcom-common" name="AOKP/device_motorola_qcom-common" remote="aokp" revision="kitkat" groups="notdefault,device,ghost,xt1053,xt1060" />
@@ -341,6 +342,7 @@
   <project path="hardware/ti/wpan" name="hardware_ti_wpan" remote="obi" revision="kitkat" />
   <project path="kernel/asus/flo" name="kernel_asus_flo" remote="obi" revision="kitkat" groups="notdefault,kernel,flo" />
   <project path="kernel/asus/grouper" name="CyanogenMod/android_kernel_asus_grouper" remote="cm" revision="cm-10.2" groups="notdefault,kernel,grouper" />
+  <project path="kernel/lge/hammerhead" name="kernel/msm" revision="android-msm-hammerhead-3.4-kk-r1" groups="notdefault,kernel,hammerhead" />
   <project path="kernel/lge/mako" name="kernel_lge_mako" remote="obi" revision="kitkat" groups="notdefault,kernel,mako" />
   <project path="kernel/motorola/msm8960dt" name="kernel_motorola_msm8960dt" remote="obi" revision="kitkat" groups="notdefault,kernel,ghost,xt1053,xt1060" />
   <project path="kernel/samsung/d2" name="kernel_samsung_d2" remote="obi" revision="kitkat" groups="notdefault,kernel,d2,d2att,d2tmo,d2usc,d2vzw" />
