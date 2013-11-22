@@ -12,9 +12,6 @@
   <remote  name="cm"
            fetch="https://github.com/" />
 
-  <remote  name="obi"
-           fetch="https://github.com/ObiJuanKenobe/" />
-
   <remote  name="omapzoom"
            fetch="git://git.omapzoom.org/"
            review="http://review.omapzoom.org/" />
@@ -23,25 +20,25 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="build" remote="obi" revision="kitkat" groups="pdk">
+  <project path="build" name="AOKP/build" remote="aokp" revision="kitkat" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="art" name="platform/art" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk"/>
-  <project path="bionic" name="bionic" remote="obi" revision="kitkat" groups="pdk" />
+  <project path="bionic" name="AOKP/bionic" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" groups="cts"/>
-  <project path="dalvik" name="dalvik" remote="obi" revision="kitkat" />
+  <project path="dalvik" name="AOKP/dalvik" remote="aokp" revision="kitkat" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" />
-  <project path="device/asus/flo" name="device_asus_flo" remote="obi" revision="kitkat" groups="notdefault,device,flo" />
-  <project path="device/asus/grouper" name="device_asus_grouper" remote="obi" revision="kitkat" groups="notdefault,device,grouper" />
-  <project path="device/asus/tilapia" name="device_asus_tilapia" remote="obi" revision="kitkat" groups="notdefault,device,tilapia" />
+  <project path="device/asus/flo" name="AOKP/device_asus_flo" remote="aokp" revision="kitkat" groups="notdefault,device,flo" />
+  <project path="device/asus/grouper" name="AOKP/device_asus_grouper" remote="aokp" revision="kitkat" groups="notdefault,device,grouper" />
+  <project path="device/asus/tilapia" name="AOKP/device_asus_tilapia" remote="aokp" revision="kitkat" groups="notdefault,device,tilapia" />
   <project path="device/common" name="device/common" groups="device" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common"  groups="pdk" />
@@ -53,31 +50,31 @@
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="notdefault,device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="notdefault,device" />
-  <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="obi" revision="kitkat" groups="notdefault,device,hammerhead" />
-  <project path="device/lge/mako" name="device_lge_mako" remote="obi" revision="kitkat" groups="notdefault,device,mako" />
+  <project path="device/lge/hammerhead" name="AOKP/device_lge_hammerhead" remote="aokp" revision="kitkat" groups="notdefault,device,hammerhead" />
+  <project path="device/lge/mako" name="AOKP/device_lge_mako" remote="aokp" revision="kitkat" groups="notdefault,device,mako" />
   <project path="device/motorola/msm8960dt-common" name="AOKP/device_motorola_msm8960dt-common" remote="aokp" revision="kitkat" groups="notdefault,device,ghost,xt1053,xt1060" />
   <project path="device/motorola/qcom-common" name="AOKP/device_motorola_qcom-common" remote="aokp" revision="kitkat" groups="notdefault,device,ghost,xt1053,xt1060" />
   <project path="device/motorola/xt1053" name="AOKP/device_motorola_xt1053" remote="aokp" revision="kitkat" groups="notdefault,device,ghost,xt1053" />
   <project path="device/motorola/xt1060" name="AOKP/device_motorola_xt1060" remote="aokp" revision="kitkat" groups="notdefault,device,ghost,xt1060" />
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="device/samsung/d2-common" name="device_samsung_d2-common" remote="obi" revision="kitkat" groups="notdefault,device,d2,d2att,d2tmo,d2usc,d2vzw" />
+  <project path="device/samsung/d2-common" name="AOKP/device_samsung_d2-common" remote="aokp" revision="kitkat" groups="notdefault,device,d2,d2att,d2tmo,d2usc,d2vzw" />
   <project path="device/samsung/d2tmo" name="AOKP/device_samsung_d2tmo" remote="aokp" revision="kitkat" groups="notdefault,device,d2,d2tmo" />
   <project path="device/samsung/d2vzw" name="AOKP/device_samsung_d2vzw" remote="aokp" revision="kitkat" groups="notdefault,device,d2,d2vzw" />
-  <project path="device/samsung/maguro" name="device_samsung_maguro" remote="obi" revision="kitkat" groups="notdefault,device,maguro" />
-  <project path="device/samsung/manta" name="device_samsung_manta" remote="obi" revision="kitkat" groups="notdefault,device,manta" />
-  <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="obi" revision="kitkat" groups="notdefault,device,d2,d2att,d2tmo,d2usc,d2vzw,jf,jfltespr,jfltetmo,jflteusc,jfltevzw" />
-  <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="obi" revision="kitkat" groups="notdefault,device,d2,d2att,d2tmo,d2usc,d2vzw,jf,jfltespr,jfltetmo,jflteusc,jfltevzw,hercules" />
-  <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="obi" revision="kitkat" groups="notdefault,device,jf,jflteatt,jfltecri,jfltecsp,jfltetmo,jflteusc,jfltevzw" />
+  <project path="device/samsung/maguro" name="AOKP/device_samsung_maguro" remote="aokp" revision="kitkat" groups="notdefault,device,maguro" />
+  <project path="device/samsung/manta" name="AOKP/device_samsung_manta" remote="aokp" revision="kitkat" groups="notdefault,device,manta" />
+  <project path="device/samsung/msm8960-common" name="AOKP/device_samsung_msm8960-common" remote="aokp" revision="kitkat" groups="notdefault,device,d2,d2att,d2tmo,d2usc,d2vzw,jf,jfltespr,jfltetmo,jflteusc,jfltevzw" />
+  <project path="device/samsung/qcom-common" name="AOKP/device_samsung_qcom-common" remote="aokp" revision="kitkat" groups="notdefault,device,d2,d2att,d2tmo,d2usc,d2vzw,jf,jfltespr,jfltetmo,jflteusc,jfltevzw,hercules" />
+  <project path="device/samsung/jf-common" name="AOKP/device_samsung_jf-common" remote="aokp" revision="kitkat" groups="notdefault,device,jf,jflteatt,jfltecri,jfltecsp,jfltetmo,jflteusc,jfltevzw" />
   <project path="device/samsung/jfltevzw" name="AOKP/device_samsung_jfltevzw" remote="aokp" revision="kitkat" groups="notdefault,device,jf,jfltevzw" />
   <project path="device/samsung/jflteusc" name="AOKP/device_samsung_jflteusc" remote="aokp" revision="kitkat" groups="notdefault,device,jf,jflteusc" />
-  <project path="device/samsung/toro" name="device_samsung_toro" remote="obi" revision="kitkat" groups="notdefault,device,toro" />
-  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="obi" revision="kitkat" groups="notdefault,device,maguro,toro,toroplus" />
-  <project path="device/sony/common" name="device_sony_common" remote="obi" revision="kitkat" groups="notdefault,device,sony" />
-  <project path="device/sony/qcom-common" name="device_sony_qcom-common" remote="obi" revision="kitkat" groups="notdefault,device,yuga" />
-  <project path="device/sony/fusion3-common" name="device_sony_fusion3-common" remote="obi" revision="kitkat" groups="notdefault,device,yuga" />
-  <project path="device/sony/yuga" name="device_sony_yuga" remote="obi" revision="kitkat" groups="notdefault,device,yuga" />
-  <project path="device/sony/blue-common" name="device_sony_blue-common" remote="obi" revision="kitkat" groups="notdefault,device,tsubasa" />
-  <project path="device/sony/tsubasa" name="device_sony_tsubasa" remote="obi" revision="kitkat" groups="notdefault,device,tsubasa" />
+  <project path="device/samsung/toro" name="AOKP/device_samsung_toro" remote="aokp" revision="kitkat" groups="notdefault,device,toro" />
+  <project path="device/samsung/tuna" name="AOKP/device_samsung_tuna" remote="aokp" revision="kitkat" groups="notdefault,device,maguro,toro,toroplus" />
+  <project path="device/sony/common" name="AOKP/device_sony_common" remote="aokp" revision="kitkat" groups="notdefault,device,sony" />
+  <project path="device/sony/qcom-common" name="AOKP/device_sony_qcom-common" remote="aokp" revision="kitkat" groups="notdefault,device,yuga" />
+  <project path="device/sony/fusion3-common" name="AOKP/device_sony_fusion3-common" remote="aokp" revision="kitkat" groups="notdefault,device,yuga" />
+  <project path="device/sony/yuga" name="AOKP/device_sony_yuga" remote="aokp" revision="kitkat" groups="notdefault,device,yuga" />
+  <project path="device/sony/blue-common" name="AOKP/device_sony_blue-common" remote="aokp" revision="kitkat" groups="notdefault,device,tsubasa" />
+  <project path="device/sony/tsubasa" name="AOKP/device_sony_tsubasa" remote="aokp" revision="kitkat" groups="notdefault,device,tsubasa" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -91,10 +88,10 @@
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="obi" revision="kitkat" groups="pdk" />
+  <project path="external/bluetooth/bluedroid" name="AOKP/external_bluetooth_bluedroid" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
-  <project path="external/busybox" name="external_busybox" remote="obi" revision="kitkat" />
+  <project path="external/busybox" name="AOKP/external_busybox" remote="aokp" revision="kitkat" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
@@ -129,11 +126,11 @@
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
-  <project path="external/dnsmasq" name="external_dnsmasq" remote="obi" revision="kitkat" groups="pdk"/>
+  <project path="external/dnsmasq" name="AOKP/external_dnsmasq" remote="aokp" revision="kitkat" groups="pdk"/>
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/droiddriver" name="platform/external/droiddriver" />
-  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="obi" revision="kitkat" groups="pdk" />
+  <project path="external/e2fsprogs" name="AOKP/external_e2fsprogs" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
@@ -142,15 +139,15 @@
   <project path="external/embunit" name="platform/external/embunit" />
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
-  <project path="external/exfat" name="external_exfat" remote="obi" revision="kitkat" />
+  <project path="external/exfat" name="AOKP/external_exfat" remote="aokp" revision="kitkat" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" />
   <project path="external/f2fs-tools" name="AOKP/external_f2fs-tools" remote="aokp" revision="kitkat" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
-  <project path="external/fsck_msdos" name="external_fsck_msdos" remote="obi" revision="kitkat" />
-  <project path="external/fuse" name="external_fuse" remote="obi" revision="kitkat" />
+  <project path="external/fsck_msdos" name="AOKP/external_fsck_msdos" remote="aokp" revision="kitkat" />
+  <project path="external/fuse" name="AOKP/external_fuse" remote="aokp" revision="kitkat" />
   <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
@@ -163,7 +160,7 @@
   <project path="external/harfbuzz" name="platform/external/harfbuzz" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" />
   <project path="external/hyphenation" name="platform/external/hyphenation" />
-  <project path="external/icu4c" name="external_icu4c" remote="obi" revision="kitkat" groups="pdk" />
+  <project path="external/icu4c" name="AOKP/external_icu4c" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
@@ -176,12 +173,12 @@
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" />
   <project path="external/jmdns" name="platform/external/jmdns" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" />
-  <project path="external/jpeg" name="external_jpeg" remote="obi" revision="kitkat" />
+  <project path="external/jpeg" name="AOKP/external_jpeg" remote="aokp" revision="kitkat" />
   <project path="external/jsilver" name="platform/external/jsilver" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
-  <project path="external/kissfft" name="external_kissfft" remote="obi" revision="kitkat" />
+  <project path="external/kissfft" name="AOKP/external_kissfft" remote="aokp" revision="kitkat" />
   <project path="external/koush/Superuser" name="CyanogenMod/Superuser" remote="cm" revision="cm-11.0" />
   <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="cm" revision="cm-11.0" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
@@ -189,16 +186,16 @@
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" />
-  <project path="external/libnfc-nci" name="external_libnfc-nci" remote="obi" revision="kitkat" groups="pdk"/>
+  <project path="external/libnfc-nci" name="AOKP/external_libnfc-nci" remote="aokp" revision="kitkat" groups="pdk"/>
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="pdk" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
-  <project path="external/libpng" name="external_libpng" remote="obi" revision="kitkat" groups="pdk" />
+  <project path="external/libpng" name="AOKP/external_libpng" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="external/libppp" name="platform/external/libppp" />
-  <project path="external/libselinux" name="external_libselinux" remote="obi" revision="kitkat" groups="pdk" />
-  <project path="external/libsepol" name="external_libsepol" remote="obi" revision="kitkat" />
+  <project path="external/libselinux" name="AOKP/external_libselinux" remote="aokp" revision="kitkat" groups="pdk" />
+  <project path="external/libsepol" name="AOKP/external_libsepol" remote="aokp" revision="kitkat" />
   <project path="external/libusb" name="platform/external/libusb" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
   <project path="external/libvorbis" name="platform/external/libvorbis" />
@@ -214,7 +211,7 @@
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" />
   <project path="external/mesa3d" name="platform/external/mesa3d" />
-  <project path="external/mksh" name="external_mksh" remote="obi" revision="kitkat" groups="pdk" />
+  <project path="external/mksh" name="AOKP/external_mksh" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="external/mockito" name="platform/external/mockito" />
   <project path="external/mockwebserver" name="platform/external/mockwebserver" />
   <project path="external/mp4parser" name="platform/external/mp4parser" />
@@ -226,7 +223,7 @@
   <project path="external/nist-pkits" name="platform/external/nist-pkits" />
   <project path="external/nist-sip" name="platform/external/nist-sip" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" />
-  <project path="external/ntfs-3g" name="external_ntfs-3g" remote="obi" revision="kitkat" />
+  <project path="external/ntfs-3g" name="AOKP/external_ntfs-3g" remote="aokp" revision="kitkat" />
   <project path="external/oauth" name="platform/external/oauth" />
   <project path="external/objenesis" name="platform/external/objenesis" />
   <project path="external/okhttp" name="platform/external/okhttp" />
@@ -236,7 +233,7 @@
   <project path="external/openssh" name="platform/external/openssh" />
   <project path="external/openssl" name="platform/external/openssl" groups="pdk" />
   <project path="external/oprofile" name="platform/external/oprofile" />
-  <project path="external/pigz" name="external_pigz" remote="obi" revision="kitkat" />
+  <project path="external/pigz" name="AOKP/external_pigz" remote="aokp" revision="kitkat" />
   <project path="external/pixman" name="platform/external/pixman" />
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk-java" />
@@ -249,10 +246,10 @@
   <project path="external/robolectric" name="platform/external/robolectric" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
-  <project path="external/sepolicy" name="external_sepolicy" remote="obi" revision="kitkat" />
+  <project path="external/sepolicy" name="AOKP/external_sepolicy" remote="aokp" revision="kitkat" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
-  <project path="external/skia" name="external_skia" remote="obi" revision="kitkat" />
+  <project path="external/skia" name="AOKP/external_skia" remote="aokp" revision="kitkat" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
@@ -276,26 +273,26 @@
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="obi" revision="kitkat" groups="pdk"/>
-  <project path="external/wpa_supplicant_8_ti" name="external_wpa_supplicant_8_ti" remote="obi" revision="kitkat" />
+  <project path="external/wpa_supplicant_8" name="AOKP/external_wpa_supplicant_8" remote="aokp" revision="kitkat" groups="pdk"/>
+  <project path="external/wpa_supplicant_8_ti" name="AOKP/external_wpa_supplicant_8_ti" remote="aokp" revision="kitkat" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
-  <project path="external/yaffs2" name="external_yaffs2" remote="obi" revision="kitkat" groups="pdk" />
-  <project path="external/zlib" name="external_zlib" remote="obi" revision="kitkat" groups="pdk" />
+  <project path="external/yaffs2" name="AOKP/external_yaffs2" remote="aokp" revision="kitkat" groups="pdk" />
+  <project path="external/zlib" name="AOKP/external_zlib" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="frameworks_av" remote="obi" revision="kitkat" groups="pdk" />
-  <project path="frameworks/base" name="frameworks_base" remote="obi" revision="kitkat" />
+  <project path="frameworks/av" name="AOKP/frameworks_av" remote="aokp" revision="kitkat" groups="pdk" />
+  <project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" revision="kitkat" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="frameworks_native" remote="obi" revision="kitkat" groups="pdk" />
+  <project path="frameworks/native" name="AOKP/frameworks_native" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker"/>
-  <project path="frameworks/opt/datetimepicker" name="frameworks_opt_datetimepicker" remote="obi" revision="kitkat" />
+  <project path="frameworks/opt/datetimepicker" name="AOKP/frameworks_opt_datetimepicker" remote="aokp" revision="kitkat" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
@@ -303,9 +300,9 @@
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="obi" revision="kitkat" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="AOKP/frameworks_opt_telephony" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
-  <project path="frameworks/rs" name="frameworks_rs" remote="obi" revision="kitkat"  groups="pdk" />
+  <project path="frameworks/rs" name="AOKP/frameworks_rs" remote="aokp" revision="kitkat"  groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" />
@@ -313,45 +310,45 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="obi" revision="kitkat" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="obi" revision="kitkat" groups="broadcom_wlan" />
+  <project path="hardware/broadcom/libbt" name="AOKP/hardware_broadcom_libbt" remote="aokp" revision="kitkat" groups="pdk" />
+  <project path="hardware/broadcom/wlan" name="AOKP/hardware_broadcom_wlan" remote="aokp" revision="kitkat" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="hardware_libhardware" remote="obi" revision="kitkat" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="obi" revision="kitkat" groups="pdk" />
-  <project path="hardware/msm7k" name="hardware_msm7k" remote="obi" revision="kitkat" />
-  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="obi" revision="kitkat" groups="qcom" />
-  <project path="hardware/qcom/audio-caf" name="hardware_qcom_audio-caf" remote="obi" revision="kitkat" groups="caf" />
-  <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="obi" revision="kitkat" groups="qcom" />
+  <project path="hardware/libhardware" name="AOKP/hardware_libhardware" remote="aokp" revision="kitkat" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="aokp" revision="kitkat" groups="pdk" />
+  <project path="hardware/msm7k" name="AOKP/hardware_msm7k" remote="aokp" revision="kitkat" />
+  <project path="hardware/qcom/audio" name="AOKP/hardware_qcom_audio" remote="aokp" revision="kitkat" groups="qcom" />
+  <project path="hardware/qcom/audio-caf" name="hardware_qcom_audio-caf" remote="aokp" revision="kitkat" groups="caf" />
+  <project path="hardware/qcom/bt" name="AOKP/hardware_qcom_bt" remote="aokp" revision="kitkat" groups="qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
-  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="obi" revision="kitkat" groups="qcom" />
-  <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="obi" revision="kitkat" groups="caf" />
-  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="obi" revision="kitkat" groups="qcom" />
-  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="obi" revision="kitkat" groups="qcom" />
-  <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="obi" revision="kitkat" groups="caf" />
+  <project path="hardware/qcom/display" name="AOKP/hardware_qcom_display" remote="aokp" revision="kitkat" groups="qcom" />
+  <project path="hardware/qcom/display-caf" name="AOKP/hardware_qcom_display-caf" remote="aokp" revision="kitkat" groups="caf" />
+  <project path="hardware/qcom/keymaster" name="AOKP/hardware_qcom_keymaster" remote="aokp" revision="kitkat" groups="qcom" />
+  <project path="hardware/qcom/media" name="AOKP/hardware_qcom_media" remote="aokp" revision="kitkat" groups="qcom" />
+  <project path="hardware/qcom/media-caf" name="AOKP/hardware_qcom_media-caf" remote="aokp" revision="kitkat" groups="caf" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
-  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="obi" revision="kitkat" />
+  <project path="hardware/qcom/power" name="AOKP/hardware_qcom_power" remote="aokp" revision="kitkat" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
-  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="obi" revision="kitkat" />
-  <project path="hardware/ril" name="hardware_ril" remote="obi" revision="kitkat" groups="pdk" />
+  <project path="hardware/qcom/wlan" name="AOKP/hardware_qcom_wlan" remote="aokp" revision="kitkat" />
+  <project path="hardware/ril" name="AOKP/hardware_ril" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
   <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" remote="cm" revision="cm-11.0" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
-  <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="obi" revision="kitkat" />
-  <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="obi" revision="kitkat" />
-  <project path="hardware/ti/wpan" name="hardware_ti_wpan" remote="obi" revision="kitkat" />
-  <project path="kernel/asus/flo" name="kernel_asus_flo" remote="obi" revision="kitkat" groups="notdefault,kernel,flo" />
+  <project path="hardware/ti/omap4xxx" name="AOKP/hardware_ti_omap4xxx" remote="aokp" revision="kitkat" />
+  <project path="hardware/ti/wlan" name="AOKP/hardware_ti_wlan" remote="aokp" revision="kitkat" />
+  <project path="hardware/ti/wpan" name="AOKP/hardware_ti_wpan" remote="aokp" revision="kitkat" />
+  <project path="kernel/asus/flo" name="AOKP/kernel_asus_flo" remote="aokp" revision="kitkat" groups="notdefault,kernel,flo" />
   <project path="kernel/asus/grouper" name="CyanogenMod/android_kernel_asus_grouper" remote="cm" revision="cm-10.2" groups="notdefault,kernel,grouper" />
   <project path="kernel/lge/hammerhead" name="kernel/msm" revision="android-msm-hammerhead-3.4-kk-r1" groups="notdefault,kernel,hammerhead" />
-  <project path="kernel/lge/mako" name="kernel_lge_mako" remote="obi" revision="kitkat" groups="notdefault,kernel,mako" />
-  <project path="kernel/motorola/msm8960dt" name="kernel_motorola_msm8960dt" remote="obi" revision="kitkat" groups="notdefault,kernel,ghost,xt1053,xt1060" />
-  <project path="kernel/samsung/d2" name="kernel_samsung_d2" remote="obi" revision="kitkat" groups="notdefault,kernel,d2,d2att,d2tmo,d2usc,d2vzw" />
-  <project path="kernel/samsung/jf" name="kernel_samsung_jf" remote="obi" revision="kitkat" groups="notdefault,kernel,jf,jfltespr,jfltetmo,jflteusc,jfltevzw" />
+  <project path="kernel/lge/mako" name="AOKP/kernel_lge_mako" remote="aokp" revision="kitkat" groups="notdefault,kernel,mako" />
+  <project path="kernel/motorola/msm8960dt" name="AOKP/kernel_motorola_msm8960dt" remote="aokp" revision="kitkat" groups="notdefault,kernel,ghost,xt1053,xt1060" />
+  <project path="kernel/samsung/d2" name="AOKP/kernel_samsung_d2" remote="aokp" revision="kitkat" groups="notdefault,kernel,d2,d2att,d2tmo,d2usc,d2vzw" />
+  <project path="kernel/samsung/jf" name="AOKP/kernel_samsung_jf" remote="aokp" revision="kitkat" groups="notdefault,kernel,jf,jfltespr,jfltetmo,jflteusc,jfltevzw" />
   <project path="kernel/samsung/manta" name="CyanogenMod/android_kernel_samsung_manta" remote="cm" revision="cm-11.0" groups="notdefault,kernel,manta" />
   <project path="kernel/samsung/tuna" name="CyanogenMod/android_kernel_samsung_tuna" remote="cm" revision="cm-11.0" groups="notdefault,kernel,maguro,toro,toroplus" />
   <project path="kernel/sony/apq8064" name="CyanogenMod/android_kernel_sony_apq8064" remote="cm" revision="cm-11.0" groups="notdefault,kernel,yuga" />
   <project path="kernel/sony/msm8x60" name="CyanogenMod/android_kernel_sony_msm8x60" remote="cm" revision="cm-11.0" groups="notdefault,kernel,tsubasa" />
-  <project path="libcore" name="libcore" remote="obi" revision="kitkat" />
+  <project path="libcore" name="AOKP/libcore" remote="aokp" revision="kitkat" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
@@ -388,7 +385,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="obi" revision="kitkat" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="aokp" revision="kitkat" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -404,16 +401,16 @@
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="obi" revision="kitkat" />
-  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="obi" revision="kitkat" />
-  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="obi" revision="kitkat" />
+  <project path="packages/providers/ContactsProvider" name="AOKP/packages_providers_ContactsProvider" remote="aokp" revision="kitkat" />
+  <project path="packages/providers/DownloadProvider" name="AOKP/packages_providers_DownloadProvider" remote="aokp" revision="kitkat" />
+  <project path="packages/providers/MediaProvider" name="AOKP/packages_providers_MediaProvider" remote="aokp" revision="kitkat" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="obi" revision="kitkat" />
+  <project path="packages/providers/TelephonyProvider" name="AOKP/packages_providers_TelephonyProvider" remote="aokp" revision="kitkat" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="obi" revision="kitkat" />
+  <project path="packages/services/Telephony" name="AOKP/packages_services_Telephony" remote="aokp" revision="kitkat" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
@@ -423,7 +420,7 @@
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
-  <project path="prebuilt" name="prebuilt" remote="obi" revision="kitkat" />
+  <project path="prebuilt" name="AOKP/prebuilt" remote="aokp" revision="kitkat" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" />
   <project path="prebuilts/clang/darwin-x86/arm/3.3" name="platform/prebuilts/clang/darwin-x86/arm/3.3" groups="darwin,arm" />
@@ -462,7 +459,7 @@
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="linux,x86" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" groups="pdk,linux,x86" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" groups="pdk,linux,x86" />
-  <project path="prebuilts/misc" name="prebuilts_misc" remote="obi" revision="kitkat" groups="pdk" />
+  <project path="prebuilts/misc" name="AOKP/prebuilts_misc" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux" />
@@ -471,13 +468,13 @@
   <project path="prebuilts/runtime" name="platform/prebuilts/runtime" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/core" name="system_core" remote="obi" revision="kitkat" groups="pdk" />
-  <project path="system/extras" name="system_extras" remote="obi" revision="kitkat" groups="pdk" />
+  <project path="system/core" name="AOKP/system_core" remote="aokp" revision="kitkat" groups="pdk" />
+  <project path="system/extras" name="AOKP/system_extras" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
-  <project path="system/netd" name="system_netd" remote="obi" revision="kitkat" groups="pdk" />
-  <project path="system/qcom" name="system_qcom" remote="obi" revision="kitkat" groups="pdk" />
+  <project path="system/netd" name="AOKP/system_netd" remote="aokp" revision="kitkat" groups="pdk" />
+  <project path="system/qcom" name="AOKP/system_qcom" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="system_vold" remote="obi" revision="kitkat" groups="pdk" />
+  <project path="system/vold" name="AOKP/system_vold" remote="aokp" revision="kitkat" groups="pdk" />
 <!--
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
@@ -491,15 +488,15 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 -->
-  <project path="vendor/aokp" name="vendor_aokp" remote="obi" revision="kitkat" />
+  <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" revision="kitkat" />
   <!-- <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="kitkat" />
   <project path="vendor/htc" name="AOKP/vendor_htc" remote="aokp" revision="kitkat" groups="notdefault,vendor,htc" /> -->
-  <project path="vendor/lge" name="vendor_lge" remote="obi" revision="kitkat" groups="notdefault,vendor,lge" />
-  <project path="vendor/motorola" name="vendor_motorola" remote="obi" revision="kitkat" groups="notdefault,vendor,motorola" />
+  <project path="vendor/lge" name="AOKP/vendor_lge" remote="aokp" revision="kitkat" groups="notdefault,vendor,lge" />
+  <project path="vendor/motorola" name="AOKP/vendor_motorola" remote="aokp" revision="kitkat" groups="notdefault,vendor,motorola" />
   <!-- <project path="vendor/oppo" name="AOKP/vendor_oppo" remote="aokp" revision="kitkat" groups="notdefault,vendor,oppo" /> -->
-  <project path="vendor/samsung" name="vendor_samsung" remote="obi" revision="kitkat" groups="notdefault,vendor,samsung" />
-  <project path="vendor/sony" name="vendor_sony" remote="obi" revision="kitkat" groups="notdefault,vendor,sony" />
-  <project path="vendor/asus" name="vendor_asus" remote="obi" revision="kitkat" groups="notdefault,vendor,asus" />
+  <project path="vendor/samsung" name="AOKP/vendor_samsung" remote="aokp" revision="kitkat" groups="notdefault,vendor,samsung" />
+  <project path="vendor/sony" name="AOKP/vendor_sony" remote="aokp" revision="kitkat" groups="notdefault,vendor,sony" />
+  <project path="vendor/asus" name="AOKP/vendor_asus" remote="aokp" revision="kitkat" groups="notdefault,vendor,asus" />
 
   <!-- <project path="vendor/tmobile/apps/ThemeChooser" name="AOKP/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="kitkat" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="AOKP/vendor_tmobile_libs_com.tmobile.themes" remote="aokp" revision="kitkat" />
@@ -507,5 +504,5 @@
 
   <!--<project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="kitkat" /> -->
 
-  <project path="platform_manifest" name="platform_manifest" remote="obi" revision="kitkat" />
+  <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" revision="kitkat" />
 </manifest>
