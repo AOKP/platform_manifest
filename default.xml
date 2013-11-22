@@ -314,10 +314,10 @@
   <project path="hardware/broadcom/wlan" name="AOKP/hardware_broadcom_wlan" remote="aokp" revision="kitkat" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="AOKP/hardware_libhardware" remote="aokp" revision="kitkat" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="aokp" revision="kitkat" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="AOKP/hardware_libhardware_legacy" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="hardware/msm7k" name="AOKP/hardware_msm7k" remote="aokp" revision="kitkat" />
   <project path="hardware/qcom/audio" name="AOKP/hardware_qcom_audio" remote="aokp" revision="kitkat" groups="qcom" />
-  <project path="hardware/qcom/audio-caf" name="hardware_qcom_audio-caf" remote="aokp" revision="kitkat" groups="caf" />
+  <project path="hardware/qcom/audio-caf" name="AOKP/hardware_qcom_audio-caf" remote="aokp" revision="kitkat" groups="caf" />
   <project path="hardware/qcom/bt" name="AOKP/hardware_qcom_bt" remote="aokp" revision="kitkat" groups="qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
   <project path="hardware/qcom/display" name="AOKP/hardware_qcom_display" remote="aokp" revision="kitkat" groups="qcom" />
@@ -385,7 +385,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="aokp" revision="kitkat" />
+  <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="aokp" revision="kitkat" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
