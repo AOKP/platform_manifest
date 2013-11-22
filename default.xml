@@ -79,9 +79,14 @@
   <project path="device/sony/common" name="AOKP/device_sony_common" remote="aokp" revision="kitkat" groups="notdefault,device,sony" />
   <project path="device/sony/qcom-common" name="AOKP/device_sony_qcom-common" remote="aokp" revision="kitkat" groups="notdefault,device,yuga" />
   <project path="device/sony/fusion3-common" name="AOKP/device_sony_fusion3-common" remote="aokp" revision="kitkat" groups="notdefault,device,yuga" />
+  <project path="device/sony/odin" name="AOKP/device_sony_odin" remote="aokp" revision="kitkat" groups="notdefault,device,odin" />
   <project path="device/sony/yuga" name="AOKP/device_sony_yuga" remote="aokp" revision="kitkat" groups="notdefault,device,yuga" />
+  <project path="device/sony/pollux" name="AOKP/device_sony_pollux" remote="aokp" revision="kitkat" groups="notdefault,device,pollux" />
+  <project path="device/sony/pollux_windy" name="AOKP/device_sony_pollux_windy" remote="aokp" revision="kitkat" groups="notdefault,device,pollux" />
+  <project path="device/sony/pollux-common" name="AOKP/device_sony_pollux-common" remote="aokp" revision="kitkat" groups="notdefault,device,pollux" />
   <project path="device/sony/blue-common" name="AOKP/device_sony_blue-common" remote="aokp" revision="kitkat" groups="notdefault,device,tsubasa" />
   <project path="device/sony/tsubasa" name="AOKP/device_sony_tsubasa" remote="aokp" revision="kitkat" groups="notdefault,device,tsubasa" />
+  <project path="device/sony/mint" name="AOKP/device_sony_mint" remote="aokp" revision="kitkat" groups="notdefault,device,mint" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
