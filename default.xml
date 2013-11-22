@@ -13,6 +13,9 @@
            fetch="https://github.com/"
            review="gerrit.aokp.co" />
 
+  <remote  name="dc"
+           fetch="https://github.com/" />
+
   <remote  name="cm"
            fetch="https://github.com/" />
 
@@ -493,8 +496,8 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 -->
   <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" revision="kitkat" />
-  <!-- <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="kitkat" />
-  <project path="vendor/htc" name="AOKP/vendor_htc" remote="aokp" revision="kitkat" groups="notdefault,vendor,htc" /> -->
+  <!-- <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="kitkat" /> -->
+  <project path="vendor/htc" name="DonkeyCoyote/proprietary_vendor_htc" remote="dc" revision="master" groups="notdefault,vendor,htc" />
   <project path="vendor/lge" name="AOKP/vendor_lge" remote="aokp" revision="kitkat" groups="notdefault,vendor,lge" />
   <project path="vendor/motorola" name="AOKP/vendor_motorola" remote="aokp" revision="kitkat" groups="notdefault,vendor,motorola" />
   <!-- <project path="vendor/oppo" name="AOKP/vendor_oppo" remote="aokp" revision="kitkat" groups="notdefault,vendor,oppo" /> -->
