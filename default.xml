@@ -325,6 +325,7 @@
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
   <project path="hardware/qcom/display" name="AOKP/hardware_qcom_display" remote="aokp" revision="kitkat" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="AOKP/hardware_qcom_display-caf" remote="aokp" revision="kitkat" groups="caf" />
+  <project path="hardware/qcom/gps" name="AOKP/hardware_qcom_gps" remote="aokp" revision="kitkat" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="AOKP/hardware_qcom_keymaster" remote="aokp" revision="kitkat" groups="qcom" />
   <project path="hardware/qcom/media" name="AOKP/hardware_qcom_media" remote="aokp" revision="kitkat" groups="qcom" />
   <project path="hardware/qcom/media-caf" name="AOKP/hardware_qcom_media-caf" remote="aokp" revision="kitkat" groups="caf" />
