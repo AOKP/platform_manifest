@@ -327,7 +327,6 @@
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="AOKP/hardware_libhardware" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="AOKP/hardware_libhardware_legacy" remote="aokp" revision="kitkat" groups="pdk" />
-  <project path="hardware/msm7k" name="AOKP/hardware_msm7k" remote="aokp" revision="kitkat" />
   <project path="hardware/qcom/audio" name="AOKP/hardware_qcom_audio" remote="aokp" revision="kitkat" groups="qcom" />
   <project path="hardware/qcom/audio-caf" name="AOKP/hardware_qcom_audio-caf" remote="aokp" revision="kitkat" groups="caf" />
   <project path="hardware/qcom/bt" name="AOKP/hardware_qcom_bt" remote="aokp" revision="kitkat" groups="qcom" />
