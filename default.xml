@@ -337,6 +337,7 @@
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
   <project path="hardware/qcom/display" name="AOKP/hardware_qcom_display" remote="aokp" revision="kitkat" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="AOKP/hardware_qcom_display-caf" remote="aokp" revision="kitkat" groups="caf" />
+  <project path="hardware/qcom/display-mdss" name="AOKP/hardware_qcom_display-mdss" remote="aokp" revision="kitkat" groups="caf" />
   <project path="hardware/qcom/gps" name="AOKP/hardware_qcom_gps" remote="aokp" revision="kitkat" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="AOKP/hardware_qcom_keymaster" remote="aokp" revision="kitkat" groups="qcom" />
   <project path="hardware/qcom/media" name="AOKP/hardware_qcom_media" remote="aokp" revision="kitkat" groups="qcom" />
@@ -488,7 +489,7 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/core" name="AOKP/system_core" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="system/extras" name="AOKP/system_extras" remote="aokp" revision="kitkat" groups="pdk" />
-  <project path="system/media" name="platform/system/media" groups="pdk" />
+  <project path="system/media" name="AOKP/system_media" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="system/netd" name="AOKP/system_netd" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="system/qcom" name="AOKP/system_qcom" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
