@@ -100,7 +100,7 @@
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="AOKP/external_bluetooth_bluedroid" remote="aokp" revision="kitkat" groups="pdk" />
+  <project path="external/bluetooth/bluedroid" name="CyangenMod/external_bluetooth_bluedroid" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/busybox" name="AOKP/external_busybox" remote="aokp" revision="kitkat" />
@@ -322,32 +322,32 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="AOKP/hardware_broadcom_libbt" remote="aokp" revision="kitkat" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="AOKP/hardware_broadcom_wlan" remote="aokp" revision="kitkat" groups="broadcom_wlan" />
+  <project path="hardware/broadcom/libbt" name="CyangenMod/android_hardware_broadcom_libbt" remote="cm" revision="cm-11.0" groups="pdk" />
+  <project path="hardware/broadcom/wlan" name="CyangenMod/android_hardware_broadcom_wlan" remote="cm" revision="cm-11.0" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="AOKP/hardware_libhardware" remote="aokp" revision="kitkat" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="AOKP/hardware_libhardware_legacy" remote="aokp" revision="kitkat" groups="pdk" />
-  <project path="hardware/qcom/audio" name="AOKP/hardware_qcom_audio" remote="aokp" revision="kitkat" groups="qcom" />
-  <project path="hardware/qcom/audio-caf" name="AOKP/hardware_qcom_audio-caf" remote="aokp" revision="kitkat" groups="caf" />
-  <project path="hardware/qcom/bt" name="AOKP/hardware_qcom_bt" remote="aokp" revision="kitkat" groups="qcom" />
-  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
-  <project path="hardware/qcom/display" name="AOKP/hardware_qcom_display" remote="aokp" revision="kitkat" groups="qcom" />
-  <project path="hardware/qcom/display-caf" name="AOKP/hardware_qcom_display-caf" remote="aokp" revision="kitkat" groups="caf" />
-  <project path="hardware/qcom/display-mdss" name="AOKP/hardware_qcom_display-mdss" remote="aokp" revision="kitkat" groups="caf" />
-  <project path="hardware/qcom/gps" name="AOKP/hardware_qcom_gps" remote="aokp" revision="kitkat" groups="qcom" />
-  <project path="hardware/qcom/keymaster" name="AOKP/hardware_qcom_keymaster" remote="aokp" revision="kitkat" groups="qcom" />
-  <project path="hardware/qcom/media" name="AOKP/hardware_qcom_media" remote="aokp" revision="kitkat" groups="qcom" />
-  <project path="hardware/qcom/media-caf" name="AOKP/hardware_qcom_media-caf" remote="aokp" revision="kitkat" groups="caf" />
+  <project path="hardware/libhardware" name="CyangenMod/android_hardware_libhardware" remote="cm" revision="cm-11.0" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="CyangenMod/android_hardware_libhardware_legacy" remote="cm" revision="cm-11.0" groups="pdk" />
+  <project path="hardware/qcom/audio" name="CyangenMod/android_hardware_qcom_audio" remote="cm" revision="cm-11.0" groups="qcom" />
+  <project path="hardware/qcom/audio-caf" name="CyangenMod/android_hardware_qcom_audio-caf" remote="cm" revision="cm-11.0" groups="caf" />
+  <project path="hardware/qcom/bt" name="CyangenMod/android_hardware_qcom_bt" remote="cm" revision="cm-11.0" groups="qcom" />
+  <project path="hardware/qcom/camera" name="CyangenMod/android_hardware_qcom_camera" groups="qcom" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/display" name="CyangenMod/android_hardware_qcom_display" remote="cm" revision="cm-11.0" groups="qcom" />
+  <project path="hardware/qcom/display-caf" name="CyangenMod/android_hardware_qcom_display-caf" remote="cm" revision="cm-11.0" groups="caf" />
+  <project path="hardware/qcom/display-mdss" name="CyangenMod/android_hardware_qcom_display-mdss" remote="cm" revision="cm-11.0" groups="caf" />
+  <project path="hardware/qcom/gps" name="CyangenMod/android_hardware_qcom_gps" remote="cm" revision="cm-11.0" groups="qcom" />
+  <project path="hardware/qcom/keymaster" name="CyangenMod/android_hardware_qcom_keymaster" remote="cm" revision="cm-11.0" groups="qcom" />
+  <project path="hardware/qcom/media" name="CyangenMod/android_hardware_qcom_media" remote="cm" revision="cm-11.0" groups="qcom" />
+  <project path="hardware/qcom/media-caf" name="CyangenMod/android_hardware_qcom_media-caf" remote="cm" revision="cm-11.0" groups="caf" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
-  <project path="hardware/qcom/power" name="AOKP/hardware_qcom_power" remote="aokp" revision="kitkat" />
+  <project path="hardware/qcom/power" name="CyangenMod/android_hardware_qcom_power" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
-  <project path="hardware/qcom/wlan" name="AOKP/hardware_qcom_wlan" remote="aokp" revision="kitkat" />
-  <project path="hardware/ril" name="AOKP/hardware_ril" remote="aokp" revision="kitkat" groups="pdk" />
+  <project path="hardware/qcom/wlan" name="CyangenMod/android_hardware_qcom_wlan" remote="cm" revision="cm-11.0" />
+  <project path="hardware/ril" name="CyangenMod/android_hardware_ril" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
   <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" remote="cm" revision="cm-11.0" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
-  <project path="hardware/ti/omap4xxx" name="AOKP/hardware_ti_omap4xxx" remote="aokp" revision="kitkat" />
+  <project path="hardware/ti/omap4xxx" name="CyangenMod/android_hardware_ti_omap4xxx" remote="cm" revision="cm-11.0" />
   <project path="hardware/ti/wlan" name="AOKP/hardware_ti_wlan" remote="aokp" revision="kitkat" />
   <project path="hardware/ti/wpan" name="AOKP/hardware_ti_wpan" remote="aokp" revision="kitkat" />
   <project path="kernel/asus/flo" name="AOKP/kernel_asus_flo" remote="aokp" revision="kitkat" groups="notdefault,kernel,flo" />
@@ -367,7 +367,7 @@
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="AOKP/packages_apps_Bluetooth" remote="aokp" revision="kitkat" />
-  <project path="packages/apps/BluetoothExt" name="AOKP/packages_apps_BluetoothExt" remote="aokp" revision="kitkat" />
+  <project path="packages/apps/BluetoothExt" name="CyangenMod/packages_apps_BluetoothExt" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
