@@ -10,7 +10,12 @@
            review="gerrit.aokp.co" />
 
   <remote  name="cm"
-           fetch="https://github.com/" />
+           fetch="https://github.com/"
+           review="review.cyanogenmod.org" />
+
+  <remote  name="omni"
+           fetch="https://github.com/"
+           review="gerrit.omnirom.org" />
 
   <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
@@ -24,7 +29,7 @@
   <project path="bionic" name="AOKP/bionic" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" />
+  <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="omni" revision="android-4.4" />
   <project path="cts" name="platform/cts" groups="cts"/>
   <project path="dalvik" name="AOKP/dalvik" remote="aokp" revision="kitkat" />
   <project path="developers/build" name="platform/developers/build" />
