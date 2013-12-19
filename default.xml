@@ -371,7 +371,7 @@
   <project path="kernel/asus/flo" name="AOKP/kernel_asus_flo" remote="aokp" revision="kitkat" groups="notdefault,kernel,flo" />
   <project path="kernel/asus/grouper" name="CyanogenMod/android_kernel_asus_grouper" remote="cm" revision="cm-10.2" groups="notdefault,kernel,grouper" />
   <project path="kernel/htc/m7" name="AOKP/kernel_htc_m7" remote="aokp" revision="kitkat" groups="notdefault,kernel,m7,m7att,m7spr,m7tmo,m7ul" />
-  <project path="kernel/lge/hammerhead" name="kernel/msm" revision="android-msm-hammerhead-3.4-kk-r1" groups="notdefault,kernel,hammerhead" />
+  <project path="kernel/lge/hammerhead" name="CyanogenMod/android_kernel_lge_hammerhead" remote="cm"  revision="cm-11.0" groups="notdefault,kernel,hammerhead" />
   <project path="kernel/lge/mako" name="AOKP/kernel_lge_mako" remote="aokp" revision="kitkat" groups="notdefault,kernel,mako" />
   <project path="kernel/motorola/msm8960dt" name="AOKP/kernel_motorola_msm8960dt" remote="aokp" revision="kitkat" groups="notdefault,kernel,ghost,xt1053,xt1060" />
   <project path="kernel/samsung/d2" name="AOKP/kernel_samsung_d2" remote="aokp" revision="kitkat" groups="notdefault,kernel,d2,d2att,d2tmo,d2usc,d2vzw" />
@@ -541,3 +541,4 @@
 
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" revision="kitkat" />
 </manifest>
+
