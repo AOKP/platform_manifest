@@ -368,7 +368,7 @@
   <project path="hardware/ti/wpan" name="AOKP/hardware_ti_wpan" remote="aokp" revision="kitkat" />
   <project path="kernel/asus/flo" name="AOKP/kernel_asus_flo" remote="aokp" revision="kitkat" groups="notdefault,kernel,flo" />
   <project path="kernel/asus/grouper" name="CyanogenMod/android_kernel_asus_grouper" remote="cm" revision="cm-10.2" groups="notdefault,kernel,grouper" />
-  <project path="kernel/htc/m7" name="AOKP/kernel_htc_m7" remote="aokp" revision="kitkat" groups="notdefault,kernel,m7,m7att,m7spr,m7tmo,m7ul" />
+  <project path="kernel/htc/m7" name="AOKP/kernel_htc_m7" remote="aokp" revision="kitkat" groups="notdefault,kernel,m7,m7att,m7spr,m7tmo,m7ul,m7vzw" />
   <project path="kernel/lge/hammerhead" name="CyanogenMod/android_kernel_lge_hammerhead" remote="cm"  revision="cm-11.0" groups="notdefault,kernel,hammerhead" />
   <project path="kernel/lge/gproj" name="CyanogenMod/lge-kernel-gproj" remote="cm" revision="cm-11.0" groups="notdefault,kernel,gproj,e980" />
   <project path="kernel/lge/mako" name="AOKP/kernel_lge_mako" remote="aokp" revision="kitkat" groups="notdefault,kernel,mako" />
