@@ -16,10 +16,6 @@
   <remote  name="cm"
            fetch="https://github.com/" />
 
-  <remote  name="omapzoom"
-           fetch="git://git.omapzoom.org/"
-           review="http://review.omapzoom.org/" />
-
   <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
            sync-j="16" />
