@@ -502,7 +502,7 @@
   <project path="system/core" name="AOKP/system_core" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="system/extras" name="AOKP/system_extras" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="system/media" name="AOKP/system_media" remote="aokp" revision="kitkat" groups="pdk" />
-  <project path="system/netd" name="AOKP/system_netd" remote="aokp" revision="kitkat" groups="pdk" />
+  <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="system/qcom" name="AOKP/system_qcom" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="AOKP/system_vold" remote="aokp" revision="kitkat" groups="pdk" />
