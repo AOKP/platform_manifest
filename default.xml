@@ -77,6 +77,8 @@
   <project path="device/samsung/d2tmo" name="AOKP/device_samsung_d2tmo" remote="aokp" revision="kitkat" groups="notdefault,device,d2,d2tmo" />
   <project path="device/samsung/d2usc" name="AOKP/device_samsung_d2usc" remote="aokp" revision="kitkat" groups="notdefault,device,d2,d2usc" />
   <project path="device/samsung/d2vzw" name="AOKP/device_samsung_d2vzw" remote="aokp" revision="kitkat" groups="notdefault,device,d2,d2vzw" />
+  <project path="device/samsung/hlte-common" name="AOKP/device_samsung_hlte-common" remote="aokp" revision="kitkat" groups="notdefault,device,hlte,hltetmo" />
+  <project path="device/samsung/hltetmo" name="AOKP/device_samsung_hltetmo" remote="aokp" revision="kitkat" groups="notdefault,device,hltetmo" />
   <project path="device/samsung/i605" name="AOKP/device_samsung_i605" remote="aokp" revision="kitkat" groups="notdefault,device,i605" />
   <project path="device/samsung/i9300" name="AOKP/device_samsung_i9300" remote="aokp" revision="kitkat" groups="notdefault,device,i9300" />
   <project path="device/samsung/jf-common" name="AOKP/device_samsung_jf-common" remote="aokp" revision="kitkat" groups="notdefault,device,jf,jflteatt,jfltecri,jfltecsp,jfltetmo,jflteusc,jfltevzw" />
@@ -386,6 +388,7 @@
   <project path="kernel/lge/msm8974" name="AOKP/kernel_lge_msm8974" remote="aokp" revision="kitkat" groups="notdefault,kernel,g2,d800,d801,d802,ls980,vs980" />
   <project path="kernel/motorola/msm8960dt" name="AOKP/kernel_motorola_msm8960dt" remote="aokp" revision="kitkat" groups="notdefault,kernel,ghost,xt1053,xt1060" />
   <project path="kernel/samsung/d2" name="AOKP/kernel_samsung_d2" remote="aokp" revision="kitkat" groups="notdefault,kernel,d2,d2att,d2tmo,d2usc,d2vzw" />
+  <project path="kernel/samsung/hlte" name="CyanogenMod/android_kernel_samsung_hlte" remote="cm" revision="cm-11.0" groups="notdefault,kernel,hlte,hltetmo" />
   <project path="kernel/samsung/jf" name="AOKP/kernel_samsung_jf" remote="aokp" revision="kitkat" groups="notdefault,kernel,jf,jfltespr,jfltetmo,jflteusc,jfltevzw" />
   <project path="kernel/samsung/manta" name="CyanogenMod/android_kernel_samsung_manta" remote="cm" revision="cm-11.0" groups="notdefault,kernel,manta" />
   <project path="kernel/samsung/smdk4412" name="omnirom/android_kernel_samsung_smdk4412" remote="omni" revision="android-4.4" groups="notdefault,kernel,t0lte,t0lteatt,t0ltetmo,i605,i9300,l900" />
