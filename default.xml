@@ -422,7 +422,7 @@
   <project path="packages/apps/InCallUI" name="AOKP/packages_apps_InCallUI" remote="aokp" revision="kitkat" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="notdefault,legacypackages" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
+  <project path="packages/apps/Launcher3" name="AOKP/packages_apps_Launcher3" remote="aokp" revision="kitkat" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/Mms" name="AOKP/packages_apps_Mms" remote="aokp" revision="kitkat" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="notdefault,legacypackages" />
