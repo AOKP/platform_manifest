@@ -83,6 +83,7 @@
   <project path="device/motorola/qcom-common" name="AOKP/device_motorola_qcom-common" remote="aokp" revision="kitkat" groups="notdefault,device,ghost,xt1053,xt1060" />
   <project path="device/motorola/xt1053" name="AOKP/device_motorola_xt1053" remote="aokp" revision="kitkat" groups="notdefault,device,ghost,xt1053" />
   <project path="device/motorola/xt1060" name="AOKP/device_motorola_xt1060" remote="aokp" revision="kitkat" groups="notdefault,device,ghost,xt1060" />
+  <project path="device/oppo/find5" name="AOKP/device_oppo_find5" remote="aokp" revision="kitkat" groups="notdefault,device,find5" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/d2-common" name="AOKP/device_samsung_d2-common" remote="aokp" revision="kitkat" groups="notdefault,device,d2,d2att,d2tmo,d2usc,d2vzw" />
   <project path="device/samsung/d2att" name="AOKP/device_samsung_d2att" remote="aokp" revision="kitkat" groups="notdefault,device,d2,d2att" />
@@ -399,6 +400,7 @@
   <project path="kernel/lge/mako" name="AOKP/kernel_lge_mako" remote="aokp" revision="kitkat" groups="notdefault,kernel,mako" />
   <project path="kernel/lge/msm8974" name="CyanogenMod/android_kernel_lge_msm8974" remote="cm" revision="cm-11.0" groups="notdefault,kernel,g2,d800,d801,d802,ls980,vs980" />
   <project path="kernel/motorola/msm8960dt" name="AOKP/kernel_motorola_msm8960dt" remote="aokp" revision="kitkat" groups="notdefault,kernel,ghost,xt1053,xt1060" />
+  <project path="kernel/oppo/find5" name="CyanogenMod/android_kernel_oppo_find5" remote="cm" revision="cm-11.0" groups="notdefault,kernel,find5" />
   <project path="kernel/samsung/d2" name="CyanogenMod/android_kernel_samsung_d2" remote="cm" revision="cm-11.0" groups="notdefault,kernel,d2,d2att,d2tmo,d2usc,d2vzw" />
   <project path="kernel/samsung/hlte" name="CyanogenMod/android_kernel_samsung_hlte" remote="cm" revision="cm-11.0" groups="notdefault,kernel,hlte,hltetmo" />
   <project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" remote="cm" revision="cm-11.0" groups="notdefault,kernel,jf,jfltespr,jfltetmo,jflteusc,jfltevzw" />
@@ -562,7 +564,7 @@
   <project path="vendor/htc" name="AOKP/vendor_htc" remote="aokp" revision="kitkat" groups="notdefault,vendor,htc" />
   <project path="vendor/lge" name="AOKP/vendor_lge" remote="aokp" revision="kitkat" groups="notdefault,vendor,lge" />
   <project path="vendor/motorola" name="AOKP/vendor_motorola" remote="aokp" revision="kitkat" groups="notdefault,vendor,motorola" />
-  <!-- <project path="vendor/oppo" name="AOKP/vendor_oppo" remote="aokp" revision="kitkat" groups="notdefault,vendor,oppo" /> -->
+  <project path="vendor/oppo" name="AOKP/vendor_oppo" remote="aokp" revision="kitkat" groups="notdefault,vendor,oppo" />
   <project path="vendor/samsung" name="AOKP/vendor_samsung" remote="aokp" revision="kitkat" groups="notdefault,vendor,samsung" />
   <project path="vendor/sony" name="AOKP/vendor_sony" remote="aokp" revision="kitkat" groups="notdefault,vendor,sony" />
   <project path="vendor/asus" name="SlimRoms/proprietary_vendor_asus" remote="slim" revision="kk4.4" groups="notdefault,vendor,asus" />
