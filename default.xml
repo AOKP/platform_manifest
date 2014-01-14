@@ -341,7 +341,7 @@
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker"/>
-  <project path="frameworks/opt/datetimepicker" name="AOKP/frameworks_opt_datetimepicker" remote="aokp" revision="kitkat" />
+  <project path="frameworks/opt/datetimepicker" name="AICP/frameworks_opt_datetimepicker" remote="aicp" revision="kitkat" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
@@ -413,14 +413,14 @@
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Browser" name="AOKP/packages_apps_Browser" remote="aokp" revision="kitkat" />
   <project path="packages/apps/Calculator" name="SlimRoms/packages_apps_Calculator" remote="slim" revision="kk4.4" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
+  <project path="packages/apps/Calendar" name="AICP/packages_apps_Calendar" remote="aicp" revision="kitkat" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="notdefault,legacypackages" />
   <project path="packages/apps/Camera2" name="AOKP/packages_apps_Camera2" remote="aokp" revision="kitkat" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="AICP/packages_apps_Contacts" remote="aicp" revision="kitkat" />
   <project path="packages/apps/ContactsCommon" name="AICP/packages_apps_ContactsCommon" remote="aicp" revision="kitkat" />
-  <project path="packages/apps/DeskClock" name="AOKP/packages_apps_DeskClock" remote="aokp" revision="kitkat" />
+  <project path="packages/apps/DeskClock" name="AICP/packages_apps_DeskClock" remote="aicp" revision="kitkat" />
   <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" remote="aicp" revision="kitkat" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
@@ -451,7 +451,7 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
+  <project path="packages/apps/UnifiedEmail" name="AICP/packages_apps_UnifiedEmail" remote="aicp" revision="kitkat" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" groups="notdefault,legacypackages"/>
   <project path="packages/experimental" name="platform/packages/experimental" />
