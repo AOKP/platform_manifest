@@ -419,7 +419,7 @@
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
-  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
+  <project path="packages/apps/ContactsCommon" name="AICP/packages_apps_ContactsCommon" remote="aicp" revision="kitkat" />
   <project path="packages/apps/DeskClock" name="AOKP/packages_apps_DeskClock" remote="aokp" revision="kitkat" />
   <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" remote="aicp" revision="kitkat" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
