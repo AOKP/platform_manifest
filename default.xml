@@ -24,6 +24,9 @@
            fetch="https://github.com/"
            review="gerrit.slimroms.net" />
 
+  <remote   name="maxwen"
+            fetch="https://github.com/maxwen/" />
+
   <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
            sync-j="16" />
@@ -568,4 +571,8 @@
   <!-- <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="kitkat" /> -->
 
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" revision="kitkat" />
+
+  <!-- OMNISWITCH-->
+  <project path="packages/apps/OmniSwitch" name="OmniSwitch" remote="maxwen" revision="master" />
+
 </manifest>
