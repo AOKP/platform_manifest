@@ -554,8 +554,8 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 -->
-  <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" revision="kitkat" />
-  <project path="vendor/aicp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="kitkat" />
+  <project path="vendor/aokp" name="AICP/vendor_aicp" remote="aicp" revision="kitkat" />
+  <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="kitkat" />
   <project path="vendor/htc" name="AOKP/vendor_htc" remote="aokp" revision="kitkat" groups="notdefault,vendor,htc" />
   <project path="vendor/lge" name="AOKP/vendor_lge" remote="aokp" revision="kitkat" groups="notdefault,vendor,lge" />
   <project path="vendor/motorola" name="AOKP/vendor_motorola" remote="aokp" revision="kitkat" groups="notdefault,vendor,motorola" />
