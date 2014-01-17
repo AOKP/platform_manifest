@@ -580,4 +580,7 @@
   <!-- Google play services -->
   <project path="external/google/google_play_services" name="SlimRoms/android_external_google_google_play_services" remote="slim" revision="kk4.4" />
 
+  <!-- DashClock widget -->
+  <project path="packages/apps/DashClock" name="SlimRoms/packages_apps_DashClock" remote="slim" revision="kk4.4" />
+
 </manifest>
