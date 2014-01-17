@@ -584,4 +584,9 @@
   <!-- DashClock widget -->
   <project path="packages/apps/DashClock" name="SlimRoms/packages_apps_DashClock" remote="slim" revision="kk4.4" />
 
+  <!-- Slim's deb vendor -->
+  <project path="vendor/broadcom" name="SlimRoms/proprietary_vendor_broadcom" remote="slim" revision="kk4.4" />
+  <project path="vendor/qcom"     name="SlimRoms/proprietary_vendor_qcom"     remote="slim" revision="kk4.4" />
+
+
 </manifest>
