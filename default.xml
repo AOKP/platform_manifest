@@ -75,7 +75,7 @@
   <project path="device/lge/e980" name="AOKP/device_lge_e980" remote="aokp" revision="kitkat" groups="notdefault,device,e980" />
   <project path="device/lge/gproj-common" name="AOKP/device_lge_gproj-common" remote="aokp" revision="kitkat" groups="notdefault,device,gproj,e980" />
   <project path="device/lge/g2-common" name="AOKP/device_lge_g2-common" remote="aokp" revision="kitkat" groups="notdefault,device,g2,d800,d801,d802,ls980,vs980" />
-  <project path="device/lge/hammerhead" name="AOKP/device_lge_hammerhead" remote="aokp" revision="kitkat" groups="notdefault,device,hammerhead" />
+  <project path="device/lge/hammerhead" name="AICP/device_lge_hammerhead" remote="aicp" revision="kitkat" groups="notdefault,device,hammerhead" />
   <project path="device/lge/ls980" name="AOKP/device_lge_ls980" remote="aokp" revision="kitkat" groups="notdefault,device,g2,ls980" />
   <project path="device/lge/mako" name="AOKP/device_lge_mako" remote="aokp" revision="kitkat" groups="notdefault,device,mako" />
   <project path="device/lge/vs980" name="AOKP/device_lge_vs980" remote="aokp" revision="kitkat" groups="notdefault,device,g2,vs980" />
