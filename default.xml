@@ -576,7 +576,7 @@
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" revision="kitkat" />
 
   <!-- OMNISWITCH-->
-  <project path="packages/apps/OmniSwitch" name="OmniSwitch" remote="maxwen" revision="master" />
+  <project path="packages/apps/OmniSwitch" name="OmniSwitch" remote="maxwen" revision="android-4.4" />
 
   <!-- Google play services -->
   <project path="external/google/google_play_services" name="SlimRoms/android_external_google_google_play_services" remote="slim" revision="kk4.4" />
