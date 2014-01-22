@@ -48,7 +48,7 @@
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="AICP/development" remote="aicp" revision="kitkat" />
   <project path="device/asus/deb" name="AICP/android_device_asus_deb" remote="aicp" revision="kitkat" groups="notdefault,device,deb" />
-  <project path="device/asus/flo" name="AOKP/device_asus_flo" remote="aokp" revision="kitkat" groups="notdefault,device,flo,deb" />
+  <project path="device/asus/flo" name="AICP/device_asus_flo" remote="aicp" revision="kitkat" groups="notdefault,device,flo,deb" />
   <project path="device/asus/grouper" name="AOKP/device_asus_grouper" remote="aokp" revision="kitkat" groups="notdefault,device,grouper" />
   <project path="device/asus/tilapia" name="AOKP/device_asus_tilapia" remote="aokp" revision="kitkat" groups="notdefault,device,tilapia" />
   <project path="device/common" name="device/common" groups="device" />
