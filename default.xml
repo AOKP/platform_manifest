@@ -474,7 +474,7 @@
   <project path="packages/providers/DownloadProvider" name="AOKP/packages_providers_DownloadProvider" remote="aokp" revision="kitkat" />
   <project path="packages/providers/MediaProvider" name="AOKP/packages_providers_MediaProvider" remote="aokp" revision="kitkat" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="AOKP/packages_providers_TelephonyProvider" remote="aokp" revision="kitkat" />
+  <project path="packages/providers/TelephonyProvider" name="AICP/packages_providers_TelephonyProvider" remote="aicp" revision="kitkat" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
