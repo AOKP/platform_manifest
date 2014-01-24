@@ -389,7 +389,7 @@
   <project path="kernel/lge/gproj" name="CyanogenMod/lge-kernel-gproj" remote="cm" revision="cm-11.0" groups="notdefault,kernel,gproj,e980" />
   <project path="kernel/lge/mako" name="AOKP/kernel_lge_mako" remote="aokp" revision="kitkat" groups="notdefault,kernel,mako" />
   <project path="kernel/lge/msm8974" name="CyanogenMod/android_kernel_lge_msm8974" remote="cm" revision="cm-11.0" groups="notdefault,kernel,g2,d800,d801,d802,ls980,vs980" />
-  <project path="kernel/motorola/msm8960dt" name="AOKP/kernel_motorola_msm8960dt" remote="aokp" revision="kitkat" groups="notdefault,kernel,ghost,xt1053,xt1060" />
+  <project path="kernel/motorola/msm8960dt" name="CyanogenMod/android_kernel_motorola_msm8960dt-common" remote="cm" revision="cm-11.0" groups="notdefault,kernel,ghost,xt1053,xt1060" />
   <project path="kernel/oppo/find5" name="CyanogenMod/android_kernel_oppo_find5" remote="cm" revision="cm-11.0" groups="notdefault,kernel,find5" />
   <project path="kernel/oppo/n1" name="CyanogenMod/android_kernel_oppo_n1" remote="cm" revision="cm-11.0" groups="notdefault,kernel,n1" />
   <project path="kernel/samsung/d2" name="CyanogenMod/android_kernel_samsung_d2" remote="cm" revision="cm-11.0" groups="notdefault,kernel,d2,d2att,d2tmo,d2usc,d2vzw" />
