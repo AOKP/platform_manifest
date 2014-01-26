@@ -15,6 +15,9 @@
   <remote name="omni"
            fetch="https://github.com/"
            review="gerrit.omnirom.org" />
+ 
+  <remote name="Techinstein"
+          fetch="https://github.com/Techinstein/" />
 
   <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
