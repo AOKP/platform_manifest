@@ -472,7 +472,7 @@
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="AICP/packages_providers_ContactsProvider" remote="aicp" revision="kitkat" />
-  <project path="packages/providers/DownloadProvider" name="AOKP/packages_providers_DownloadProvider" remote="aokp" revision="kitkat" />
+  <project path="packages/providers/DownloadProvider" name="AICP/packages_providers_DownloadProvider" remote="aicp" revision="kitkat" />
   <project path="packages/providers/MediaProvider" name="AOKP/packages_providers_MediaProvider" remote="aokp" revision="kitkat" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="AICP/packages_providers_TelephonyProvider" remote="aicp" revision="kitkat" />
