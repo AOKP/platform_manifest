@@ -23,7 +23,7 @@
   <project path="bionic" name="AOKP/bionic" remote="gh" revision="ics" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="gh" revision="ics" />
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="gh" revision="cm-9.0.0" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="dalvik" name="AOKP/dalvik" remote="gh" revision="ics" />
   <project path="development" name="AOKP/platform_development" remote="gh" revision="ics" />
