@@ -567,7 +567,7 @@
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" revision="kitkat" />
   <project path="vendor/aicp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="kitkat" />
   <project path="vendor/jenkins" name="AICP/vendor_jenkins" remote="aicp" revision="kitkat" />
-  <project path="vendor/htc" name="AOKP/vendor_htc" remote="aokp" revision="kitkat" groups="notdefault,vendor,htc" />
+  <project path="vendor/htc" name="AICP/proprietary_vendor_htc" remote="aicp" revision="kitkat" groups="notdefault,vendor,htc" />
   <project path="vendor/htc/endeavoru" name="AICP/proprietary_vendor_htc_endeavoru" remote="aicp" revision="kitkat" groups="notdefault,vendor,htc" />
   <project path="vendor/lge" name="AOKP/vendor_lge" remote="aokp" revision="kitkat" groups="notdefault,vendor,lge" />
   <project path="vendor/motorola" name="AOKP/vendor_motorola" remote="aokp" revision="kitkat" groups="notdefault,vendor,motorola" />
