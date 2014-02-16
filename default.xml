@@ -571,9 +571,9 @@
   <project path="vendor/lge" name="AOKP/vendor_lge" remote="aokp" revision="kitkat" groups="notdefault,vendor,lge" />
   <project path="vendor/motorola" name="AOKP/vendor_motorola" remote="aokp" revision="kitkat" groups="notdefault,vendor,motorola" />
   <project path="vendor/oppo" name="AOKP/vendor_oppo" remote="aokp" revision="kitkat" groups="notdefault,vendor,oppo" />
+  <project path="vendor/qcom"     name="AICP/proprietary_vendor_qcom"     remote="aicp" revision="kitkat" />
   <project path="vendor/samsung" name="AOKP/vendor_samsung" remote="aokp" revision="kitkat" groups="notdefault,vendor,samsung" />
   <project path="vendor/sony" name="AOKP/vendor_sony" remote="aokp" revision="kitkat" groups="notdefault,vendor,sony" />
-  <project path="vendor/asus" name="SlimRoms/proprietary_vendor_asus" remote="slim" revision="kk4.4" groups="notdefault,vendor,asus" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-11.0" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="stable/cm-11.0" />
@@ -594,7 +594,7 @@
 
   <!-- Slim's deb vendor -->
   <project path="vendor/broadcom" name="SlimRoms/proprietary_vendor_broadcom" remote="slim" revision="kk4.4" />
-  <project path="vendor/qcom"     name="SlimRoms/proprietary_vendor_qcom"     remote="slim" revision="kk4.4" />
+  <project path="vendor/asus" name="SlimRoms/proprietary_vendor_asus" remote="slim" revision="kk4.4" groups="notdefault,vendor,asus" />
 
 
 </manifest>
