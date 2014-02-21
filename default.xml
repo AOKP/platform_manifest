@@ -397,7 +397,7 @@
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="cm-11.0" />
   <project path="kernel/asus/flo" name="AICP/android_kernel_asus_flo" remote="aicp" revision="kitkat"  groups="notdefault,kernel,flo,deb" />
   <project path="kernel/asus/grouper" name="CyanogenMod/android_kernel_asus_grouper" remote="cm" revision="cm-11.0" groups="notdefault,kernel,grouper" />
-  <project path="kernel/htc/m7" name="AICP/android_kernel_htc_m7" remote="aicp" revision="kitkat" groups="notdefault,kernel,m7,m7spr,m7vzw" />
+  <project path="kernel/htc/m7" name="AICP/kernel_htc_m7" remote="aicp" revision="kitkat" groups="notdefault,kernel,m7,m7spr,m7vzw" />
   <project path="kernel/htc/endeavoru" name="AICP/kernel_htc_endeavoru" remote="aicp" revision="kitkat" groups="notdefault,kernel,endeavoru" />
   <project path="kernel/lge/hammerhead" name="AICP/kernel_lge_hammerhead" remote="aicp"  revision="kitkat" groups="notdefault,kernel,hammerhead" />
   <project path="kernel/lge/gproj" name="CyanogenMod/lge-kernel-gproj" remote="cm" revision="cm-11.0" groups="notdefault,kernel,gproj,e980" />
