@@ -47,7 +47,7 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="AICP/development" remote="aicp" revision="kitkat" />
-  <project path="device/asus/deb" name="AICP/android_device_asus_deb" remote="aicp" revision="kitkat" groups="notdefault,device,deb" />
+  <project path="device/asus/deb" name="AICP/device_asus_deb" remote="aicp" revision="kitkat" groups="notdefault,device,deb" />
   <project path="device/asus/flo" name="AICP/device_asus_flo" remote="aicp" revision="kitkat" groups="notdefault,device,flo,deb" />
   <project path="device/asus/grouper" name="AOKP/device_asus_grouper" remote="aokp" revision="kitkat" groups="notdefault,device,grouper" />
   <project path="device/asus/tilapia" name="AOKP/device_asus_tilapia" remote="aokp" revision="kitkat" groups="notdefault,device,tilapia" />
@@ -395,7 +395,7 @@
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="cm" revision="cm-11.0" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="cm-11.0" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="cm-11.0" />
-  <project path="kernel/asus/flo" name="AICP/android_kernel_asus_flo" remote="aicp" revision="kitkat"  groups="notdefault,kernel,flo,deb" />
+  <project path="kernel/asus/flo" name="AICP/kernel_asus_flo" remote="aicp" revision="kitkat"  groups="notdefault,kernel,flo,deb" />
   <project path="kernel/asus/grouper" name="CyanogenMod/android_kernel_asus_grouper" remote="cm" revision="cm-11.0" groups="notdefault,kernel,grouper" />
   <project path="kernel/htc/m7" name="AICP/kernel_htc_m7" remote="aicp" revision="kitkat" groups="notdefault,kernel,m7,m7spr,m7vzw" />
   <project path="kernel/htc/endeavoru" name="AICP/kernel_htc_endeavoru" remote="aicp" revision="kitkat" groups="notdefault,kernel,endeavoru" />
