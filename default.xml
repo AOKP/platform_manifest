@@ -267,7 +267,7 @@
   <project path="external/yaffs2" name="AOKP/external_yaffs2" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="external/zlib" name="AOKP/external_zlib" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="AICP/android_frameworks_av" remote="aicp" revision="kitkat" groups="pdk" />
+  <project path="frameworks/av" name="AICP/frameworks_av" remote="aicp" revision="kitkat" groups="pdk" />
   <project path="frameworks/base" name="AICP/frameworks_base" remote="aicp" revision="kitkat" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
