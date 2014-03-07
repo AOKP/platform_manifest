@@ -482,4 +482,7 @@
   <!-- DashClock widget -->
   <project path="packages/apps/DashClock" name="SlimRoms/packages_apps_DashClock" remote="slim" revision="kk4.4" />
 
+  <!-- Apollo -->
+  <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="cm" revision="cm-11.0" />
+
 </manifest>
