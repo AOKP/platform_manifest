@@ -328,7 +328,7 @@
   <project path="packages/apps/AICP_OTA" name="AICP/packages_apps_AICP_OTA" remote="aicp" revision="kitkat" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="AICP/packages_apps_Bluetooth" remote="aicp" revision="kitkat" />
-  <project path="packages/apps/Browser" name="AOKP/packages_apps_Browser" remote="aokp" revision="kitkat" />
+  <project path="packages/apps/Browser" name="AICP/packages_apps_Browser" remote="aicp" revision="kitkat" />
   <project path="packages/apps/Calculator" name="SlimRoms/packages_apps_Calculator" remote="slim" revision="kk4.4" />
   <project path="packages/apps/Calendar" name="AICP/packages_apps_Calendar" remote="aicp" revision="kitkat" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="notdefault,legacypackages" />
