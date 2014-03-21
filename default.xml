@@ -181,8 +181,8 @@
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
   <project path="external/libpng" name="CyanogenMod/android_external_libpng" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/libppp" name="platform/external/libppp" />
-  <project path="external/libselinux" name="AOKP/external_libselinux" remote="aokp" revision="kitkat" groups="pdk" />
-  <project path="external/libsepol" name="AOKP/external_libsepol" remote="aokp" revision="kitkat" />
+  <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" remote="cm" revision="cm-11.0" groups="pdk" />
+  <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" remote="cm" revision="cm-11.0" />
   <project path="external/libusb" name="CyanogenMod/android_external_libusb" remote="cm" revision="cm-11.0" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
   <project path="external/libvorbis" name="platform/external/libvorbis" />
@@ -458,7 +458,7 @@
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="system/qcom" name="AOKP/system_qcom" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="AOKP/system_vold" remote="aokp" revision="kitkat" groups="pdk" />
+  <project path="system/vold" name="AICP/system_vold" remote="aicp" revision="kitkat" groups="pdk" />
 
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" revision="kitkat" />
   <project path="vendor/aicp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="kitkat" />
