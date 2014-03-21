@@ -181,7 +181,7 @@
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
   <project path="external/libpng" name="CyanogenMod/android_external_libpng" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/libppp" name="platform/external/libppp" />
-  <project path="external/libselinux" name="AOKP/external_libselinux" remote="aokp" revision="kitkat" groups="pdk" />
+  <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/libsepol" name="AOKP/external_libsepol" remote="aokp" revision="kitkat" />
   <project path="external/libusb" name="CyanogenMod/android_external_libusb" remote="cm" revision="cm-11.0" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
