@@ -340,6 +340,7 @@
   <project path="packages/apps/ContactsCommon" name="AICP/packages_apps_ContactsCommon" remote="aicp" revision="kitkat" />
   <project path="packages/apps/DeskClock" name="AICP/packages_apps_DeskClock" remote="aicp" revision="kitkat" />
   <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" remote="aicp" revision="kitkat" />
+  <project path="packages/apps/DSPManager" name="AICP/packages_apps_DSPManager" remote="aicp" revision="kitkat" />
   <project path="packages/apps/Email" name="AICP/packages_apps_Email" remote="aicp" revision="kitkat" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="notdefault,legacypackages" />
@@ -454,7 +455,7 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/core" name="AICP/system_core" remote="aicp" revision="kitkat" groups="pdk" />
   <project path="system/extras" name="AOKP/system_extras" remote="aokp" revision="kitkat" groups="pdk" />
-  <project path="system/media" name="AOKP/system_media" remote="aokp" revision="kitkat" groups="pdk" />
+  <project path="system/media" name="AICP/system_media" remote="aicp" revision="kitkat" groups="pdk" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="system/qcom" name="AOKP/system_qcom" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
