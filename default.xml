@@ -69,6 +69,7 @@
   <project path="device/motorola/qcom-common" name="AOKP/device_motorola_qcom-common" remote="aokp" revision="kitkat" groups="notdefault,device,ghost,xt1053,xt1060" />
   <project path="device/motorola/xt1053" name="AOKP/device_motorola_xt1053" remote="aokp" revision="kitkat" groups="notdefault,device,ghost,xt1053" />
   <project path="device/motorola/xt1060" name="AOKP/device_motorola_xt1060" remote="aokp" revision="kitkat" groups="notdefault,device,ghost,xt1060" />
+  <project path="device/oppo/common" name="AOKP/device_oppo_common" remote="aokp" revision="kitkat" groups="notdefault,device,find5,n1" />
   <project path="device/oppo/find5" name="AOKP/device_oppo_find5" remote="aokp" revision="kitkat" groups="notdefault,device,find5" />
   <project path="device/oppo/n1" name="AOKP/device_oppo_n1" remote="aokp" revision="kitkat" groups="notdefault,device,n1" />
   <project path="device/oppo/apq8064-common" name="AOKP/device_oppo_apq8064-common" remote="aokp" revision="kitkat" groups="notdefault,device,n1" />
