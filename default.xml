@@ -74,7 +74,8 @@
   <project path="device/oppo/find5" name="AOKP/device_oppo_find5" remote="aokp" revision="kitkat" groups="notdefault,device,find5" />
   <project path="device/oppo/n1" name="AOKP/device_oppo_n1" remote="aokp" revision="kitkat" groups="notdefault,device,n1" />
   <project path="device/oppo/apq8064-common" name="AOKP/device_oppo_apq8064-common" remote="aokp" revision="kitkat" groups="notdefault,device,n1" />
-  <project path="device/qcom/common" name="AOKP/device_qcom_common" remote="aokp" revision="kitkat" groups="notdefault,device,g2,d800,d801,d802,ls980,vs980" />
+  <project path="device/qcom/common" name="AOKP/device_qcom_common" remote="aokp" revision="kitkat" 
+groups="notdefault,device,g2,d800,d801,d802,ls980,sony,vs980" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/d2lte" name="AOKP/device_samsung_d2lte" remote="aokp" revision="kitkat" groups="notdefault,device,d2,d2lte" />
   <project path="device/samsung/hlte" name="AOKP/device_samsung_hlte" remote="aokp" revision="kitkat" groups="notdefault,device,hlte" />
