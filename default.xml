@@ -50,7 +50,9 @@
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk,notdefault" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="notdefault,device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="notdefault,device" />
-  <project path="device/htc/m7" name="AOKP/device_htc_m7" remote="aokp" revision="kitkat" groups="notdefault,device,m7" />
+  <project path="device/hp/tenderloin" name="sixohtew/android_device_hp_tenderloin"
+revision="kitkat" remote="aokp" />
+<project path="device/htc/m7" name="AOKP/device_htc_m7" remote="aokp" revision="kitkat" groups="notdefault,device,m7" />
   <project path="device/htc/m7-common" name="AOKP/device_htc_m7-common" remote="aokp" revision="kitkat" groups="notdefault,device,m7,m7spr,m7vzw" />
   <project path="device/htc/m7spr" name="AOKP/device_htc_m7spr" remote="aokp" revision="kitkat" groups="notdefault,device,m7,m7spr" />
   <project path="device/htc/m7vzw" name="AOKP/device_htc_m7vzw" remote="aokp" revision="kitkat" groups="notdefault,device,m7,m7vzw" />
@@ -548,6 +550,7 @@
   <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" revision="kitkat" />
   <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="kitkat" />
   <project path="vendor/aokp/resources" name="AOKP/vendor_aokp_resources" remote="aokp" revision="kitkat" />
+  <project path="vendor/hp" name="sixohtew/proprietary_vendor_hp" remote="aokp" revision="jellybean" groups="notdefault,vendor/hp" />
   <project path="vendor/htc" name="AOKP/vendor_htc" remote="aokp" revision="kitkat" groups="notdefault,vendor,htc" />
   <project path="vendor/lge" name="AOKP/vendor_lge" remote="aokp" revision="kitkat" groups="notdefault,vendor,lge" />
   <project path="vendor/motorola" name="AOKP/vendor_motorola" remote="aokp" revision="kitkat" groups="notdefault,vendor,motorola" />
