@@ -50,8 +50,7 @@
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk,notdefault" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="notdefault,device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="notdefault,device" />
-  <project path="device/hp/tenderloin" name="AOKP/android_device_hp_tenderloin"
-revision="kitkat" remote="aokp" />
+  <project path="device/hp/tenderloin" name="AOKP/android_device_hp_tenderloin" remote="aokp" revision="kitkat"  />
   <project path="device/htc/m7" name="AOKP/device_htc_m7" remote="aokp" revision="kitkat" groups="notdefault,device,m7" />
   <project path="device/htc/m7-common" name="AOKP/device_htc_m7-common" remote="aokp" revision="kitkat" groups="notdefault,device,m7,m7spr,m7vzw" />
   <project path="device/htc/m7spr" name="AOKP/device_htc_m7spr" remote="aokp" revision="kitkat" groups="notdefault,device,m7,m7spr" />
