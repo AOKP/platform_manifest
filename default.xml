@@ -32,6 +32,7 @@
 
   <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
+           sync-c="true"
            sync-j="16" />
 
   <project path="build" name="AICP/build" remote="aicp" revision="kitkat" groups="pdk">
