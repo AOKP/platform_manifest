@@ -96,6 +96,7 @@
   <project path="device/sony/common" name="AOKP/device_sony_common" remote="aokp" revision="kitkat" groups="notdefault,device,sony" />
   <project path="device/sony/qcom-common" name="AOKP/device_sony_qcom-common" remote="aokp" revision="kitkat" groups="notdefault,device,yuga" />
   <project path="device/sony/rhine-common" name="AOKP/device_sony_rhine-common" remote="aokp" revision="kitkat" groups="notdefault,device,honami,togari" />
+  <project path="device/sony/amami" name="AOKP/device_sony_amami" remote="aokp" revision="kitkat" groups="notdefault,device,amami" />
   <project path="device/sony/honami" name="AOKP/device_sony_honami" remote="aokp" revision="kitkat" groups="notdefault,device,honami" />
   <project path="device/sony/togari" name="AOKP/device_sony_togari" remote="aokp" revision="kitkat" groups="notdefault,device,togari" />
   <project path="device/sony/fusion3-common" name="AOKP/device_sony_fusion3-common" remote="aokp" revision="kitkat" groups="notdefault,device,yuga" />
