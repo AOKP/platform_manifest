@@ -236,7 +236,7 @@
   <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" remote="cm" revision="cm-11.0" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
-  <project path="external/skia" name="AICP/external_skia" remote="aicp" revision="kitkat" />
+  <project path="external/skia" name="CyanogenMod/android_external_skia" remote="cm" revision="cm-11.0" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
@@ -465,8 +465,8 @@
   <project path="vendor/aicp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="kitkat" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-11.0" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="AICP/vendor_tmobile_libs_com.tmobile.themes" remote="aicp" revision="kitkat" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="AICP/vendor_tmobile_providers_ThemeManager" remote="aicp" revision="kitkat" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="stable/cm-11.0" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-11.0" />
 
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="kitkat" />
 
