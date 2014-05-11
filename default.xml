@@ -42,9 +42,7 @@
   <project path="bionic" name="AICP/bionic" remote="aicp" revision="kitkat" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" />
-  <project path="bootable/recovery-cm" name="CyanogenMod/android_bootable_recovery-cm" remote="cm" revision="cm-11.0" />
-  <project path="bootable/recovery-twrp" name="android_bootable_recovery" remote="omni" revision="android-4.4" />
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-11.0" />
   <project path="cts" name="platform/cts" groups="cts"/>
   <project path="dalvik" name="AICP/dalvik" remote="aicp" revision="kitkat" />
   <project path="developers/build" name="platform/developers/build" />
