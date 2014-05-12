@@ -105,6 +105,7 @@
   <project path="device/sony/togari" name="AOKP/device_sony_togari" remote="aokp" revision="kitkat" groups="notdefault,device,togari" />
   <project path="device/sony/fusion3-common" name="AOKP/device_sony_fusion3-common" remote="aokp" revision="kitkat" groups="notdefault,device,yuga" />
   <project path="device/sony/dogo" name="AOKP/device_sony_dogo" remote="aokp" revision="kitkat" groups="notdefault,device,dogo" />
+  <project path="device/sony/nicki" name="AOKP/device_sony_nicki" remote="aokp" revision="kitkat" groups="notdefault,device,nicki" />
   <project path="device/sony/odin" name="AOKP/device_sony_odin" remote="aokp" revision="kitkat" groups="notdefault,device,odin" />
   <project path="device/sony/yuga" name="AOKP/device_sony_yuga" remote="aokp" revision="kitkat" groups="notdefault,device,yuga" />
   <project path="device/sony/pollux" name="AOKP/device_sony_pollux" remote="aokp" revision="kitkat" groups="notdefault,device,pollux" />
@@ -402,6 +403,7 @@
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="omni" revision="android-4.4" groups="notdefault,kernel,t0lte,t0lteatt,t0ltetmo,i605,i9300,l900" />
   <project path="kernel/samsung/tuna" name="CyanogenMod/android_kernel_samsung_tuna" remote="cm" revision="cm-11.0" groups="notdefault,kernel,maguro,toro,toroplus" />
   <project path="kernel/sony/apq8064" name="AOKP/kernel_sony_apq8064" remote="aokp" revision="kitkat" groups="notdefault,kernel,yuga,odin" />
+  <project path="kernel/sony/msm8x27" name="AOKP/android_kernel_sony_msm8x27" remote="aokp" revision="kitkat" groups="notdefault,kernel,nicki" />
   <project path="kernel/sony/msm8x60" name="AOKP/kernel_sony_msm8x60" remote="aokp" revision="kitkat" groups="notdefault,kernel,tsubasa,mint" />
   <project path="kernel/sony/msm8960t" name="AOKP/kernel_sony_msm8960t" remote="aokp" revision="kitkat" groups="notdefault,kernel,huashan" />
   <project path="kernel/sony/msm8974" name="CyanogenMod/android_kernel_sony_msm8974" remote="cm" revision="cm-11.0" groups="notdefault,kernel,honami,togari" />
