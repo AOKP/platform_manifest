@@ -96,6 +96,17 @@
   <project path="device/samsung/t0ltetmo" name="AOKP/device_samsung_t0ltetmo" remote="aokp" revision="kitkat" groups="notdefault,device,t0ltetmo" />
   <project path="device/samsung/toro" name="AOKP/device_samsung_toro" remote="aokp" revision="kitkat" groups="notdefault,device,toro" />
   <project path="device/samsung/tuna" name="AOKP/device_samsung_tuna" remote="aokp" revision="kitkat" groups="notdefault,device,maguro,toro,toroplus" />
+  <project path="device/semc/msm7x30-common" name="AOKP/device_semc_msm7x30-common" remote="aokp" revision="kitkat" groups="notdefault,device,anzu,coconut,haida,hallon,iyokan,mango,satsuma,smultron,urushi" />
+  <project path="device/semc/mogami-common" name="AOKP/device_semc_mogami-common" remote="aokp" revision="kitkat" groups="notdefault,device,anzu,coconut,haida,hallon,iyokan,mango,satsuma,smultron,urushi" />
+  <project path="device/semc/anzu" name="AOKP/device_semc_anzu" remote="aokp" revision="kitkat" groups="notdefault,device,anzu" />
+  <project path="device/semc/coconut" name="AOKP/device_semc_coconut" remote="aokp" revision="kitkat" groups="notdefault,device,coconut" />
+  <project path="device/semc/haida" name="AOKP/device_semc_haida" remote="aokp" revision="kitkat" groups="notdefault,device,haida" />
+  <project path="device/semc/hallon" name="AOKP/device_semc_hallon" remote="aokp" revision="kitkat" groups="notdefault,device,hallon" />
+  <project path="device/semc/iyokan" name="AOKP/device_semc_iyokan" remote="aokp" revision="kitkat" groups="notdefault,device,iyokan" />
+  <project path="device/semc/mango" name="AOKP/device_semc_mango" remote="aokp" revision="kitkat" groups="notdefault,device,mango" />
+  <project path="device/semc/satsuma" name="AOKP/device_semc_satsuma" remote="aokp" revision="kitkat" groups="notdefault,device,satsuma" />
+  <project path="device/semc/smultron" name="AOKP/device_semc_smultron" remote="aokp" revision="kitkat" groups="notdefault,device,smultron" />
+  <project path="device/semc/urushi" name="AOKP/device_semc_urushi" remote="aokp" revision="kitkat" groups="notdefault,device,urushi" />
   <project path="device/sony/common" name="AOKP/device_sony_common" remote="aokp" revision="kitkat" groups="notdefault,device,sony" />
   <project path="device/sony/qcom-common" name="AOKP/device_sony_qcom-common" remote="aokp" revision="kitkat" groups="notdefault,device,yuga" />
   <project path="device/sony/rhine-common" name="AOKP/device_sony_rhine-common" remote="aokp" revision="kitkat" groups="notdefault,device,honami,togari" />
@@ -400,6 +411,7 @@
   <project path="kernel/samsung/manta" name="CyanogenMod/android_kernel_samsung_manta" remote="cm" revision="cm-11.0" groups="notdefault,kernel,manta" />
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="omni" revision="android-4.4" groups="notdefault,kernel,t0lte,t0lteatt,t0ltetmo,i605,i9300,l900" />
   <project path="kernel/samsung/tuna" name="CyanogenMod/android_kernel_samsung_tuna" remote="cm" revision="cm-11.0" groups="notdefault,kernel,maguro,toro,toroplus" />
+  <project path="kernel/semc/msm7x30" name="AOKP/kernel_semc_msm7x30" remote="aokp" revision="kitkat" groups="notdefault,kernel,anzu,coconut,haida,hallon,iyokan,mango,satsuma,smultron,urushi" />
   <project path="kernel/sony/apq8064" name="AOKP/kernel_sony_apq8064" remote="aokp" revision="kitkat" groups="notdefault,kernel,yuga,odin" />
   <project path="kernel/sony/msm8x60" name="AOKP/kernel_sony_msm8x60" remote="aokp" revision="kitkat" groups="notdefault,kernel,tsubasa,mint" />
   <project path="kernel/sony/msm8960t" name="AOKP/kernel_sony_msm8960t" remote="aokp" revision="kitkat" groups="notdefault,kernel,huashan" />
@@ -563,6 +575,7 @@
   <project path="vendor/motorola" name="AOKP/vendor_motorola" remote="aokp" revision="kitkat" groups="notdefault,vendor,motorola" />
   <project path="vendor/oppo" name="AOKP/vendor_oppo" remote="aokp" revision="kitkat" groups="notdefault,vendor,oppo" />
   <project path="vendor/samsung" name="AOKP/vendor_samsung" remote="aokp" revision="kitkat" groups="notdefault,vendor,samsung" />
+  <project path="vendor/semc" name="AOKP/vendor_semc" remote="aokp" revision="kitkat" groups="notdefault,vendor,semc" />
   <project path="vendor/sony" name="AOKP/vendor_sony" remote="aokp" revision="kitkat" groups="notdefault,vendor,sony" />
   <project path="vendor/asus" name="AOKP/vendor_asus" remote="aokp" revision="kitkat" groups="notdefault,vendor,asus" />
 
