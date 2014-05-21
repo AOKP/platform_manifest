@@ -84,7 +84,7 @@
   <project path="device/samsung/hlte" name="AOKP/device_samsung_hlte" remote="aokp" revision="kitkat" groups="notdefault,device,hlte" />
   <project path="device/samsung/i605" name="AOKP/device_samsung_i605" remote="aokp" revision="kitkat" groups="notdefault,device,i605" />
   <project path="device/samsung/i9300" name="AOKP/device_samsung_i9300" remote="aokp" revision="kitkat" groups="notdefault,device,i9300" />
-  <project path="device/samsung/i9500" name="AOKP/device_samsung_i9500" remote="aokp" revision="kitkat" groups="notdefault,device,i9500"/>
+  <project path="device/samsung/i9500" name="AOKP/device_samsung_i9500" remote="aokp" revision="kitkat" groups="notdefault,device,i9500" />
   <project path="device/samsung/jflte" name="AOKP/device_samsung_jflte" remote="aokp" revision="kitkat" groups="notdefault,device,jf,jflte" />
   <project path="device/samsung/l900" name="AOKP/device_samsung_l900" remote="aokp" revision="kitkat" groups="notdefault,device,l900" />
   <project path="device/samsung/maguro" name="AOKP/device_samsung_maguro" remote="aokp" revision="kitkat" groups="notdefault,device,maguro" />
