@@ -72,7 +72,8 @@
   <project path="device/lge/v500" name="AOKP/device_lge_v500" remote="aokp" revision="kitkat" groups="notdefault,device,v500" />
   <project path="device/lge/vs920" name="AOKP/device_lge_vs920" remote="aokp" revision="kitkat" groups="notdefault,device,iproj,vs920" />
   <project path="device/lge/vs980" name="AOKP/device_lge_vs980" remote="aokp" revision="kitkat" groups="notdefault,device,g2,vs980" />
-  <project path="device/motorola/qcom-common" name="AOKP/device_motorola_qcom-common" remote="aokp" revision="kitkat" groups="notdefault,device,msm8960dt" />
+  <project path="device/lge/vs980" name="AOKP/device_lge_vs980" remote="aokp" revision="kitkat" groups="notdefault,device,g2,vs980" />
+  <project path="device/htc/m8" name="AOKP/device_m8" remote="aokp" revision="kitkat" groups="notdefault,device,m8" />
   <project path="device/motorola/moto_msm8960dt" name="AOKP/device_motorola_moto_msm8960dt" remote="aokp" revision="kitkat" groups="notdefault,device,msm8960dt" />
   <project path="device/oppo/common" name="AOKP/device_oppo_common" remote="aokp" revision="kitkat" groups="notdefault,device,find5,n1" />
   <project path="device/oppo/find5" name="AOKP/device_oppo_find5" remote="aokp" revision="kitkat" groups="notdefault,device,find5" />
@@ -366,6 +367,7 @@
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="cm" revision="cm-11.0" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" remote="cm" revision="cm-11.0" groups="caf" />
   <project path="hardware/qcom/display-caf-new" name="CyanogenMod/android_hardware_qcom_display-caf-new" remote="cm" revision="cm-11.0" groups="caf" />
+  <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" remote="cm" revision="cm-11.0" groups="caf" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="cm" revision="cm-11.0" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="cm" revision="cm-11.0" groups="qcom" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="cm" revision="cm-11.0" groups="qcom" />
