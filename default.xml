@@ -111,6 +111,8 @@
   <project path="device/semc/urushi" name="AOKP/device_semc_urushi" remote="aokp" revision="kitkat" groups="notdefault,device,urushi" />
   <project path="device/sony/common" name="AOKP/device_sony_common" remote="aokp" revision="kitkat" groups="notdefault,device,sony" />
   <project path="device/sony/qcom-common" name="AOKP/device_sony_qcom-common" remote="aokp" revision="kitkat" groups="notdefault,device,sony" />
+  <project path="device/sony/shinano-common" name="AOKP/device_sony_shinano-common" remote="aokp" revision="kitkat" groups="notdefault,device,sirius" />
+  <project path="device/sony/sirius" name="AOKP/device_sony_sirius" remote="aokp" revision="kitkat" groups="notdefault,device,sirius" />
   <project path="device/sony/rhine-common" name="AOKP/device_sony_rhine-common" remote="aokp" revision="kitkat" groups="notdefault,device,honami,togari,amami" />
   <project path="device/sony/amami" name="AOKP/device_sony_amami" remote="aokp" revision="kitkat" groups="notdefault,device,amami" />
   <project path="device/sony/honami" name="AOKP/device_sony_honami" remote="aokp" revision="kitkat" groups="notdefault,device,honami" />
@@ -423,6 +425,7 @@
   <project path="kernel/sony/msm8x60" name="AOKP/kernel_sony_msm8x60" remote="aokp" revision="kitkat" groups="notdefault,kernel,tsubasa,mint" />
   <project path="kernel/sony/msm8960t" name="AOKP/kernel_sony_msm8960t" remote="aokp" revision="kitkat" groups="notdefault,kernel,huashan" />
   <project path="kernel/sony/msm8974" name="CyanogenMod/android_kernel_sony_msm8974" remote="cm" revision="cm-11.0" groups="notdefault,kernel,honami,togari,amami" />
+  <project path="kernel/sony/msm8974ab" name="AOKP/kernel_sony_msm8974ab" remote="aokp" revision="kitkat" groups="notdefault,kernel,sirius" />
   <project path="libcore" name="AOKP/libcore" remote="aokp" revision="kitkat" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
