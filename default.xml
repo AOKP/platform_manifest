@@ -30,7 +30,7 @@
   <remote   name="maxwen"
             fetch="https://github.com/maxwen/" />
 
-  <default revision="refs/tags/android-4.4.2_r2"
+  <default revision="refs/tags/android-4.4.3_r1.1"
            remote="aosp"
            sync-c="true"
            sync-j="16" />
