@@ -90,7 +90,8 @@
   <project path="device/samsung/l900" name="AOKP/device_samsung_l900" remote="aokp" revision="kitkat" groups="notdefault,device,l900" />
   <project path="device/samsung/maguro" name="AOKP/device_samsung_maguro" remote="aokp" revision="kitkat" groups="notdefault,device,maguro" />
   <project path="device/samsung/manta" name="AOKP/device_samsung_manta" remote="aokp" revision="kitkat" groups="notdefault,device,manta" />
-  <project path="device/samsung/msm8960-common" name="AOKP/device_samsung_msm8960-common" remote="aokp" revision="kitkat" groups="notdefault,device,d2,d2lte,jf,jflte,hlte" />
+  <project path="device/samsung/msm8960-common" name="AOKP/device_samsung_msm8960-common" remote="aokp" revision="kitkat" groups="notdefault,device,d2,d2lte,jf,jflte" />
+  <project path="device/samsung/msm8974-common" name="AOKP/device_samsung_msm8974-common" remote="aokp" revision="kitkat" groups="notdefault,device,hlte" />
   <project path="device/samsung/qcom-common" name="AOKP/device_samsung_qcom-common" remote="aokp" revision="kitkat" groups="notdefault,device,d2,d2lte,jf,jflte,hercules,hlte" />
   <project path="device/samsung/smdk4412-common" name="AOKP/device_samsung_smdk4412-common" remote="aokp" revision="kitkat" groups="notdefault,device,t0lte,t0lteatt,t0ltetmo,i605,l900" />
   <project path="device/samsung/smdk4412-qcom-common" name="CyanogenMod/android_device_samsung_smdk4412-qcom-common" remote="cm" revision="cm-11.0" groups="notdefault,device,t0lte,t0lteatt,t0ltetmo,i605,l900" />
