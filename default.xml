@@ -86,7 +86,7 @@
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk"/>
-  <project path="external/chromium_org" name="AOKP/external_chromium_org" remote="aokp" revision="kitkat" />
+  <project path="external/chromium_org" name="CyanogenMod/android_external_chromium_org" remote="cm" revision="cm-11.0" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" />
@@ -301,7 +301,7 @@
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
-  <project path="frameworks/webview" name="platform/frameworks/webview" />
+  <project path="frameworks/webview" name="CyanogenMod/android_frameworks_webview" remote="cm" revision="cm-11.0" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" remote="cm" revision="cm-11.0" groups="pdk" />
