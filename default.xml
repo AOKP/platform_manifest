@@ -472,7 +472,7 @@
   <project path="packages/apps/Mms" name="AOKP/packages_apps_Mms" remote="aokp" revision="kitkat" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="notdefault,legacypackages" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
+  <project path="packages/apps/Nfc" name="AOKP/packages_apps_Nfc" remote="aokp" revision="kitkat" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="notdefault,legacypackages" />
