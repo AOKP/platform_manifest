@@ -76,10 +76,11 @@
   <project path="device/motorola/qcom-common" name="AOKP/device_motorola_qcom-common" remote="aokp" revision="kitkat" groups="notdefault,device,msm8960dt" />
   <project path="device/htc/m8" name="AOKP/device_htc_m8" remote="aokp" revision="kitkat" groups="notdefault,device,m8" />
   <project path="device/motorola/moto_msm8960dt" name="AOKP/device_motorola_moto_msm8960dt" remote="aokp" revision="kitkat" groups="notdefault,device,msm8960dt" />
+  <project path="device/oneplus/bacon" name="AOKP/device_oneplus_bacon" remote="aokp" revision="kitkat" groups="notdefault,device,bacon" />
   <project path="device/oppo/common" name="AOKP/device_oppo_common" remote="aokp" revision="kitkat" groups="notdefault,device,find5,find7,n1" />
   <project path="device/oppo/find5" name="AOKP/device_oppo_find5" remote="aokp" revision="kitkat" groups="notdefault,device,find5" />
   <project path="device/oppo/find7" name="AOKP/device_oppo_find7" remote="aokp" revision="kitkat" groups="notdefault,device,find7" />
-  <project path="device/oppo/msm8974-common" name="AOKP/device_oppo_msm8974-common" remote="aokp" revision="kitkat" groups="notdefault,device,find7" />
+  <project path="device/oppo/msm8974-common" name="AOKP/device_oppo_msm8974-common" remote="aokp" revision="kitkat" groups="notdefault,device,find7,bacon" />
   <project path="device/oppo/n1" name="AOKP/device_oppo_n1" remote="aokp" revision="kitkat" groups="notdefault,device,n1" />
   <project path="device/oppo/apq8064-common" name="AOKP/device_oppo_apq8064-common" remote="aokp" revision="kitkat" groups="notdefault,device,n1" />
   <project path="device/qcom/common" name="AOKP/device_qcom_common" remote="aokp" revision="kitkat" groups="notdefault,device,g2,d800,d801,d802,ls980,sony,vs980,hlte,m7,m7vzw,m7spr" />
@@ -426,7 +427,7 @@
   <project path="kernel/lge/msm8974" name="CyanogenMod/android_kernel_lge_msm8974" remote="cm" revision="cm-11.0" groups="notdefault,kernel,g2,d800,d801,d802,ls980,vs980" />
   <project path="kernel/lge/v500" name="CyanogenMod/android_kernel_lge_v500" remote="cm" revision="cm-11.0" groups="notdefault,kernel,v500" />
   <project path="kernel/motorola/msm8960dt-common" name="CyanogenMod/android_kernel_motorola_msm8960dt-common" remote="cm" revision="cm-11.0" groups="notdefault,kernel,msm8960dt" />
-  <project path="kernel/oneplus/msm8974" name="CyanogenMod/android_kernel_oneplus_msm8974" remote="cm" revision="cm-11.0" groups="notdefault,kernel,find7" />
+  <project path="kernel/oneplus/msm8974" name="CyanogenMod/android_kernel_oneplus_msm8974" remote="cm" revision="cm-11.0" groups="notdefault,kernel,find7,bacon" />
   <project path="kernel/oppo/find5" name="CyanogenMod/android_kernel_oppo_find5" remote="cm" revision="cm-11.0" groups="notdefault,kernel,find5" />
   <project path="kernel/oppo/n1" name="CyanogenMod/android_kernel_oppo_n1" remote="cm" revision="cm-11.0" groups="notdefault,kernel,n1" />
   <project path="kernel/samsung/d2" name="CyanogenMod/android_kernel_samsung_d2" remote="cm" revision="cm-11.0" groups="notdefault,kernel,d2,d2lte" />
@@ -603,6 +604,7 @@
   <project path="vendor/htc" name="AOKP/vendor_htc" remote="aokp" revision="kitkat" groups="notdefault,vendor,htc" />
   <project path="vendor/lge" name="AOKP/vendor_lge" remote="aokp" revision="kitkat" groups="notdefault,vendor,lge" />
   <project path="vendor/motorola" name="AOKP/vendor_motorola" remote="aokp" revision="kitkat" groups="notdefault,vendor,motorola" />
+  <project path="vendor/oneplus" name="AOKP/vendor_oneplus" remote="aokp" revision="kitkat" groups="notdefault,vendor,oneplus" />
   <project path="vendor/oppo" name="AOKP/vendor_oppo" remote="aokp" revision="kitkat" groups="notdefault,vendor,oppo" />
   <project path="vendor/samsung" name="AOKP/vendor_samsung" remote="aokp" revision="kitkat" groups="notdefault,vendor,samsung" />
   <project path="vendor/semc" name="AOKP/vendor_semc" remote="aokp" revision="kitkat" groups="notdefault,vendor,semc" />
