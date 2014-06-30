@@ -306,7 +306,7 @@
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
   <project path="external/qemu" name="CyanogenMod/android_external_qemu" remote="cm" revision="cm-11.0" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
-  <project path="external/qrngd" name="AOKP/external_qrngd" remote="aokp" revision="kitkat" />
+  <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="cm" revision="cm-11.0" />
   <project path="external/regex-re2" name="CyanogenMod/android_external_regex-re2" remote="cm" revision="cm-11.0" />
   <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/robolectric" name="platform/external/robolectric" />
