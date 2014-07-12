@@ -521,6 +521,7 @@
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" groups="notdefault" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" groups="notdefault" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" groups="notdefault" />
+  <project path="packages/wallpapers/UnicornBeam" name="AOKP/android_packages_wallpapers_UnicornBeam" remote="aokp" revision="kitkat" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" />
