@@ -32,6 +32,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-11.0" />
   <project path="bootable/recovery-cm" name="CyanogenMod/android_bootable_recovery-cm" remote="cm" revision="cm-11.0" />
+  <project path="bootable/recovery-philz" name="PhilZ-cwm6/philz_touch_cwm6" remote="cm" revision="cm-11.0" />
   <project path="cts" name="platform/cts" groups="cts"/>
   <project path="dalvik" name="AOKP/dalvik" remote="aokp" revision="kitkat" />
   <project path="developers/build" name="platform/developers/build" />
