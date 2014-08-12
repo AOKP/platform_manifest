@@ -78,7 +78,7 @@
   <project path="device/htc/m8" name="AOKP/device_htc_m8" remote="aokp" revision="kitkat" groups="notdefault,device,m8" />
   <project path="device/motorola/moto_msm8960dt" name="AOKP/device_motorola_moto_msm8960dt" remote="aokp" revision="kitkat" groups="notdefault,device,msm8960dt" />
   <project path="device/oneplus/bacon" name="AOKP/device_oneplus_bacon" remote="aokp" revision="kitkat" groups="notdefault,device,bacon" />
-  <project path="device/oppo/common" name="AOKP/device_oppo_common" remote="aokp" revision="kitkat" groups="notdefault,device,find5,find7,n1" />
+  <project path="device/oppo/common" name="AOKP/device_oppo_common" remote="aokp" revision="kitkat" groups="notdefault,device,find5,find7,n1,bacon" />
   <project path="device/oppo/find5" name="AOKP/device_oppo_find5" remote="aokp" revision="kitkat" groups="notdefault,device,find5" />
   <project path="device/oppo/find7" name="AOKP/device_oppo_find7" remote="aokp" revision="kitkat" groups="notdefault,device,find7" />
   <project path="device/oppo/msm8974-common" name="AOKP/device_oppo_msm8974-common" remote="aokp" revision="kitkat" groups="notdefault,device,find7,bacon" />
