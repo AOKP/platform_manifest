@@ -30,6 +30,9 @@
   <remote   name="maxwen"
             fetch="https://github.com/maxwen/" />
 
+  <remote  name="vanir"
+           fetch="https://github.com/" />
+
   <default revision="refs/tags/android-4.4.4_r2"
            remote="aosp"
            sync-c="true"
@@ -368,7 +371,7 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="AICP/packages_apps_Nfc" remote="aicp" revision="kitkat" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
+  <project path="packages/apps/PackageInstaller" name="VanirAOSP/packages_apps_PackageInstaller" remote="vanir" revision="kk44" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="notdefault,legacypackages" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="notdefault,legacypackages" />
