@@ -356,7 +356,7 @@
   <project path="packages/apps/DSPManager" name="AICP/packages_apps_DSPManager" remote="aicp" revision="kitkat" />
   <project path="packages/apps/Email" name="AICP/packages_apps_Email" remote="aicp" revision="kitkat" />
   <project path="packages/apps/EOSWeather" name="AICP/packages_apps_EOSWeather" remote="aicp" revision="kitkat" />
-  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
+  <project path="packages/apps/Exchange" name="AICP/packages_apps_Exchange" remote="aicp" revision="kitkat" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="notdefault,legacypackages" />
   <project path="packages/apps/Gallery2" name="AICP/packages_apps_Gallery2" remote="aicp" revision="kitkat" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
