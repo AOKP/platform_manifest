@@ -503,4 +503,7 @@
   <!-- Apollo -->
   <project path="packages/apps/Apollo" name="omnirom/android_packages_apps_Apollo" remote="omni" revision="android-4.4" />
 
+  <!-- MonthCalendarWidget -->
+  <project path="packages/apps/MonthCalendarWidget" name="omnirom/android_packages_apps_MonthCalendarWidget" remote="omni" revision="android-4.4" />
+
 </manifest>
