@@ -446,8 +446,7 @@
   <project path="kernel/samsung/tuna" name="CyanogenMod/android_kernel_samsung_tuna" remote="cm" revision="cm-11.0" groups="notdefault,kernel,maguro,toro,toroplus" />
   <project path="kernel/semc/msm7x30" name="AOKP/kernel_semc_msm7x30" remote="aokp" revision="kitkat" groups="notdefault,kernel,anzu,coconut,haida,hallon,iyokan,mango,satsuma,smultron,urushi" />
   <project path="kernel/sony/apq8064" name="AOKP/kernel_sony_apq8064" remote="aokp" revision="kitkat" groups="notdefault,kernel,yuga,odin,dogo,pollux" />
-  <project path="kernel/sony/msm8x60" name="AOKP/kernel_sony_msm8x60" remote="aokp" revision="kitkat" groups="notdefault,kernel,tsubasa,mint" />
-  <project path="kernel/sony/msm8960t" name="AOKP/kernel_sony_msm8960t" remote="aokp" revision="kitkat" groups="notdefault,kernel,huashan" />
+  <project path="kernel/sony/msm8x60" name="AOKP/kernel_sony_msm8x60" remote="aokp" revision="kitkat" groups="notdefault,kernel,tsubasa,mint,huashan" />
   <project path="kernel/sony/msm8974" name="CyanogenMod/android_kernel_sony_msm8974" remote="cm" revision="cm-11.0" groups="notdefault,kernel,honami,togari,amami" />
   <project path="kernel/sony/msm8974ab" name="AOKP/kernel_sony_msm8974ab" remote="aokp" revision="kitkat" groups="notdefault,kernel,sirius" />
   <project path="libcore" name="AOKP/libcore" remote="aokp" revision="kitkat" />
