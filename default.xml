@@ -355,7 +355,7 @@
   <project path="packages/apps/ContactsCommon" name="AICP/packages_apps_ContactsCommon" remote="aicp" revision="kitkat" />
   <project path="packages/apps/DeskClock" name="AICP/packages_apps_DeskClock" remote="aicp" revision="kitkat" />
   <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" remote="aicp" revision="kitkat" />
-  <project path="packages/apps/DSPManager" name="AICP/packages_apps_DSPManager" remote="aicp" revision="kitkat" />
+  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Email" name="AICP/packages_apps_Email" remote="aicp" revision="kitkat" />
   <project path="packages/apps/EOSWeather" name="AICP/packages_apps_EOSWeather" remote="aicp" revision="kitkat" />
   <project path="packages/apps/Exchange" name="AICP/packages_apps_Exchange" remote="aicp" revision="kitkat" />
