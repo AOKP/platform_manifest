@@ -254,7 +254,7 @@
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
-  <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" remote="cm" revision="cm-11.0" groups="pdk" />
+  <project path="external/sqlite" name="AICP/external_sqlite" remote="aicp" revision="kitkat" groups="pdk" />
   <project path="external/srec" name="CyanogenMod/android_external_srec" remote="cm" revision="cm-11.0" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="cm" revision="cm-11.0" groups="pdk" />
