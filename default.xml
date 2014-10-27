@@ -226,7 +226,7 @@
   <project path="external/ntfs-3g" name="AOKP/external_ntfs-3g" remote="aokp" revision="kitkat" />
   <project path="external/oauth" name="platform/external/oauth" />
   <project path="external/objenesis" name="platform/external/objenesis" />
-  <project path="external/okhttp" name="platform/external/okhttp" />
+  <project path="external/okhttp" name="CyanogenMod/android_external_okhttp" remote="cm" revision="cm-11.0" />
   <project path="external/open-vcdiff" name="platform/external/open-vcdiff" />
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
