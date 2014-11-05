@@ -12,7 +12,7 @@ Initializing Repository
 
 Repo initialization:
 
-    $ repo init -u https://github.com/AICP/platform_manifest.git -b kitkat
+    $ repo init -u https://github.com/AICP/platform_manifest.git -b lp5.0
 
 
 sync repo :
