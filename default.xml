@@ -9,15 +9,15 @@
            fetch="https://github.com/" />
 
   <remote name="aicp"
-           fetch="https://github.com/AICP/"
+           fetch="https://github.com/"
            review="gerrit.aicp-rom.com" />
 
   <remote  name="cm"
-           fetch="https://github.com/CyanogenMod/"
+           fetch="https://github.com/"
            review="review.cyanogenmod.org" />
 
   <remote name="slim"
-           fetch="https://github.com/SlimRoms/"
+           fetch="https://github.com/"
            review="gerrit.slimroms.net" />
 
   <default revision="refs/tags/android-5.0.0_r2"
@@ -25,7 +25,7 @@
            sync-c="true"
            sync-j="16" />
 
-  <project path="build" name="platform/build" groups="pdk,tradefed" >
+  <project path="build" name="AICP/build" remote="aicp" revision="lp5.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -526,7 +526,7 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- AICP -->
-  <project path="platform_manifest" name="platform_manifest" remote="aicp" revision="lp5.0" />
-  <project path="vendor/aicp" name="vendor_aicp" remote="aicp" revision="lp5.0" />
+  <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" revision="lp5.0" />
+  <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" revision="lp5.0" />
 
 </manifest>
