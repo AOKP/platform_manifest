@@ -525,4 +525,8 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
+  <!-- AICP -->
+  <project path="platform_manifest" name="platform_manifest" remote="aicp" revision="lp5.0" />
+  <project path="vendor/aicp" name="vendor_aicp" remote="aicp" revision="lp5.0" />
+
 </manifest>
