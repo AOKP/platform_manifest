@@ -355,18 +355,18 @@
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
-  <project path="hardware/qcom/audio" name="SlimRoms/android_hardware_qcom_audio" remote="slim" revision="lp5.0" groups="qcom,qcom_audio" />
+  <project path="hardware/qcom/audio" name="SlimRoms/hardware_qcom_audio" remote="slim" revision="lp5.0" groups="qcom,qcom_audio" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
-  <project path="hardware/qcom/display" name="SlimRoms/android_hardware_qcom_display" remote="slim" revision="lp5.0" groups="qcom,qcom_display" />
+  <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" remote="slim" revision="lp5.0" groups="qcom,qcom_display" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
-  <project path="hardware/qcom/media" name="SlimRoms/android_hardware_qcom_media" remote="slim" revision="lp5.0" groups="qcom" />
+  <project path="hardware/qcom/media" name="SlimRoms/hardware_qcom_media" remote="slim" revision="lp5.0" groups="qcom" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
-  <project path="hardware/qcom/power" name="SlimRoms/android_hardware_qcom_power" remote="slim" revision="lp5.0" groups="qcom" />
+  <project path="hardware/qcom/power" name="SlimRoms/hardware_qcom_power" remote="slim" revision="lp5.0" groups="qcom" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
