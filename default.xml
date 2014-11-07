@@ -297,7 +297,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="omnirom/android_frameworks_av" remote="omni" revision="android-5.0" groups="pdk" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" />
+  <project path="frameworks/base" name="AICP/frameworks_base" remote="aicp" revision="lp5.0" groups="pdk-cw-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -359,9 +359,9 @@
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
   <project path="hardware/qcom/audio" name="omnirom/android_hardware_qcom_audio" remote="omni" revision="android-5.0" groups="qcom,qcom_audio" />
   <project path="hardware/qcom/bt" name="omnirom/android_hardware_qcom_bt" remote="omni" revision="android-5.0" groups="qcom" />
-  <project path="hardware/qcom/display" name="omnirom/android_hardware_qcom_display" remote="omni" revision="android-5.0" groups="qcom,qcom_display" />
+  <project path="hardware/qcom/display" name="AICP/hardware_qcom_display" remote="aicp" revision="lp5.0" groups="qcom,qcom_display" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" />
-  <project path="hardware/qcom/keymaster" name="omnirom/android_hardware_qcom_keymaster" remote="omni" revision="android-5.0" groups="qcom" />
+  <project path="hardware/qcom/keymaster" name="AICP/hardware_qcom_keymaster" remote="aicp" revision="lp5.0" groups="qcom" />
   <project path="hardware/qcom/media" name="omnirom/android_hardware_qcom_media" remote="omni" revision="android-5.0" groups="qcom" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" />
@@ -511,7 +511,7 @@
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="omnirom/android_system_vold" remote="omni" revision="android-5.0" groups="pdk" />
+  <project path="system/vold" name="SlimRoms/android_system_vold" remote="slim" revision="lp5.0" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
