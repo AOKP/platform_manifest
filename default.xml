@@ -252,7 +252,7 @@
   <project path="external/robolectric" name="platform/external/robolectric" groups="pdk-cw-fs" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
-  <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
+  <project path="external/sepolicy" name="AICP/external_sepolicy" remote="aicp" revision="lp5.0" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/skia" name="SlimRoms/android_external_skia" remote="slim" revision="lp5.0" />
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" />
