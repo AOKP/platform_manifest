@@ -286,7 +286,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="slim" revision="lp5.0" />
-  <project path="frameworks/base" name="SlimRoms/frameworks_base" remote="slim" revision="lp5.0" />
+  <project path="frameworks/base" name="AICP/frameworks_base" remote="aicp" revision="lp5.0" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -347,7 +347,7 @@
   <project path="hardware/qcom/audio" name="SlimRoms/hardware_qcom_audio" remote="slim" revision="lp5.0" />
   <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" remote="slim" revision="lp5.0" />
   <project path="hardware/qcom/camera" name="SlimRoms/hardware_qcom_camera" remote="slim" revision="lp5.0" />
-  <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" remote="slim" revision="lp5.0" />
+  <project path="hardware/qcom/display" name="AICP/hardware_qcom_display" remote="aicp" revision="lp5.0" />
   <project path="hardware/qcom/gps" name="SlimRoms/hardware_qcom_gps" remote="slim" revision="lp5.0" />
   <project path="hardware/qcom/keymaster" name="SlimRoms/hardware_qcom_keymaster" remote="slim" revision="lp5.0" />
   <project path="hardware/qcom/media" name="SlimRoms/hardware_qcom_media" remote="slim" revision="lp5.0" />
@@ -493,7 +493,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
-  <project path="system/core" name="SlimRoms/android_system_core" remote="slim" revision="lp5.0" />
+  <project path="system/core" name="AICP/system_core" remote="aicp" revision="lp5.0" />
   <project path="system/extras" name="SlimRoms/android_system_extras" remote="slim" revision="lp5.0" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
