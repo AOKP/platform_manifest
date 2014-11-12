@@ -24,7 +24,7 @@
            fetch="https://github.com/"
            review="gerrit.omnirom.org" />
 
-  <default revision="refs/tags/android-5.0.0_r2"
+  <default revision="refs/tags/android-5.0.0_r5"
            remote="aosp"
            sync-c="true"
            sync-j="16" />
@@ -34,7 +34,7 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
 <project path="art" name="SlimRoms/android_art" remote="slim" revision="lp5.0"  />
-  <project path="bionic" name="SlimRoms/android_bionic" remote="slim" revision="lp5.0" />
+  <project path="bionic" name="CyanogenMod/android_bionic" remote="cm" revision="cm-12.0" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="slim" revision="lp5.0" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
@@ -43,7 +43,7 @@
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
-  <project path="development" name="SlimRoms/android_development" remote="slim" revision="lp5.0" />
+  <project path="development" name="CyanogenMod/android_development" remote="cm" revision="cm-12.0" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
@@ -74,7 +74,7 @@
   <project path="external/arduino" name="platform/external/arduino" groups="pdk-cw-fs" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs" />
-  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" />
+  <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" remote="cm" revision="cm-12.0" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/busybox" name="SlimRoms/android_external_busybox" remote="slim" revision="lp5.0" />
@@ -252,9 +252,9 @@
   <project path="external/robolectric" name="platform/external/robolectric" groups="pdk-cw-fs" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
-  <project path="external/sepolicy" name="AICP/external_sepolicy" remote="aicp" revision="lp5.0" groups="pdk" />
+  <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" remote="cm" revision="cm-12.0" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" />
-  <project path="external/skia" name="SlimRoms/android_external_skia" remote="slim" revision="lp5.0" />
+  <project path="external/skia" name="CyanogenMod/android_external_skia" remote="cm" revision="cm-12.0" />
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
@@ -278,14 +278,14 @@
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="SlimRoms/android_external_wpa_supplicant_8" remote="slim" revision="lp5.0" />
+  <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" remote="cm" revision="cm-12.0" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
-  <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="slim" revision="lp5.0" />
+  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="cm" revision="cm-12.0" groups="pdk" />
   <project path="frameworks/base" name="AICP/frameworks_base" remote="aicp" revision="lp5.0" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
@@ -297,7 +297,7 @@
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
   <project path="frameworks/native" name="AICP/frameworks_native" remote="aicp" revision="lp5.0" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
-  <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" remote="cm" revision="cm-12.0" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs" />
   <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs" />
@@ -306,13 +306,13 @@
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" />
+  <project path="frameworks/opt/net/ims" name="CyanogenMod/android_frameworks_opt_net_ims" remote="cm" revision="cm-12.0" groups="frameworks_ims,pdk-cw-fs" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" />
+  <project path="frameworks/opt/net/wifi" name="CyanogenMod/android_frameworks_opt_net_wifi" remote="cm" revision="cm-12.0" groups="pdk" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/telephony" name="SlimRoms/frameworks_opt_telephony" remote="slim" revision="lp5.0" />
+  <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" remote="cm" revision="cm-12.0" />
   <project path="frameworks/opt/timezonepicker" name="SlimRoms/frameworks_opt_timezonepicker" remote="slim" revision="lp5.0" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
@@ -322,10 +322,7 @@
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" />
-  <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="SlimRoms/hardware_broadcom_libbt" remote="slim" revision="lp5.0" />
-  <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" remote="slim" revision="lp5.0" />
-  <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
+<!--  <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
   <project path="hardware/intel/common/libmix" name="platform/hardware/intel/common/libmix" groups="intel" />
@@ -338,67 +335,77 @@
   <project path="hardware/intel/img/hwcomposer" name="platform/hardware/intel/img/hwcomposer" groups="intel" />
   <project path="hardware/intel/img/libdrm" name="platform/hardware/intel/img/libdrm" groups="intel" />
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
-  <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" remote="slim" revision="lp5.0" />
-  <project path="hardware/libhardware_legacy" name="SlimRoms/hardware_libhardware_legacy" remote="slim" revision="lp5.0" />
-  <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
-  <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
-  <project path="hardware/qcom/audio" name="SlimRoms/hardware_qcom_audio" remote="slim" revision="lp5.0" />
-  <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" remote="slim" revision="lp5.0" />
-  <project path="hardware/qcom/camera" name="SlimRoms/hardware_qcom_camera" remote="slim" revision="lp5.0" />
-  <project path="hardware/qcom/display" name="AICP/hardware_qcom_display" remote="aicp" revision="lp5.0" />
-  <project path="hardware/qcom/gps" name="SlimRoms/hardware_qcom_gps" remote="slim" revision="lp5.0" />
-  <project path="hardware/qcom/keymaster" name="SlimRoms/hardware_qcom_keymaster" remote="slim" revision="lp5.0" />
-  <project path="hardware/qcom/media" name="SlimRoms/hardware_qcom_media" remote="slim" revision="lp5.0" />
-  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
-  <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" />
-  <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
-  <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
-  <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
-  <project path="hardware/qcom/power" name="SlimRoms/hardware_qcom_power" remote="slim" revision="lp5.0" />
-  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
-<project path="hardware/qcom/wlan" name="SlimRoms/hardware_qcom_wlan" remote="slim" revision="lp5.0" />
-  <project path="hardware/ril" name="SlimRoms/hardware_ril" remote="slim" revision="lp5.0" />
-  <project path="hardware/samsung_slsi/exynos5" name="SlimRoms/hardware_samsung_slsi_exynos5" remote="slim" revision="lp5.0" />
-  <project path="hardware/ti/omap3" name="SlimRoms/hardware_ti_omap3" remote="slim" revision="lp5.0" />
-  <project path="hardware/ti/omap4xxx" name="SlimRoms/hardware_ti_omap4xxx" remote="slim" revision="lp5.0" />
-  <project path="hardware/ti/wlan" name="SlimRoms/hardware_ti_wlan" remote="slim" revision="lp5.0" />
-  <project path="hardware/ti/wpan" name="SlimRoms/hardware_ti_wpan" remote="slim" revision="lp5.0" />
-  <project path="libcore" name="SlimRoms/android_libcore" remote="slim" revision="lp5.0" />
+  <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" /> -->
+  <project path="hardware/akm" name="CyanogenMod/android_hardware_akm" remote="cm" revision="cm-12.0" groups="pdk" />
+  <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" remote="cm" revision="cm-12.0" groups="pdk" />
+  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="cm" revision="cm-12.0" groups="broadcom_wlan" />
+  <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" remote="cm" revision="cm-12.0" groups="invensense" />
+  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="cm" revision="cm-12.0" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="cm" revision="cm-12.0" groups="pdk" />
+  <project path="hardware/nvidia/audio" name="CyanogenMod/android_hardware_nvidia_audio" remote="cm" revision="cm-12.0" groups="nvidia_audio" />
+  <project path="hardware/nvidia/tegra124" name="CyanogenMod/android_hardware_nvidia_tegra124" remote="cm" revision="cm-12.0" groups="tegra124" />
+  <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" remote="cm" revision="cm-12.0" groups="qcom,qcom_audio" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="CyanogenMod/android_hardware_qcom_audio"  groups="qcom,qcom_audio" remote="cm" revision="cm-12.0-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-12.0-caf-8974" />
+  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="cm" revision="cm-12.0" groups="qcom" />
+  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="cm" revision="cm-12.0" groups="qcom,qcom_display" />
+  <project path="hardware/qcom/display-caf/msm8960" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" remote="cm" revision="cm-12.0-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8974" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" remote="cm" revision="cm-12.0-caf-8974" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="cm" revision="cm-12.0" groups="qcom" />
+  <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="cm" revision="cm-12.0" groups="qcom" />
+  <project path="hardware/qcom/media/default" name="CyanogenMod/android_hardware_qcom_media" remote="cm" revision="cm-12.0" groups="qcom" />
+  <project path="hardware/qcom/media/msm8960" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-12.0-aosp" />
+  <project path="hardware/qcom/media/msm8974" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-12.0-aosp" />
+  <project path="hardware/qcom/media/msm8084" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-12.0-aosp" />
+  <project path="hardware/qcom/media-caf/msm8960" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-12.0-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8974" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-12.0-caf-8974" />
+  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" remote="aosp" />
+  <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" remote="aosp" />
+  <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" remote="aosp" />
+  <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" remote="aosp" />
+  <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" remote="aosp" />
+  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="cm" revision="cm-12.0" groups="qcom_wlan" />
+  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="cm" revision="cm-12.0" groups="pdk" />
+  <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" remote="cm" revision="cm-12.0" />
+  <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="cm" revision="cm-12.0" remote="aosp" revision="refs/tags/android-5.0.0_r5" />
+  <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="cm" revision="cm-12.0" />
+  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="cm-12.0" />
+  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="cm-12.0" />
+  <project path="libcore" name="CyanogenMod/android_libcore" remote="cm" revision="cm-12.0" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs" />
+  <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="cm" revision="cm-12.0" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
+  <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" remote="cm" revision="cm-12.0" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
-  <project path="packages/apps/Camera2" name="SlimRoms/packages_apps_Camera2" remote="slim" revision="lp5.0" />
-  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
+  <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" remote="cm" revision="cm-12.0" />
+  <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" remote="cm" revision="cm-12.0" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
-  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
+  <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" remote="cm" revision="cm-12.0" />
+  <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" remote="cm" revision="cm-12.0" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
-  <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" remote="aicp" revision="lp5.0" />
+  <project path="packages/apps/Dialer" name="CyanogenMod/android_packages_apps_Dialer" remote="cm" revision="cm-12.0" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="SlimRoms/packages_apps_Gallery2" remote="slim" revision="lp5.0" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="SlimRoms/packages_apps_InCallUI" remote="slim" revision="lp5.0" />
+  <project path="packages/apps/InCallUI" name="CyanogenMod/android_packages_apps_InCallUI" remote="cm" revision="cm-12.0" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
+  <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" remote="cm" revision="cm-12.0" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OMA-DM" name="platform/packages/apps/OMA-DM" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
-  <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
+  <project path="packages/apps/Phone" name="CyanogenMod/android_packages_apps_Phone" remote="cm" revision="cm-12.0" />
+  <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" remote="cm" revision="cm-12.0" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
@@ -407,7 +414,7 @@
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
-  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
+  <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" remote="cm" revision="cm-12.0" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/Torch" name="SlimRoms/packages_apps_Torch" remote="slim" revision="lp5.0" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
@@ -422,15 +429,15 @@
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
+  <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" remote="cm" revision="cm-12.0" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <project path="packages/services/Mms" name="platform/packages/services/Mms" />
-  <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" />
-  <project path="packages/services/Telephony" name="SlimRoms/packages_services_Telephony" remote="slim" revision="lp5.0" />
+  <project path="packages/services/Mms" name="CyanogenMod/android_packages_services_Mms" remote="cm" revision="cm-12.0" />
+  <project path="packages/services/Telecomm" name="CyanogenMod/android_packages_services_Telecomm" remote="cm" revision="cm-12.0" />
+  <project path="packages/services/Telephony" name="CyanogenMod/android_packages_services_Telephony" remote="cm" revision="cm-12.0" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
