@@ -33,7 +33,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-<project path="art" name="SlimRoms/android_art" remote="slim" revision="lp5.0"  />
+<project path="art" name="CyanogenMod/android_art" remote="cm" revision="cm-12.0"  />
   <project path="bionic" name="CyanogenMod/android_bionic" remote="cm" revision="cm-12.0" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="slim" revision="lp5.0" />
@@ -245,6 +245,7 @@
   <project path="external/ppp" name="platform/external/ppp" groups="pdk-cw-fs" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk-java,tradefed" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
+  <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="cm" revision="12.0" />
   <project path="external/qemu" name="platform/external/qemu" groups="pdk-cw-fs" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" groups="pdk-cw-fs" />
   <project path="external/regex-re2" name="platform/external/regex-re2" groups="pdk-cw-fs" />
@@ -391,7 +392,7 @@
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery2" name="SlimRoms/packages_apps_Gallery2" remote="slim" revision="lp5.0" />
+  <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" remote="cm" revision="cm-12.0" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/InCallUI" name="CyanogenMod/android_packages_apps_InCallUI" remote="cm" revision="cm-12.0" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
@@ -500,12 +501,12 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
   <project path="system/core" name="AICP/system_core" remote="aicp" revision="lp5.0" />
-  <project path="system/extras" name="SlimRoms/android_system_extras" remote="slim" revision="lp5.0" />
+  <project path="system/extras" name="CyanogenMod/android_system_extras" remote="cm" revision="cm-12.0" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="SlimRoms/android_system_vold" remote="slim" revision="lp5.0" />
+  <project path="system/vold" name="CyanogenMod/android_system_vold" remote="cm" revision="cm-12.0" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -545,9 +546,6 @@
   <!-- Koush Superuser -->
   <project path="external/koush/Superuser" name="SlimRoms/Superuser" remote="slim" revision="lp5.0" />
   <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="slim" revision="cm-11.0" />
-
-  <!-- CyanogenMod qrngd -->
-  <project path="external/qrngd" name="SlimRoms/android_external_qrngd" remote="slim" revision="lp5.0" />
 
   <!-- CyanogenMod ffmpeg -->
   <project path="external/ffmpeg" name="SlimRoms/android_external_ffmpeg" remote="slim" revision="lp5.0" />
