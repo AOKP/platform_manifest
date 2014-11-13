@@ -404,7 +404,6 @@
   <project path="packages/apps/OMA-DM" name="platform/packages/apps/OMA-DM" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="CyanogenMod/android_packages_apps_Phone" remote="cm" revision="cm-12.0" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" remote="cm" revision="cm-12.0" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
