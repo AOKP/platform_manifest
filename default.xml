@@ -344,9 +344,9 @@
   <project path="hardware/qcom/display-caf/msm8960" name="CyanogenMod/android_hardware_qcom_display" remote="cm" groups="qcom,qcom_display" revision="cm-12.0-caf-8960" />
   <project path="hardware/qcom/display-caf/msm8226" name="CyanogenMod/android_hardware_qcom_display" remote="cm" groups="qcom,qcom_display" revision="cm-12.0-caf-8226" />
   <project path="hardware/qcom/display-caf/msm8974" name="CyanogenMod/android_hardware_qcom_display" remote="cm" groups="qcom,qcom_display" revision="cm-12.0-caf-8974" />
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="cm" groups="qcom" />
-  <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="cm" groups="qcom" />
-  <project path="hardware/qcom/media/default" name="CyanogenMod/android_hardware_qcom_media" remote="cm" groups="qcom" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="cm" groups="qcom" revision="cm-12.0" />
+  <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="cm" groups="qcom" revision="cm-12.0" />
+  <project path="hardware/qcom/media/default" name="CyanogenMod/android_hardware_qcom_media" remote="cm" groups="qcom" revision="cm-12.0" />
   <project path="hardware/qcom/media/msm8960" name="CyanogenMod/android_hardware_qcom_media" remote="cm" groups="qcom" revision="cm-12.0-aosp" />
   <project path="hardware/qcom/media/msm8974" name="CyanogenMod/android_hardware_qcom_media" remote="cm" groups="qcom" revision="cm-12.0-aosp" />
   <project path="hardware/qcom/media/msm8084" name="CyanogenMod/android_hardware_qcom_media" remote="cm" groups="qcom" revision="cm-12.0-aosp" />
@@ -358,8 +358,8 @@
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
-  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="cm" groups="qcom_wlan" />
-  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="cm" groups="pdk" />
+  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="cm" groups="qcom_wlan" revision="cm-12.0" />
+  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="cm" groups="pdk" revision="cm-12.0" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
