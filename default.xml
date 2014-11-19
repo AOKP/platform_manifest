@@ -344,9 +344,9 @@
   <project path="hardware/qcom/display-caf/msm8960" name="CyanogenMod/android_hardware_qcom_display" remote="cm" groups="qcom,qcom_display" revision="cm-12.0-caf-8960" />
   <project path="hardware/qcom/display-caf/msm8226" name="CyanogenMod/android_hardware_qcom_display" remote="cm" groups="qcom,qcom_display" revision="cm-12.0-caf-8226" />
   <project path="hardware/qcom/display-caf/msm8974" name="CyanogenMod/android_hardware_qcom_display" remote="cm" groups="qcom,qcom_display" revision="cm-12.0-caf-8974" />
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="cm" groups="qcom" />
-  <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="cm" groups="qcom" />
-  <project path="hardware/qcom/media/default" name="CyanogenMod/android_hardware_qcom_media" remote="cm" groups="qcom" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="cm" groups="qcom" revision="cm-12.0" />
+  <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="cm" groups="qcom" revision="cm-12.0" />
+  <project path="hardware/qcom/media/default" name="CyanogenMod/android_hardware_qcom_media" remote="cm" groups="qcom" revision="cm-12.0" />
   <project path="hardware/qcom/media/msm8960" name="CyanogenMod/android_hardware_qcom_media" remote="cm" groups="qcom" revision="cm-12.0-aosp" />
   <project path="hardware/qcom/media/msm8974" name="CyanogenMod/android_hardware_qcom_media" remote="cm" groups="qcom" revision="cm-12.0-aosp" />
   <project path="hardware/qcom/media/msm8084" name="CyanogenMod/android_hardware_qcom_media" remote="cm" groups="qcom" revision="cm-12.0-aosp" />
