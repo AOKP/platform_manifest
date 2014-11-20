@@ -398,7 +398,7 @@
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" remote="cm" revision="cm-12.0" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" remote="cm" revision="cm-12.0" />
+  <project path="packages/apps/Gallery2" name="SlimRoms/packages_apps_Gallery2" remote="slim" revision="lp5.0" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/InCallUI" name="CyanogenMod/android_packages_apps_InCallUI" remote="cm" revision="cm-12.0" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
