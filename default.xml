@@ -266,6 +266,7 @@
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
   <project path="external/srec" name="platform/external/srec" groups="pdk-cw-fs" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs" />
+  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="cm" revision="cm-12.0" />
   <project path="external/stlport" name="platform/external/stlport" groups="pdk" />
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs" />
   <project path="external/stressapptest" name="platform/external/stressapptest" groups="pdk-cw-fs" />
@@ -552,7 +553,6 @@
 
   <!-- CyanogenMod ffmpeg -->
   <project path="external/ffmpeg" name="SlimRoms/android_external_ffmpeg" remote="slim" revision="lp5.0" />
-  <project path="external/stagefright-plugins" name="SlimRoms/android_external_stagefright-plugins" remote="slim" revision="lp5.0" />
 
   <!-- AICP -->
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" revision="lp5.0" />
