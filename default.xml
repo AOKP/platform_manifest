@@ -6,6 +6,7 @@
            review="https://android-review.googlesource.com/" />
 
   <remote  name="aokp"
+           revision="lollipop"
            fetch="https://github.com/"
            review="gerrit.aokp.co" />
 
@@ -23,7 +24,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" groups="pdk,tradefed" >
+  <project path="build" name="AOKP/build" groups="pdk,tradefed" remote="aokp" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -289,7 +290,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" remote="cm" revision="cm-12.0" />
-  <project path="frameworks/base" name="AOKP/frameworks_base" groups="pdk-cw-fs" remote="aokp" revision="lollipop" />
+  <project path="frameworks/base" name="AOKP/frameworks_base" groups="pdk-cw-fs" remote="aokp" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -515,7 +516,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" revision="lollipop" />
+  <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" />
 
 </manifest>
 
