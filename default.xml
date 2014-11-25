@@ -406,7 +406,7 @@
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
-  <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" remote="cm" revision="cm-12.0" />
+  <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms-caf" remote="cm" revision="cm-12.0" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
