@@ -61,7 +61,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu" />
-  <project path="device/qcom/sepolicy" name="SlimRoms/device_qcom_sepolicy" remote="slim" revision="lp5.0" />
+  <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" remote="cm" revision="cm-12.0" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -213,7 +213,7 @@
   <project path="external/libppp" name="CyanogenMod/android_external_libppp" remote="cm" revision="cm-12.0" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
-  <project path="external/libsepol" name="SlimRoms/android_external_libsepol" remote="slim" revision="lp5.0" groups="pdk" />
+  <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" remote="cm" revision="cm-12.0" groups="pdk" />
   <project path="external/libssh2" name="platform/external/libssh2" groups="pdk-cw-fs" />
   <project path="external/libtar" name="CyanogenMod/android_external_libtar" remote="cm" revision="cm-12.0" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" />
@@ -280,7 +280,7 @@
   <project path="external/robolectric" name="platform/external/robolectric" groups="pdk-cw-fs" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
-  <project path="external/sepolicy" name="SlimRoms/android_external_sepolicy" remote="slim" revision="lp5.0" groups="pdk" />
+  <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" remote="cm" revision="cm-12.0" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" remote="cm" revision="cm-12.0" />
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" />
