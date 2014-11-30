@@ -462,7 +462,7 @@
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs" />
   <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" remote="cm" revision="cm-12.0" groups="pdk-cw-fs" />
   <project path="packages/providers/DownloadProvider" name="CyanogenMod/android_packages_providers_DownloadProvider" remote="cm" revision="cm-12.0" groups="pdk-cw-fs" />
-  <project path="packages/providers/MediaProvider" name="SlimRoms/packages_providers_MediaProvider" remote="slim" revision="lp5.0" groups="pdk-cw-fs" />
+  <project path="packages/providers/MediaProvider" name="AICP/packages_providers_MediaProvider" remote="aicp" revision="lp5.0" groups="pdk-cw-fs" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" remote="cm" revision="cm-12.0" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" />
