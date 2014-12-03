@@ -575,7 +575,7 @@
   <project path="packages/apps/DashClock" name="SlimRoms/packages_apps_DashClock" remote="slim" revision="lp5.0" />
 
   <!-- Google play services -->
-  <project path="external/google/google_play_services" name="SlimRoms/android_external_google_google_play_services" remote="slim" revision="lp5.0" />
+  <project path="external/google/google_play_services" name="CyanogenMod/android_external_google" remote="cm" revision="cm-12.0" />
 
   <!-- Koush Superuser -->
   <project path="external/koush/Superuser" name="CyanogenMod/Superuser" remote="cm" revision="cm-12.0" />
