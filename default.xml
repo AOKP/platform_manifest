@@ -424,7 +424,7 @@
   <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" remote="cm" revision="cm-12.0" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" remote="cm" revision="cm-12.0" />
   <project path="packages/apps/Dialer" name="CyanogenMod/android_packages_apps_Dialer" remote="cm" revision="cm-12.0" />
-  <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" remote="cm" revision="cm-12.0" />
+  <project path="packages/apps/Email" name="AICP/packages_apps_Email" remote="aicp" revision="lp5-0" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="SlimRoms/packages_apps_Gallery2" remote="slim" revision="lp5.0" />
@@ -454,7 +454,7 @@
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/Torch" name="SlimRoms/packages_apps_Torch" remote="slim" revision="lp5.0" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
-  <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" remote="cm" revision="cm-12.0" />
+  <project path="packages/apps/UnifiedEmail" name="AICP/packages_apps_UnifiedEmail" remote="aicp" revision="lp5.0" />
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" remote="cm" revision="cm-12.0" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="SlimRoms/packages_inputmethods_LatinIME" remote="slim" revision="lp5.0" />
