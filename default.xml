@@ -576,8 +576,8 @@
   <project path="external/google" name="CyanogenMod/android_external_google" remote="cm" revision="cm-12.0" />
 
   <!-- Koush Superuser -->
-  <project path="external/koush/Superuser" name="CyanogenMod/Superuser" remote="cm" revision="cm-12.0" />
-  <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="cm" revision="cm-12.0" />
+  <!-- <project path="external/koush/Superuser" name="CyanogenMod/Superuser" remote="cm" revision="cm-12.0" />
+  <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="cm" revision="cm-12.0" /> -->
 
   <!-- AICP -->
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" revision="lp5.0" />
