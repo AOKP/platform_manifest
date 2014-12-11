@@ -582,5 +582,6 @@
   <!-- AICP -->
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" revision="lp5.0" />
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" revision="lp5.0" />
+  <project path="packages/apps/AICP_OTA" name="AICP/packages_apps_AICP_OTA" remote="aicp" revision="lp5.0" />
 
 </manifest>
