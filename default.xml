@@ -333,11 +333,11 @@
   <project path="frameworks/native" name="AICP/frameworks_native" remote="aicp" revision="lp5.0" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" remote="cm" revision="cm-12.0" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" remote="cm" revision="cm-12.0" groups="pdk-cw-fs" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs" />
   <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/datetimepicker" name="SlimRoms/frameworks_opt_datetimepicker" remote="slim" revision="lp5.0" />
+  <project path="frameworks/opt/datetimepicker" name="CyanogenMod/android_frameworks_opt_datetimepicker" remote="cm" revision="cm-12.0" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs" />
   <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware" remote="cm" revision="cm-12.0" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs" />
@@ -461,7 +461,7 @@
   <project path="packages/inputmethods/LatinIME" name="SlimRoms/packages_inputmethods_LatinIME" remote="slim" revision="lp5.0" />
   <project path="packages/inputmethods/OpenWnn" name="CyanogenMod/android_packages_inputmethods_OpenWnn" remote="cm" revision="cm-12.0" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
-  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs" />
+  <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" remote="cm" revision="cm-12.0" groups="pdk-cw-fs" />
   <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" remote="cm" revision="cm-12.0" groups="pdk-cw-fs" />
   <project path="packages/providers/DownloadProvider" name="SlimRoms/packages_providers_DownloadProvider" remote="slim" revision="lp5.0" groups="pdk-cw-fs" />
   <project path="packages/providers/MediaProvider" name="AICP/packages_providers_MediaProvider" remote="aicp" revision="lp5.0" groups="pdk-cw-fs" />
