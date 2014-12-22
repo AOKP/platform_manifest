@@ -513,6 +513,9 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
+  <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" revision="lollipop" />
+  <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="lollipop" />
+  <project path="vendor/aokp/resources" name="AOKP/vendor_aokp_resources" remote="aokp" revision="lollipop" />
 
   <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" revision="lollipop" />
 
