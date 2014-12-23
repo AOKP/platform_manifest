@@ -364,6 +364,7 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
+  <project path="kernel/lge/mako" name="AOKP/kernel_lge_mako" groups="notdefault,kernel,mako" remote="aokp" revision="lollipop" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
@@ -516,6 +517,7 @@
   <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" revision="lollipop" />
   <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="lollipop" />
   <project path="vendor/aokp/resources" name="AOKP/vendor_aokp_resources" remote="aokp" revision="lollipop" />
+  <project path="vendor/lge" name="AOKP/vendor_lge" groups="notdefault,vendor,lge" remote="aokp" revision="lollipop" />
 
   <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" revision="lollipop" />
 
