@@ -6,6 +6,7 @@
            review="https://android-review.googlesource.com/" />
 
   <remote  name="aokp"
+  	       revision="lollipop"
            fetch="https://github.com/"
            review="gerrit.aokp.co" />
 
@@ -66,6 +67,9 @@
   <project path="device/moto/shamu" name="device/moto/shamu" groups="notdefault,device,shamu" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="notdefault,device,manta" />
+  <project path="device/sony/common" name="AOKP/device_sony_common" remote="aokp" revision="lollipop" groups="sony" />
+  <project path="device/sony/qcom-common" name="AOKP/device_sony_qcom-common" remote="aokp" revision="lollipop" groups="sony" />
+  <project path="device/sony/fusion3-common" name="AOKP/device_sony_fusion3-common" remote="aokp" revision="lollipop" groups="yuga" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" />
@@ -521,6 +525,7 @@
   <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" revision="lollipop" />
   <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="lollipop" />
   <project path="vendor/aokp/resources" name="AOKP/vendor_aokp_resources" remote="aokp" revision="lollipop" />
+  <project path="vendor/sony" name="AOKP/vendor_sony" remote="aokp" revision="lollipop" groups="sony" />
 
   <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" revision="lollipop" />
 
