@@ -67,9 +67,14 @@
   <project path="device/moto/shamu" name="device/moto/shamu" groups="notdefault,device,shamu" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="notdefault,device,manta" />
-  <project path="device/sony/common" name="AOKP/device_sony_common" remote="aokp" revision="lollipop" groups="sony" />
-  <project path="device/sony/qcom-common" name="AOKP/device_sony_qcom-common" remote="aokp" revision="lollipop" groups="sony" />
-  <project path="device/sony/fusion3-common" name="AOKP/device_sony_fusion3-common" remote="aokp" revision="lollipop" groups="yuga" />
+  <project path="device/sony/common" name="AOKP/device_sony_common" remote="aokp" revision="lollipop" groups="notdefault,sony" />
+  <project path="device/sony/qcom-common" name="AOKP/device_sony_qcom-common" remote="aokp" revision="lollipop" groups="notdefault,sony" />
+  <project path="device/sony/fusion3-common" name="AOKP/device_sony_fusion3-common" remote="aokp" revision="lollipop" groups="notdefault,yuga,dogo,odin,pollux" />
+  <project path="device/sony/rhine-common" name="AOKP/device_sony_rhine-common" remote="aokp" revision="lollipop" groups="notdefault,honami,amami,togari" />
+  <project path="device/sony/shinano-common" name="AOKP/device_sony_shinano-common" remote="aokp" revision="lollipop" groups="notdefault,sirius,castor" />
+  <project path="device/sony/yuga" name="AOKP/device_sony_yuga" remote="aokp" revision="lollipop" groups="notdefault,yuga" />
+  <project path="device/sony/honami" name="AOKP/device_sony_honami" remote="aokp" revision="lollipop" groups="notdefault,honami" />
+  <project path="device/sony/sirius" name="AOKP/device_sony_sirius" remote="aokp" revision="lollipop" groups="notdefault,sirius" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" />
@@ -373,6 +378,7 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
+  <project path="kernel/sony/apq8064" name="CyanogenMod/android_kernel_sony_apq8064" revision="cm-12.0" remote="cm" groups="notdefault,yuga,dogo,pollux,odin"
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
