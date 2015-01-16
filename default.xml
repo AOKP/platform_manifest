@@ -215,7 +215,7 @@
   <project path="external/libpng" name="CyanogenMod/android_external_libpng" remote="cm" revision="cm-12.0" groups="pdk" />
   <project path="external/libppp" name="CyanogenMod/android_external_libppp" remote="cm" revision="cm-12.0" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" />
-  <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
+  <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" remote="cm" revision="cm-12.0" groups="pdk" />
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" remote="cm" revision="cm-12.0" groups="pdk" />
   <project path="external/libssh2" name="platform/external/libssh2" groups="pdk-cw-fs" />
   <project path="external/libtar" name="CyanogenMod/android_external_libtar" remote="cm" revision="cm-12.0" />
@@ -267,7 +267,7 @@
   <project path="external/oprofile" name="platform/external/oprofile" groups="pdk-cw-fs" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" />
   <project path="external/pciutils" name="CyanogenMod/android_external_pciutils" remote="cm" revision="cm-12.0" />
-  <project path="external/pcre" name="platform/external/pcre" groups="pdk-cw-fs" />
+  <project path="external/pcre" name="CyanogenMod/android_external_pcre" remote="cm" revision="cm-12.0" groups="pdk-cw-fs" />
   <project path="external/pdfium" name="platform/external/pdfium" groups="pdk-cw-fs" />
   <project path="external/pigz" name="CyanogenMod/android_external_pigz" remote="cm" revision="cm-12.0" />
   <project path="external/pixman" name="platform/external/pixman" groups="pdk-cw-fs" />
