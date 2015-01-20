@@ -69,6 +69,7 @@
   <project path="device/samsung/manta" name="device/samsung/manta" groups="notdefault,device,manta" />
   <project path="device/sony/common" name="AOKP/device_sony_common" remote="aokp" revision="lollipop" groups="notdefault,sony" />
   <project path="device/sony/qcom-common" name="AOKP/device_sony_qcom-common" remote="aokp" revision="lollipop" groups="notdefault,sony" />
+  <project path="device/sony/msm8960-common" name="CyanogenMod/android_device_sony_msm8960-common" remote="cm" revision="cm-12.0" groups="notdefault,yuga,odin,dogo,pollux,mint,tsubasa" />
   <project path="device/sony/fusion3-common" name="AOKP/device_sony_fusion3-common" remote="aokp" revision="lollipop" groups="notdefault,yuga,dogo,odin,pollux" />
   <project path="device/sony/rhine-common" name="AOKP/device_sony_rhine-common" remote="aokp" revision="lollipop" groups="notdefault,honami,amami,togari" />
   <project path="device/sony/shinano-common" name="AOKP/device_sony_shinano-common" remote="aokp" revision="lollipop" groups="notdefault,sirius,castor" />
