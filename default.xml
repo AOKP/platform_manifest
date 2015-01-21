@@ -36,7 +36,7 @@
   <project path="art" name="CyanogenMod/android_art" remote="cm" revision="cm-12.0"  />
   <project path="bionic" name="AICP/bionic" remote="aicp" revision="lp5.0" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
-  <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="slim" revision="lp5.0" />
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-12.0" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" />
   <project path="developers/build" name="platform/developers/build" />
