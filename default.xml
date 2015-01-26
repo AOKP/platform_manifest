@@ -67,6 +67,9 @@
   <project path="device/moto/shamu" name="device/moto/shamu" groups="notdefault,device,shamu" />
   <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" groups="qcom" remote="cm" revision="cm-12.0" />
   <project path="device/sample" name="device/sample" groups="pdk" />
+  <project path="device/samsung/jf-common" name="AOKP/device_samsung_jf-common" remote="aokp" revision="lollipop" groups="notdefault,device,jfltevzw" />
+  <project path="device/samsung/jfltevzw" name="AOKP/device_samsung_jfltevzw" remote="aokp" revision="lollipop" groups="notdefault,device,jfltevzw" />
+  <project path="device/samsung/qcom-common" name="AOKP/device_samsung_qcom-common" remote="aokp" revision="lollipop" groups="notdefault,device,jflevzw" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="notdefault,device,manta" />
   <project path="device/sony/common" name="AOKP/device_sony_common" remote="aokp" revision="lollipop" groups="notdefault,device,sony" />
   <project path="device/sony/qcom-common" name="AOKP/device_sony_qcom-common" remote="aokp" revision="lollipop" groups="notdefault,device,sony" />
@@ -539,6 +542,7 @@
   <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="lollipop" />
   <project path="vendor/aokp/resources" name="AOKP/vendor_aokp_resources" remote="aokp" revision="lollipop" />
   <project path="vendor/lge" name="AOKP/vendor_lge" groups="notdefault,vendor,lge" remote="aokp" revision="lollipop" />
+  <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="cm" revision="cm-12.0" groups="notdefault,vendor,samsung,jfltevzw" />
   <project path="vendor/sony" name="AOKP/vendor_sony" remote="aokp" revision="lollipop" groups="notdefault,vendor,sony" />
 
   <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" revision="lollipop" />
