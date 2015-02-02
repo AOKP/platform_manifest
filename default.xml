@@ -34,7 +34,7 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" remote="cm" revision="cm-12.0"  />
-  <project path="bionic" name="AICP/bionic" remote="aicp" revision="lp5.0" />
+  <project path="bionic" name="CyanogenMod/android_bionic" remote="cm" revision="cm-12.0" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-12.0" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
