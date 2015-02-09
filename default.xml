@@ -78,6 +78,7 @@
   <project path="device/sony/dogo" name="AOKP/device_sony_dogo" remote="aokp" revision="lollipop" groups="notdefault,device,dogo" />
   <project path="device/sony/odin" name="AOKP/device_sony_odin" remote="aokp" revision="lollipop" groups="notdefault,device,odin" />
   <project path="device/sony/yuga" name="AOKP/device_sony_yuga" remote="aokp" revision="lollipop" groups="notdefault,device,yuga" />
+  <project path="device/sony/msm8974-common" name="AOKP/device_sony_msm8974-common" remote="aokp" revision="lollipop" groups="notdefault,device,sirius,honami,togari,amami" />
   <project path="device/sony/rhine-common" name="AOKP/device_sony_rhine-common" remote="aokp" revision="lollipop" groups="notdefault,device,honami,amami,togari" />
   <project path="device/sony/amami" name="AOKP/device_sony_amami" remote="aokp" revision="lollipop" groups="notdefault,device,amami" />
   <project path="device/sony/honami" name="AOKP/device_sony_honami" remote="aokp" revision="lollipop" groups="notdefault,device,honami" />
@@ -390,7 +391,7 @@
   <project path="kernel/lge/mako" name="AOKP/kernel_lge_mako" groups="notdefault,kernel,mako" remote="aokp" revision="lollipop" />
   <project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" remote="cm" revision="cm-12.0" groups="notdefault,kernel,jfltevzw" />
   <project path="kernel/sony/apq8064" name="CyanogenMod/android_kernel_sony_apq8064" revision="cm-12.0" remote="cm" groups="notdefault,kernel,yuga,dogo,pollux,odin" />
-  <project path="kernel/sony/common" name="sonyxperiadev/kernel" remote="aokp" revision="aosp/LNX.LA.3.5.2.2-03010-8x74.0" groups="kernel,sony,sirius,togari,honami,amami" />
+  <project path="kernel/sony/common" name="AOKP/kernel_sony_common" remote="aokp" revision="lollipop" groups="kernel,sony,sirius,togari,honami,amami" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
