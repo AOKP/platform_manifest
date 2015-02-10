@@ -395,7 +395,8 @@
   <project path="kernel/lge/mako" name="AOKP/kernel_lge_mako" groups="notdefault,kernel,mako" remote="aokp" revision="lollipop" />
   <project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" remote="cm" revision="cm-12.0" groups="notdefault,kernel,jfltevzw" />
   <project path="kernel/sony/apq8064" name="CyanogenMod/android_kernel_sony_apq8064" revision="cm-12.0" remote="cm" groups="notdefault,kernel,yuga,dogo,pollux,odin" />
-  <project path="kernel/sony/common" name="AOKP/kernel_sony_common" remote="aokp" revision="lollipop" groups="kernel,sony,sirius,togari,honami,amami" />
+  <project path="kernel/sony/msm8974" name="CyanogenMod/android_kernel_sony_msm8974" remote="cm" revision="cm-12.0" groups="kernel,sony,togari,honami,amami" />
+  <project path="kernel/sony/msm8974pro" name="CyanogenMod/android_kernel_sony_msm8974pro" remote="cm" revision="cm-12.0" groups="kernel,sony,sirius" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
