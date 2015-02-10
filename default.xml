@@ -448,8 +448,6 @@
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="cm" revision="cm-12.0" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
   <project path="packages/apps/Mms" name="AICP/packages_apps_Mms" remote="aicp" revision="lp5.0" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" />
-  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" remote="cm" revision="cm-12.0" />
   <project path="packages/apps/OmniSwitch" name="AICP/packages_apps_OmniSwitch" remote="aicp" revision="lp5.0" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
