@@ -62,7 +62,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="notdefault,device,fugu" />
   <project path="device/htc/flounder" name="device/htc/flounder" groups="notdefault,device,flounder" />
-  <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="notdefault,device,hammerhead" />
+  <project path="device/lge/hammerhead" name="AOKP/device/lge/hammerhead" remote="aokp" groups="notdefault,device,hammerhead" />
   <project path="device/lge/mako" name="device/lge/mako" groups="notdefault,device,mako" />
   <project path="device/moto/shamu" name="device/moto/shamu" groups="notdefault,device,shamu" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" groups="qcom" remote="cm" revision="cm-12.0" />
