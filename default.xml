@@ -42,7 +42,7 @@
   <project path="device/asus/deb" name="device/asus/deb" groups="notdefault,device,flo" />
   <project path="device/asus/flo" name="device/asus/flo" groups="notdefault,device,flo" />
   <project path="device/asus/fugu" name="device/asus/fugu" groups="notdefault,device,fugu" />
-  <project path="device/asus/grouper" name="device/asus/grouper" groups="notdefault,device,grouper" />
+  <project path="device/asus/grouper" name="AOKP/device_asus_grouper" remote="aokp" groups="notdefault,device,grouper" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="notdefault,device,grouper" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
@@ -392,6 +392,7 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
+  <project path="kernel/asus/grouper" name="CyanogenMod/android_kernel_asus_grouper" remote="cm" revision="cm-12.0" groups="notdefault,kernel,asus,grouper" />
   <project path="kernel/lge/mako" name="AOKP/kernel_lge_mako" groups="notdefault,kernel,mako" remote="aokp" revision="lollipop" />
   <project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" remote="cm" revision="cm-12.0" groups="notdefault,kernel,jfltevzw" />
   <project path="kernel/sony/apq8064" name="CyanogenMod/android_kernel_sony_apq8064" revision="cm-12.0" remote="cm" groups="notdefault,kernel,yuga,dogo,pollux,odin" />
@@ -549,7 +550,9 @@
   <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" revision="lollipop" />
   <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="lollipop" />
   <project path="vendor/aokp/resources" name="AOKP/vendor_aokp_resources" remote="aokp" revision="lollipop" />
+  <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" remote="cm" revision="cm-12.0" groups="notdefault,vendor,asus,grouper" />
   <project path="vendor/lge" name="AOKP/vendor_lge" groups="notdefault,vendor,lge" remote="aokp" revision="lollipop" />
+  <project path="vendor/nvidia" name="TheMuppets/proprietary_vendor_nvidia" remote="cm" revision="cm-12.0" groups="notdefault,vendor,nvidia,grouper" />
   <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="cm" revision="cm-12.0" groups="notdefault,vendor,samsung,jfltevzw" />
   <project path="vendor/sony" name="AOKP/vendor_sony" remote="aokp" revision="lollipop" groups="notdefault,vendor,sony" />
 
