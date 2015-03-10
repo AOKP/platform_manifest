@@ -334,7 +334,7 @@
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
   <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" remote="cm" groups="pdk" revision="cm-12.0" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
-  <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" groups="pdk-cw-fs" remote="cm" revision="cm-12.0" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs" />
   <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs" />
@@ -360,7 +360,7 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
+  <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" remote="cm" revision="cm-12.0" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="cm" revision="cm-12.0" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" remote="cm" revision="cm-12.0" groups="invensense" />
@@ -411,6 +411,7 @@
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" groups="pdk-cw-fs" remote="cm" revision="cm-12.0" />
+  <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" groups="pdk-cw-fs" remote="cm" revision="cm-12.0" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" remote="cm" revision="cm-12.0" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
