@@ -241,7 +241,7 @@
   <project path="external/libutf" name="platform/external/libutf" groups="pdk-cw-fs" />
   <project path="external/libvorbis" name="platform/external/libvorbis" groups="pdk-cw-fs" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
-  <project path="external/libxml2" name="platform/external/libxml2" groups="pdk-cw-fs" />
+  <project path="external/libxml2" name="CyanogenMod/android_external_libxml2" groups="pdk-cw-fs" remote="cm" revision="cm-12.0" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv,pdk-cw-fs" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" groups="pdk-cw-fs" />
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs" />
@@ -394,6 +394,7 @@
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="cm" groups="qcom_wlan" revision="cm-12.0" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="cm" groups="pdk" revision="cm-12.0" />
+  <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" remote="cm" groups="pdk" revision="cm-12.0-caf" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
