@@ -222,8 +222,8 @@
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs" />
-  <project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" />
-  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="pdk" />
+  <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" groups="pdk" remote="cm" revision="cm-12.0" />
+  <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" groups="pdk" remote="cm" revision="cm-12.0" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
@@ -438,7 +438,7 @@
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="notdefault" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
+  <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" remote="cm" revision="cm-12.0" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
