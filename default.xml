@@ -571,8 +571,8 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <!-- SlimLauncher -->
-  <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" remote="slim" revision="lp5.0" />
+  <!-- Trebuchet -->
+  <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" remote="cm" revision="cm-12.0" />
 
   <!-- Slim toolchain gcc and linaro
   <project path="prebuilt" name="SlimRoms/android_prebuilt" remote="github" revision="lp5.0" />-->
