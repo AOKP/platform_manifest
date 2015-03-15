@@ -408,6 +408,7 @@
   <project path="kernel/asus/grouper" name="CyanogenMod/android_kernel_asus_grouper" remote="cm" revision="cm-12.0" groups="notdefault,kernel,asus,grouper" />
   <project path="kernel/lge/mako" name="AOKP/kernel_lge_mako" groups="notdefault,kernel,mako" remote="aokp" revision="lollipop" />
   <project path="kernel/oneplus/msm8974" name="CyanogenMod/android_kernel_oneplus_msm8974" remote="cm" revision="cm-12.0" groups="notdefault,kernel,find7,find7s,bacon" />
+  <project path="kernel/moto/shamu" name="CyanogenMod/android_kernel_moto_shamu" remote="github" revision="cm-12.0" />
   <project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" remote="cm" revision="cm-12.0" groups="notdefault,kernel,jfltevzw" />
   <project path="kernel/sony/apq8064" name="CyanogenMod/android_kernel_sony_apq8064" revision="cm-12.0" remote="cm" groups="notdefault,kernel,yuga,dogo,pollux,odin" />
   <project path="kernel/sony/msm8974" name="CyanogenMod/android_kernel_sony_msm8974" remote="cm" revision="cm-12.0" groups="kernel,sony,togari,honami,amami" />
@@ -569,6 +570,7 @@
   <project path="vendor/aokp/resources" name="AOKP/vendor_aokp_resources" remote="aokp" revision="lollipop" />
   <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" remote="cm" revision="cm-12.0" groups="notdefault,vendor,asus,grouper" />
   <project path="vendor/lge" name="AOKP/vendor_lge" groups="notdefault,vendor,lge" remote="aokp" revision="lollipop" />
+  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-12.0" />
   <project path="vendor/nvidia" name="TheMuppets/proprietary_vendor_nvidia" remote="cm" revision="cm-12.0" groups="notdefault,vendor,nvidia,grouper" />
   <project path="vendor/oppo" name="AOKP/vendor_oppo" remote="aokp" revision="lollipop" groups="notdefault,vendor,oppo,oneplus" />
   <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="cm" revision="cm-12.0" groups="notdefault,vendor,samsung,jfltevzw" />
