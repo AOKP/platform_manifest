@@ -64,7 +64,7 @@
   <project path="device/htc/flounder" name="device/htc/flounder" groups="notdefault,device,flounder" />
   <project path="device/lge/hammerhead" name="AOKP/device_lge_hammerhead" remote="aokp" groups="notdefault,device,hammerhead" />
   <project path="device/lge/mako" name="device/lge/mako" groups="notdefault,device,mako" />
-  <project path="device/moto/shamu" name="device/moto/shamu" groups="notdefault,device,shamu" />
+  <project path="device/moto/shamu" name="AOKP/device_moto_shamu" remote="aokp" revision="lollipop" groups="notdefault,device,shamu" />
   <project path="device/oppo/common" name="AOKP/device_oppo_common" remote="aokp" revision="lollipop" groups="notdefault,device,find7,find7s" />
   <project path="device/oppo/find7" name="AOKP/device_oppo_find7" remote="aokp" revision="lollipop" groups="notdefault,device,find7" />
   <project path="device/oppo/find7s" name="AOKP/device_oppo_find7s" remote="aokp" revision="lollipop" groups="notdefault,device,find7s" />
