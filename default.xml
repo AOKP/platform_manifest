@@ -575,6 +575,7 @@
   <project path="vendor/oppo" name="AOKP/vendor_oppo" remote="aokp" revision="lollipop" groups="notdefault,vendor,oppo,oneplus" />
   <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="cm" revision="cm-12.0" groups="notdefault,vendor,samsung,jfltevzw" />
   <project path="vendor/sony" name="AOKP/vendor_sony" remote="aokp" revision="lollipop" groups="notdefault,vendor,sony" />
+  <project path="vendor/widevine" name="TheMuppets/proprietary_vendor_widevine" remote="cm" revision="cm-12.0" groups="notdefault,vendor" />
 
   <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" revision="lollipop" />
 
