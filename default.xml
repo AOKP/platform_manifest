@@ -335,7 +335,7 @@
   <project path="frameworks/minikin" name="CyanogenMod/android_frameworks_minikin" remote="cm" revision="cm-12.0" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="AICP/frameworks_native" remote="aicp" revision="lp5.0" />
+  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" remote="cm" revision="cm-12.0" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" remote="cm" revision="cm-12.0" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" remote="cm" revision="cm-12.0" groups="pdk-cw-fs" />
