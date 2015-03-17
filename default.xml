@@ -6,7 +6,7 @@
            review="https://android-review.googlesource.com/" />
 
   <remote  name="aokp"
-  	       revision="lollipop"
+           revision="lollipop"
            fetch="https://github.com/"
            review="gerrit.aokp.co" />
 
