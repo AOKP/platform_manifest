@@ -401,7 +401,7 @@
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="cm" groups="qcom_wlan" revision="cm-12.0" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="cm" groups="pdk" revision="cm-12.0" />
   <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" remote="cm" groups="pdk" revision="cm-12.0-caf" />
-  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
+  <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" remote="cm" groups="exynos5" revision="cm-12.0" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
