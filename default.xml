@@ -413,7 +413,7 @@
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" remote="aosp" />
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="cm" revision="staging/cm-12.1" groups="qcom_wlan" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="cm" revision="staging/cm-12.1" groups="pdk" />
-  <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" groups="pdk" remote="cm" revision="staging/cm-12.1-caf" />
+ <!-- <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" groups="pdk" remote="cm" revision="staging/cm-12.1-caf" /> -->
   <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" remote="cm" revision="staging/cm-12.1" />
   <project path="hardware/ti/omap4" name="CyanogenMod/android_hardware_ti_omap4" remote="cm" revision="staging/cm-12.1" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" />
