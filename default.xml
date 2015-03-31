@@ -454,7 +454,7 @@
   <project path="packages/apps/LockClock" name="AICP/packages_apps_LockClock" remote="aicp" revision="lp5.1" />
   <project path="packages/apps/ManagedProvisioning" name="CyanogenMod/android_packages_apps_ManagedProvisioning" remote="cm" revision="staging/cm-12.1" />
   <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms-caf" remote="cm" revision="staging/cm-12.1" />
-  <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" remote="cm" revision="staging/cm-12.1" />
+  <project path="packages/apps/Nfc" name="AICP/packages_apps_Nfc" remote="aicp" revision="lp5.1" />
   <project path="packages/apps/OmniSwitch" name="AICP/packages_apps_OmniSwitch" remote="aicp" revision="lp5.1" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" remote="cm" revision="staging/cm-12.1" />
