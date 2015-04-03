@@ -554,7 +554,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
-  <project path="system/core" name="AICP/system_core" remote="aicp" revision="lp5.1" />
+  <project path="system/core" name="CyanogenMod/android_system_core" remote="cm" revision="cm-12.1" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="cm" revision="cm-12.1" groups="pdk" />
   <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" remote="cm" revision="cm-12.1" groups="pdk" />
   <project path="system/media" name="CyanogenMod/android_system_media" remote="cm" revision="cm-12.1" groups="pdk" />
