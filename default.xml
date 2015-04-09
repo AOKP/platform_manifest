@@ -444,7 +444,7 @@
   <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" remote="aicp" revision="lp5.1" />
   <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" remote="cm" revision="cm-12.1" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" remote="cm" revision="cm-12.1" />
-  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
+  <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" remote="cm" revision="cm-12.1" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" remote="cm" revision="cm-12.1" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
