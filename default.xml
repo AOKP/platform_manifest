@@ -24,7 +24,7 @@
            fetch="https://github.com/"
            review="gerrit.omnirom.org" />
 
-  <default revision="refs/tags/android-5.1.1_r1"
+  <default revision="refs/tags/android-5.1.1_r2"
            remote="aosp"
            sync-c="true"
            sync-j="16" />
