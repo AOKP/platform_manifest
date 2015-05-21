@@ -27,7 +27,7 @@
   <default revision="refs/tags/android-5.1.1_r3"
            remote="aosp"
            sync-c="true"
-           sync-j="16" />
+           sync-j="4" />
 
   <project path="build" name="AICP/build" remote="aicp" revision="lp5.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
