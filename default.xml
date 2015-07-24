@@ -595,4 +595,7 @@
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" revision="lp5.1" />
   <project path="packages/apps/AICP_OTA" name="AICP/packages_apps_AICP_OTA" remote="aicp" revision="lp5.1" />
 
+  <!-- Anti-piracy support -->
+  <project path="packages/services/AntiPiracy" name="AlmightyMegadeth00/AntiPiracySupport" remote="github" revision="master" />
+
 </manifest>
