@@ -31,7 +31,7 @@
            sync-j="4" />
 
 <!-- BEGIN AICP -->
-  <project path="build" name="AICP/build" remote="aicp"  groups="pdk,tradefed" >
+  <project path="build" name="AICP/build" remote="aicp" revision="mm6.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" remote="cm" />
