@@ -57,6 +57,7 @@
   <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" remote="cm" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="cm" />
   <!-- <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" groups="pdk" remote="cm" /> -->
+  <project path="external/boringssl" name="CyanogenMod/android_external_boringssl" remote="cm" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" remote="cm" />
   <project path="external/bson" name="CyanogenMod/android_external_bson" remote="cm" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="cm" />
@@ -141,11 +142,6 @@
   <project path="external/tinycompress" name="CyanogenMod/android_external_tinycompress" groups="pdk" remote="cm" />
   <project path="external/unrar" name="CyanogenMod/android_external_unrar" remote="cm" />
   <project path="external/vim" name="CyanogenMod/android_external_vim" remote="cm" />
-  <project path="external/whispersystems/TextSecure" name="CyanogenMod/android_external_whispersystems_TextSecure" remote="cm" />
-  <project path="external/whispersystems/curve25519" name="CyanogenMod/android_external_whispersystems_curve25519-java" remote="cm" />
-  <project path="external/whispersystems/libtextsecure" name="CyanogenMod/android_external_whispersystems_libtextsecure-java" remote="cm" />
-  <project path="external/whispersystems/libaxolotl" name="CyanogenMod/android_external_whispersystems_libaxolotl-android" remote="cm" />
-  <project path="external/whispersystems/WhisperPush" name="CyanogenMod/android_external_whispersystems_WhisperPush" remote="cm" />
   <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" groups="pdk" remote="cm" />
   <project path="external/zip" name="CyanogenMod/android_external_zip" remote="cm" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" remote="cm" />
