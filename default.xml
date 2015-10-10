@@ -303,7 +303,7 @@
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" remote="cm" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" remote="cm" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" remote="cm" />
-  <project path="vendor/cmsdk" name="AICP/vendor/cmsdk" remote="aicp" revision="mm6.0" />
+  <project path="vendor/cmsdk" name="AICP/vendor_cmsdk" remote="aicp" revision="mm6.0" />
 
   <!-- AICP custom -->
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" revision="mm6.0" />
