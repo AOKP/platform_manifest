@@ -60,7 +60,6 @@
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" remote="cm" />
   <project path="external/bson" name="CyanogenMod/android_external_bson" remote="cm" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="cm" />
-  <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="cm" />
   <project path="external/curl" name="CyanogenMod/android_external_curl" remote="cm" />
   <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" groups="pdk-cw-fs" remote="cm" />
   <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" groups="pdk" remote="cm" />
