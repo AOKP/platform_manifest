@@ -207,7 +207,7 @@
   <project path="hardware/qcom/media-caf/msm8994" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-13.0-caf-8994" remote="cm" />
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" remote="cm" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" groups="pdk" remote="cm" />
-  <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" groups="pdk" revision="cm-12.1-caf" remote="cm" />
+  <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" groups="pdk" revision="cm-13.0-caf" remote="cm" />
   <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" remote="cm" />
   <project path="hardware/ti/omap4" name="CyanogenMod/android_hardware_ti_omap4" remote="cm" />
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="cm" />
@@ -225,7 +225,6 @@
   <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" remote="cm" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" remote="cm" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" remote="cm" />
-  <project path="packages/apps/CMAccount" name="CyanogenMod/android_packages_apps_CMAccount" remote="cm" />
   <project path="packages/apps/CMBugReport" name="CyanogenMod/android_packages_apps_CMBugreport" remote="cm" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="cm" />
   <!-- <project path="packages/apps/CMHome" name="CyanogenMod/android_packages_apps_CMHome" remote="cm" /> -->
@@ -258,7 +257,7 @@
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" remote="cm" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" remote="cm" />
   <project path="packages/apps/Terminal" name="CyanogenMod/android_packages_apps_Terminal" remote="cm" />
-  <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" remote="cm" />
+  <!--<project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" remote="cm" />-->
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" remote="cm" />
   <project path="packages/apps/TvSettings" name="CyanogenMod/android_packages_apps_TvSettings" remote="cm" />
   <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" remote="cm" />
@@ -271,7 +270,7 @@
   <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" remote="cm" />
   <project path="packages/providers/PartnerBookmarksProvider" name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" remote="cm" />
   <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" remote="cm" />
-  <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" remote="cm" />
+  <!--<project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" remote="cm" />-->
   <project path="packages/providers/TvProvider" name="CyanogenMod/android_packages_providers_TvProvider" remote="cm" />
   <project path="packages/providers/UserDictionaryProvider" name="CyanogenMod/android_packages_providers_UserDictionaryProvider" remote="cm" />
   <project path="packages/screensavers/Basic" name="CyanogenMod/android_packages_screensavers_Basic" remote="cm" />
@@ -300,7 +299,8 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" remote="cm" />
   <project path="vendor/cmsdk" name="AICP/vendor_cmsdk" remote="aicp" revision="mm6.0" />
   <project path="vendor/qcom/opensource/display-frameworks" name="CyanogenMod/android_vendor_qcom_opensource_display-frameworks" remote="cm" />
-
+  <project path="vendor/qcom/opensource/dpm" name="CyanogenMod/android_vendor_qcom_opensource_dpm" remote="cm" />
+  <project path="vendor/qcom/opensource/time-services" name="CyanogenMod/android_vendor_qcom_opensource_time-services" remote="cm" />
 
   <!-- AICP custom -->
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" revision="mm6.0" />
@@ -333,7 +333,7 @@
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/apache-commons-math" name="platform/external/apache-commons-math" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/apache-http" name="platform/external/apache-http" groups="pdk" remote="aosp" />
+  <project path="external/apache-http" name="CyanogenMod/android_external_apache-http" groups="pdk" remote="cm" />
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk" remote="aosp" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" remote="aosp" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -478,7 +478,7 @@
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" />
-  <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" remote="aosp" />
+  <project path="external/tinyxml2" name="CyanogenMod/android_external_tinyxml2" groups="pdk" remote="cm" />
   <project path="external/toybox" name="platform/external/toybox" groups="pdk" remote="aosp" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" remote="aosp" />
   <project path="external/v8" name="platform/external/v8" groups="pdk" remote="aosp" />
@@ -522,7 +522,7 @@
   <project path="ndk" name="platform/ndk" groups="generic_fs" remote="aosp" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" groups="pdk-fs" remote="aosp" />
+  <project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" groups="pdk-fs" remote="cm" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" remote="aosp" />
@@ -564,7 +564,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" remote="aosp" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="system/bt" name="platform/system/bt" groups="pdk" remote="aosp" />
+  <project path="system/bt" name="CyanogenMod/android_system_bt" groups="pdk" remote="cm" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
 <!-- END AOSP -->
 
