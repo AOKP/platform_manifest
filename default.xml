@@ -10,7 +10,8 @@
 
   <remote name="aicp"
            fetch="https://github.com/"
-           review="gerrit.aicp-rom.com" />
+           review="gerrit.aicp-rom.com"
+           revision="mm6.0" />
 
   <remote  name="cm"
            fetch="https://github.com/"
@@ -31,7 +32,7 @@
            sync-j="4" />
 
 <!-- BEGIN AICP -->
-  <project path="build" name="AICP/build" remote="aicp" revision="mm6.0" >
+  <project path="build" name="AICP/build" remote="aicp" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" remote="cm" />
@@ -264,7 +265,7 @@
   <project path="packages/apps/TvSettings" name="CyanogenMod/android_packages_apps_TvSettings" remote="cm" />
   <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" remote="cm" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" remote="cm" />
-  <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" remote="cm" />
+  <project path="packages/inputmethods/LatinIME" name="AICP/packages_inputmethods_LatinIME" remote="aicp" />
   <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" remote="cm" />
   <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" remote="cm" />
   <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" remote="cm" />
@@ -299,14 +300,14 @@
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" remote="cm" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" remote="cm" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" remote="cm" />
-  <project path="vendor/cmsdk" name="AICP/vendor_cmsdk" remote="aicp" revision="mm6.0" />
+  <project path="vendor/cmsdk" name="AICP/vendor_cmsdk" remote="aicp" />
   <project path="vendor/qcom/opensource/display-frameworks" name="CyanogenMod/android_vendor_qcom_opensource_display-frameworks" remote="cm" />
   <project path="vendor/qcom/opensource/dpm" name="CyanogenMod/android_vendor_qcom_opensource_dpm" remote="cm" />
   <project path="vendor/qcom/opensource/time-services" name="CyanogenMod/android_vendor_qcom_opensource_time-services" remote="cm" />
 
   <!-- AICP custom -->
-  <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" revision="mm6.0" />
-  <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" revision="mm6.0" />
+  <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
+  <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
   <project path="packages/apps/AICP_OTA" name="AICP/packages_apps_AICP_OTA" remote="aicp" revision="lp5.1" />
 
   <!-- Anti-piracy support -->
