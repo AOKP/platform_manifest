@@ -292,7 +292,7 @@
   <project path="packages/wallpapers/PhaseBeam" name="CyanogenMod/android_packages_wallpapers_PhaseBeam" remote="cm" />
   <project path="packages/wallpapers/PhotoPhase" name="CyanogenMod/android_packages_wallpapers_PhotoPhase" remote="cm" />
   <project path="prebuilts/cmsdk" name="CyanogenMod/android_prebuilts_cmsdk" revision="master" remote="cm" />
-  <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" remote="cm" />
+  <project path="system/core" name="AICP/system_core" groups="pdk" remote="aicp" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" remote="cm" />
   <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" remote="cm" />
   <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" remote="cm" />
