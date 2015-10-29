@@ -139,6 +139,7 @@
   <project path="external/unrar" name="CyanogenMod/android_external_unrar" remote="cm" />
   <project path="external/vim" name="CyanogenMod/android_external_vim" remote="cm" />
   <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" groups="pdk" remote="cm" />
+  <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" groups="pdk" remote="cm" />
   <project path="external/zip" name="CyanogenMod/android_external_zip" remote="cm" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" remote="cm" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" remote="cm" />
