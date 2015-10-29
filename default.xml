@@ -267,7 +267,7 @@
   <project path="packages/apps/TvSettings" name="CyanogenMod/android_packages_apps_TvSettings" groups="generic_fs" remote="cm" />
   <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" groups="pdk-fs" remote="cm" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" remote="cm" />
-  <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="cm" />
+  <project path="packages/inputmethods/LatinIME" name="AICP/packages_inputmethods_LatinIME" remote="aicp" />
   <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" groups="pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="packages/providers/DownloadProvider" name="CyanogenMod/android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="cm" />
