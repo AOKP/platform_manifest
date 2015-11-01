@@ -122,7 +122,6 @@
   <!-- <project path="external/powertop" name="CyanogenMod/android_external_powertop" remote="cm" /> -->
   <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" remote="cm" />
   <project path="external/rsync" name="CyanogenMod/android_external_rsync" remote="cm" />
-  <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" groups="pdk" remote="cm" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" groups="pdk,qcom_msm8x26" remote="cm" />
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" groups="pdk" remote="cm" />
   <project path="external/speex" name="CyanogenMod/android_external_speex" groups="pdk" remote="cm" />
@@ -307,6 +306,7 @@
   <project path="vendor/qcom/opensource/time-services" name="CyanogenMod/android_vendor_qcom_opensource_time-services" remote="cm" />
 
   <!-- AICP custom -->
+  <project path="external/sepolicy" name="AICP/external_sepolicy" groups="pdk" remote="aicp" revision="mm6.0" />
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
   <project path="packages/apps/AICP_OTA" name="AICP/packages_apps_AICP_OTA" remote="aicp" revision="lp5.1" />
   <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" revision="mm6.0" />
@@ -565,7 +565,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" remote="aosp" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
+  <project path="system/gatekeeper" name="platform/system/gatekeeper" fgroups="pdk" remote="aosp" />
 <!-- END AOSP -->
 
 </manifest>
