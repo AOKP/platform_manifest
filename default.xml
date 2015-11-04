@@ -131,6 +131,7 @@
   <project path="external/square/dagger" name="CyanogenMod/android_external_square_dagger" remote="cm" />
   <project path="external/square/javawriter" name="CyanogenMod/android_external_square_javawriter" remote="cm" />
   <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="cm" />
+  <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="cm" />
   <project path="external/strace" name="CyanogenMod/android_external_strace" groups="pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="external/tcpdump" name="CyanogenMod/android_external_tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" groups="pdk" remote="cm" />
