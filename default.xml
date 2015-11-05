@@ -26,7 +26,7 @@
            fetch="https://github.com/"
            review="gerrit.omnirom.org" />
 
-  <default revision="refs/tags/android-6.0.0_r5"
+  <default revision="refs/tags/android-6.0.0_r26"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
