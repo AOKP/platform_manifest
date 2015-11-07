@@ -105,6 +105,7 @@
   <project path="external/libxml2" name="CyanogenMod/android_external_libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" remote="cm" />
   <project path="external/libxslt" name="CyanogenMod/android_external_libxslt" remote="cm" />
   <project path="external/linux-tools-perf" name="CyanogenMod/android_external_linux-tools-perf" groups="pdk-cw-fs,pdk-fs" remote="cm" />
+  <project path="external/libavc" name="CyanogenMod/android_external_libavc" groups="pdk" remote="cm" />
   <project path="external/libtruezip" name="CyanogenMod/android_external_libtruezip" remote="cm" />
   <project path="external/lsof" name="CyanogenMod/android_external_lsof" remote="cm" />
   <project path="external/lz4" name="CyanogenMod/android_external_lz4" groups="pdk-cw-fs,pdk-fs" remote="cm" />
@@ -409,7 +410,6 @@
   <project path="external/junit" name="platform/external/junit" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/libavc" name="platform/external/libavc" groups="pdk" remote="aosp" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" remote="aosp" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" remote="aosp" />
