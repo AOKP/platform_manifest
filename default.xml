@@ -143,7 +143,6 @@
   <project path="external/zip" name="CyanogenMod/android_external_zip" remote="cm" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" remote="cm" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" remote="cm" />
-  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" remote="cm" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" remote="cm" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" remote="cm" />
@@ -257,7 +256,6 @@
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" remote="cm" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" groups="pdk-fs" remote="cm" />
-  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" groups="pdk-fs" remote="cm" />
   <project path="packages/apps/SetupWizard" name="CyanogenMod/android_packages_apps_SetupWizard" remote="cm" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" groups="pdk-fs" remote="cm" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" groups="pdk-fs" remote="cm" />
@@ -312,9 +310,11 @@
 
   <!-- AICP custom -->
   <project path="external/sepolicy" name="AICP/external_sepolicy" groups="pdk" remote="aicp" revision="mm6.0" />
+  <project path="frameworks/base" name="AICP/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aicp" revision="mm6.0" />
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
   <project path="packages/apps/AICP_OTA" name="AICP/packages_apps_AICP_OTA" remote="aicp" revision="lp5.1" />
   <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" revision="mm6.0" />
+  <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" groups="pdk-fs" remote="aicp" revision="mm6.0" />
   <project path="system/core" name="AICP/system_core" groups="pdk" remote="aicp" />
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
   <project path="vendor/cmsdk" name="AICP/vendor_cmsdk" remote="aicp" />
