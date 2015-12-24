@@ -317,6 +317,7 @@
   <!-- AICP custom -->
   <project path="external/sepolicy" name="AICP/external_sepolicy" groups="pdk" remote="aicp" revision="mm6.0" />
   <project path="frameworks/base" name="AICP/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aicp" revision="mm6.0" />
+  <project path="frameworks/opt/cards" name="AICP/frameworks_opt_cards" remote="aicp" revision="mm6.0" />
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
   <project path="packages/apps/AICP_OTA" name="AICP/packages_apps_AICP_OTA" remote="aicp" revision="lp5.1" />
   <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" revision="mm6.0" />
