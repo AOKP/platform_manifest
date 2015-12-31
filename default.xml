@@ -39,7 +39,6 @@
   <project path="art" name="CyanogenMod/android_art" groups="pdk" remote="cm" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" remote="cm" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" remote="cm" />
-  <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="development" name="CyanogenMod/android_development" groups="pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="device/common" name="CyanogenMod/android_device_common" groups="pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="device/generic/arm64" name="CyanogenMod/android_device_generic_arm64" groups="pdk" remote="cm" />
@@ -64,7 +63,7 @@
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" groups="pdk" remote="cm" />
   <project path="external/brctl" name="CyanogenMod/android_external_brctl" remote="cm" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="cm" />
-    <project path="external/bzip2" name="CyanogenMod/android_external_bzip2" groups="pdk" remote="cm" />
+  <project path="external/bzip2" name="CyanogenMod/android_external_bzip2" groups="pdk" remote="cm" />
   <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="cm" />
   <project path="external/curl" name="CyanogenMod/android_external_curl" remote="cm" />
   <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" groups="pdk-cw-fs,pdk-fs" remote="cm" />
@@ -333,6 +332,7 @@
 
 
 <!-- BEGIN AOSP -->
+  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="marshmallow-cts-release" remote="aosp" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" />
