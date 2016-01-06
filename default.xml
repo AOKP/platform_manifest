@@ -263,6 +263,7 @@
   <project path="packages/apps/Screencast" name="CyanogenMod/android_packages_apps_Screencast" remote="cm" />
   <project path="packages/apps/SetupWizard" name="CyanogenMod/android_packages_apps_SetupWizard" remote="cm" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" groups="pdk-fs" remote="cm" />
+  <project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" remote="cm" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" groups="pdk-fs" remote="cm" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" groups="pdk-fs" remote="cm" />
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="cm" />
