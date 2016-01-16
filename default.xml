@@ -32,9 +32,6 @@
            sync-j="4" />
 
 <!-- BEGIN AICP -->
-  <project path="build" name="AICP/build" remote="aicp" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" remote="cm" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" remote="cm" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" remote="cm" />
@@ -48,7 +45,6 @@
   <project path="device/generic/mips" name="CyanogenMod/android_device_generic_mips" groups="pdk" remote="cm" />
   <project path="device/google/atv" name="CyanogenMod/android_device_google_atv" groups="device,fugu,broadcom_pdk,generic_fs" remote="cm" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="cm"/>
-  <project path="device/qcom/sepolicy" name="AICP/device_qcom_sepolicy" remote="aicp" />
   <project path="external/android-clat" name="CyanogenMod/android_external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" groups="pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" remote="cm" />
@@ -110,7 +106,6 @@
   <project path="external/lz4" name="CyanogenMod/android_external_lz4" groups="pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="external/lzma" name="CyanogenMod/android_external_lzma" groups="pdk" remote="cm" />
   <project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="cm" />
-  <project path="external/mksh" name="AICP/external_mksh" groups="pdk" remote="aicp" revision="mm6.0" />
   <project path="external/mm-dash" name="CyanogenMod/android_external_mm-dash" remote="cm" />
   <project path="external/nano" name="CyanogenMod/android_external_nano" remote="cm" />
   <project path="external/nist-sip" name="CyanogenMod/android_external_nist-sip" groups="pdk-cw-fs,pdk-fs" remote="cm" />
@@ -316,16 +311,22 @@
   <project path="vendor/qcom/opensource/time-services" name="CyanogenMod/android_vendor_qcom_opensource_time-services" remote="cm" />
 
   <!-- AICP custom -->
-  <project path="external/sepolicy" name="AICP/external_sepolicy" groups="pdk" remote="aicp" revision="mm6.0" />
-  <project path="frameworks/base" name="AICP/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aicp" revision="mm6.0" />
-  <project path="frameworks/opt/cards" name="AICP/frameworks_opt_cards" remote="aicp" revision="mm6.0" />
+  <project path="build" name="AICP/build" remote="aicp" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="device/qcom/sepolicy" name="AICP/device_qcom_sepolicy" remote="aicp" />
+  <project path="external/sepolicy" name="AICP/external_sepolicy" groups="pdk" remote="aicp" />
+  <project path="external/android-snackbar" name="AICP/external_android-snackbar" remote="aicp" />
+  <project path="external/mksh" name="AICP/external_mksh" groups="pdk" remote="aicp" />
+  <project path="frameworks/base" name="AICP/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
+  <project path="frameworks/opt/cards" name="AICP/frameworks_opt_cards" remote="aicp" />
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
   <project path="packages/apps/AICP_OTA" name="AICP/packages_apps_AICP_OTA" remote="aicp" revision="lp5.1" />
-  <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" revision="mm6.0" />
-  <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" groups="pdk-fs" remote="aicp" revision="mm6.0" />
-  <project path="packages/apps/InCallUI" name="AICP/packages_apps_InCallUI" groups="pdk-fs" remote="aicp" revision="mm6.0" />
-  <project path="packages/apps/OmniSwitch" name="AICP/packages_apps_OmniSwitch" remote="aicp" revision="mm6.0" />
-  <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" groups="pdk-fs" remote="aicp" revision="mm6.0" />
+  <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
+  <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" groups="pdk-fs" remote="aicp" />
+  <project path="packages/apps/InCallUI" name="AICP/packages_apps_InCallUI" groups="pdk-fs" remote="aicp" />
+  <project path="packages/apps/OmniSwitch" name="AICP/packages_apps_OmniSwitch" remote="aicp" />
+  <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" groups="pdk-fs" remote="aicp" />
   <project path="packages/services/Telephony" name="AICP/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="system/core" name="AICP/system_core" groups="pdk" remote="aicp" />
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
