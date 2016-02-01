@@ -19,6 +19,10 @@
            review="review.cyanogenmod.org"
            revision="refs/heads/cm-13.0" />
 
+  <remote name="tm"
+          fetch="https://github.com/TheMuppets"
+          revision="refs/heads/cm-13.0" />
+
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
