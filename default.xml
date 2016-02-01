@@ -22,6 +22,12 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
+  <remote  name="td"
+           fetch="git://github.com/TheDolls"
+           revision="refs/heads/cm-13.0"
+           sync-c="true"
+           sync-j="4" />
+
   <default revision="refs/heads/mm"
            remote="aokp"
            sync-c="true"
