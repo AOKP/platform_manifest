@@ -19,6 +19,11 @@
            review="review.cyanogenmod.org"
            revision="refs/heads/cm-13.0" />
 
+  <remote  name="omni"
+           revision="refs/heads/android-6.0"
+           review="gerrit.omnirom.org"
+           fetch="https://github.com/omnirom" />
+
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
@@ -51,11 +56,13 @@
   <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" />
   <project path="vendor/cmsdk" name="AOKP/cm_platform_sdk" remote="aokp" />
 
+  <!-- From omnirom -->
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="omni" groups="pdk-cw-fs"/>
+
   <!-- Begin CM -->
   <project path="abi/cpp" remote="cm" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" remote="cm" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" remote="cm" name="CyanogenMod/android_bionic" groups="pdk" />
-  <project path="bootable/recovery" remote="cm" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="marshmallow-cts-release" remote="aosp" />
   <project path="development" remote="cm" name="CyanogenMod/android_development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/common" remote="cm" name="CyanogenMod/android_device_common" groups="pdk-cw-fs,pdk-fs" />
