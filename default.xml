@@ -34,6 +34,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
+  <project path="bootable/recovery" remote="aokp" name="AOKP/bootable_recovery" groups="pdk,pdk-cw-fs" />
   <project path="device/qcom/sepolicy" remote="aokp" name="AOKP/device_qcom_sepolicy" />
   <project path="external/mksh" remote="aokp" name="AOKP/external_mksh" groups="pdk" />
   <project path="external/sepolicy" remote="aokp" name="AOKP/external_sepolicy" groups="pdk" />
@@ -55,7 +56,6 @@
   <project path="abi/cpp" remote="cm" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" remote="cm" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" remote="cm" name="CyanogenMod/android_bionic" groups="pdk" />
-  <project path="bootable/recovery" remote="cm" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="marshmallow-cts-release" remote="aosp" />
   <project path="development" remote="cm" name="CyanogenMod/android_development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/common" remote="cm" name="CyanogenMod/android_device_common" groups="pdk-cw-fs,pdk-fs" />
