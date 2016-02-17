@@ -78,6 +78,7 @@
   <project path="external/boringssl" remote="cm" name="CyanogenMod/android_external_boringssl" groups="pdk" />
   <project path="external/bouncycastle" remote="cm" name="CyanogenMod/android_external_bouncycastle" groups="pdk" />
   <project path="external/brctl" remote="cm" name="CyanogenMod/android_external_brctl" />
+  <project path="external/bson" remote="cm" name="CyanogenMod/android_external_bson" />
   <project path="external/busybox" remote="cm" name="CyanogenMod/android_external_busybox" />
   <project path="external/connectivity" remote="cm" name="CyanogenMod/android_external_connectivity" />
   <project path="external/bzip2" remote="cm" name="CyanogenMod/android_external_bzip2" groups="pdk" />
@@ -142,6 +143,7 @@
   <project path="external/rsync" remote="cm" name="CyanogenMod/android_external_rsync" />
   <project path="external/skia" remote="cm" name="CyanogenMod/android_external_skia" groups="pdk,qcom_msm8x26" />
   <project path="external/sonivox" remote="cm" name="CyanogenMod/android_external_sonivox" groups="pdk" />
+  <project path="external/sony/boringssl-compat" remote="cm" name="CyanogenMod/android_external_sony_boringssl-compat" />
   <project path="external/speex" remote="cm" name="CyanogenMod/android_external_speex" groups="pdk" />
   <project path="external/spongycastle" remote="cm" name="CyanogenMod/android_external_spongycastle" groups="pdk" />
   <project path="external/sqlite" remote="cm" name="CyanogenMod/android_external_sqlite" groups="pdk" />
