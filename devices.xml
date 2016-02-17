@@ -17,9 +17,29 @@
   <project name="CyanogenMod/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="cm" />
   <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" remote="cm" />
 
+  <!-- Motorola msm8226 Specific -->
+  <project path="device/motorola/titan" name="koradiavatsal/android_device_motorola_titan" remote="github" revision="mm" />
+  <project path="device/motorola/msm8226-common" name="CyanogenMod/android_device_motorola_msm8226-common" remote="cm" revision="cm-13.0" />
+  <project path="kernel/motorola/msm8226" name="koradiavatsal/Viper-kernel" remote="github" revision="testing" />
+
+  <!-- Motorola msm8610 Specific -->
+  <project path="kernel/motorola/msm8610" name="CyanogenMod/android_kernel_motorola_msm8610" remote="cm" revision="cm-13.0" />
+  <project path="device/motorola/otus" name="koradiavatsal/android_device_motorola_otus" remote="github" revision="mm" />
+  <project path="device/motorola/msm8610-common" name="CyanogenMod/android_device_motorola_msm8610-common" remote="cm" revision="cm-13.0" />
+
+  <!-- Motorola msm8916 Specific -->
+  <project path="kernel/motorola/msm8916" name="moto8916/android_kernel_motorola_msm8916" remote="github" revision="cm-13.0" />
+  <project path="device/motorola/msm8916-common" name="moto8916/android_device_motorola_msm8916-common" remote="github" revision="cm-13.0" />
+  <project path="device/motorola/surnia" name="koradiavatsal/android_device_motorola_surnia" remote="github" revision="mm" />
+
+  <!-- Motorola Vendor -->
+  <project path="vendor/motorola" name="koradiavatsal/proprietary_vendor_motorola" remote="github" revision="cm-13.0" />
+
   <!-- Qualcomm common repos -->
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="cm" />
 
   <!-- Other common external dependencies -->
   <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="cm" />
+  <project path="external/bson" name="CyanogenMod/android_external_bson" remote="cm" revision="cm-13.0" />
+
 </manifest>
