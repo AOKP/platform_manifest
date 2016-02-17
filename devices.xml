@@ -5,11 +5,20 @@
   <!-- Nexus 6 -->
   <project name="AOKP/device_moto_shamu" path="device_moto_shamu" remote="aokp" />
   <project name="CyanogenMod/android_kernel_moto_shamu" path="kernel_moto_shamu" remote="cm" />
-  <!-- Moto G 2013 -->
+  <!-- Moto G 2013/2014 -->
   <project name="AOKP/device_motorola_falcon" path="device/motorola/falcon" remote="aokp" />
-  <!-- Moto G common repos -->
+  <project name="AOKP/device_motorola_titan" path="device/motorola/titan" remote="aokp" />
   <project name="AOKP/device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="aokp" />
   <project name="CyanogenMod/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="cm" />
+  <!-- Moto E 2014/2015 3G -->
+  <project path="device/motorola/condor" name="AOKP/device_motorola_condor" remote="aokp" />
+  <project path="device/motorola/otus" name="AOKP/android_device_motorola_otus" remote="aokp" />
+  <project path="device/motorola/msm8610-common" name="AOKP/device_motorola_msm8610-common" remote="aokp" />
+  <project path="kernel/motorola/msm8610" name="AOKP/kernel_motorola_msm8610" remote="aokp" />
+  <!-- Moto E 2015 LTE -->
+  <project path="device/motorola/surnia" name="AOKP/device_motorola_surnia" remote="aokp" />
+  <project path="device/motorola/msm8916-common" name="AOKP/device_motorola_msm8916-common" remote="aokp" />
+  <project path="kernel/motorola/msm8916" name="AOKP/kernel_motorola_msm8916" remote="aokp" />
   <!-- Motorola Common Vendor -->
   <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" />
 
@@ -70,5 +79,7 @@
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="cm" />
   <!-- Ordinary external dependencies -->
   <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="cm" />
+  <project name="CyanogenMod/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="cm" />
+  <project name="CyanogenMod/android_external_bson" path="external/bson" remote="cm" />
 
 </manifest>
