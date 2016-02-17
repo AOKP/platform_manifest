@@ -17,9 +17,33 @@
   <project name="CyanogenMod/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="cm" />
   <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" remote="cm" />
 
+  <!-- Moto G 2014 -->
+  <project path="device/motorola/titan" name="AOKP/android_device_motorola_titan" remote="github" revision="mm" />
+
+  <!-- Moto E -->
+  <project path="device/motorola/condor" name="AOKP/device_motorola_condor" remote="github" revision="mm" />
+
+  <!-- Moto E 2015 3G -->
+  <project path="device/motorola/otus" name="AOKP/android_device_motorola_otus" remote="github" revision="mm" />
+   <project path="device/motorola/msm8610-common" name="AOKP/device_motorola_msm8610-common" remote="aokp" revision="mm" />
+  <project path="kernel/motorola/msm8610" name="CyanogenMod/android_kernel_motorola_msm8610" remote="cm" revision="cm-13.0" />
+
+  <!-- Moto E 2015 LTE -->
+  <project path="device/motorola/surnia" name="AOKP/android_device_motorola_surnia" remote="github" revision="mm" />
+  <project path="device/motorola/msm8916-common" name="AOKP/android_device_motorola_msm8916-common" remote="github" revision="mm" />
+  <project path="kernel/motorola/msm8916" name="moto8916/android_kernel_motorola_msm8916" remote="github" revision="cm-13.0" />
+
+  <!-- Moto common -->
+  <project path="vendor/motorola" name="koradiavatsal/proprietary_vendor_motorola" remote="github" revision="cm-13.0" />
+  
+   <!-- Other common external dependencies -->
+  <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="cm" />
+  <project path="external/bson" name="CyanogenMod/android_external_bson" remote="cm" revision="cm-13.0" />
+  <project name="CyanogenMod/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="cm" />
+
   <!-- Qualcomm common repos -->
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="cm" />
 
-  <!-- Other common external dependencies -->
-  <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="cm" />
+ 
+
 </manifest>
