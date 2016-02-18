@@ -22,4 +22,22 @@
 
   <!-- Other common external dependencies -->
   <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="cm" />
+
+
+  <!-- Repos Required for Android One First Generation Devices -->
+  <project name="AOKP/device_google_sprout4" path="device/google/sprout4" remote="aokp" />
+  <project name="AOKP/device_google_sprout8" path="device/google/sprout8" remote="aokp" />
+  <project name="AOKP/kernel_mediatek_sprout" path="kernel/mediatek/sprout" remote="aokp" />
+  <project name="AOKP/device_google_sprout-common" path="device/google/sprout-common" remote="aokp" />
+  <project name="TheMuppets/proprietary_vendor_google" path="vendor/google" remote="github" revision="cm-13.0" />
+
+
+  <!-- Moto G 2013 -->
+  <project name="AOKP/device_motorola_falcon" path="device/motorola/falcon" remote="aokp" />
+
+  <!-- Motorola common repos -->
+  <project name="AOKP/device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="aokp" />
+  <project name="CyanogenMod/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="cm" />
+  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-13.0" />
+
 </manifest>
