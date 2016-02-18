@@ -22,4 +22,8 @@
 
   <!-- Other common external dependencies -->
   <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="cm" />
+
+ <!-- Moto G 2014 LTE -->
+  <project name="RolanDroid/android_device_motorola_thea" path="device/motorola/thea"  revision="aokp-m" />
+
 </manifest>
