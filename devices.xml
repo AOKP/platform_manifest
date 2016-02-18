@@ -17,9 +17,13 @@
   <project name="CyanogenMod/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="cm" />
   <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" remote="cm" />
 
+ <!-- Moto G 2014 LTE -->
+  <project name="RolanDroid/android_device_motorola_thea" path="device/motorola/thea"  revision="aokp-m" />  
+
   <!-- Qualcomm common repos -->
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="cm" />
 
   <!-- Other common external dependencies -->
   <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="cm" />
+
 </manifest>
