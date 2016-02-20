@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+  <!-- Nexus 6 aka Shamu -->
+  <project name="AOKP/device_moto_shamu" path="device_moto_shamu" remote="aokp" />
+  <project name="CyanogenMod/android_kernel_moto_shamu" path="kernel_moto_shamu" remote="cm" />
+
+  <!-- Motorola Common Vendor -->
+  <project name="proprietary_vendor_motorola" path="vendor/motorola" remote="cm" />
+
   <!-- Sony Xperia Z1 Family -->
   <project name="AOKP/device_sony_honami" path="device/sony/honami" remote="aokp" />
   <project name="AOKP/device_sony_amami" path="device/sony/amami" remote="aokp" />
