@@ -1,5 +1,5 @@
 [Android Open Kang Project](http://aokp.co)
-====================================
+===========================================
 
 
 Download the Source
