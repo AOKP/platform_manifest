@@ -15,6 +15,10 @@
   <project name="CyanogenMod/android_device_sony_rhine-common" path="device/sony/rhine-common" remote="cm" />
   <project name="CyanogenMod/android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="cm" />
 
+  <!-- Sony Xperia Z2 -->
+  <project name="AOKP/device_sony_sirius" path="device/sony/sirius" remote="aokp" />
+  <project name="CyanogenMod/android_device_sony_shinano-common" path="device/sony/shinano-common" remote="cm" />  
+
   <!-- Sony Common Repos -->
   <project name="CyanogenMod/android_kernel_sony_msm" path="kernel/sony/msm" remote="cm" />
   <project name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/sony" remote="cm" revision="cm-13.0-sony" />
@@ -23,6 +27,7 @@
   <project name="CyanogenMod/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="cm" />
   <project name="CyanogenMod/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="cm" />
   <project name="CyanogenMod/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="cm" />
+  <project name="CyanogenMod/android_hardware_sony_camera" path="hardware/sony/camera" remote="cm" />
   <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" remote="github" />
 
   <!-- YU Yuphoria -->
