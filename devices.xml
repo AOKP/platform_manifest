@@ -5,6 +5,15 @@
   <project name="Cyanogenmod/android_kernel_google_msm" path="kernel/google/msm" remote="cm" revision="cm-13.0" />
   <project name="TheMuppets/proprietary_vendor_asus" path="vendor/asus" remote="github" revision="cm-13.0" />
 
+  <!-- HTC -->
+  <!-- HTC One M8 -->
+  <project name="AOKP/device_htc_m8" path="device/htc/m8" remote="aokp" revision="mm" />
+  <project name="Cyanogenmod/android_device_htc_m8-common" path="device/htc/m8-common" remote="cm" revision="cm-13.0" />
+  <project name="Cyanogenmod/android_device_htc_msm8974-common" path="device/htc/msm8974-common" remote="cm" revision="cm-13.0" />
+  <project name="Cyanogenmod/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="cm" revision="cm-13.0" />
+  <project name="Cyanogenmod/android_kernel_htc_msm8974" path="kernel/htc/msm8974" remote="cm" revision="cm-13.0" />
+  <project name="TheMuppets/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="cm-13.0" />
+
   <!-- Motorola -->
   <!-- Nexus 6 -->
   <project name="AOKP/device_moto_shamu" path="device_moto_shamu" remote="aokp" />
