@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- Asus Flo - Google Nexus 7 -->
+  <project name="AOKP/device_asus_flo" path="device/asus/flo" remote="aokp" revision="mm" />
+  <project name="Cyanogenmod/android_kernel_google_msm" path="kernel/google/msm" remote="cm" revision="cm-13.0" />
+  <project name="TheMuppets/proprietary_vendor_asus" path="vendor/asus" remote="github" revision="cm-13.0" />
 
   <!-- Nexus 6 aka Shamu -->
   <project name="AOKP/device_moto_shamu" path="device_moto_shamu" remote="aokp" />
@@ -17,7 +21,7 @@
 
   <!-- Sony Xperia Z2 -->
   <project name="AOKP/device_sony_sirius" path="device/sony/sirius" remote="aokp" />
-  <project name="CyanogenMod/android_device_sony_shinano-common" path="device/sony/shinano-common" remote="cm" />  
+  <project name="CyanogenMod/android_device_sony_shinano-common" path="device/sony/shinano-common" remote="cm" />
 
   <!-- Sony Common Repos -->
   <project name="CyanogenMod/android_kernel_sony_msm" path="kernel/sony/msm" remote="cm" />
