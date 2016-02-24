@@ -63,4 +63,15 @@
   <project name="CyanogenMod/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="cm" />
   <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-13.0" />
 
+  <!-- Google Nexus 7 2012-->
+  <project name="AOKP/android_device_asus_grouper" path="device/asus/grouper" remote="aokp" />
+  <project name="AOKP/andorid_kernel_asus_grouper" path="kernel/asus/grouper" remote="aokp" />
+  <project path="vendor/asus" name="AOKP/proprietary_vendor_asus" remote="aokp" />
+  <project path="vendor/broadcom" name="AOKP/proprietary_vendor_broadcom" remote="aokp" />
+  <project path="vendor/invensense" name="AOKP/proprietary_vendor_invensense" remote="aokp"/>
+  <project path="vendor/nvidia" name="AOKP/proprietary_vendor_nvidia" remote="aokp" />
+  <project path="vendor/nxp" name="AOKP/proprietary_vendor_nxp" remote="aokp" />
+  <project path="vendor/widevine" name="AOKP/proprietary_vendor_widevine" remote="aokp" />
+
+
 </manifest>
