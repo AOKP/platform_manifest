@@ -27,13 +27,11 @@
            sync-c="true"
            sync-j="4" />
 
-  <!-- Begin AOKP -->
+  <!-- AOKP -->
   <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" />
-
   <project path="build" name="AOKP/build" groups="pdk" remote="aokp" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-
   <project path="bootable/recovery" remote="aokp" name="AOKP/bootable_recovery" groups="pdk,pdk-cw-fs" />
   <project path="device/qcom/sepolicy" remote="aokp" name="AOKP/device_qcom_sepolicy" />
   <project path="external/mksh" remote="aokp" name="AOKP/external_mksh" groups="pdk" />
@@ -47,12 +45,12 @@
   <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="aokp" groups="pdk-fs" />
   <project path="packages/apps/SetupWizard" remote="aokp" name="AOKP/packages_apps_SetupWizard" />
   <project path="packages/services/Telephony" remote="aokp" name="AOKP/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
-<!--   <project path="packages/wallpapers/SwagPapers" remote="aokp" name="AOKP/packages_wallpapers_SwagPapers" /> -->
+  <!--project path="packages/wallpapers/SwagPapers" remote="aokp" name="AOKP/packages_wallpapers_SwagPapers"-->
   <project path="system/core" remote="aokp" name="AOKP/system_core" groups="pdk" />
   <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" />
   <project path="vendor/cmsdk" name="AOKP/cm_platform_sdk" remote="aokp" />
 
-  <!-- Begin CM -->
+  <!-- CyanogenMod -->
   <project path="abi/cpp" remote="cm" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" remote="cm" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" remote="cm" name="CyanogenMod/android_bionic" groups="pdk" />
@@ -333,7 +331,7 @@
   <project path="vendor/qcom/opensource/dpm" remote="cm" name="CyanogenMod/android_vendor_qcom_opensource_dpm" />
   <project path="vendor/qcom/opensource/time-services" remote="cm" name="CyanogenMod/android_vendor_qcom_opensource_time-services" />
 
-  <!-- BEGIN AOSP -->
+  <!-- AOSP -->
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" />
@@ -565,6 +563,5 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" clone-depth="1" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
-<!-- END AOSP -->
 
 </manifest>

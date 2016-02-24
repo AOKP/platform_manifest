@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Nexus 6 aka Shamu -->
+  <!-- Motorola -->
+  <!-- Nexus 6 -->
   <project name="AOKP/device_moto_shamu" path="device_moto_shamu" remote="aokp" />
   <project name="CyanogenMod/android_kernel_moto_shamu" path="kernel_moto_shamu" remote="cm" />
-
+  <!-- Moto G 2013 -->
+  <project name="AOKP/device_motorola_falcon" path="device/motorola/falcon" remote="aokp" />
+  <!-- Moto G common repos -->
+  <project name="AOKP/device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="aokp" />
+  <project name="CyanogenMod/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="cm" />
   <!-- Motorola Common Vendor -->
   <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" />
 
+  <!-- Sony -->
   <!-- Sony Xperia Z1 Family -->
   <project name="AOKP/device_sony_honami" path="device/sony/honami" remote="aokp" />
   <project name="AOKP/device_sony_amami" path="device/sony/amami" remote="aokp" />
   <project name="AOKP/device_sony_togari" path="device/sony/togari" remote="aokp" />
   <project name="CyanogenMod/android_device_sony_rhine-common" path="device/sony/rhine-common" remote="cm" />
   <project name="CyanogenMod/android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="cm" />
-
   <!-- Sony Xperia Z2 -->
   <project name="AOKP/device_sony_sirius" path="device/sony/sirius" remote="aokp" />
-  <project name="CyanogenMod/android_device_sony_shinano-common" path="device/sony/shinano-common" remote="cm" />  
-
+  <project name="CyanogenMod/android_device_sony_shinano-common" path="device/sony/shinano-common" remote="cm" />
   <!-- Sony Common Repos -->
   <project name="CyanogenMod/android_kernel_sony_msm" path="kernel/sony/msm" remote="cm" />
   <project name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/sony" remote="cm" revision="cm-13.0-sony" />
@@ -30,37 +34,29 @@
   <project name="CyanogenMod/android_hardware_sony_camera" path="hardware/sony/camera" remote="cm" />
   <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" remote="github" />
 
-  <!-- YU Yuphoria -->
-  <project name="AOKP/device_yu_lettuce" path="device/yu/lettuce" remote="aokp" />
-
-  <!-- YU common Repos -->
-  <project name="TheStrix/proprietary_vendor_yu" path="vendor/yu" remote="github" />
-
-  <!-- Cyanogen Qcom-MSM devices common -->
-  <project name="AOKP/device_cyanogen_msm8916-common" path="device/cyanogen/msm8916-common" remote="aokp" />
-  <project name="AOKP/kernel_cyanogen_msm8916" path="kernel/cyanogen/msm8916" remote="aokp" />
-
-  <!-- Qualcomm common repos -->
-  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="cm" />
-
-  <!-- Other common external dependencies -->
-  <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="cm" />
-
-
-  <!-- Repos Required for Android One First Generation Devices -->
+  <!-- Google -->
+  <!-- Android One (1st. generation) -->
   <project name="AOKP/device_google_sprout4" path="device/google/sprout4" remote="aokp" />
   <project name="AOKP/device_google_sprout8" path="device/google/sprout8" remote="aokp" />
   <project name="AOKP/kernel_mediatek_sprout" path="kernel/mediatek/sprout" remote="aokp" />
   <project name="AOKP/device_google_sprout-common" path="device/google/sprout-common" remote="aokp" />
   <project name="TheMuppets/proprietary_vendor_google" path="vendor/google" remote="github" revision="cm-13.0" />
 
+  <!-- YU -->
+  <!-- YU Yuphoria -->
+  <project name="AOKP/device_yu_lettuce" path="device/yu/lettuce" remote="aokp" />
+  <!-- YU common Repos -->
+  <project name="TheStrix/proprietary_vendor_yu" path="vendor/yu" remote="github" />
 
-  <!-- Moto G 2013 -->
-  <project name="AOKP/device_motorola_falcon" path="device/motorola/falcon" remote="aokp" />
+  <!-- Cyanogen -->
+  <!-- Cyanogen QCOM-MSM devices common -->
+  <project name="AOKP/device_cyanogen_msm8916-common" path="device/cyanogen/msm8916-common" remote="aokp" />
+  <project name="AOKP/kernel_cyanogen_msm8916" path="kernel/cyanogen/msm8916" remote="aokp" />
 
-  <!-- Motorola common repos -->
-  <project name="AOKP/device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="aokp" />
-  <project name="CyanogenMod/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="cm" />
-  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-13.0" />
+  <!-- Miscellaneous -->
+  <!-- Qualcomm Common -->
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="cm" />
+  <!-- Ordinary external dependencies -->
+  <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="cm" />
 
 </manifest>
