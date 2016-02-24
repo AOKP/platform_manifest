@@ -17,7 +17,7 @@
 
   <!-- Sony Xperia Z2 -->
   <project name="AOKP/device_sony_sirius" path="device/sony/sirius" remote="aokp" />
-  <project name="CyanogenMod/android_device_sony_shinano-common" path="device/sony/shinano-common" remote="cm" />  
+  <project name="CyanogenMod/android_device_sony_shinano-common" path="device/sony/shinano-common" remote="cm" />
 
   <!-- Sony Common Repos -->
   <project name="CyanogenMod/android_kernel_sony_msm" path="kernel/sony/msm" remote="cm" />
@@ -29,6 +29,18 @@
   <project name="CyanogenMod/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="cm" />
   <project name="CyanogenMod/android_hardware_sony_camera" path="hardware/sony/camera" remote="cm" />
   <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" remote="github" />
+
+  <!-- LG Optimus G2 -->
+  <project name="AOKP/device_lge_g2-common" path="device/lge/g2-common" remote="aokp" />
+  <project name="AOKP/device_lge_d800" path="device/lge/d800" remote="aokp" />
+  <project name="AOKP/device_lge_d801" path="device/lge/d801" remote="aokp" />
+  <project name="AOKP/device_lge_d802" path="device/lge/d802" remote="aokp" />
+  <project name="AOKP/device_lge_ls980" path="device/lge/ls980" remote="aokp" />
+  <project name="AOKP/device_lge_vs980" path="device/lge/vs980" remote="aokp" />
+  <project name="GalaticStryder/kernel_lge_msm8974" path="kernel/lge/msm8974" revision="aokp" remote="github" />
+
+  <!-- LG Common Vendor -->
+  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" />
 
   <!-- YU Yuphoria -->
   <project name="AOKP/device_yu_lettuce" path="device/yu/lettuce" remote="aokp" />
@@ -45,7 +57,8 @@
 
   <!-- Other common external dependencies -->
   <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="cm" />
-
+  <project name="CyanogenMod/android_external_bson" path="external/bson" remote="cm" />
+  <project name="CyanogenMod/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="cm" />
 
   <!-- Repos Required for Android One First Generation Devices -->
   <project name="AOKP/device_google_sprout4" path="device/google/sprout4" remote="aokp" />
@@ -54,13 +67,11 @@
   <project name="AOKP/device_google_sprout-common" path="device/google/sprout-common" remote="aokp" />
   <project name="TheMuppets/proprietary_vendor_google" path="vendor/google" remote="github" revision="cm-13.0" />
 
-
   <!-- Moto G 2013 -->
   <project name="AOKP/device_motorola_falcon" path="device/motorola/falcon" remote="aokp" />
 
-  <!-- Motorola common repos -->
+  <!-- Moto G common repos -->
   <project name="AOKP/device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="aokp" />
   <project name="CyanogenMod/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="cm" />
-  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-13.0" />
 
 </manifest>
