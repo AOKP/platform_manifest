@@ -57,6 +57,19 @@
   <project name="CyanogenMod/android_hardware_sony_camera" path="hardware/sony/camera" remote="cm" />
   <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" remote="github" />
 
+  <!-- LG G3 repos -->
+  <project name="AOKP/device_lge_vs985" path="device/lge/vs985" remote="aokp" />
+  <project name="AOKP/device_lge_d850" path="device/lge/d850" remote="aokp" />
+  <project name="AOKP/device_lge_d851" path="device/lge/d851" remote="aokp" />
+  <project name="AOKP/device_lge_d852" path="device/lge/d852" remote="aokp" />
+  <project name="AOKP/device_lge_d855" path="device/lge/d855" remote="aokp" />
+  <project name="AOKP/device_lge_f400" path="device/lge/f400" remote="aokp" />
+  <project name="AOKP/device_lge_ls990" path="device/lge/ls990" remote="aokp" />
+  <project name="AOKP/device_lge_g3-common" path="device/lge/g3-common" remote="aokp" />
+  <project name="CyanogenMod/android_kernel_lge_g3" path="kernel/lge/g3" remote="cm" />
+  <!-- LG Common Vendor -->
+  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" />
+
   <!-- Google -->
   <!-- Android One (1st. generation) -->
   <project name="AOKP/device_google_sprout4" path="device/google/sprout4" remote="aokp" />
