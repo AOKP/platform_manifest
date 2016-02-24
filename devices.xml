@@ -59,4 +59,34 @@
   <!-- Ordinary external dependencies -->
   <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="cm" />
 
+  <!-- Repos Required for Android One First Generation Devices -->
+  <project name="AOKP/device_google_sprout4" path="device/google/sprout4" remote="aokp" />
+  <project name="AOKP/device_google_sprout8" path="device/google/sprout8" remote="aokp" />
+  <project name="AOKP/kernel_mediatek_sprout" path="kernel/mediatek/sprout" remote="aokp" />
+  <project name="AOKP/device_google_sprout-common" path="device/google/sprout-common" remote="aokp" />
+  <project name="TheMuppets/proprietary_vendor_google" path="vendor/google" remote="github" revision="cm-13.0" />
+
+
+  <!-- Moto G 2013 -->
+  <project name="AOKP/device_motorola_falcon" path="device/motorola/falcon" remote="aokp" />
+
+  <!-- Motorola common repos -->
+  <project name="AOKP/device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="aokp" />
+  <project name="CyanogenMod/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="cm" />
+  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-13.0" />
+
+  <!-- LG G3 repos -->
+  <project name="AOKP/device_lge_vs985" path="device/lge/vs985" remote="aokp" />
+  <project name="AOKP/device_lge_d850" path="device/lge/d850" remote="aokp" />
+  <project name="AOKP/device_lge_d851" path="device/lge/d851" remote="aokp" />
+  <project name="AOKP/device_lge_d852" path="device/lge/d852" remote="aokp" />
+  <project name="AOKP/device_lge_d855" path="device/lge/d855" remote="aokp" />
+  <project name="AOKP/device_lge_f400" path="device/lge/f400" remote="aokp" />
+  <project name="AOKP/device_lge_ls990" path="device/lge/ls990" remote="aokp" />
+  <project name="AOKP/device_lge_g3-common" path="device/lge/g3-common" remote="aokp" />
+  <project name="CyanogenMod/android_kernel_lge_g3" path="kernel/lge/g3" remote="cm" />
+
+<!-- LG common repos -->
+  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-13.0" />
+
 </manifest>
