@@ -10,9 +10,11 @@
   <!-- Moto G common repos -->
   <project name="AOKP/device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="aokp" />
   <project name="CyanogenMod/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="cm" />
+  <!-- Moto X Play -->
+  <project name="AOKP/device_motorola_lux" path="device/motorola/lux" remote="aokp" />
   <!-- Motorola Common Vendor -->
   <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" />
-
+  
   <!-- Sony -->
   <!-- Sony Xperia Z1 Family -->
   <project name="AOKP/device_sony_honami" path="device/sony/honami" remote="aokp" />
