@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Huawei Mate 2 -->
+  <project name="AOKP/android_device_huawei_mt2" path="device/huawei/mt2" revision="mm" remote="aokp" />
+  <project name="CyanogenMod/android_kernel_huawei_msm8928" path="kernel/huawei/msm8928" revision="cm-13.0" remote="cm" />
+
   <!-- Motorola -->
   <!-- Nexus 6 -->
   <project name="AOKP/device_moto_shamu" path="device_moto_shamu" remote="aokp" />
