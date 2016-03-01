@@ -143,6 +143,7 @@
   <project path="external/spongycastle" remote="cm" name="CyanogenMod/android_external_spongycastle" groups="pdk" />
   <project path="external/sqlite" remote="cm" name="CyanogenMod/android_external_sqlite" groups="pdk" />
   <project path="external/stagefright-plugins" remote="cm" name="CyanogenMod/android_external_stagefright-plugins" />
+  <project path="external/stlport" remote="cm" name="CyanogenMod/android_external_stlport" />
   <project path="external/strace" remote="cm" name="CyanogenMod/android_external_strace" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/tcpdump" remote="cm" name="CyanogenMod/android_external_tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" />
   <project path="external/tinyalsa" remote="cm" name="CyanogenMod/android_external_tinyalsa" groups="pdk" />

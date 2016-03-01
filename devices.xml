@@ -56,7 +56,5 @@
   <!-- Miscellaneous -->
   <!-- Qualcomm Common -->
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="cm" />
-  <!-- Ordinary external dependencies -->
-  <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="cm" />
 
 </manifest>
