@@ -13,6 +13,20 @@
   <!-- Motorola Common Vendor -->
   <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" />
 
+  <!-- Samsung -->
+  <!-- Samsung Galaxy S5 Family -->
+  <project path="device/samsung/klte-common" name="AOKP/android_device_samsung_klte-common" remote="aokp" />
+  <project path="device/samsung/klte" name="AOKP/android_device_samsung_klte" remote="aokp" />
+  <project path="device/samsung/kltedv" name="AOKP/android_device_samsung_kltedv" remote="aokp"  />
+  <project path="device/samsung/kltespr" name="AOKP/android_device_samsung_kltespr" remote="aokp"  />
+  <project path="device/samsung/klteusc" name="AOKP/android_device_samsung_klteusc" remote="aokp"  />
+  <project path="kernel/samsung/klte" name="CyanogenMod/android_kernel_samsung_klte" remote="cm" />
+  <project path="device/samsung/msm8974-common" name="CyanogenMod/android_device_samsung_msm8974-common" remote="cm" />
+  <!-- Samsung Common Devices Sources -->
+  <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="cm" />
+  <!-- Samsung Common Vendor -->
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" /> 
+
   <!-- Sony -->
   <!-- Sony Xperia Z1 Family -->
   <project name="AOKP/device_sony_honami" path="device/sony/honami" remote="aokp" />
