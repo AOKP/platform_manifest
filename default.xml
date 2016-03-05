@@ -36,6 +36,7 @@
   <project path="art" name="CyanogenMod/android_art" groups="pdk" remote="cm" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" remote="cm" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" remote="cm" />
+  <project path="dalvik" name="CyanogenMod/android_dalvik" groups="pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="development" name="CyanogenMod/android_development" groups="pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="device/common" name="CyanogenMod/android_device_common" groups="pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="device/generic/arm64" name="CyanogenMod/android_device_generic_arm64" groups="pdk" remote="cm" />
@@ -340,7 +341,6 @@
 
 <!-- BEGIN AOSP -->
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="marshmallow-cts-release" remote="aosp" />
-  <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" />
   <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" remote="aosp" />
