@@ -38,6 +38,14 @@
   <!-- Nextbit Common Vendor -->
   <project name="TheMuppets/proprietary_vendor_nextbit" path="vendor/nextbit" remote="github" revision="cm-13.0" />
 
+  <!-- Oneplus -->
+  <!-- Oneplus 2 -->
+  <project name="AOKP/device_oneplus_oneplus2" path="device/oneplus/oneplus2" remote="aokp" branch="mm" />
+  <project name="Cyanogenmod/android_device_oppo_common" path="device/oppo/common" remote="cm" branch="cm-13.0" />
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="cm" branch="cm-13.0" />
+  <project name="Cyanogenmod/android_kernel_oneplus_msm8994" path="kernel/oneplus/msm8994" remote="cm" branch="cm-13.0" />
+  <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-13.0" />
+
   <!-- Samsung -->
   <!-- Samsung Galaxy S5 Family -->
   <project path="device/samsung/klte-common" name="AOKP/device_samsung_klte-common" remote="aokp" />
