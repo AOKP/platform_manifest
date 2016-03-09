@@ -24,11 +24,11 @@
 
   <!-- Samsung -->
   <!-- Samsung Galaxy S5 Family -->
-  <project path="device/samsung/klte-common" name="AOKP/android_device_samsung_klte-common" remote="aokp" />
-  <project path="device/samsung/klte" name="AOKP/android_device_samsung_klte" remote="aokp" />
-  <project path="device/samsung/kltedv" name="AOKP/android_device_samsung_kltedv" remote="aokp"  />
-  <project path="device/samsung/kltespr" name="AOKP/android_device_samsung_kltespr" remote="aokp"  />
-  <project path="device/samsung/klteusc" name="AOKP/android_device_samsung_klteusc" remote="aokp"  />
+  <project path="device/samsung/klte-common" name="AOKP/device_samsung_klte-common" remote="aokp" />
+  <project path="device/samsung/klte" name="AOKP/device_samsung_klte" remote="aokp" />
+  <project path="device/samsung/kltedv" name="AOKP/device_samsung_kltedv" remote="aokp"  />
+  <project path="device/samsung/kltespr" name="AOKP/device_samsung_kltespr" remote="aokp"  />
+  <project path="device/samsung/klteusc" name="AOKP/device_samsung_klteusc" remote="aokp"  />
   <project path="kernel/samsung/klte" name="CyanogenMod/android_kernel_samsung_klte" remote="cm" />
   <project path="device/samsung/msm8974-common" name="CyanogenMod/android_device_samsung_msm8974-common" remote="cm" />
   <!-- Samsung Common Devices Sources -->
