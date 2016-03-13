@@ -134,6 +134,7 @@
   <project path="external/openssh" remote="cm" name="CyanogenMod/android_external_openssh" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/p7zip" remote="cm" name="CyanogenMod/android_external_p7zip" />
   <project path="external/pcre" remote="cm" name="CyanogenMod/android_external_pcre" groups="pdk" />
+  <project path="external/pdfium" remote="cm" name="CyanogenMod/android_external_pdfium" groups="pdk" />
   <project path="external/pigz" remote="cm" name="CyanogenMod/android_external_pigz" />
   <project path="external/powertop" remote="cm" name="CyanogenMod/android_external_powertop" />
   <project path="external/protobuf-c" remote="cm" name="CyanogenMod/android_external_protobuf-c" />
@@ -465,7 +466,6 @@
   <project path="external/openfst" name="platform/external/openfst" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk-fs" remote="aosp" />
   <project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk-fs" remote="aosp" />
-  <project path="external/pdfium" name="platform/external/pdfium" groups="pdk" remote="aosp" />
   <project path="external/ppp" name="platform/external/ppp" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk" remote="aosp" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" remote="aosp" />
