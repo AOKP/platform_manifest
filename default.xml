@@ -26,6 +26,10 @@
            fetch="https://github.com/"
            review="gerrit.omnirom.org" />
 
+  <remote name="du"
+           fetch="https://github.com/"
+           review="http://gerrit.dirtyunicorns.com" />
+
   <default revision="refs/tags/android-6.0.1_r22"
            remote="aosp"
            sync-c="true"
@@ -314,6 +318,7 @@
   <project path="device/qcom/sepolicy" name="AICP/device_qcom_sepolicy" remote="aicp" />
   <project path="external/sepolicy" name="AICP/external_sepolicy" groups="pdk" remote="aicp" />
   <project path="external/android-snackbar" name="AICP/external_android-snackbar" remote="aicp" />
+  <project path="external/DUtils" name="DirtyUnicorns/android_external_DUtils" remote="du" revision="m" />
   <project path="external/mksh" name="AICP/external_mksh" groups="pdk" remote="aicp" />
   <project path="frameworks/base" name="AICP/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="frameworks/opt/cards" name="AICP/frameworks_opt_cards" remote="aicp" />
@@ -323,6 +328,7 @@
   <project path="packages/apps/AICP_OTA" name="AICP/packages_apps_AICP_OTA" remote="aicp" />
   <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
   <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" groups="pdk-fs" remote="aicp" />
+  <project path="packages/apps/DUI" name="AICP/packages_apps_DUI" remote="aicp" />
   <project path="packages/apps/InCallUI" name="AICP/packages_apps_InCallUI" groups="pdk-fs" remote="aicp" />
   <project path="packages/apps/Nfc" name="AICP/packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="aicp" />
   <project path="packages/apps/OmniSwitch" name="AICP/packages_apps_OmniSwitch" remote="aicp" />
