@@ -318,7 +318,7 @@
   <project path="device/qcom/sepolicy" name="AICP/device_qcom_sepolicy" remote="aicp" />
   <project path="external/sepolicy" name="AICP/external_sepolicy" groups="pdk" remote="aicp" />
   <project path="external/android-snackbar" name="AICP/external_android-snackbar" remote="aicp" />
-  <project path="external/DUtils" name="DirtyUnicorns/android_external_DUtils" remote="du" revision="m" />
+  <project path="external/DUtils" name="AICP/external_DUtils" remote="aicp" />
   <project path="external/mksh" name="AICP/external_mksh" groups="pdk" remote="aicp" />
   <project path="frameworks/base" name="AICP/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="frameworks/opt/cards" name="AICP/frameworks_opt_cards" remote="aicp" />
