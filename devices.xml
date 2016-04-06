@@ -98,6 +98,14 @@
   <project name="AOKP/device_cyanogen_msm8916-common" path="device/cyanogen/msm8916-common" remote="aokp" />
   <project name="AOKP/kernel_cyanogen_msm8916" path="kernel/cyanogen/msm8916" remote="aokp" />
 
+  <!-- Asus -->
+  <!-- Z00A -->
+  <project name="AOKP/android_device_asus_Z00A" path="device/asus/Z00A" remote="aokp" />
+  <!-- Z008 -->
+  <project name="AOKP/android_device_asus_Z008" path="device/asus/Z008" remote="aokp" />
+  <!-- Asus Common Vendor -->
+  <project name="TheMuppets/proprietary_vendor_asus" path="vendor/asus" remote="github" revision="cm-13.0"/> 
+
   <!-- Miscellaneous -->
   <!-- Qualcomm Common -->
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="cm" />
