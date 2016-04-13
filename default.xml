@@ -84,6 +84,7 @@
   <project path="external/curl" remote="cm" name="CyanogenMod/android_external_curl" />
   <project path="external/dhcpcd" remote="cm" name="CyanogenMod/android_external_dhcpcd" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/dnsmasq" remote="cm" name="CyanogenMod/android_external_dnsmasq" groups="pdk" />
+  <project path="external/doclava" remote="cm" name="CyanogenMod/android_external_doclava" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/e2fsprogs" remote="cm" name="CyanogenMod/android_external_e2fsprogs" groups="pdk" />
   <project path="external/ebtables" remote="cm" name="CyanogenMod/android_external_ebtables" />
   <project path="external/elfutils" remote="cm" name="CyanogenMod/android_external_elfutils" groups="pdk" />
@@ -97,6 +98,7 @@
   <project path="external/gmock" remote="cm" name="CyanogenMod/android_external_gmock"/>
   <project path="external/gptfdisk" remote="cm" name="CyanogenMod/android_external_gptfdisk" groups="pdk-fs" />
   <project path="external/gson" remote="cm" name="CyanogenMod/android_external_gson" />
+  <project path="external/guava" remote="cm" name="CyanogenMod/android_external_guava" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/htop" remote="cm" name="CyanogenMod/android_external_htop" />
   <project path="external/icu" remote="cm" name="CyanogenMod/android_external_icu" groups="pdk" />
   <project path="external/iproute2" remote="cm" name="CyanogenMod/android_external_iproute2" groups="pdk" />
@@ -156,6 +158,7 @@
   <project path="external/unrar" remote="cm" name="CyanogenMod/android_external_unrar" />
   <project path="external/unzip" remote="cm" name="CyanogenMod/android_external_unzip" />
   <project path="external/vim" remote="cm" name="CyanogenMod/android_external_vim" />
+  <project path="external/vogar" remote="cm" name="CyanogenMod/android_external_vogar" groups="pdk" />
   <project path="external/wpa_supplicant_8" remote="cm" name="CyanogenMod/android_external_wpa_supplicant_8" groups="pdk" />
   <project path="external/yaffs2" remote="cm" name="CyanogenMod/android_external_yaffs2" groups="pdk" />
   <project path="external/zip" remote="cm" name="CyanogenMod/android_external_zip" />
@@ -368,7 +371,6 @@
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk-fs" remote="aosp" />
   <project path="external/deqp" name="platform/external/deqp" groups="pdk-fs" remote="aosp" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/donuts" name="platform/external/donuts" groups="pdk-fs" remote="aosp" />
   <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="drm_gralloc" remote="aosp" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer" remote="aosp" />
@@ -395,7 +397,6 @@
   <project path="external/google-fonts/dancing-script" name="platform/external/google-fonts/dancing-script" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" groups="pdk-fs" remote="aosp" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" remote="aosp" />
-  <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" remote="aosp" />
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk-fs" remote="aosp" />
@@ -493,7 +494,6 @@
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" remote="aosp" />
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot" remote="aosp" />
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" remote="aosp" />
-  <project path="external/vogar" name="platform/external/vogar" groups="pdk" remote="aosp" />
   <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" remote="aosp" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" remote="aosp" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
