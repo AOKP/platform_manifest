@@ -299,6 +299,12 @@
   <project path="system/security" remote="cm" name="CyanogenMod/android_system_security" groups="pdk" />
   <project path="system/vold" remote="cm" name="CyanogenMod/android_system_vold" groups="pdk" />
 
+  <!-- CMSDK SAMPLES -->
+  <project path="vendor/cmsdk/samples/weatherproviderservice" remote="cm" name="CyanogenMod/android_packages_apps_WundergroundWeatherProvider" />
+  <!-- END CMSDK SAMPLES -->
+
+  <!-- END CYANOGENMOD -->
+
   <!-- AOSP -->
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" />
