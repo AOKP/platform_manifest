@@ -245,7 +245,6 @@
   <project path="packages/apps/ManagedProvisioning" remote="cm" name="CyanogenMod/android_packages_apps_ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Messaging" remote="cm" name="CyanogenMod/android_packages_apps_Messaging" groups="pdk-fs" />
   <project path="packages/apps/Nfc" remote="cm" name="CyanogenMod/android_packages_apps_Nfc" />
-  <project path="packages/apps/OpenWeatherMapProvider" remote="cm" name="CyanogenMod/android_packages_apps_OpenWeatherMapProvider" />
   <project path="packages/apps/PackageInstaller" remote="cm" name="CyanogenMod/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/PhoneCommon" remote="cm" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Profiles" remote="cm" name="CyanogenMod/android_packages_apps_Profiles" />
@@ -301,7 +300,8 @@
   <project path="system/vold" remote="cm" name="CyanogenMod/android_system_vold" groups="pdk" />
 
   <!-- CMSDK SAMPLES -->
-  <project path="vendor/cmsdk/samples/weatherproviderservice" remote="cm" name="CyanogenMod/android_packages_apps_WundergroundWeatherProvider" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" remote="cm" name="CyanogenMod/android_packages_apps_WundergroundWeatherProvider" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" remote="cm" name="CyanogenMod/android_packages_apps_OpenWeatherMapProvider" />
   <!-- END CMSDK SAMPLES -->
 
   <!-- END CYANOGENMOD -->
