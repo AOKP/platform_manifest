@@ -182,7 +182,6 @@
   <project path="hardware/akm" name="CyanogenMod/android_hardware_akm" remote="cm" />
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" remote="cm" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="cm" />
-  <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="cm" />
   <project path="hardware/cyanogen" name="CyanogenMod/android_hardware_cyanogen" remote="cm" />
   <project path="hardware/intel/common/libmix" name="CyanogenMod/android_hardware_intel_common_libmix" groups="intel" remote="cm" />
   <project path="hardware/intel/common/libva" name="CyanogenMod/android_hardware_intel_common_libva" groups="intel" remote="cm" />
