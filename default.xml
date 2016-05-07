@@ -299,8 +299,9 @@
   <project path="system/vold" remote="cm" name="CyanogenMod/android_system_vold" groups="pdk" />
 
   <!-- CMSDK SAMPLES -->
-  <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" remote="cm" name="CyanogenMod/android_packages_apps_WundergroundWeatherProvider" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" remote="cm" name="CyanogenMod/android_packages_apps_OpenWeatherMapProvider" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" remote="cm" name="CyanogenMod/android_packages_apps_WundergroundWeatherProvider" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider" remote="cm" name="CyanogenMod/android_packages_apps_YahooWeatherProvider" />
   <!-- END CMSDK SAMPLES -->
 
   <!-- END CYANOGENMOD -->
