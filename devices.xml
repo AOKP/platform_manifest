@@ -79,7 +79,7 @@
   <project name="CyanogenMod/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="cm" />
   <project name="CyanogenMod/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="cm" />
   <project name="CyanogenMod/android_hardware_sony_camera" path="hardware/sony/camera" remote="cm" />
-  <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" remote="github" revision"cm-13.0" />
+  <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="cm-13.0" />
 
   <!-- LG G3 repos -->
   <project name="AOKP/device_lge_vs985" path="device/lge/vs985" remote="aokp" />
@@ -93,6 +93,10 @@
   <project name="CyanogenMod/android_kernel_lge_g3" path="kernel/lge/g3" remote="cm" />
   <!-- LG Common Vendor -->
   <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" />
+
+  <!-- LG G3 Beat repo-->
+  <project name="AOKP/device_lge_jagnm" path="device/lge/jagnm" remote="aokp" revision="mm" />
+  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-13.0" />
 
   <!-- Google -->
   <!-- Android One (1st. generation) -->
