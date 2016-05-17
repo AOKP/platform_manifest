@@ -115,7 +115,7 @@
   <!-- YU Yuphoria -->
   <project name="AOKP/device_yu_lettuce" path="device/yu/lettuce" remote="aokp" />
   <!-- YU common Repos -->
-  <project name="TheStrix/proprietary_vendor_yu" path="vendor/yu" remote="github" />
+  <project name="TheMuppets/proprietary_vendor_yu" path="vendor/yu" remote="github" />
 
   <!-- Cyanogen -->
   <!-- Cyanogen QCOM-MSM devices common -->
