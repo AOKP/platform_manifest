@@ -94,6 +94,7 @@
   <project path="external/flac" remote="cm" name="CyanogenMod/android_external_flac" groups="pdk" />
   <project path="external/fsck_msdos" remote="cm" name="CyanogenMod/android_external_fsck_msdos" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/fuse" remote="cm" name="CyanogenMod/android_external_fuse" />
+  <project path="external/gello-build" remote ="cm" name="CyanogenMod/android_external_gello_build" />
   <project path="external/google" remote="cm" name="CyanogenMod/android_external_google" />
   <project path="external/gmock" remote="cm" name="CyanogenMod/android_external_gmock"/>
   <project path="external/gptfdisk" remote="cm" name="CyanogenMod/android_external_gptfdisk" groups="pdk-fs" />
