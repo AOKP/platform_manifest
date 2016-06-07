@@ -30,7 +30,7 @@
            fetch="https://github.com/"
            review="http://gerrit.dirtyunicorns.com" />
 
-  <default revision="refs/tags/android-6.0.1_r43"
+  <default revision="refs/tags/android-6.0.1_r46"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
