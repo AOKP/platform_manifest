@@ -100,7 +100,6 @@
   <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" groups="pdk" remote="cm" />
   <project path="external/libnfnetlink" name="CyanogenMod/android_external_libnfnetlink" remote="cm" />
   <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" remote="cm" />
-  <project path="external/libpng" name="CyanogenMod/android_external_libpng" groups="pdk" remote="cm" />
   <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" groups="pdk" remote="cm" />
   <project path="external/libtar" name="CyanogenMod/android_external_libtar" remote="cm" />
   <project path="external/libusb" name="CyanogenMod/android_external_libusb" groups="pdk-cw-fs,pdk-fs" remote="cm" />
@@ -402,6 +401,7 @@
   <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="external/libpng" name="platform/external/libpng" groups="pdk" remote="aosp" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" remote="aosp" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" remote="aosp" />
   <project path="external/libdrm" name="platform/external/libdrm" groups="pdk" remote="aosp" />
