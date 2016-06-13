@@ -82,6 +82,7 @@
   <project path="external/busybox" remote="cm" name="CyanogenMod/android_external_busybox" />
   <project path="external/connectivity" remote="cm" name="CyanogenMod/android_external_connectivity" />
   <project path="external/bzip2" remote="cm" name="CyanogenMod/android_external_bzip2" groups="pdk" />
+  <project path="external/cmsdk-api-coverage" remote="cm" name="CyanogenMod/android_external_cmsdk-api-coverage" />
   <project path="external/curl" remote="cm" name="CyanogenMod/android_external_curl" />
   <project path="external/dhcpcd" remote="cm" name="CyanogenMod/android_external_dhcpcd" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/dnsmasq" remote="cm" name="CyanogenMod/android_external_dnsmasq" groups="pdk" />
