@@ -65,6 +65,7 @@
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" groups="pdk" remote="cm" />
   <project path="external/brctl" name="CyanogenMod/android_external_brctl" remote="cm" />
   <project path="external/bzip2" name="CyanogenMod/android_external_bzip2" groups="pdk" remote="cm" />
+  <project path="external/cmsdk-api-coverage" name="CyanogenMod/android_external_cmsdk-api-coverage" remote="cm" />
   <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="cm" />
   <project path="external/curl" name="CyanogenMod/android_external_curl" remote="cm" />
   <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" groups="pdk-cw-fs,pdk-fs" remote="cm" />
