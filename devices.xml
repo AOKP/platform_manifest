@@ -111,6 +111,11 @@
   <project name="AOKP/device_xiaomi_cancro" path="device/xiaomi/cancro" remote="aokp" />
   <project name="TheMuppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="cm-13.0" />
 
+  <!-- Xiaomi Redmi Note 3 Pro -->
+  <project name="AOKP/device_xiaomi_kenzo" path="device/xiaomi/kenzo" remote="aokp" />
+  <project name="TheMuppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="cm-13.0" />
+  <project name="Cyanogenmod/android_kernel_xiaomi_msm8956" path="kernel/xiaomi/msm8956" remote="cm" revision="cm-13.0" />
+
   <!-- YU -->
   <!-- YU Yuphoria -->
   <project name="AOKP/device_yu_lettuce" path="device/yu/lettuce" remote="aokp" />
