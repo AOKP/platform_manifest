@@ -254,7 +254,6 @@
   <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="packages/providers/DataUsageProvider" name="CyanogenMod/android_packages_providers_DataUsageProvider" remote="cm" />
   <project path="packages/providers/DownloadProvider" name="CyanogenMod/android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="cm" />
-  <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="packages/providers/PartnerBookmarksProvider" name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" groups="pdk-fs" remote="cm" />
   <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="packages/providers/TvProvider" name="CyanogenMod/android_packages_providers_TvProvider" groups="pdk-fs" remote="cm" />
@@ -308,6 +307,7 @@
   <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" groups="pdk-fs" remote="aicp" />
   <project path="packages/apps/SetupWizard" name="AICP/packages_apps_SetupWizard" remote="aicp" />
   <project path="packages/apps/ThemeChooser" name="AICP/packages_apps_ThemeChooser" remote="aicp" />
+  <project path="packages/providers/MediaProvider" name="AICP/packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="packages/providers/ThemesProvider" name="AICP/packages_providers_ThemesProvider" remote="aicp" />
   <project path="packages/services/Telephony" name="AICP/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="packages/services/Telecomm" name="AICP/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
