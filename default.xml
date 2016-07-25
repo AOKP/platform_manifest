@@ -281,6 +281,7 @@
   <project path="packages/screensavers/Basic" remote="cm" name="CyanogenMod/android_packages_screensavers_Basic" groups="pdk-fs" />
   <project path="packages/screensavers/PhotoTable" remote="cm" name="CyanogenMod/android_packages_screensavers_PhotoTable" groups="pdk-fs" />
   <project path="packages/screensavers/WebView" remote="cm" name="CyanogenMod/android_packages_screensavers_WebView" groups="pdk-fs" />
+  <project path="packages/services/CMAudioService" remote="cm" name="CyanogenMod/android_packages_services_CMAudioService" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/LiveLockScreenService" remote="cm" name="CyanogenMod/android_packages_services_LiveLockScreenService" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Mms" remote="cm" name="CyanogenMod/android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/wallpapers/Basic" remote="cm" name="CyanogenMod/android_packages_wallpapers_Basic" groups="pdk-fs" />
