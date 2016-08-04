@@ -158,6 +158,7 @@
   <project path="frameworks/minikin" name="CyanogenMod/android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" groups="pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="frameworks/multidex" name="CyanogenMod/android_frameworks_multidex" groups="pdk-cw-fs,pdk-fs" remote="cm" />
+  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk" remote="cm" />
   <project path="frameworks/opt/bitmap" name="CyanogenMod/android_frameworks_opt_bitmap" groups="pdk-fs" remote="cm" />
   <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" groups="pdk-cw-fs,pdk-fs" remote="cm" />
@@ -291,7 +292,6 @@
   <project path="external/DUtils" name="AICP/external_DUtils" remote="aicp" />
   <project path="external/mksh" name="AICP/external_mksh" groups="pdk" remote="aicp" />
   <project path="frameworks/base" name="AICP/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
-  <project path="frameworks/native" name="AICP/frameworks_native" groups="pdk" remote="aicp" />
   <project path="frameworks/opt/cards" name="AICP/frameworks_opt_cards" remote="aicp" />
   <project path="frameworks/opt/telephony" name="AICP/frameworks_opt_telephony" groups="pdk" remote="aicp" />
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
