@@ -12,7 +12,6 @@
 
   <!-- HTC One 10 -->
   <project name="AOKP/device_htc_pme" path="device/htc/pme" remote="aokp" revision="mm" />
-  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="cm" branch="cm-13.0" />
   <project name="CyanogenMod/android_kernel_htc_msm8996" path="kernel/htc/msm8996" remote="cm" revision="cm-13.0" />
   <project name="CyanogenMod/android_vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" remote="github" revision="cm-13.0" />
@@ -50,7 +49,6 @@
   <!-- Oneplus 2 -->
   <project name="AOKP/device_oneplus_oneplus2" path="device/oneplus/oneplus2" remote="aokp" branch="mm" />
   <project name="Cyanogenmod/android_device_oppo_common" path="device/oppo/common" remote="cm" branch="cm-13.0" />
-  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="cm" branch="cm-13.0" />
   <project name="Cyanogenmod/android_kernel_oneplus_msm8994" path="kernel/oneplus/msm8994" remote="cm" branch="cm-13.0" />
   <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-13.0" />
 
@@ -63,6 +61,12 @@
   <project path="device/samsung/klteusc" name="AOKP/device_samsung_klteusc" remote="aokp"  />
   <project path="kernel/samsung/klte" name="CyanogenMod/android_kernel_samsung_klte" remote="cm" />
   <project path="device/samsung/msm8974-common" name="CyanogenMod/android_device_samsung_msm8974-common" remote="cm" />
+
+  <!-- Samsung Galaxy S3 -->
+  <project name="AOKP/device_samsung_i9300" path="device/samsung/i9300" remote="aokp" revision="mm" />
+  <project name="CyanogenMod/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="cm" revision="cm-13.0" />
+  <project name="CyanogenMod/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="cm" revision="cm-13.0" />
+  
   <!-- Samsung Common Devices Sources -->
   <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="cm" />
   <!-- Samsung Common Vendor -->
@@ -99,12 +103,20 @@
   <project name="AOKP/device_lge_ls990" path="device/lge/ls990" remote="aokp" />
   <project name="AOKP/device_lge_g3-common" path="device/lge/g3-common" remote="aokp" />
   <project name="CyanogenMod/android_kernel_lge_g3" path="kernel/lge/g3" remote="cm" />
-  <!-- LG Common Vendor -->
-  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" />
 
   <!-- LG G3 Beat repo-->
   <project name="AOKP/device_lge_jagnm" path="device/lge/jagnm" remote="aokp" revision="mm" />
-  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_device_lge_msm8226-common" path="device/lge/msm8226-common" remote="cm" revision="cm-13.0" />
+  <project name="CyanogenMod/android_kernel_lge_msm8226" path="kernel/lge/msm8226" remote="cm" revision="cm-13.0" />
+  <project name="CyanogenMod/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="cm" revision="cm-13.0" />
+  
+  <!-- LG G4 repo -->
+  <project name="AOKP/device_lge_h815" path="device/lge/h815" remote="aokp" revision="mm" />
+  <project name="CyanogenMod/android_device_lge_g4-common" path="device/lge/g4-common" remote="cm" revision="cm-13.0" />
+  <project name="CyanogenMod/android_kernel_lge_msm8992" path="kernel/lge/msm8992" remote="cm" revision="cm-13.0" />
+  
+  <!-- LG Common Vendor -->
+  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" />
 
   <!-- Google -->
   <!-- Android One (1st. generation) -->
