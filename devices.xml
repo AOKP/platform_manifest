@@ -6,7 +6,6 @@
   <project name="AOKP/device_htc_m8" path="device/htc/m8" remote="aokp" revision="mm" />
   <project name="Cyanogenmod/android_device_htc_m8-common" path="device/htc/m8-common" remote="cm" revision="cm-13.0" />
   <project name="Cyanogenmod/android_device_htc_msm8974-common" path="device/htc/msm8974-common" remote="cm" revision="cm-13.0" />
-  <project name="Cyanogenmod/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="cm" revision="cm-13.0" />
   <project name="Cyanogenmod/android_kernel_htc_msm8974" path="kernel/htc/msm8974" remote="cm" revision="cm-13.0" />
   <project name="TheMuppets/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="cm-13.0" />
 
@@ -46,11 +45,24 @@
   <project name="TheMuppets/proprietary_vendor_nextbit" path="vendor/nextbit" remote="github" revision="cm-13.0" />
 
   <!-- Oneplus -->
+  <!-- Common repos -->
+  <project name="Cyanogenmod/android_device_oppo_common" path="device/oppo/common" remote="cm" branch="cm-13.0" />
+  <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-13.0" />
+
   <!-- Oneplus 2 -->
   <project name="AOKP/device_oneplus_oneplus2" path="device/oneplus/oneplus2" remote="aokp" branch="mm" />
-  <project name="Cyanogenmod/android_device_oppo_common" path="device/oppo/common" remote="cm" branch="cm-13.0" />
   <project name="Cyanogenmod/android_kernel_oneplus_msm8994" path="kernel/oneplus/msm8994" remote="cm" branch="cm-13.0" />
-  <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-13.0" />
+
+  <!-- Oneplus 3 -->
+  <project name="AOKP/device_oneplus_oneplus3" path="device/oneplus/oneplus3" remote="aokp" branch="mm" />
+  <project name="Cyanogenmod/android_kernel_oneplus_msm8996" path="kernel/oneplus/msm8996" remote="cm" branch="cm-13.0" />
+  <project name="Cyanogenmod/android_vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks" remote="cm" branch="cm-13.0" />
+  <project name="Cyanogenmod/android_vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" remote="cm" branch="cm-13.0" />
+  <project name="Cyanogenmod/android_vendor_nxp-nfc_opensource_Nfc" path="vendor/nxp-nfc/opensource/Nfc" remote="cm" branch="cm-13.0" />
+
+  <!-- Onyx -->
+  <project name="AOKP/device_oneplus_onyx" path="device/oneplus/onyx" remote="aokp" branch="mm" />
+  <project name="Cyanogenmod/android_kernel_oneplus_onyx" path="kernel/oneplus/onyx" remote="cm" branch="cm-13.0" />
 
   <!-- Samsung -->
   <!-- Samsung Galaxy S5 Family -->
@@ -66,7 +78,7 @@
   <project name="AOKP/device_samsung_i9300" path="device/samsung/i9300" remote="aokp" revision="mm" />
   <project name="CyanogenMod/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="cm" revision="cm-13.0" />
   <project name="CyanogenMod/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="cm" revision="cm-13.0" />
-  
+
   <!-- Samsung Common Devices Sources -->
   <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="cm" />
   <!-- Samsung Common Vendor -->
@@ -108,13 +120,12 @@
   <project name="AOKP/device_lge_jagnm" path="device/lge/jagnm" remote="aokp" revision="mm" />
   <project name="CyanogenMod/android_device_lge_msm8226-common" path="device/lge/msm8226-common" remote="cm" revision="cm-13.0" />
   <project name="CyanogenMod/android_kernel_lge_msm8226" path="kernel/lge/msm8226" remote="cm" revision="cm-13.0" />
-  <project name="CyanogenMod/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="cm" revision="cm-13.0" />
-  
+
   <!-- LG G4 repo -->
   <project name="AOKP/device_lge_h815" path="device/lge/h815" remote="aokp" revision="mm" />
   <project name="CyanogenMod/android_device_lge_g4-common" path="device/lge/g4-common" remote="cm" revision="cm-13.0" />
   <project name="CyanogenMod/android_kernel_lge_msm8992" path="kernel/lge/msm8992" remote="cm" revision="cm-13.0" />
-  
+
   <!-- LG Common Vendor -->
   <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" />
 
@@ -156,5 +167,6 @@
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="cm" />
   <!-- Ordinary external dependencies -->
   <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="cm" />
+  <project name="Cyanogenmod/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="cm" revision="cm-13.0" />
 
 </manifest>
