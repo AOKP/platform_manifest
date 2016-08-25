@@ -201,7 +201,9 @@
   <project path="hardware/invensense" remote="cm" name="CyanogenMod/android_hardware_invensense" groups="invensense" />
   <project path="hardware/libhardware" remote="cm" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" remote="cm" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
-  <!-- <include name="snippets/hal_cm_all.xml" /> -->
+
+  <include name="snippets/hal_cm_all.xml" />
+
   <project path="hardware/samsung_slsi/exynos5" remote="cm" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
   <project path="hardware/ti/omap4" remote="cm" name="CyanogenMod/android_hardware_ti_omap4" />
   <project path="hardware/ti/omap4xxx" remote="cm" name="CyanogenMod/android_hardware_ti_omap4xxx" />
