@@ -32,6 +32,7 @@
   <project path="build" name="NougatKang/build" groups="pdk" remote="aokp" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="build/kati" name="CyanogenMod/android_build_kati" groups="pdk,tradefed" remote="cm" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" remote="cm" />
   <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" remote="cm" />
   <project path="external/mksh" name="CyanogenMod/android_external_mksh" groups="pdk" remote="cm" />
@@ -308,7 +309,6 @@
 
   <!-- AOSP -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
-  <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" remote="aosp" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" remote="aosp" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
