@@ -33,7 +33,7 @@
            sync-j="4" />
 
 <!-- BEGIN CYANOGENMOD -->
-  <project path="build" name="AICP/build" groups="pdk,tradefed" >
+  <project path="build" name="AICP/build" groups="pdk,tradefed" remote="aicp" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/kati" name="CyanogenMod/android_build_kati" groups="pdk,tradefed" />
