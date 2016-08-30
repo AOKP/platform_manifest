@@ -28,28 +28,28 @@
            sync-j="4" />
 
   <!-- AOKP -->
-  <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" />
-  <project path="build" name="AOKP/build" groups="pdk" remote="aokp" >
+  <project path="platform_manifest" name="NougatKang/platform_manifest" remote="aokp" />
+  <project path="build" name="NougatKang/build" groups="pdk" remote="aokp" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bootable/recovery" remote="aokp" name="AOKP/bootable_recovery" groups="pdk,pdk-cw-fs" />
-  <project path="device/qcom/sepolicy" remote="aokp" name="AOKP/device_qcom_sepolicy" />
-  <project path="external/mksh" remote="aokp" name="AOKP/external_mksh" groups="pdk" />
-  <project path="frameworks/av" name="AOKP/frameworks_av" groups="pdk" remote="aokp" />
-  <project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/cards" remote="aokp" name="AOKP/frameworks_opt_cards" groups="pdk" />
-  <project path="frameworks/opt/telephony" remote="aokp" name="AOKP/frameworks_opt_telephony" groups="pdk" />
-  <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="aokp" />
-  <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="aokp" groups="pdk-fs" />
-  <project path="packages/apps/SetupWizard" remote="aokp" name="AOKP/packages_apps_SetupWizard" />
-  <project path="packages/services/Telecomm" remote="aokp" name="AOKP/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Telephony" remote="aokp" name="AOKP/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
-  <project path="system/core" remote="aokp" name="AOKP/system_core" groups="pdk" />
-  <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" />
-  <project path="vendor/cmsdk" name="AOKP/cm_platform_sdk" remote="aokp" />
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" remote="cm" />
+  <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" remote="cm" />
+  <project path="external/mksh" name="CyanogenMod/android_external_mksh" groups="pdk" remote="cm" />
+  <project path="frameworks/av" name="Cyanogenmod/android_frameworks_av" groups="pdk" remote="cm" />
+  <project path="frameworks/base" name="NougatKang/frameworks_base" remote="aokp" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" groups="pdk" remote="cm" />
+  <!-- <project path="packages/apps/ROMControl" name="NougatKang/packages_apps_ROMControl" remote="aokp" /> -->
+  <project path="packages/apps/Settings" name="NougatKang/packages_apps_Settings" remote="aokp" groups="pdk-fs" />
+  <project path="packages/apps/SetupWizard" name="NougatKang/packages_apps_SetupWizard" remote="aokp" />
+  <project path="packages/services/Telecomm" name="CyanogenMod/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="cm" />
+  <project path="packages/services/Telephony" name="CyanogenMod/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="cm" />
+  <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" remote="cm" />
+  <project path="vendor/aokp" name="NougatKang/vendor_aokp" remote="aokp" />
+  <project path="vendor/cmsdk" name="NougatKang/cm_platform_sdk" remote="aokp" />
 
   <!-- CyanogenMod -->
-  <project path="abi/cpp" remote="cm" name="CyanogenMod/android_abi_cpp" groups="pdk" />
+  <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
+  <!-- <project path="abi/cpp" remote="cm" name="CyanogenMod/android_abi_cpp" groups="pdk" /> -->
   <project path="art" remote="cm" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" remote="cm" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="marshmallow-cts-release" remote="aosp" />
@@ -74,7 +74,7 @@
   <project path="external/boringssl" remote="cm" name="CyanogenMod/android_external_boringssl" groups="pdk" />
   <project path="external/bouncycastle" remote="cm" name="CyanogenMod/android_external_bouncycastle" groups="pdk" />
   <project path="external/brctl" remote="cm" name="CyanogenMod/android_external_brctl" />
-  <project path="external/busybox" remote="cm" name="CyanogenMod/android_external_busybox" />
+  <!-- <project path="external/busybox" remote="cm" name="CyanogenMod/android_external_busybox" /> -->
   <project path="external/connectivity" remote="cm" name="CyanogenMod/android_external_connectivity" />
   <project path="external/bzip2" remote="cm" name="CyanogenMod/android_external_bzip2" groups="pdk" />
   <project path="external/chromium-webview" remote="cm" name="CyanogenMod/android_external_chromium-webview" clone-depth="1" />
@@ -113,7 +113,7 @@
   <project path="external/libselinux" remote="cm" name="CyanogenMod/android_external_libselinux" groups="pdk" />
   <project path="external/libtar" remote="cm" name="CyanogenMod/android_external_libtar" />
   <project path="external/libusb" remote="cm" name="CyanogenMod/android_external_libusb" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libusbx" remote="cm" name="CyanogenMod/android_external_libusbx" />
+  <!-- <project path="external/libusbx" remote="cm" name="CyanogenMod/android_external_libusbx" /> -->
   <project path="external/libvpx" remote="cm" name="CyanogenMod/android_external_libvpx" groups="pdk" />
   <project path="external/libvterm" remote="cm" name="CyanogenMod/android_external_libvterm" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libxml2" remote="cm" name="CyanogenMod/android_external_libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" />
@@ -200,7 +200,7 @@
   <project path="hardware/invensense" remote="cm" name="CyanogenMod/android_hardware_invensense" groups="invensense" />
   <project path="hardware/libhardware" remote="cm" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" remote="cm" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
-  <include name="snippets/hal_cm_all.xml" />
+  <!-- <include name="snippets/hal_cm_all.xml" /> -->
   <project path="hardware/samsung_slsi/exynos5" remote="cm" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
   <project path="hardware/ti/omap4" remote="cm" name="CyanogenMod/android_hardware_ti_omap4" />
   <project path="hardware/ti/omap4xxx" remote="cm" name="CyanogenMod/android_hardware_ti_omap4xxx" />
@@ -211,7 +211,7 @@
   <project path="packages/apps/BasicSmsReceiver" remote="cm" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Bluetooth" remote="cm" name="CyanogenMod/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/BluetoothExt" remote="cm" name="CyanogenMod/android_packages_apps_BluetoothExt" />
-  <project path="packages/apps/Browser2" remote="cm" name="CyanogenMod/android_packages_apps_Browser2" groups="pdk-fs" />
+  <!-- <project path="packages/apps/Browser2" remote="cm" name="CyanogenMod/android_packages_apps_Browser2" groups="pdk-fs" /> -->
   <project path="packages/apps/Calendar" remote="cm" name="CyanogenMod/android_packages_apps_Calendar" groups="pdk-fs" />
   <project path="packages/apps/Camera2" remote="cm" name="CyanogenMod/android_packages_apps_Camera2" groups="pdk-fs" />
   <project path="packages/apps/CarrierConfig" remote="cm" name="CyanogenMod/android_packages_apps_CarrierConfig" groups="pdk-fs" />
