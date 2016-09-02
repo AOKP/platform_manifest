@@ -33,7 +33,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="aokp" /> -->
+  <!-- <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="aokp" /> -->
   <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="aokp" groups="pdk-fs" />
   <project path="packages/apps/SetupWizard" name="AOKP/packages_apps_SetupWizard" remote="aokp" />
   <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" />
