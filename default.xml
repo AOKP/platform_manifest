@@ -398,7 +398,6 @@
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/PhoneCommon" remote="cm" name="CyanogenMod/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Settings" remote="cm" name="CyanogenMod/android_packages_apps_Settings" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" remote="cm" name="CyanogenMod/android_packages_apps_SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/Stk" remote="cm" name="CyanogenMod/android_packages_apps_Stk" groups="apps_stk,pdk-fs" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="pdk-fs" remote="aosp" />
