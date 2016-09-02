@@ -5,7 +5,6 @@
   <include name="snippets/hal_cm_all.xml" />
 
   <!-- CyanogenMod additions -->
-  <project path="android" remote="cm" name="CyanogenMod/android" remote="github" />
   <project path="external/ahbottomnavigation" remote="cm" name="CyanogenMod/android_external_ahbottomnavigation" remote="github" />
   <project path="external/android-visualizer" remote="cm" name="CyanogenMod/android_external_android-visualizer" remote="github" />
   <project path="external/bash" remote="cm" name="CyanogenMod/android_external_bash" remote="github" />
@@ -52,7 +51,6 @@
   <project path="packages/apps/LockClock" remote="cm" name="CyanogenMod/android_packages_apps_LockClock" remote="github" />
   <project path="packages/apps/Profiles" remote="cm" name="CyanogenMod/android_packages_apps_Profiles" remote="github" />
   <project path="packages/apps/Screencast" remote="cm" name="CyanogenMod/android_packages_apps_Screencast" remote="github" />
-  <project path="packages/apps/SetupWizard" remote="cm" name="CyanogenMod/android_packages_apps_SetupWizard" remote="github" />
   <project path="packages/apps/Snap" remote="cm" name="CyanogenMod/android_packages_apps_Snap" remote="github" />
   <project path="packages/apps/ThemeChooser" remote="cm" name="CyanogenMod/android_packages_apps_ThemeChooser" remote="github" />
   <project path="packages/apps/Trebuchet" remote="cm" name="CyanogenMod/android_packages_apps_Trebuchet" remote="github" />
@@ -66,8 +64,6 @@
   <project path="packages/themes/HexoLibre" remote="cm" name="CyanogenMod/android_packages_themes_HexoLibre" groups="themes" remote="github" />
   <project path="prebuilts/cmsdk" remote="cm" name="CyanogenMod/android_prebuilts_cmsdk" clone-depth="1" revision="master" remote="github" />
   <project path="system/extras/su" remote="cm" name="CyanogenMod/android_system_extras_su" remote="github" />
-  <project path="vendor/cm" remote="cm" name="CyanogenMod/android_vendor_cm" remote="github" />
-  <project path="vendor/cmsdk" remote="cm" name="CyanogenMod/cm_platform_sdk" remote="github" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" remote="cm" name="CyanogenMod/android_packages_apps_OpenWeatherMapProvider" remote="github" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" remote="cm" name="CyanogenMod/android_packages_apps_WundergroundWeatherProvider" remote="github" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider" remote="cm" name="CyanogenMod/android_packages_apps_YahooWeatherProvider" remote="github" />
