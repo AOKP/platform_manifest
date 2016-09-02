@@ -28,16 +28,16 @@
            sync-j="4" />
 
   <!-- AOKP projects -->
-  <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" />
-  <project path="build" name="AOKP/build" groups="pdk" remote="aokp" >
+  <project path="platform_manifest" name="NougatKang/platform_manifest" remote="aokp" />
+  <project path="build" name="NougatKang/build" groups="pdk" remote="aokp" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="aokp" /> -->
-  <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="aokp" groups="pdk-fs" />
-  <project path="packages/apps/SetupWizard" name="AOKP/packages_apps_SetupWizard" remote="aokp" />
-  <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" />
-  <project path="vendor/cmsdk" name="AOKP/cm_platform_sdk" remote="aokp" />
+  <project path="frameworks/base" name="NougatKang/frameworks_base" remote="aokp" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/ROMControl" name="NougatKang/packages_apps_ROMControl" remote="aokp" /> -->
+  <project path="packages/apps/Settings" name="NougatKang/packages_apps_Settings" remote="aokp" groups="pdk-fs" />
+  <project path="packages/apps/SetupWizard" name="NougatKang/packages_apps_SetupWizard" remote="aokp" />
+  <project path="vendor/aokp" name="NougatKang/vendor_aokp" remote="aokp" />
+  <project path="vendor/cmsdk" name="NougatKang/cm_platform_sdk" remote="aokp" />
   <!-- end AOKP projects -->
 
   <!-- AOSP Projects -->
