@@ -33,7 +33,7 @@
   <remove-project name="CyanogenMod/android_system_media" />
   <remove-project name="CyanogenMod/android_system_vold" />
 
-  <project path="build" name="AICP/build" groups="pdk,tradefed" revision="n7.0-caf">
+  <project path="build" name="AICP/build" groups="pdk,tradefed" revision="n7.0-caf" remote="aicp" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" revision="staging/cm-14.0-caf" />
@@ -64,7 +64,7 @@
   <project path="packages/services/Telecomm" name="CyanogenMod/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" revision="staging/cm-14.0-caf" />
   <project path="packages/services/Telephony" name="CyanogenMod/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" revision="staging/cm-14.0-caf" />
   <project path="system/bt" name="CyanogenMod/android_system_bt" groups="pdk" revision="staging/cm-14.0-caf" />
-  <project path="system/core" name="AICP/system_core" groups="pdk" revision="n7.0-caf" />
+  <project path="system/core" name="AICP/system_core" groups="pdk" revision="n7.0-caf" remote="aicp" />
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" revision="staging/cm-14.0-caf" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" revision="staging/cm-14.0-caf" />
 
