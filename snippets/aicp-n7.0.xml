@@ -96,9 +96,6 @@
   <project path="external/powertop" name="CyanogenMod/android_external_powertop" remote="github" />
   <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" remote="github" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" remote="github" />
+  <project path="vendor/codeaurora/telephony" name="CyanogenMod/android_vendor_codeaurora_telephony" remote="github" />
   <project path="vendor/qcom/opensource/bluetooth" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="github" />
-
-  <!-- Device-specific HALs -->
-  <include name="caf.xml" />
-
 </manifest>
