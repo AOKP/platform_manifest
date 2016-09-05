@@ -32,10 +32,12 @@
   <project path="build" name="AOKP/build" groups="pdk" remote="aokp" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="bootable/recovery" name="AOKP/bootable_recovery" groups="pdk" remote="aokp" />
   <project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" groups="pdk-cw-fs,pdk-fs" />
-  <!-- <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="aokp" /> -->
+  <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="aokp" />
   <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="aokp" groups="pdk-fs" />
   <project path="packages/apps/SetupWizard" name="AOKP/packages_apps_SetupWizard" remote="aokp" />
+  <project path="system/core" name="AOKP/system_core" groups="pdk" remote="aokp" />
   <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" />
   <project path="vendor/cmsdk" name="AOKP/cm_platform_sdk" remote="aokp" />
   <!-- end AOKP projects -->
@@ -50,7 +52,6 @@
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
   <project path="art" remote="cm" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" remote="cm" name="CyanogenMod/android_bionic" groups="pdk" />
-  <project path="bootable/recovery" remote="cm" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="dalvik" remote="cm" name="CyanogenMod/android_dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
@@ -475,7 +476,6 @@
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" remote="aosp" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" remote="aosp" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" remote="aosp" />
-  <project path="system/core" remote="cm" name="CyanogenMod/android_system_core" groups="pdk" />
   <project path="system/extras" remote="cm" name="CyanogenMod/android_system_extras" groups="pdk" />
   <project path="system/firewalld" name="platform/system/firewalld" remote="aosp" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
