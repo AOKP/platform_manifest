@@ -70,7 +70,6 @@
   <project path="vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider" remote="cm" name="CyanogenMod/android_packages_apps_YahooWeatherProvider" />
 
   <!-- CodeAurora additions -->
-  <project path="device/qcom/sepolicy" remote="cm" name="CyanogenMod/android_device_qcom_sepolicy" />
   <project path="external/ant-wireless/ant_native" remote="cm" name="CyanogenMod/android_external_ant-wireless_ant_native" />
   <project path="external/ant-wireless/ant_service" remote="cm" name="CyanogenMod/android_external_ant-wireless_ant_service" />
   <project path="external/ant-wireless/antradio-library" remote="cm" name="CyanogenMod/android_external_ant-wireless_antradio-library" />
