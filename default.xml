@@ -32,7 +32,7 @@
   <project path="build" name="AOKP/build" groups="pdk" remote="aokp" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bootable/recovery" name="AOKP/bootable_recovery" groups="pdk" remote="aokp" />
+  <!-- <project path="bootable/recovery" name="AOKP/bootable_recovery" groups="pdk" remote="aokp" /> -->
   <project path="device/qcom/sepolicy" remote="aokp" name="AOKP/device_qcom_sepolicy" />
   <project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="aokp" />
@@ -53,6 +53,7 @@
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
   <project path="art" remote="cm" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" remote="cm" name="CyanogenMod/android_bionic" groups="pdk" />
+  <project path="bootable/recovery" remote="cm" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="dalvik" remote="cm" name="CyanogenMod/android_dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
