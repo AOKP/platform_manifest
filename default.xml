@@ -19,7 +19,7 @@
            review="gerrit.omnirom.org" />
 
   <remote name="du"
-           fetch="https://github.com/"
+           fetch="https://github.com/DirtyUnicorns"
            review="http://gerrit.dirtyunicorns.com" />
 
   <remote  name="aosp"
