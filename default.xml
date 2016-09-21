@@ -34,6 +34,7 @@
   </project>
   <!-- <project path="bootable/recovery" name="AOKP/bootable_recovery" groups="pdk" remote="aokp" /> -->
   <project path="device/qcom/sepolicy" remote="aokp" name="AOKP/device_qcom_sepolicy" />
+  <project path="external/mksh" name="AOKP/external_mksh" groups="pdk" remote="aokp" />
   <project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="aokp" />
   <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="aokp" groups="pdk-fs" />
@@ -231,7 +232,6 @@
   <project path="external/mesa3d" name="platform/external/mesa3d" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/messageformat" name="platform/external/messageformat" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/minijail" name="platform/external/minijail" remote="aosp" />
-  <project path="external/mksh" remote="cm" name="CyanogenMod/android_external_mksh" groups="pdk" />
   <project path="external/mmc-utils" name="platform/external/mmc-utils" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/mockftpserver" name="platform/external/mockftpserver" groups="pdk-fs" remote="aosp" />
   <project path="external/mockito" name="platform/external/mockito" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
