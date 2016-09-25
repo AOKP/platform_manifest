@@ -5,6 +5,8 @@
   <include name="snippets/hal_cm_all.xml" />
 
   <!-- AICP custom -->
+  <project path="frameworks/base" name="AICP/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
+  <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" groups="pdk-fs" remote="aicp" />
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
   <!--<project path="packages/apps/AICP_OTA" name="AICP/packages_apps_AICP_OTA" />
   <project path="packages/apps/OmniSwitch" name="AICP/packages_apps_OmniSwitch" />
