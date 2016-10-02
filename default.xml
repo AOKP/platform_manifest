@@ -19,8 +19,9 @@
            review="gerrit.omnirom.org" />
 
   <remote name="du"
-           fetch="https://github.com/DirtyUnicorns"
-           review="http://gerrit.dirtyunicorns.com" />
+           fetch="https://github.com/"
+           review="http://gerrit.dirtyunicorns.com"
+           revision="refs/heads/n" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
