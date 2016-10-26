@@ -12,7 +12,7 @@ Initializing Repository
 
 Repo initialization:
 
-    $ repo init -u https://github.com/AICP/platform_manifest.git -b n7.0
+    $ repo init -u https://github.com/AICP/platform_manifest.git -b n7.1
 
 
 sync repo :
