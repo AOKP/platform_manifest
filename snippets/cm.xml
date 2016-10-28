@@ -12,7 +12,6 @@
   <project path="external/gello-build" remote="cm" name="CyanogenMod/android_external_gello_build" />
   <project path="external/google" remote="cm" name="CyanogenMod/android_external_google" />
   <project path="external/htop" remote="cm" name="CyanogenMod/android_external_htop" />
-  <project path="external/koush/AndroidAsync" remote="cm" name="CyanogenMod/AndroidAsync" />
   <project path="external/koush/ion" remote="cm" name="CyanogenMod/ion" />
   <project path="external/libncurses" remote="cm" name="CyanogenMod/android_external_libncurses" />
   <project path="external/libphonenumbergoogle" remote="cm" name="CyanogenMod/android_external_libphonenumbergoogle" />
