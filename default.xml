@@ -133,7 +133,6 @@
   <project path="external/lz4" remote="cm" name="CyanogenMod/android_external_lz4" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/lzma" remote="cm" name="CyanogenMod/android_external_lzma" groups="pdk" />
   <project path="external/lzo" remote="cm" name="CyanogenMod/android_external_lzo" />
-  <project path="external/mm-dash" remote="cm" name="CyanogenMod/android_external_mm-dash" />
   <project path="external/nano" remote="cm" name="CyanogenMod/android_external_nano" />
   <project path="external/nist-sip" remote="cm" name="CyanogenMod/android_external_nist-sip" groups="pdk-cw-fss,pdk-fs" />
   <project path="external/ntfs-3g" remote="cm" name="CyanogenMod/android_external_ntfs-3g" />
