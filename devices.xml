@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Oneplus 3 -->
+  <project name="AOKP/device_oneplus_oneplus3" path="device/oneplus/oneplus3" remote="aokp" branch="nougat" />
+  <project name="Cyanogenmod/android_kernel_oneplus_msm8996" path="kernel/oneplus/msm8996" remote="cm" branch="cm-14.1" />
+  <project name="Cyanogenmod/android_vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks" remote="cm" branch="cm-14.1" />
+  <project name="Cyanogenmod/android_vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" remote="cm" branch="cm-14.1" />
+  <project name="Cyanogenmod/android_vendor_nxp-nfc_opensource_Nfc" path="vendor/nxp-nfc/opensource/Nfc" remote="cm" branch="cm-14.1" />
+
+  <!-- Oneplus -->
+  <!-- Common repos -->
+  <project name="Cyanogenmod/android_device_oppo_common" path="device/oppo/common" remote="cm" branch="cm-14.1" />
+  <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-14.1" />
+  <project name="TheMuppets/proprietary_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="github" revision="cm-14.1" />
+
 </manifest>
