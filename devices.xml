@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- LG G3  -->
+  <!-- Device repos -->
+  <project name="AOKP/device_lge_d855" path="device/lge/d855" remote="aokp" branch="nougat" />
+  <project name="AOKP/android_kernel_lge_g3" path="kernel/lge/g3" remote="aokp" branch="nougat" />
+
+  <!-- Common repos -->
+  <project name="Cyanogenmod/android_device_lge_g3_common" path="device/lge/g3/common" remote="cm" branch="cm-14.1" />
+  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-14.1" />
+  <project name="Cyanogenmod/android_device_qcom_common" path="device/qcom/common" remote="github"revision="cm-14.1" />
+
 </manifest>
