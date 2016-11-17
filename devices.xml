@@ -74,6 +74,15 @@
   <project path="kernel/samsung/klte" name="CyanogenMod/android_kernel_samsung_klte" remote="cm" />
   <project path="device/samsung/msm8974-common" name="CyanogenMod/android_device_samsung_msm8974-common" remote="cm" />
 
+  <!-- Samsung Galaxy S4 Mini Family -->
+  <project name="AOKP/device_samsung_msm8930-common" path="device/samsung/msm8930-common" remote="github" revision="mm" />
+  <project name="AOKP/device_samsung_serrano-common" path="device/samsung/serrano-common" remote="github" revision="mm" />
+  <project name="AOKP/device_samsung_serrano3gxx" path="device/samsung/serrano3gxx" remote="github" revision="mm" />
+  <project name="AOKP/device_samsung_serranoltexx" path="device/samsung/serranoltexx" remote="github" revision="mm" />
+  <project name="Cyanogenmod/android_kernel_samsung_msm8930-common" path="kernel/samsung/msm8930-common" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-13.0" />
+  <project name="CyanogenMod/android_external_stlport" path="external/stlport" revision="cm-13.0" remote="github" />
+
   <!-- Samsung Galaxy S3 -->
   <project name="AOKP/device_samsung_i9300" path="device/samsung/i9300" remote="aokp" revision="mm" />
   <project name="CyanogenMod/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="cm" revision="cm-13.0" />
