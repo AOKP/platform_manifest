@@ -16,7 +16,6 @@
   <project path="packages/apps/OmniSwitch" name="AICP/packages_apps_OmniSwitch" />
   <project path="packages/themes/HexoLibre" name="AICP/packages_themes_HexoLibre" groups="themes" /> -->
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
-  <project path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_3.8/prebuilt/linux-x86_64/" name="AICP/llvm-Snapdragon_LLVM_for_Android" remote="aicp" revision="3.8.7" />
   <!-- END AICP -->
 
   <!-- CyanogenMod additions -->
