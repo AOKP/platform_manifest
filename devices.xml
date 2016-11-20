@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+    <!-- Moto G4/G4 Plus -->
+    <project path="device/motorola/athene" name="AOKP/device_motorola_athene" remote="github" revision="nougat"/>
+    <project path="kernel/motorola/msm8952" name="boulzordev/android_kernel_motorola_msm8952" remote="github" revision="cm-14.1"/>
+    <project path="vendor/motorola" name="boulzordev/proprietary_vendor_motorola_msm8952" remote="github" revision="cm-14.1"/>
+
 </manifest>
