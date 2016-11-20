@@ -30,6 +30,10 @@
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-14.1"/>
   <project name="CyanogenMod/android_external_bson" path="external/bson" remote="github" revision="cm-14.1" />
 
+  <!-- Moto G4/G4 Plus -->
+  <project path="device/motorola/athene" name="AOKP/device_motorola_athene" remote="github" revision="nougat"/>
+  <project path="kernel/motorola/msm8952" name="boulzordev/android_kernel_motorola_msm8952" remote="github" revision="cm-14.1"/>
+
   <!-- *********************** VENDOR BLOBS *********************** -->
   <!-- Oneplus -->
   <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-14.1" />
@@ -40,5 +44,8 @@
 
   <!-- Lenovo -->
   <project path="vendor/lenovo/A6020" name="boulzordev/android_vendor_lenovo_A6020" remote="github" revision="cm-14.1" />
+
+  <!-- Motorola -->
+  <project path="vendor/motorola" name="boulzordev/proprietary_vendor_motorola_msm8952" remote="github" revision="cm-14.1"/>
 
 </manifest>
