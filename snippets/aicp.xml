@@ -2,6 +2,7 @@
 <manifest>
 
   <!-- AICP custom -->
+  <project path="device/qcom/sepolicy" name="AICP/device_qcom_sepolicy" remote="aicp" />
   <project path="external/DUtils" name="AICP/external_DUtils" remote="aicp" />
   <project path="frameworks/av" name="AICP/frameworks_av" groups="pdk" remote="aicp" />
   <project path="frameworks/base" name="AICP/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
@@ -87,7 +88,6 @@
   <project path="vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider" name="CyanogenMod/android_packages_apps_YahooWeatherProvider" />
 
   <!-- CodeAurora additions -->
-  <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" />
   <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" />
   <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" />
   <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" />
