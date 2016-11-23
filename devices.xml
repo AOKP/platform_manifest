@@ -2,23 +2,24 @@
 <manifest>
 
   <!-- *********************** DEVICES & KERNELS *********************** -->
-  <!-- Oneplus -->
-  <!-- Oneplus 3 -->
-  <project name="AOKP/device_oneplus_oneplus3" path="device/oneplus/oneplus3" remote="aokp" branch="nougat" />
-  <project name="Cyanogenmod/android_kernel_oneplus_msm8996" path="kernel/oneplus/msm8996" remote="cm" branch="cm-14.1" />
-  <project name="Cyanogenmod/android_vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks" remote="cm" branch="cm-14.1" />
-  <project name="Cyanogenmod/android_vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" remote="cm" branch="cm-14.1" />
-  <project name="Cyanogenmod/android_vendor_nxp-nfc_opensource_Nfc" path="vendor/nxp-nfc/opensource/Nfc" remote="cm" branch="cm-14.1" />
-  <!-- Common device repos -->
-  <project name="Cyanogenmod/android_device_oppo_common" path="device/oppo/common" remote="cm" branch="cm-14.1" />
 
-  <!-- LGe -->
-  <!-- LG G3  -->
-  <project name="AOKP/device_lge_d855" path="device/lge/d855" remote="aokp" branch="nougat" />
-  <project name="AOKP/android_kernel_lge_g3" path="kernel/lge/g3" remote="aokp" branch="nougat" />
-  <!-- Common device repos -->
-  <project name="Cyanogenmod/android_device_lge_g3_common" path="device/lge/g3/common" remote="cm" branch="cm-14.1" />
-  <project name="Cyanogenmod/android_device_qcom_common" path="device/qcom/common" remote="github"revision="cm-14.1" />
+  <!-- Asus -->
+  <!-- Nexus 7 wi-fi -->
+  <project name="AOKP/device_asus_flo" path="device/asus/flo" remote="aokp" revision="nougat" />
+  <project name="CyanogenMod/android_kernel_google_msm" path="kernel/google/msm" remote="cm" revision="cm-14.1" />
+  <!-- Common repos -->
+  <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="cm" revision="cm-14.1" />
+  <project name="CyanogenMod/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="cm" revision="cm-14.1" />
+  <project name="CyanogenMod/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="cm" revision="cm-14.1" />
+
+  <!-- HTC -->
+  <!-- One M8 -->
+  <project name="AOKP/device_htc_m8" path="device/htc/m8" remote="aokp" revision="nougat" />
+  <project name="CyanogenMod/android_kernel_htc_msm8974" path="kernel/htc/msm8974" remote="cm" revision="cm-14.1" />
+  <!-- Common repos -->
+  <project name="CyanogenMod/android_device_htc_m8-common" path="device/htc/m8-common" remote="cm" revision="cm-14.1" />
+  <project name="CyanogenMod/android_device_htc_msm8974-common" path="device/htc/msm8974-common" remote="cm" revision="cm-14.1" />
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="cm" revision="cm-14.1" />
 
   <!-- Lenovo -->
   <!-- Lenovo Vibe K5/K5 Plus -->
@@ -30,22 +31,47 @@
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-14.1"/>
   <project name="CyanogenMod/android_external_bson" path="external/bson" remote="github" revision="cm-14.1" />
 
+  <!-- LGe -->
+  <!-- LG G3  -->
+  <project name="AOKP/device_lge_d855" path="device/lge/d855" remote="aokp" branch="nougat" />
+  <project name="AOKP/android_kernel_lge_g3" path="kernel/lge/g3" remote="aokp" branch="nougat" />
+  <!-- Common device repos -->
+  <project name="Cyanogenmod/android_device_lge_g3_common" path="device/lge/g3/common" remote="cm" branch="cm-14.1" />
+  <project name="Cyanogenmod/android_device_qcom_common" path="device/qcom/common" remote="github"revision="cm-14.1" />
+
   <!-- Moto G4/G4 Plus -->
   <project path="device/motorola/athene" name="AOKP/device_motorola_athene" remote="github" revision="nougat"/>
   <project path="kernel/motorola/msm8952" name="boulzordev/android_kernel_motorola_msm8952" remote="github" revision="cm-14.1"/>
 
-  <!-- *********************** VENDOR BLOBS *********************** -->
   <!-- Oneplus -->
-  <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-14.1" />
-  <project name="TheMuppets/proprietary_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="github" revision="cm-14.1" />
+  <!-- Oneplus 3 -->
+  <project name="AOKP/device_oneplus_oneplus3" path="device/oneplus/oneplus3" remote="aokp" branch="nougat" />
+  <project name="Cyanogenmod/android_kernel_oneplus_msm8996" path="kernel/oneplus/msm8996" remote="cm" branch="cm-14.1" />
+  <project name="Cyanogenmod/android_vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks" remote="cm" branch="cm-14.1" />
+  <project name="Cyanogenmod/android_vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" remote="cm" branch="cm-14.1" />
+  <project name="Cyanogenmod/android_vendor_nxp-nfc_opensource_Nfc" path="vendor/nxp-nfc/opensource/Nfc" remote="cm" branch="cm-14.1" />
+  <!-- Common device repos -->
+  <project name="Cyanogenmod/android_device_oppo_common" path="device/oppo/common" remote="cm" branch="cm-14.1" />
 
-  <!-- LGe -->
-  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-14.1" />
+  <!-- *********************** VENDOR BLOBS *********************** -->
+
+  <!-- Asus -->
+  <project name="TheMuppets/proprietary_vendor_asus" path="vendor/asus" remote="github" revision="cm-14.1" />
+
+  <!-- HTC -->
+  <project name="TheMuppets/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="cm-14.1" />
 
   <!-- Lenovo -->
   <project path="vendor/lenovo/A6020" name="boulzordev/android_vendor_lenovo_A6020" remote="github" revision="cm-14.1" />
 
+  <!-- LGe -->
+  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-14.1" />
+
   <!-- Motorola -->
   <project path="vendor/motorola" name="boulzordev/proprietary_vendor_motorola_msm8952" remote="github" revision="cm-14.1"/>
+
+  <!-- Oneplus -->
+  <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-14.1" />
+  <project name="TheMuppets/proprietary_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="github" revision="cm-14.1" />
 
 </manifest>
