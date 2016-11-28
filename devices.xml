@@ -60,6 +60,7 @@
 
   <!-- HTC -->
   <project name="TheMuppets/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="cm-14.1" />
+  <project name="TheMuppets/proprietary_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="github" revision="cm-14.1" />
 
   <!-- Lenovo -->
   <project path="vendor/lenovo/A6020" name="boulzordev/android_vendor_lenovo_A6020" remote="github" revision="cm-14.1" />
