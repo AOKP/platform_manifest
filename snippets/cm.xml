@@ -40,7 +40,6 @@
   <project path="packages/apps/AudioFX" remote="cm" name="CyanogenMod/android_packages_apps_AudioFX" />
   <project path="packages/apps/Browser" remote="cm" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/CMFileManager" remote="cm" name="CyanogenMod/android_packages_apps_CMFileManager" />
-  <project path="packages/apps/CMParts" remote="cm" name="CyanogenMod/android_packages_apps_CMParts" />
   <project path="packages/apps/CMWallpapers" remote="cm" name="CyanogenMod/android_packages_apps_CMWallpapers" />
   <project path="packages/apps/Eleven" remote="cm" name="CyanogenMod/android_packages_apps_Eleven" />
   <project path="packages/apps/Exchange" remote="cm" name="CyanogenMod/android_packages_apps_Exchange" />

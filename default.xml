@@ -36,6 +36,7 @@
   <project path="device/qcom/sepolicy" name="AOKP/device_qcom_sepolicy" />
   <project path="external/mksh" name="AOKP/external_mksh" groups="pdk" />
   <project path="frameworks/av" name="AOKP/frameworks_av" groups="pdk" />
+  <project path="packages/apps/CMParts" name="AOKP/packages_apps_CMParts" />
   <project path="frameworks/base" name="AOKP/frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" />
   <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" groups="pdk-fs" />
