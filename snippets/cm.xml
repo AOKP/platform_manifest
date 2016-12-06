@@ -51,7 +51,6 @@
   <project path="packages/apps/Snap" remote="cm" name="CyanogenMod/android_packages_apps_Snap" />
   <project path="packages/apps/ThemeChooser" remote="cm" name="CyanogenMod/android_packages_apps_ThemeChooser" />
   <project path="packages/apps/Trebuchet" remote="cm" name="CyanogenMod/android_packages_apps_Trebuchet" />
-  <project path="packages/apps/WallpaperPicker" remote="cm" name="CyanogenMod/android_packages_apps_WallpaperPicker" />
   <project path="packages/providers/DataUsageProvider" remote="cm" name="CyanogenMod/android_packages_providers_DataUsageProvider" />
   <project path="packages/providers/ThemesProvider" remote="cm" name="CyanogenMod/android_packages_providers_ThemesProvider" />
   <project path="packages/providers/WeatherProvider" remote="cm" name="CyanogenMod/android_packages_providers_WeatherProvider" />
