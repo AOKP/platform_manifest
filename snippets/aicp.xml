@@ -11,7 +11,10 @@
   <project path="packages/apps/AICP_OTA" name="AICP/packages_apps_AICP_OTA" remote="aicp" />
   <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
   <project path="packages/apps/CMParts" name="AICP/packages_apps_CMParts" remote="aicp" />
+  <project path="packages/apps/Contacts" name="AICP/packages_apps_Contacts" groups="pdk-fs" remote="aicp" />
+  <project path="packages/apps/ContactsCommon" name="AICP/packages_apps_ContactsCommon" groups="pdk-fs" remote="aicp" />
   <project path="packages/apps/DUI" name="AICP/packages_apps_DUI" remote="aicp" />
+  <project path="packages/apps/PhoneCommon" name="AICP/packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
   <!--<project path="packages/apps/AICP_OTA" name="AICP/packages_apps_AICP_OTA" />
   <project path="packages/apps/OmniSwitch" name="AICP/packages_apps_OmniSwitch" />
