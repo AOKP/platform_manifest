@@ -28,6 +28,10 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-7.1.1_r4" />
 
+  <remote name="teamsubstratum"
+           fetch="https://github.com/"
+           review="review.projektsubstratum.com" />
+
   <default revision="refs/heads/cm-14.1"
            remote="github"
            sync-c="true"
