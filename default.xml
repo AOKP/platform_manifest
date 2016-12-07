@@ -43,6 +43,7 @@
   <project path="system/core" name="AOKP/system_core" groups="pdk" />
   <project path="vendor/aokp" name="AOKP/vendor_aokp" />
   <project path="vendor/cmsdk" name="AOKP/cm_platform_sdk" />
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
   <!-- end AOKP projects -->
 
   <!-- AOSP Projects -->
