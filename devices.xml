@@ -74,7 +74,7 @@
   <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-14.1" />
 
   <!-- Motorola -->
-  <project path="vendor/motorola" name="boulzordev/proprietary_vendor_motorola_msm8952" remote="github" revision="cm-14.1"/>
+  <project path="vendor/motorola/athene" name="boulzordev/proprietary_vendor_motorola_athene" remote="github" revision="cm-14.1"/>
 
   <!-- Oneplus -->
   <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-14.1" />
