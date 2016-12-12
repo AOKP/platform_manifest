@@ -36,11 +36,13 @@
   <project path="device/qcom/sepolicy" name="AOKP/device_qcom_sepolicy" />
   <project path="external/mksh" name="AOKP/external_mksh" groups="pdk" />
   <project path="frameworks/av" name="AOKP/frameworks_av" groups="pdk" />
+  <project path="frameworks/native" name="AOKP/frameworks_native" groups="pdk" />
   <project path="packages/apps/CMParts" name="AOKP/packages_apps_CMParts" />
   <project path="frameworks/base" name="AOKP/frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" />
   <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" groups="pdk-fs" />
   <project path="system/core" name="AOKP/system_core" groups="pdk" />
+  <project path="system/sepolicy" name="AOKP/system_sepolicy" groups="pdk" />
   <project path="vendor/aokp" name="AOKP/vendor_aokp" />
   <project path="vendor/cmsdk" name="AOKP/cm_platform_sdk" />
   <!-- end AOKP projects -->
@@ -329,7 +331,6 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="frameworks/native" remote="cm" name="CyanogenMod/android_frameworks_native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" remote="aosp" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
