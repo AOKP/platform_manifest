@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-7.1.1_r6" />
+           revision="refs/tags/android-7.1.1_r4" />
 
   <remote  name="github"
            fetch=".." />
@@ -22,8 +22,18 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
+<<<<<<< HEAD
   <default revision="refs/heads/nougat"
            remote="aokp"
+=======
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com"
+           revision="refs/tags/android-7.1.1_r6" />
+
+  <default revision="refs/heads/cm-14.1"
+           remote="github"
+>>>>>>> 7ca4fa6... cm: android-7.1.1_r4 -> android-7.1.1_r6
            sync-c="true"
            sync-j="4" />
 
