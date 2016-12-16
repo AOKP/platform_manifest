@@ -43,6 +43,13 @@
   <project path="device/motorola/athene" name="AOKP/device_motorola_athene" remote="github" revision="nougat"/>
   <project path="kernel/motorola/msm8952" name="boulzordev/android_kernel_motorola_msm8952" remote="github" revision="cm-14.1"/>
 
+  <!-- Nextbit -->
+  <!-- Robin (ether) -->
+  <project name="AOKP/device_nextbit_ether" path="device/nextbit/ether" remote="aokp" revision="nougat" />
+  <project name="CyanogenMod/android_kernel_nextbit_msm8992" path="kernel/nextbit/msm8992" remote="cm" revision="cm-14.1" />
+  <!-- Common device repos -->
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="cm" revision="cm-14.1" />
+
   <!-- Oneplus -->
   <!-- Oneplus 3 -->
   <project name="AOKP/device_oneplus_oneplus3" path="device/oneplus/oneplus3" remote="aokp" branch="nougat" />
@@ -75,6 +82,10 @@
 
   <!-- Motorola -->
   <project path="vendor/motorola/athene" name="boulzordev/proprietary_vendor_motorola_athene" remote="github" revision="cm-14.1"/>
+
+  <!-- Nextbit -->
+  <project name="TheMuppets/proprietary_vendor_nextbit" path="vendor/nextbit" remote="github" revision="refs/heads/cm-14.1" />
+  <project name="TheMuppets/proprietary_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="github" revision="refs/heads/cm-14.1" />
 
   <!-- Oneplus -->
   <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-14.1" />
