@@ -52,7 +52,22 @@
   <project name="Cyanogenmod/android_vendor_nxp-nfc_opensource_Nfc" path="vendor/nxp-nfc/opensource/Nfc" remote="cm" branch="cm-14.1" />
   <!-- Common device repos -->
   <project name="Cyanogenmod/android_device_oppo_common" path="device/oppo/common" remote="cm" branch="cm-14.1" />
-
+  
+  <!-- Samsung -->
+  <!-- Samsung Galaxy S5 Family -->
+  <project path="device/samsung/klte-common" name="Cyanogenmod/android_device_samsung_klte-common" remote="cm"  revision="cm-14.1"/>
+  <project path="device/samsung/klte" name="AOKP/device_samsung_klte" remote="aokp" />
+  <project path="device/samsung/kltedv" name="AOKP/device_samsung_kltedv" remote="aokp"  />
+  <project path="device/samsung/kltespr" name="AOKP/device_samsung_kltespr" remote="aokp"  />
+  <project path="device/samsung/klteusc" name="AOKP/device_samsung_klteusc" remote="aokp"  />
+  <project path="kernel/samsung/klte" name="CyanogenMod/android_kernel_samsung_klte" remote="cm" revision="cm-14.1" />
+  <project path="device/samsung/msm8974-common" name="CyanogenMod/android_device_samsung_msm8974-common" remote="cm" revision="cm-14.1" />
+  
+   <!-- Samsung Common Devices Sources -->
+  <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="cm" revision="cm-14.1" />
+  <project path="packages/resources/devicesettings" name="CyanogenMod/android_packages_resources_devicesettings"  remote="cm" revision="cm-14.1" />
+  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="cm" revision="cm-14.1" />
+  
   <!-- Xiaomi -->
   <!-- Xiaomi Mi3/4 W/C -->
   <project name="AOKP/device_xiaomi_cancro" path="device/xiaomi/cancro" remote="aokp" branch="nougat" />
@@ -79,6 +94,9 @@
   <!-- Oneplus -->
   <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-14.1" />
   <project name="TheMuppets/proprietary_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="github" revision="cm-14.1" />
+  
+  <!-- Samsung -->
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-14.1" />
   
   <!-- Xiaomi -->
   <project name="TheMuppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="cm-14.1" />
