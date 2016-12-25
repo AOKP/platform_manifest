@@ -11,7 +11,14 @@
   <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="cm" revision="cm-14.1" />
   <project name="CyanogenMod/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="cm" revision="cm-14.1" />
   <project name="CyanogenMod/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="cm" revision="cm-14.1" />
-
+  <!-- Zenfone 2 -->
+  <project name="AOKP/device_asus_Z00A" path="device/asus/Z00A" remote="aokp" revision="nougat" />
+  <project name="AOKP/device_asus_Z008" path="device/asus/Z008" remote="aokp" revision="nougat" />
+  <!-- Common repos -->
+  <project name="CyanogenMod/android_device_asus_mofd-common" path="device/asus/mofd-common" remote="cm" revision="cm-14.1" />
+  <project name="CyanogenMod/android_kernel_asus_moorefield" path="kernel/asus/moorefield" remote="cm" revision="cm-14.1" />
+  <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="cm" revision="cm-14.1" />
+  <project name="CyanogenMod/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="cm" revision="cm-14.1" />
   <!-- HTC -->
   <!-- One M8 -->
   <project name="AOKP/device_htc_m8" path="device/htc/m8" remote="aokp" revision="nougat" />
@@ -92,7 +99,7 @@
 
   <!-- Asus -->
   <project name="TheMuppets/proprietary_vendor_asus" path="vendor/asus" remote="github" revision="cm-14.1" />
-
+  <project name="jrior001/proprietary_vendor_asus" path="vendor/asus" remote="github" revision="cm-14.1" />
   <!-- HTC -->
   <project name="TheMuppets/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="cm-14.1" />
   <project name="TheMuppets/proprietary_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="github" revision="cm-14.1" />
