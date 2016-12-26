@@ -72,8 +72,16 @@
   <project name="Cyanogenmod/android_vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks" remote="cm" branch="cm-14.1" />
   <project name="Cyanogenmod/android_vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" remote="cm" branch="cm-14.1" />
   <project name="Cyanogenmod/android_vendor_nxp-nfc_opensource_Nfc" path="vendor/nxp-nfc/opensource/Nfc" remote="cm" branch="cm-14.1" />
+
+  <!-- Onyx -->
+  <project name="AOKP/device_oneplus_onyx" path="device/oneplus/onyx" remote="aokp" branch="nougat" />
+  <project name="CyanogenMod/android_kernel_oneplus_onyx" path="kernel/oneplus/onyx" remote="cm" branch="cm-14.1" />
+  <project name="CyanogenMod/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="cm" revision="cm-14.1" />
+  <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="cm" revision="cm-14.1" />
+
   <!-- Common device repos -->
   <project name="Cyanogenmod/android_device_oppo_common" path="device/oppo/common" remote="cm" branch="cm-14.1" />
+
   
   <!-- Samsung -->
   <!-- Samsung Galaxy S5 Family -->
