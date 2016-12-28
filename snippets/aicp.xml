@@ -15,6 +15,7 @@
   <project path="packages/apps/ContactsCommon" name="AICP/packages_apps_ContactsCommon" groups="pdk-fs" remote="aicp" />
   <project path="packages/apps/DUI" name="AICP/packages_apps_DUI" remote="aicp" />
   <project path="packages/apps/OmniSwitch" name="AICP/packages_apps_OmniSwitch" remote="aicp" />
+  <project path="packages/apps/PackageInstaller" name="AICP/packages_apps_PackageInstaller" groups="pdk-fs" remote="aicp" />
   <project path="packages/apps/PhoneCommon" name="AICP/packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
   <!--  <project path="packages/themes/HexoLibre" name="AICP/packages_themes_HexoLibre" groups="themes" /> -->
