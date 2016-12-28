@@ -17,6 +17,7 @@
   <project path="packages/apps/OmniSwitch" name="AICP/packages_apps_OmniSwitch" remote="aicp" />
   <project path="packages/apps/PackageInstaller" name="AICP/packages_apps_PackageInstaller" groups="pdk-fs" remote="aicp" />
   <project path="packages/apps/PhoneCommon" name="AICP/packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
+  <project path="packages/providers/MediaProvider" name="AICP/packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
   <!--  <project path="packages/themes/HexoLibre" name="AICP/packages_themes_HexoLibre" groups="themes" /> -->
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
