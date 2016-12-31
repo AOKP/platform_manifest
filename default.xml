@@ -16,7 +16,7 @@
 
   <remote  name="cm"
            fetch=".."
-           review="review.cyanogenmod.org"
+           review="review.lineageos.org"
            revision="refs/heads/cm-13.0" />
 
   <remote  name="private"
@@ -51,267 +51,267 @@
   <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" />
   <project path="vendor/cmsdk" name="AOKP/cm_platform_sdk" remote="aokp" />
 
-  <!-- CyanogenMod -->
-  <project path="abi/cpp" remote="cm" name="CyanogenMod/android_abi_cpp" groups="pdk" />
-  <project path="art" remote="cm" name="CyanogenMod/android_art" groups="pdk" />
-  <project path="bionic" remote="cm" name="CyanogenMod/android_bionic" groups="pdk" />
+  <!-- LineageOS -->
+  <project path="abi/cpp" remote="cm" name="LineageOS/android_abi_cpp" groups="pdk" />
+  <project path="art" remote="cm" name="LineageOS/android_art" groups="pdk" />
+  <project path="bionic" remote="cm" name="LineageOS/android_bionic" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="marshmallow-cts-release" remote="aosp" />
-  <project path="dalvik" remote="cm" name="CyanogenMod/android_dalvik" groups="pdk-cw-fs,pdk-fs" />
-  <project path="development" remote="cm" name="CyanogenMod/android_development" groups="pdk-cw-fs,pdk-fs" />
-  <project path="device/common" remote="cm" name="CyanogenMod/android_device_common" groups="pdk-cw-fs,pdk-fs" />
-  <project path="device/generic/arm64" remote="cm" name="CyanogenMod/android_device_generic_arm64" groups="pdk" />
-  <project path="device/generic/armv7-a-neon" remote="cm" name="CyanogenMod/android_device_generic_armv7-a-neon" groups="pdk" />
-  <project path="device/generic/common" remote="cm" name="CyanogenMod/android_device_generic_common" groups="pdk" />
-  <project path="device/generic/goldfish" remote="cm" name="CyanogenMod/android_device_generic_goldfish" groups="pdk" />
-  <project path="device/generic/mips" remote="cm" name="CyanogenMod/android_device_generic_mips" groups="pdk" />
-  <project path="device/google/atv" remote="cm" name="CyanogenMod/android_device_google_atv" groups="device,fugu,broadcom_pdk,generic_fs" />
-  <project path="external/ahbottomnavigation" remote="cm" name="CyanogenMod/android_external_ahbottomnavigation" />
-  <project path="external/android-clat" remote="cm" name="CyanogenMod/android_external_android-clat" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/android-mock" remote="cm" name="CyanogenMod/android_external_android-mock" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/android-visualizer" remote="cm" name="CyanogenMod/android_external_android-visualizer" />
-  <project path="external/android/support-prebuilt" remote="cm" name="CyanogenMod/external_android_support-prebuilt" revision="master" />
-  <project path="external/ant-glob" remote="cm" name="CyanogenMod/android_external_ant-glob" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/ant-wireless/ant_native" remote="cm" name="CyanogenMod/android_external_ant-wireless_ant_native" />
-  <project path="external/ant-wireless/ant_service" remote="cm" name="CyanogenMod/android_external_ant-wireless_ant_service" />
-  <project path="external/ant-wireless/antradio-library" remote="cm" name="CyanogenMod/android_external_ant-wireless_antradio-library" />
-  <project path="external/apache-http" remote="cm" name="CyanogenMod/android_external_apache-http" groups="pdk" />
-  <project path="external/bash" remote="cm" name="CyanogenMod/android_external_bash" />
-  <project path="external/boringssl" remote="cm" name="CyanogenMod/android_external_boringssl" groups="pdk" />
-  <project path="external/bouncycastle" remote="cm" name="CyanogenMod/android_external_bouncycastle" groups="pdk" />
-  <project path="external/brctl" remote="cm" name="CyanogenMod/android_external_brctl" />
-  <project path="external/busybox" remote="cm" name="CyanogenMod/android_external_busybox" />
-  <project path="external/connectivity" remote="cm" name="CyanogenMod/android_external_connectivity" />
-  <project path="external/bzip2" remote="cm" name="CyanogenMod/android_external_bzip2" groups="pdk" />
-  <project path="external/chromium-webview" remote="cm" name="CyanogenMod/android_external_chromium-webview" clone-depth="1" />
-  <project path="external/cmsdk-api-coverage" remote="cm" name="CyanogenMod/android_external_cmsdk-api-coverage" />
-  <project path="external/curl" remote="cm" name="CyanogenMod/android_external_curl" />
-  <project path="external/dhcpcd" remote="cm" name="CyanogenMod/android_external_dhcpcd" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/dnsmasq" remote="cm" name="CyanogenMod/android_external_dnsmasq" groups="pdk" />
-  <project path="external/doclava" remote="cm" name="CyanogenMod/android_external_doclava" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/e2fsprogs" remote="cm" name="CyanogenMod/android_external_e2fsprogs" groups="pdk" />
-  <project path="external/ebtables" remote="cm" name="CyanogenMod/android_external_ebtables" />
-  <project path="external/elfutils" remote="cm" name="CyanogenMod/android_external_elfutils" groups="pdk" />
-  <project path="external/exfat" remote="cm" name="CyanogenMod/android_external_exfat" />
-  <project path="external/f2fs-tools" remote="cm" name="CyanogenMod/android_external_f2fs-tools" groups="pdk" />
-  <project path="external/ffmpeg" remote="cm" name="CyanogenMod/android_external_ffmpeg" />
-  <project path="external/flac" remote="cm" name="CyanogenMod/android_external_flac" groups="pdk" />
-  <project path="external/fsck_msdos" remote="cm" name="CyanogenMod/android_external_fsck_msdos" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/fuse" remote="cm" name="CyanogenMod/android_external_fuse" />
-  <project path="external/gello-build" remote ="cm" name="CyanogenMod/android_external_gello_build" />
-  <project path="external/google" remote="cm" name="CyanogenMod/android_external_google" />
-  <project path="external/gmock" remote="cm" name="CyanogenMod/android_external_gmock"/>
-  <project path="external/gptfdisk" remote="cm" name="CyanogenMod/android_external_gptfdisk" groups="pdk-fs" />
-  <project path="external/gson" remote="cm" name="CyanogenMod/android_external_gson" />
-  <project path="external/guava" remote="cm" name="CyanogenMod/android_external_guava" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/htop" remote="cm" name="CyanogenMod/android_external_htop" />
-  <project path="external/icu" remote="cm" name="CyanogenMod/android_external_icu" groups="pdk" />
-  <project path="external/iproute2" remote="cm" name="CyanogenMod/android_external_iproute2" groups="pdk" />
-  <project path="external/iptables" remote="cm" name="CyanogenMod/android_external_iptables" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/jarjar" remote="cm" name="CyanogenMod/android_external_jarjar" groups="pdk" />
-  <project path="external/jpeg" remote="cm" name="CyanogenMod/android_external_jpeg" groups="pdk" />
-  <project path="external/json-c" remote="cm" name="CyanogenMod/android_external_json-c" />
-  <project path="external/jsr305" remote="cm" name="CyanogenMod/android_external_jsr305" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/koush/AndroidAsync" remote="cm" name="CyanogenMod/AndroidAsync" />
-  <project path="external/koush/ion" remote="cm" name="CyanogenMod/ion" />
-  <project path="external/libavc" remote="cm" name="CyanogenMod/android_external_libavc" groups="pdk" />
-  <project path="external/libncurses" remote="cm" name="CyanogenMod/android_external_libncurses" />
-  <project path="external/libnetfilter_conntrack" remote="cm" name="CyanogenMod/android_external_libnetfilter_conntrack" />
-  <project path="external/libnfc-nci" remote="cm" name="CyanogenMod/android_external_libnfc-nci" groups="pdk" />
-  <project path="external/libnfc-nxp" remote="cm" name="CyanogenMod/android_external_libnfc-nxp" groups="pdk" />
-  <project path="external/libnfnetlink" remote="cm" name="CyanogenMod/android_external_libnfnetlink" />
-  <project path="external/libphonenumbergoogle" remote="cm" name="CyanogenMod/android_external_libphonenumbergoogle" />
-  <project path="external/libselinux" remote="cm" name="CyanogenMod/android_external_libselinux" groups="pdk" />
-  <project path="external/libtar" remote="cm" name="CyanogenMod/android_external_libtar" />
-  <project path="external/libusb" remote="cm" name="CyanogenMod/android_external_libusb" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libusbx" remote="cm" name="CyanogenMod/android_external_libusbx" />
-  <project path="external/libvpx" remote="cm" name="CyanogenMod/android_external_libvpx" groups="pdk" />
-  <project path="external/libvterm" remote="cm" name="CyanogenMod/android_external_libvterm" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libxml2" remote="cm" name="CyanogenMod/android_external_libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" />
-  <project path="external/libxslt" remote="cm" name="CyanogenMod/android_external_libxslt" />
-  <project path="external/linux-tools-perf" remote="cm" name="CyanogenMod/android_external_linux-tools-perf" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libtruezip" remote="cm" name="CyanogenMod/android_external_libtruezip" />
-  <project path="external/lz4" remote="cm" name="CyanogenMod/android_external_lz4" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/lzma" remote="cm" name="CyanogenMod/android_external_lzma" groups="pdk" />
-  <project path="external/lzo" remote="cm" name="CyanogenMod/android_external_lzo" />
-  <project path="external/nano" remote="cm" name="CyanogenMod/android_external_nano" />
-  <project path="external/nist-sip" remote="cm" name="CyanogenMod/android_external_nist-sip" groups="pdk-cw-fss,pdk-fs" />
-  <project path="external/ntfs-3g" remote="cm" name="CyanogenMod/android_external_ntfs-3g" />
-  <project path="external/okhttp" remote="cm" name="CyanogenMod/android_external_okhttp" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/openssh" remote="cm" name="CyanogenMod/android_external_openssh" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/p7zip" remote="cm" name="CyanogenMod/android_external_p7zip" />
-  <project path="external/pcre" remote="cm" name="CyanogenMod/android_external_pcre" groups="pdk" />
-  <project path="external/pdfium" remote="cm" name="CyanogenMod/android_external_pdfium" groups="pdk" />
-  <project path="external/pigz" remote="cm" name="CyanogenMod/android_external_pigz" />
-  <project path="external/powertop" remote="cm" name="CyanogenMod/android_external_powertop" />
-  <project path="external/protobuf-c" remote="cm" name="CyanogenMod/android_external_protobuf-c" />
-  <project path="external/rsync" remote="cm" name="CyanogenMod/android_external_rsync" />
-  <project path="external/skia" remote="cm" name="CyanogenMod/android_external_skia" groups="pdk,qcom_msm8x26" />
-  <project path="external/sonivox" remote="cm" name="CyanogenMod/android_external_sonivox" groups="pdk" />
-  <project path="external/speex" remote="cm" name="CyanogenMod/android_external_speex" groups="pdk" />
-  <project path="external/spongycastle" remote="cm" name="CyanogenMod/android_external_spongycastle" groups="pdk" />
-  <project path="external/sqlite" remote="cm" name="CyanogenMod/android_external_sqlite" groups="pdk" />
-  <project path="external/stagefright-plugins" remote="cm" name="CyanogenMod/android_external_stagefright-plugins" />
-  <project path="external/strace" remote="cm" name="CyanogenMod/android_external_strace" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/tcpdump" remote="cm" name="CyanogenMod/android_external_tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" />
-  <project path="external/tinyalsa" remote="cm" name="CyanogenMod/android_external_tinyalsa" groups="pdk" />
-  <project path="external/tinycompress" remote="cm" name="CyanogenMod/android_external_tinycompress" groups="pdk" />
-  <project path="external/tinyxml2" remote="cm" name="CyanogenMod/android_external_tinyxml2" groups="pdk" />
-  <project path="external/toybox" remote="cm" name="CyanogenMod/android_external_toybox" groups="pdk" />
-  <project path="external/uicommon" remote="cm" name="CyanogenMod/android_external_cyanogen_UICommon" />
-  <project path="external/unrar" remote="cm" name="CyanogenMod/android_external_unrar" />
-  <project path="external/unzip" remote="cm" name="CyanogenMod/android_external_unzip" />
-  <project path="external/vim" remote="cm" name="CyanogenMod/android_external_vim" />
-  <project path="external/vogar" remote="cm" name="CyanogenMod/android_external_vogar" groups="pdk" />
-  <project path="external/wpa_supplicant_8" remote="cm" name="CyanogenMod/android_external_wpa_supplicant_8" groups="pdk" />
-  <project path="external/yaffs2" remote="cm" name="CyanogenMod/android_external_yaffs2" groups="pdk" />
-  <project path="external/zip" remote="cm" name="CyanogenMod/android_external_zip" />
-  <project path="external/zlib" remote="cm" name="CyanogenMod/android_external_zlib" groups="pdk" />
-  <project path="frameworks/compile/libbcc" remote="cm" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
-  <project path="frameworks/compile/mclinker" remote="cm" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
-  <project path="frameworks/compile/slang" remote="cm" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
-  <project path="frameworks/ex" remote="cm" name="CyanogenMod/android_frameworks_ex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/minikin" remote="cm" name="CyanogenMod/android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/ml" remote="cm" name="CyanogenMod/android_frameworks_ml" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/multidex" remote="cm" name="CyanogenMod/android_frameworks_multidex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" remote="cm" name="CyanogenMod/android_frameworks_native" groups="pdk" />
-  <project path="frameworks/opt/bitmap" remote="cm" name="CyanogenMod/android_frameworks_opt_bitmap" groups="pdk-fs" />
-  <project path="frameworks/opt/bluetooth" remote="cm" name="CyanogenMod/android_frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/calendar" remote="cm" name="CyanogenMod/android_frameworks_opt_calendar" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/chips" remote="cm" name="CyanogenMod/android_frameworks_opt_chips" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/colorpicker" remote="cm" name="CyanogenMod/android_frameworks_opt_colorpicker" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/datetimepicker" remote="cm" name="CyanogenMod/android_frameworks_opt_datetimepicker" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/emoji" remote="cm" name="CyanogenMod/android_frameworks_opt_emoji" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/hardware" remote="cm" name="CyanogenMod/android_frameworks_opt_hardware" />
-  <project path="frameworks/opt/inputmethodcommon" remote="cm" name="CyanogenMod/android_frameworks_opt_inputmethodcommon" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/net/ethernet" remote="cm" name="CyanogenMod/android_frameworks_opt_net_ethernet" groups="pdk-fs" />
-  <project path="frameworks/opt/net/ims" remote="cm" name="CyanogenMod/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/net/voip" remote="cm" name="CyanogenMod/android_frameworks_opt_net_voip" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/net/wifi" remote="cm" name="CyanogenMod/android_frameworks_opt_net_wifi" groups="pdk" />
-  <project path="frameworks/opt/photoviewer" remote="cm" name="CyanogenMod/android_frameworks_opt_photoviewer" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/setupwizard" remote="cm" name="CyanogenMod/android_frameworks_opt_setupwizard" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/timezonepicker" remote="cm" name="CyanogenMod/android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/vcard" remote="cm" name="CyanogenMod/android_frameworks_opt_vcard" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/rs" remote="cm" name="CyanogenMod/android_frameworks_rs" groups="pdk" />
-  <project path="frameworks/support" remote="cm" name="CyanogenMod/android_frameworks_support" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/volley" remote="cm" name="CyanogenMod/android_frameworks_volley" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/webview" remote="cm" name="CyanogenMod/android_frameworks_webview" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/wilhelm" remote="cm" name="CyanogenMod/android_frameworks_wilhelm" groups="pdk-cw-fs,pdk-fs" />
-  <project path="hardware/akm" remote="cm" name="CyanogenMod/android_hardware_akm" />
-  <project path="hardware/broadcom/libbt" remote="cm" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" />
-  <project path="hardware/broadcom/wlan" remote="cm" name="CyanogenMod/android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" />
-  <project path="hardware/cyanogen" remote="cm" name="CyanogenMod/android_hardware_cyanogen" />
-  <project path="hardware/intel/common/libmix" remote="cm" name="CyanogenMod/android_hardware_intel_common_libmix" groups="intel" />
-  <project path="hardware/intel/common/libva" remote="cm" name="CyanogenMod/android_hardware_intel_common_libva" groups="intel" />
-  <project path="hardware/intel/common/libwsbm" remote="cm" name="CyanogenMod/android_hardware_intel_common_libwsbm" groups="intel" />
-  <project path="hardware/intel/common/omx-components" remote="cm" name="CyanogenMod/android_hardware_intel_common_omx-components" groups="intel" />
-  <project path="hardware/intel/img/hwcomposer" remote="cm" name="CyanogenMod/android_hardware_intel_img_hwcomposer" groups="intel" />
-  <project path="hardware/intel/img/psb_headers" remote="cm" name="CyanogenMod/android_hardware_intel_img_psb_headers" groups="intel" />
-  <project path="hardware/intel/img/psb_video" remote="cm" name="CyanogenMod/android_hardware_intel_img_psb_video" groups="intel" />
-  <project path="hardware/invensense" remote="cm" name="CyanogenMod/android_hardware_invensense" groups="invensense" />
-  <project path="hardware/libhardware" remote="cm" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
-  <project path="hardware/libhardware_legacy" remote="cm" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
+  <project path="dalvik" remote="cm" name="LineageOS/android_dalvik" groups="pdk-cw-fs,pdk-fs" />
+  <project path="development" remote="cm" name="LineageOS/android_development" groups="pdk-cw-fs,pdk-fs" />
+  <project path="device/common" remote="cm" name="LineageOS/android_device_common" groups="pdk-cw-fs,pdk-fs" />
+  <project path="device/generic/arm64" remote="cm" name="LineageOS/android_device_generic_arm64" groups="pdk" />
+  <project path="device/generic/armv7-a-neon" remote="cm" name="LineageOS/android_device_generic_armv7-a-neon" groups="pdk" />
+  <project path="device/generic/common" remote="cm" name="LineageOS/android_device_generic_common" groups="pdk" />
+  <project path="device/generic/goldfish" remote="cm" name="LineageOS/android_device_generic_goldfish" groups="pdk" />
+  <project path="device/generic/mips" remote="cm" name="LineageOS/android_device_generic_mips" groups="pdk" />
+  <project path="device/google/atv" remote="cm" name="LineageOS/android_device_google_atv" groups="device,fugu,broadcom_pdk,generic_fs" />
+  <project path="external/ahbottomnavigation" remote="cm" name="LineageOS/android_external_ahbottomnavigation" />
+  <project path="external/android-clat" remote="cm" name="LineageOS/android_external_android-clat" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/android-mock" remote="cm" name="LineageOS/android_external_android-mock" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/android-visualizer" remote="cm" name="LineageOS/android_external_android-visualizer" />
+  <project path="external/android/support-prebuilt" remote="cm" name="LineageOS/external_android_support-prebuilt" revision="master" />
+  <project path="external/ant-glob" remote="cm" name="LineageOS/android_external_ant-glob" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/ant-wireless/ant_native" remote="cm" name="LineageOS/android_external_ant-wireless_ant_native" />
+  <project path="external/ant-wireless/ant_service" remote="cm" name="LineageOS/android_external_ant-wireless_ant_service" />
+  <project path="external/ant-wireless/antradio-library" remote="cm" name="LineageOS/android_external_ant-wireless_antradio-library" />
+  <project path="external/apache-http" remote="cm" name="LineageOS/android_external_apache-http" groups="pdk" />
+  <project path="external/bash" remote="cm" name="LineageOS/android_external_bash" />
+  <project path="external/boringssl" remote="cm" name="LineageOS/android_external_boringssl" groups="pdk" />
+  <project path="external/bouncycastle" remote="cm" name="LineageOS/android_external_bouncycastle" groups="pdk" />
+  <project path="external/brctl" remote="cm" name="LineageOS/android_external_brctl" />
+  <project path="external/busybox" remote="cm" name="LineageOS/android_external_busybox" />
+  <project path="external/connectivity" remote="cm" name="LineageOS/android_external_connectivity" />
+  <project path="external/bzip2" remote="cm" name="LineageOS/android_external_bzip2" groups="pdk" />
+  <project path="external/chromium-webview" remote="cm" name="LineageOS/android_external_chromium-webview" clone-depth="1" />
+  <project path="external/cmsdk-api-coverage" remote="cm" name="LineageOS/android_external_cmsdk-api-coverage" />
+  <project path="external/curl" remote="cm" name="LineageOS/android_external_curl" />
+  <project path="external/dhcpcd" remote="cm" name="LineageOS/android_external_dhcpcd" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/dnsmasq" remote="cm" name="LineageOS/android_external_dnsmasq" groups="pdk" />
+  <project path="external/doclava" remote="cm" name="LineageOS/android_external_doclava" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/e2fsprogs" remote="cm" name="LineageOS/android_external_e2fsprogs" groups="pdk" />
+  <project path="external/ebtables" remote="cm" name="LineageOS/android_external_ebtables" />
+  <project path="external/elfutils" remote="cm" name="LineageOS/android_external_elfutils" groups="pdk" />
+  <project path="external/exfat" remote="cm" name="LineageOS/android_external_exfat" />
+  <project path="external/f2fs-tools" remote="cm" name="LineageOS/android_external_f2fs-tools" groups="pdk" />
+  <project path="external/ffmpeg" remote="cm" name="LineageOS/android_external_ffmpeg" />
+  <project path="external/flac" remote="cm" name="LineageOS/android_external_flac" groups="pdk" />
+  <project path="external/fsck_msdos" remote="cm" name="LineageOS/android_external_fsck_msdos" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/fuse" remote="cm" name="LineageOS/android_external_fuse" />
+  <project path="external/gello-build" remote ="cm" name="LineageOS/android_external_gello_build" />
+  <project path="external/google" remote="cm" name="LineageOS/android_external_google" />
+  <project path="external/gmock" remote="cm" name="LineageOS/android_external_gmock"/>
+  <project path="external/gptfdisk" remote="cm" name="LineageOS/android_external_gptfdisk" groups="pdk-fs" />
+  <project path="external/gson" remote="cm" name="LineageOS/android_external_gson" />
+  <project path="external/guava" remote="cm" name="LineageOS/android_external_guava" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/htop" remote="cm" name="LineageOS/android_external_htop" />
+  <project path="external/icu" remote="cm" name="LineageOS/android_external_icu" groups="pdk" />
+  <project path="external/iproute2" remote="cm" name="LineageOS/android_external_iproute2" groups="pdk" />
+  <project path="external/iptables" remote="cm" name="LineageOS/android_external_iptables" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/jarjar" remote="cm" name="LineageOS/android_external_jarjar" groups="pdk" />
+  <project path="external/jpeg" remote="cm" name="LineageOS/android_external_jpeg" groups="pdk" />
+  <project path="external/json-c" remote="cm" name="LineageOS/android_external_json-c" />
+  <project path="external/jsr305" remote="cm" name="LineageOS/android_external_jsr305" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/koush/AndroidAsync" remote="cm" name="LineageOS/AndroidAsync" />
+  <project path="external/koush/ion" remote="cm" name="LineageOS/ion" />
+  <project path="external/libavc" remote="cm" name="LineageOS/android_external_libavc" groups="pdk" />
+  <project path="external/libncurses" remote="cm" name="LineageOS/android_external_libncurses" />
+  <project path="external/libnetfilter_conntrack" remote="cm" name="LineageOS/android_external_libnetfilter_conntrack" />
+  <project path="external/libnfc-nci" remote="cm" name="LineageOS/android_external_libnfc-nci" groups="pdk" />
+  <project path="external/libnfc-nxp" remote="cm" name="LineageOS/android_external_libnfc-nxp" groups="pdk" />
+  <project path="external/libnfnetlink" remote="cm" name="LineageOS/android_external_libnfnetlink" />
+  <project path="external/libphonenumbergoogle" remote="cm" name="LineageOS/android_external_libphonenumbergoogle" />
+  <project path="external/libselinux" remote="cm" name="LineageOS/android_external_libselinux" groups="pdk" />
+  <project path="external/libtar" remote="cm" name="LineageOS/android_external_libtar" />
+  <project path="external/libusb" remote="cm" name="LineageOS/android_external_libusb" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/libusbx" remote="cm" name="LineageOS/android_external_libusbx" />
+  <project path="external/libvpx" remote="cm" name="LineageOS/android_external_libvpx" groups="pdk" />
+  <project path="external/libvterm" remote="cm" name="LineageOS/android_external_libvterm" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/libxml2" remote="cm" name="LineageOS/android_external_libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" />
+  <project path="external/libxslt" remote="cm" name="LineageOS/android_external_libxslt" />
+  <project path="external/linux-tools-perf" remote="cm" name="LineageOS/android_external_linux-tools-perf" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/libtruezip" remote="cm" name="LineageOS/android_external_libtruezip" />
+  <project path="external/lz4" remote="cm" name="LineageOS/android_external_lz4" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/lzma" remote="cm" name="LineageOS/android_external_lzma" groups="pdk" />
+  <project path="external/lzo" remote="cm" name="LineageOS/android_external_lzo" />
+  <project path="external/nano" remote="cm" name="LineageOS/android_external_nano" />
+  <project path="external/nist-sip" remote="cm" name="LineageOS/android_external_nist-sip" groups="pdk-cw-fss,pdk-fs" />
+  <project path="external/ntfs-3g" remote="cm" name="LineageOS/android_external_ntfs-3g" />
+  <project path="external/okhttp" remote="cm" name="LineageOS/android_external_okhttp" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/openssh" remote="cm" name="LineageOS/android_external_openssh" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/p7zip" remote="cm" name="LineageOS/android_external_p7zip" />
+  <project path="external/pcre" remote="cm" name="LineageOS/android_external_pcre" groups="pdk" />
+  <project path="external/pdfium" remote="cm" name="LineageOS/android_external_pdfium" groups="pdk" />
+  <project path="external/pigz" remote="cm" name="LineageOS/android_external_pigz" />
+  <project path="external/powertop" remote="cm" name="LineageOS/android_external_powertop" />
+  <project path="external/protobuf-c" remote="cm" name="LineageOS/android_external_protobuf-c" />
+  <project path="external/rsync" remote="cm" name="LineageOS/android_external_rsync" />
+  <project path="external/skia" remote="cm" name="LineageOS/android_external_skia" groups="pdk,qcom_msm8x26" />
+  <project path="external/sonivox" remote="cm" name="LineageOS/android_external_sonivox" groups="pdk" />
+  <project path="external/speex" remote="cm" name="LineageOS/android_external_speex" groups="pdk" />
+  <project path="external/spongycastle" remote="cm" name="LineageOS/android_external_spongycastle" groups="pdk" />
+  <project path="external/sqlite" remote="cm" name="LineageOS/android_external_sqlite" groups="pdk" />
+  <project path="external/stagefright-plugins" remote="cm" name="LineageOS/android_external_stagefright-plugins" />
+  <project path="external/strace" remote="cm" name="LineageOS/android_external_strace" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/tcpdump" remote="cm" name="LineageOS/android_external_tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" />
+  <project path="external/tinyalsa" remote="cm" name="LineageOS/android_external_tinyalsa" groups="pdk" />
+  <project path="external/tinycompress" remote="cm" name="LineageOS/android_external_tinycompress" groups="pdk" />
+  <project path="external/tinyxml2" remote="cm" name="LineageOS/android_external_tinyxml2" groups="pdk" />
+  <project path="external/toybox" remote="cm" name="LineageOS/android_external_toybox" groups="pdk" />
+  <project path="external/uicommon" remote="cm" name="LineageOS/android_external_cyanogen_UICommon" />
+  <project path="external/unrar" remote="cm" name="LineageOS/android_external_unrar" />
+  <project path="external/unzip" remote="cm" name="LineageOS/android_external_unzip" />
+  <project path="external/vim" remote="cm" name="LineageOS/android_external_vim" />
+  <project path="external/vogar" remote="cm" name="LineageOS/android_external_vogar" groups="pdk" />
+  <project path="external/wpa_supplicant_8" remote="cm" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" />
+  <project path="external/yaffs2" remote="cm" name="LineageOS/android_external_yaffs2" groups="pdk" />
+  <project path="external/zip" remote="cm" name="LineageOS/android_external_zip" />
+  <project path="external/zlib" remote="cm" name="LineageOS/android_external_zlib" groups="pdk" />
+  <project path="frameworks/compile/libbcc" remote="cm" name="LineageOS/android_frameworks_compile_libbcc" groups="pdk" />
+  <project path="frameworks/compile/mclinker" remote="cm" name="LineageOS/android_frameworks_compile_mclinker" groups="pdk" />
+  <project path="frameworks/compile/slang" remote="cm" name="LineageOS/android_frameworks_compile_slang" groups="pdk" />
+  <project path="frameworks/ex" remote="cm" name="LineageOS/android_frameworks_ex" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/minikin" remote="cm" name="LineageOS/android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/ml" remote="cm" name="LineageOS/android_frameworks_ml" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/multidex" remote="cm" name="LineageOS/android_frameworks_multidex" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/native" remote="cm" name="LineageOS/android_frameworks_native" groups="pdk" />
+  <project path="frameworks/opt/bitmap" remote="cm" name="LineageOS/android_frameworks_opt_bitmap" groups="pdk-fs" />
+  <project path="frameworks/opt/bluetooth" remote="cm" name="LineageOS/android_frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/calendar" remote="cm" name="LineageOS/android_frameworks_opt_calendar" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/chips" remote="cm" name="LineageOS/android_frameworks_opt_chips" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/colorpicker" remote="cm" name="LineageOS/android_frameworks_opt_colorpicker" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/datetimepicker" remote="cm" name="LineageOS/android_frameworks_opt_datetimepicker" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/emoji" remote="cm" name="LineageOS/android_frameworks_opt_emoji" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/hardware" remote="cm" name="LineageOS/android_frameworks_opt_hardware" />
+  <project path="frameworks/opt/inputmethodcommon" remote="cm" name="LineageOS/android_frameworks_opt_inputmethodcommon" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/net/ethernet" remote="cm" name="LineageOS/android_frameworks_opt_net_ethernet" groups="pdk-fs" />
+  <project path="frameworks/opt/net/ims" remote="cm" name="LineageOS/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/net/voip" remote="cm" name="LineageOS/android_frameworks_opt_net_voip" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/net/wifi" remote="cm" name="LineageOS/android_frameworks_opt_net_wifi" groups="pdk" />
+  <project path="frameworks/opt/photoviewer" remote="cm" name="LineageOS/android_frameworks_opt_photoviewer" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/setupwizard" remote="cm" name="LineageOS/android_frameworks_opt_setupwizard" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/timezonepicker" remote="cm" name="LineageOS/android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/vcard" remote="cm" name="LineageOS/android_frameworks_opt_vcard" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/rs" remote="cm" name="LineageOS/android_frameworks_rs" groups="pdk" />
+  <project path="frameworks/support" remote="cm" name="LineageOS/android_frameworks_support" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/volley" remote="cm" name="LineageOS/android_frameworks_volley" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/webview" remote="cm" name="LineageOS/android_frameworks_webview" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/wilhelm" remote="cm" name="LineageOS/android_frameworks_wilhelm" groups="pdk-cw-fs,pdk-fs" />
+  <project path="hardware/akm" remote="cm" name="LineageOS/android_hardware_akm" />
+  <project path="hardware/broadcom/libbt" remote="cm" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" />
+  <project path="hardware/broadcom/wlan" remote="cm" name="LineageOS/android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" />
+  <project path="hardware/cyanogen" remote="cm" name="LineageOS/android_hardware_cyanogen" />
+  <project path="hardware/intel/common/libmix" remote="cm" name="LineageOS/android_hardware_intel_common_libmix" groups="intel" />
+  <project path="hardware/intel/common/libva" remote="cm" name="LineageOS/android_hardware_intel_common_libva" groups="intel" />
+  <project path="hardware/intel/common/libwsbm" remote="cm" name="LineageOS/android_hardware_intel_common_libwsbm" groups="intel" />
+  <project path="hardware/intel/common/omx-components" remote="cm" name="LineageOS/android_hardware_intel_common_omx-components" groups="intel" />
+  <project path="hardware/intel/img/hwcomposer" remote="cm" name="LineageOS/android_hardware_intel_img_hwcomposer" groups="intel" />
+  <project path="hardware/intel/img/psb_headers" remote="cm" name="LineageOS/android_hardware_intel_img_psb_headers" groups="intel" />
+  <project path="hardware/intel/img/psb_video" remote="cm" name="LineageOS/android_hardware_intel_img_psb_video" groups="intel" />
+  <project path="hardware/invensense" remote="cm" name="LineageOS/android_hardware_invensense" groups="invensense" />
+  <project path="hardware/libhardware" remote="cm" name="LineageOS/android_hardware_libhardware" groups="pdk" />
+  <project path="hardware/libhardware_legacy" remote="cm" name="LineageOS/android_hardware_libhardware_legacy" groups="pdk" />
   <include name="snippets/hal_cm_all.xml" />
-  <project path="hardware/samsung_slsi/exynos5" remote="cm" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
-  <project path="hardware/ti/omap4" remote="cm" name="CyanogenMod/android_hardware_ti_omap4" />
-  <project path="hardware/ti/omap4xxx" remote="cm" name="CyanogenMod/android_hardware_ti_omap4xxx" />
-  <project path="hardware/ti/wlan" remote="cm" name="CyanogenMod/android_hardware_ti_wlan" />
-  <project path="hardware/ti/wpan" remote="cm" name="CyanogenMod/android_hardware_ti_wpan" />
-  <project path="libcore" remote="cm" name="CyanogenMod/android_libcore" groups="pdk" />
-  <project path="libnativehelper" remote="cm" name="CyanogenMod/android_libnativehelper" groups="pdk" />
-  <project path="packages/apps/AudioFX" remote="cm" name="CyanogenMod/android_packages_apps_AudioFX" />
-  <project path="packages/apps/BasicSmsReceiver" remote="cm" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Bluetooth" remote="cm" name="CyanogenMod/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/BluetoothExt" remote="cm" name="CyanogenMod/android_packages_apps_BluetoothExt" />
-  <project path="packages/apps/Browser" remote="cm" name="CyanogenMod/android_packages_apps_Browser" groups="pdk-fs" />
-  <project path="packages/apps/Calendar" remote="cm" name="CyanogenMod/android_packages_apps_Calendar" groups="pdk-fs" />
-  <project path="packages/apps/Camera2" remote="cm" name="CyanogenMod/android_packages_apps_Camera2" groups="pdk-fs" />
-  <project path="packages/apps/CarrierConfig" remote="cm" name="CyanogenMod/android_packages_apps_CarrierConfig" groups="pdk-fs" />
-  <project path="packages/apps/CellBroadcastReceiver" remote="cm" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" groups="pdk-fs" />
-  <project path="packages/apps/CertInstaller" remote="cm" name="CyanogenMod/android_packages_apps_CertInstaller" groups="pdk-fs" />
-  <project path="packages/apps/CMFileManager" remote="cm" name="CyanogenMod/android_packages_apps_CMFileManager" />
-  <project path="packages/apps/CMWallpapers" remote="cm" name="CyanogenMod/android_packages_apps_CMWallpapers" />
-  <project path="packages/apps/Contacts" remote="cm" name="CyanogenMod/android_packages_apps_Contacts" groups="pdk-fs" />
-  <project path="packages/apps/ContactsCommon" remote="cm" name="CyanogenMod/android_packages_apps_ContactsCommon" groups="pdk-fs" />
-  <project path="packages/apps/DeskClock" remote="cm" name="CyanogenMod/android_packages_apps_DeskClock" groups="pdk-fs" />
-  <project path="packages/apps/Dialer" remote="cm" name="CyanogenMod/android_packages_apps_Dialer" groups="pdk-fs" />
-  <project path="packages/apps/Eleven" remote="cm" name="CyanogenMod/android_packages_apps_Eleven" />
-  <project path="packages/apps/Email" remote="cm" name="CyanogenMod/android_packages_apps_Email" groups="pdk-fs" />
-  <project path="packages/apps/ExactCalculator" remote="cm" name="CyanogenMod/android_packages_apps_ExactCalculator" groups="pdk-fs" />
-  <project path="packages/apps/Exchange" remote="cm" name="CyanogenMod/android_packages_apps_Exchange" groups="pdk-fs" />
-  <project path="packages/apps/FMRadio" remote="cm" name="CyanogenMod/android_packages_apps_FMRadio" groups="pdk-fs" />
-  <project path="packages/apps/Gallery2" remote="cm" name="CyanogenMod/android_packages_apps_Gallery2" groups="pdk-fs" />
-  <project path="packages/apps/Gello" remote="cm" name="CyanogenMod/android_packages_apps_Gello" />
-  <project path="packages/apps/HTMLViewer" remote="cm" name="CyanogenMod/android_packages_apps_HTMLViewer" groups="pdk-fs" />
-  <project path="packages/apps/KeyChain" remote="cm" name="CyanogenMod/android_packages_apps_KeyChain" groups="pdk-fs" />
-  <project path="packages/apps/LockClock" remote="cm" name="CyanogenMod/android_packages_apps_LockClock" />
-  <project path="packages/apps/ManagedProvisioning" remote="cm" name="CyanogenMod/android_packages_apps_ManagedProvisioning" groups="pdk-fs" />
-  <project path="packages/apps/Messaging" remote="cm" name="CyanogenMod/android_packages_apps_Messaging" groups="pdk-fs" />
-  <project path="packages/apps/Nfc" remote="cm" name="CyanogenMod/android_packages_apps_Nfc" />
-  <project path="packages/apps/PackageInstaller" remote="cm" name="CyanogenMod/android_packages_apps_PackageInstaller" />
-  <project path="packages/apps/PhoneCommon" remote="cm" name="CyanogenMod/android_packages_apps_PhoneCommon" />
-  <project path="packages/apps/Profiles" remote="cm" name="CyanogenMod/android_packages_apps_Profiles" />
-  <project path="packages/apps/Provision" remote="cm" name="CyanogenMod/android_packages_apps_Provision" groups="pdk-fs" />
-  <project path="packages/apps/Screencast" remote="cm" name="CyanogenMod/android_packages_apps_Screencast" />
-  <project path="packages/apps/SmartCardService" remote="cm" name="CyanogenMod/android_packages_apps_SmartCardService" groups="pdk-fs" />
-  <project path="packages/apps/Snap" remote="cm" name="CyanogenMod/android_packages_apps_Snap" />
-  <project path="packages/apps/SoundRecorder" remote="cm" name="CyanogenMod/android_packages_apps_SoundRecorder" groups="pdk-fs" />
-  <project path="packages/apps/Stk" remote="cm" name="CyanogenMod/android_packages_apps_Stk" groups="apps_stk,pdk-fs" />
-  <project path="packages/apps/Tag" remote="cm" name="CyanogenMod/android_packages_apps_Tag" groups="pdk-fs" />
-  <project path="packages/apps/Terminal" remote="cm" name="CyanogenMod/android_packages_apps_Terminal" groups="pdk-fs" />
-  <project path="packages/apps/ThemeChooser" remote="cm" name="CyanogenMod/android_packages_apps_ThemeChooser" />
-  <project path="packages/apps/Trebuchet" remote="cm" name="CyanogenMod/android_packages_apps_Trebuchet" />
-  <project path="packages/apps/TvSettings" remote="cm" name="CyanogenMod/android_packages_apps_TvSettings" groups="generic_fs" />
-  <project path="packages/apps/UnifiedEmail" remote="cm" name="CyanogenMod/android_packages_apps_UnifiedEmail" groups="pdk-fs" />
-  <project path="packages/experimental" remote="cm" name="CyanogenMod/android_packages_experimental" />
-  <project path="packages/inputmethods/LatinIME" remote="cm" name="CyanogenMod/android_packages_inputmethods_LatinIME" groups="pdk-fs" />
-  <project path="packages/providers/BookmarkProvider" remote="cm" name="CyanogenMod/android_packages_providers_BookmarkProvider" groups="pdk-fs" />
-  <project path="packages/providers/CalendarProvider" remote="cm" name="CyanogenMod/android_packages_providers_CalendarProvider" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/providers/CallLogProvider" remote="cm" name="CyanogenMod/android_packages_providers_CallLogProvider" groups="pdk-fs" />
-  <project path="packages/providers/ContactsProvider" remote="cm" name="CyanogenMod/android_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/providers/DataUsageProvider" remote="cm" name="CyanogenMod/android_packages_providers_DataUsageProvider" />
-  <project path="packages/providers/DownloadProvider" remote="cm" name="CyanogenMod/android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/providers/MediaProvider" remote="cm" name="CyanogenMod/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/providers/PartnerBookmarksProvider" remote="cm" name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" groups="pdk-fs" />
-  <project path="packages/providers/TelephonyProvider" remote="cm" name="CyanogenMod/android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/providers/ThemesProvider" remote="cm" name="CyanogenMod/android_packages_providers_ThemesProvider" />
-  <project path="packages/providers/TvProvider" remote="cm" name="CyanogenMod/android_packages_providers_TvProvider" groups="pdk-fs" />
-  <project path="packages/providers/UserDictionaryProvider" remote="cm" name="CyanogenMod/android_packages_providers_UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/providers/WeatherProvider" remote="cm" name="CyanogenMod/android_packages_providers_WeatherProvider" />
-  <project path="packages/screensavers/Basic" remote="cm" name="CyanogenMod/android_packages_screensavers_Basic" groups="pdk-fs" />
-  <project path="packages/screensavers/PhotoTable" remote="cm" name="CyanogenMod/android_packages_screensavers_PhotoTable" groups="pdk-fs" />
-  <project path="packages/screensavers/WebView" remote="cm" name="CyanogenMod/android_packages_screensavers_WebView" groups="pdk-fs" />
-  <project path="packages/services/CMAudioService" remote="cm" name="CyanogenMod/android_packages_services_CMAudioService" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/LiveLockScreenService" remote="cm" name="CyanogenMod/android_packages_services_LiveLockScreenService" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Mms" remote="cm" name="CyanogenMod/android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/ThemeManagerService" remote="cm" name="CyanogenMod/android_packages_services_ThemeManagerService" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/WeatherService" remote="cm" name="CyanogenMod/android_packages_services_WeatherService" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/themes/HexoLibre" remote="cm" name="CyanogenMod/android_packages_themes_HexoLibre" groups="themes" />
-  <project path="packages/wallpapers/Basic" remote="cm" name="CyanogenMod/android_packages_wallpapers_Basic" groups="pdk-fs" />
-  <project path="packages/wallpapers/Galaxy4" remote="cm" name="CyanogenMod/android_packages_wallpapers_Galaxy4" groups="pdk-fs" />
-  <project path="packages/wallpapers/HoloSpiral" remote="cm" name="CyanogenMod/android_packages_wallpapers_HoloSpiral" groups="pdk-fs" />
-  <project path="packages/wallpapers/LivePicker" remote="cm" name="CyanogenMod/android_packages_wallpapers_LivePicker" groups="pdk-fs" />
-  <project path="packages/wallpapers/MagicSmoke" remote="cm" name="CyanogenMod/android_packages_wallpapers_MagicSmoke" groups="pdk-fs" />
-  <project path="packages/wallpapers/NoiseField" remote="cm" name="CyanogenMod/android_packages_wallpapers_NoiseField" groups="pdk-fs" />
-  <project path="packages/wallpapers/PhaseBeam" remote="cm" name="CyanogenMod/android_packages_wallpapers_PhaseBeam" groups="pdk-fs" />
-  <project path="packages/wallpapers/PhotoPhase" remote="cm" name="CyanogenMod/android_packages_wallpapers_PhotoPhase" />
-  <project path="prebuilts/cmsdk" remote="cm" name="CyanogenMod/android_prebuilts_cmsdk" revision="master" clone-depth="1" />
-  <project path="system/bt" remote="cm" name="CyanogenMod/android_system_bt" groups="pdk" />
-  <project path="system/extras" remote="cm" name="CyanogenMod/android_system_extras" groups="pdk" />
-  <project path="system/extras/su" remote="cm" name="CyanogenMod/android_system_extras_su" />
-  <project path="system/keymaster" remote="cm" name="CyanogenMod/android_system_keymaster" groups="pdk" />
-  <project path="system/media" remote="cm" name="CyanogenMod/android_system_media" groups="pdk" />
-  <project path="system/netd" remote="cm" name="CyanogenMod/android_system_netd" groups="pdk" />
-  <project path="system/qcom" remote="cm" name="CyanogenMod/android_system_qcom" groups="qcom" />
-  <project path="system/security" remote="cm" name="CyanogenMod/android_system_security" groups="pdk" />
-  <project path="system/vold" remote="cm" name="CyanogenMod/android_system_vold" groups="pdk" />
+  <project path="hardware/samsung_slsi/exynos5" remote="cm" name="LineageOS/android_hardware_samsung_slsi_exynos5" />
+  <project path="hardware/ti/omap4" remote="cm" name="LineageOS/android_hardware_ti_omap4" />
+  <project path="hardware/ti/omap4xxx" remote="cm" name="LineageOS/android_hardware_ti_omap4xxx" />
+  <project path="hardware/ti/wlan" remote="cm" name="LineageOS/android_hardware_ti_wlan" />
+  <project path="hardware/ti/wpan" remote="cm" name="LineageOS/android_hardware_ti_wpan" />
+  <project path="libcore" remote="cm" name="LineageOS/android_libcore" groups="pdk" />
+  <project path="libnativehelper" remote="cm" name="LineageOS/android_libnativehelper" groups="pdk" />
+  <project path="packages/apps/AudioFX" remote="cm" name="LineageOS/android_packages_apps_AudioFX" />
+  <project path="packages/apps/BasicSmsReceiver" remote="cm" name="LineageOS/android_packages_apps_BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/Bluetooth" remote="cm" name="LineageOS/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/BluetoothExt" remote="cm" name="LineageOS/android_packages_apps_BluetoothExt" />
+  <project path="packages/apps/Browser" remote="cm" name="LineageOS/android_packages_apps_Browser" groups="pdk-fs" />
+  <project path="packages/apps/Calendar" remote="cm" name="LineageOS/android_packages_apps_Calendar" groups="pdk-fs" />
+  <project path="packages/apps/Camera2" remote="cm" name="LineageOS/android_packages_apps_Camera2" groups="pdk-fs" />
+  <project path="packages/apps/CarrierConfig" remote="cm" name="LineageOS/android_packages_apps_CarrierConfig" groups="pdk-fs" />
+  <project path="packages/apps/CellBroadcastReceiver" remote="cm" name="LineageOS/android_packages_apps_CellBroadcastReceiver" groups="pdk-fs" />
+  <project path="packages/apps/CertInstaller" remote="cm" name="LineageOS/android_packages_apps_CertInstaller" groups="pdk-fs" />
+  <project path="packages/apps/CMFileManager" remote="cm" name="LineageOS/android_packages_apps_CMFileManager" />
+  <project path="packages/apps/CMWallpapers" remote="cm" name="LineageOS/android_packages_apps_CMWallpapers" />
+  <project path="packages/apps/Contacts" remote="cm" name="LineageOS/android_packages_apps_Contacts" groups="pdk-fs" />
+  <project path="packages/apps/ContactsCommon" remote="cm" name="LineageOS/android_packages_apps_ContactsCommon" groups="pdk-fs" />
+  <project path="packages/apps/DeskClock" remote="cm" name="LineageOS/android_packages_apps_DeskClock" groups="pdk-fs" />
+  <project path="packages/apps/Dialer" remote="cm" name="LineageOS/android_packages_apps_Dialer" groups="pdk-fs" />
+  <project path="packages/apps/Eleven" remote="cm" name="LineageOS/android_packages_apps_Eleven" />
+  <project path="packages/apps/Email" remote="cm" name="LineageOS/android_packages_apps_Email" groups="pdk-fs" />
+  <project path="packages/apps/ExactCalculator" remote="cm" name="LineageOS/android_packages_apps_ExactCalculator" groups="pdk-fs" />
+  <project path="packages/apps/Exchange" remote="cm" name="LineageOS/android_packages_apps_Exchange" groups="pdk-fs" />
+  <project path="packages/apps/FMRadio" remote="cm" name="LineageOS/android_packages_apps_FMRadio" groups="pdk-fs" />
+  <project path="packages/apps/Gallery2" remote="cm" name="LineageOS/android_packages_apps_Gallery2" groups="pdk-fs" />
+  <project path="packages/apps/Gello" remote="cm" name="LineageOS/android_packages_apps_Gello" />
+  <project path="packages/apps/HTMLViewer" remote="cm" name="LineageOS/android_packages_apps_HTMLViewer" groups="pdk-fs" />
+  <project path="packages/apps/KeyChain" remote="cm" name="LineageOS/android_packages_apps_KeyChain" groups="pdk-fs" />
+  <project path="packages/apps/LockClock" remote="cm" name="LineageOS/android_packages_apps_LockClock" />
+  <project path="packages/apps/ManagedProvisioning" remote="cm" name="LineageOS/android_packages_apps_ManagedProvisioning" groups="pdk-fs" />
+  <project path="packages/apps/Messaging" remote="cm" name="LineageOS/android_packages_apps_Messaging" groups="pdk-fs" />
+  <project path="packages/apps/Nfc" remote="cm" name="LineageOS/android_packages_apps_Nfc" />
+  <project path="packages/apps/PackageInstaller" remote="cm" name="LineageOS/android_packages_apps_PackageInstaller" />
+  <project path="packages/apps/PhoneCommon" remote="cm" name="LineageOS/android_packages_apps_PhoneCommon" />
+  <project path="packages/apps/Profiles" remote="cm" name="LineageOS/android_packages_apps_Profiles" />
+  <project path="packages/apps/Provision" remote="cm" name="LineageOS/android_packages_apps_Provision" groups="pdk-fs" />
+  <project path="packages/apps/Screencast" remote="cm" name="LineageOS/android_packages_apps_Screencast" />
+  <project path="packages/apps/SmartCardService" remote="cm" name="LineageOS/android_packages_apps_SmartCardService" groups="pdk-fs" />
+  <project path="packages/apps/Snap" remote="cm" name="LineageOS/android_packages_apps_Snap" />
+  <project path="packages/apps/SoundRecorder" remote="cm" name="LineageOS/android_packages_apps_SoundRecorder" groups="pdk-fs" />
+  <project path="packages/apps/Stk" remote="cm" name="LineageOS/android_packages_apps_Stk" groups="apps_stk,pdk-fs" />
+  <project path="packages/apps/Tag" remote="cm" name="LineageOS/android_packages_apps_Tag" groups="pdk-fs" />
+  <project path="packages/apps/Terminal" remote="cm" name="LineageOS/android_packages_apps_Terminal" groups="pdk-fs" />
+  <project path="packages/apps/ThemeChooser" remote="cm" name="LineageOS/android_packages_apps_ThemeChooser" />
+  <project path="packages/apps/Trebuchet" remote="cm" name="LineageOS/android_packages_apps_Trebuchet" />
+  <project path="packages/apps/TvSettings" remote="cm" name="LineageOS/android_packages_apps_TvSettings" groups="generic_fs" />
+  <project path="packages/apps/UnifiedEmail" remote="cm" name="LineageOS/android_packages_apps_UnifiedEmail" groups="pdk-fs" />
+  <project path="packages/experimental" remote="cm" name="LineageOS/android_packages_experimental" />
+  <project path="packages/inputmethods/LatinIME" remote="cm" name="LineageOS/android_packages_inputmethods_LatinIME" groups="pdk-fs" />
+  <project path="packages/providers/BookmarkProvider" remote="cm" name="LineageOS/android_packages_providers_BookmarkProvider" groups="pdk-fs" />
+  <project path="packages/providers/CalendarProvider" remote="cm" name="LineageOS/android_packages_providers_CalendarProvider" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/CallLogProvider" remote="cm" name="LineageOS/android_packages_providers_CallLogProvider" groups="pdk-fs" />
+  <project path="packages/providers/ContactsProvider" remote="cm" name="LineageOS/android_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/DataUsageProvider" remote="cm" name="LineageOS/android_packages_providers_DataUsageProvider" />
+  <project path="packages/providers/DownloadProvider" remote="cm" name="LineageOS/android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/MediaProvider" remote="cm" name="LineageOS/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/PartnerBookmarksProvider" remote="cm" name="LineageOS/android_packages_providers_PartnerBookmarksProvider" groups="pdk-fs" />
+  <project path="packages/providers/TelephonyProvider" remote="cm" name="LineageOS/android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/ThemesProvider" remote="cm" name="LineageOS/android_packages_providers_ThemesProvider" />
+  <project path="packages/providers/TvProvider" remote="cm" name="LineageOS/android_packages_providers_TvProvider" groups="pdk-fs" />
+  <project path="packages/providers/UserDictionaryProvider" remote="cm" name="LineageOS/android_packages_providers_UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/WeatherProvider" remote="cm" name="LineageOS/android_packages_providers_WeatherProvider" />
+  <project path="packages/screensavers/Basic" remote="cm" name="LineageOS/android_packages_screensavers_Basic" groups="pdk-fs" />
+  <project path="packages/screensavers/PhotoTable" remote="cm" name="LineageOS/android_packages_screensavers_PhotoTable" groups="pdk-fs" />
+  <project path="packages/screensavers/WebView" remote="cm" name="LineageOS/android_packages_screensavers_WebView" groups="pdk-fs" />
+  <project path="packages/services/CMAudioService" remote="cm" name="LineageOS/android_packages_services_CMAudioService" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/LiveLockScreenService" remote="cm" name="LineageOS/android_packages_services_LiveLockScreenService" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/Mms" remote="cm" name="LineageOS/android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/ThemeManagerService" remote="cm" name="LineageOS/android_packages_services_ThemeManagerService" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/WeatherService" remote="cm" name="LineageOS/android_packages_services_WeatherService" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/themes/HexoLibre" remote="cm" name="LineageOS/android_packages_themes_HexoLibre" groups="themes" />
+  <project path="packages/wallpapers/Basic" remote="cm" name="LineageOS/android_packages_wallpapers_Basic" groups="pdk-fs" />
+  <project path="packages/wallpapers/Galaxy4" remote="cm" name="LineageOS/android_packages_wallpapers_Galaxy4" groups="pdk-fs" />
+  <project path="packages/wallpapers/HoloSpiral" remote="cm" name="LineageOS/android_packages_wallpapers_HoloSpiral" groups="pdk-fs" />
+  <project path="packages/wallpapers/LivePicker" remote="cm" name="LineageOS/android_packages_wallpapers_LivePicker" groups="pdk-fs" />
+  <project path="packages/wallpapers/MagicSmoke" remote="cm" name="LineageOS/android_packages_wallpapers_MagicSmoke" groups="pdk-fs" />
+  <project path="packages/wallpapers/NoiseField" remote="cm" name="LineageOS/android_packages_wallpapers_NoiseField" groups="pdk-fs" />
+  <project path="packages/wallpapers/PhaseBeam" remote="cm" name="LineageOS/android_packages_wallpapers_PhaseBeam" groups="pdk-fs" />
+  <project path="packages/wallpapers/PhotoPhase" remote="cm" name="LineageOS/android_packages_wallpapers_PhotoPhase" />
+  <project path="prebuilts/cmsdk" remote="cm" name="LineageOS/android_prebuilts_cmsdk" revision="master" clone-depth="1" />
+  <project path="system/bt" remote="cm" name="LineageOS/android_system_bt" groups="pdk" />
+  <project path="system/extras" remote="cm" name="LineageOS/android_system_extras" groups="pdk" />
+  <project path="system/extras/su" remote="cm" name="LineageOS/android_system_extras_su" />
+  <project path="system/keymaster" remote="cm" name="LineageOS/android_system_keymaster" groups="pdk" />
+  <project path="system/media" remote="cm" name="LineageOS/android_system_media" groups="pdk" />
+  <project path="system/netd" remote="cm" name="LineageOS/android_system_netd" groups="pdk" />
+  <project path="system/qcom" remote="cm" name="LineageOS/android_system_qcom" groups="qcom" />
+  <project path="system/security" remote="cm" name="LineageOS/android_system_security" groups="pdk" />
+  <project path="system/vold" remote="cm" name="LineageOS/android_system_vold" groups="pdk" />
 
   <!-- CMSDK SAMPLES -->
-  <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" remote="cm" name="CyanogenMod/android_packages_apps_OpenWeatherMapProvider" />
-  <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" remote="cm" name="CyanogenMod/android_packages_apps_WundergroundWeatherProvider" />
-  <project path="vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider" remote="cm" name="CyanogenMod/android_packages_apps_YahooWeatherProvider" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" remote="cm" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" remote="cm" name="LineageOS/android_packages_apps_WundergroundWeatherProvider" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider" remote="cm" name="LineageOS/android_packages_apps_YahooWeatherProvider" />
   <!-- END CMSDK SAMPLES -->
 
-  <!-- END CYANOGENMOD -->
+  <!-- END LineageOS -->
 
   <!-- AOSP -->
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
