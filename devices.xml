@@ -51,6 +51,8 @@
   <project path="device/motorola/athene" name="AOKP/device_motorola_athene" remote="github" revision="nougat"/>
   <project path="kernel/motorola/msm8952" name="LineageOS/android_kernel_motorola_msm8952" remote="github" revision="cm-14.1"/>
 
+  <!-- Moto G4 Play -->
+  <project path="device/motorola/harpia" name="AOKP/device_motorola_harpia" remote="github" revision="nougat"/>
   <!-- Moto X Play -->
   <project path="device/motorola/lux" name="AOKP/device_motorola_lux" remote="github" revision="nougat"/>
   <!-- Common device repos -->
