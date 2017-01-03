@@ -94,6 +94,15 @@
   <project path="device/samsung/klteusc" name="AOKP/device_samsung_klteusc" remote="aokp"  />
   <project path="kernel/samsung/klte" name="LineageOS/android_kernel_samsung_klte" remote="cm" revision="cm-14.1" />
   <project path="device/samsung/msm8974-common" name="LineageOS/android_device_samsung_msm8974-common" remote="cm" revision="cm-14.1" />
+
+  <!-- Samsung Galaxy S4 Mini Family -->
+  <project name="LineageOS/android_device_samsung_msm8930-common" path="device/samsung/msm8930-common" remote="github" revision="cm-14.1" />
+  <project name="AOKP/device_samsung_serrano-common" path="device/samsung/serrano-common" remote="github" revision="nougat" />
+  <project name="LineageOS/android_kernel_samsung_msm8930-common" path="kernel/samsung/msm8930-common" remote="github" revision="cm-14.1" />
+  <project name="AOKP/device_samsung_serrano3gxx" path="device/samsung/serrano3gxx" remote="github" revision="nougat" />
+  <project name="AOKP/device_samsung_serranoltexx" path="device/samsung/serranoltexx" remote="github" revision="nougat" />
+  <project name="AOKP/device_samsung_serranodsdd" path="device/samsung/serranodsdd"  remote="github" revision="nougat" />
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-14.1" />
   
    <!-- Samsung Common Devices Sources -->
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="cm" revision="cm-14.1" />
