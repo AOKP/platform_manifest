@@ -47,6 +47,10 @@
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github"revision="cm-14.1" />
 
   <!-- Motorola -->
+  <!-- Moto E -->
+  <project path="device/motorola/condor" name="AOKP/device_motorola_condor" remote="github" revision="nougat"/>
+  <project name="LineageOS/android_kernel_motorola_msm8610" path="kernel/motorola/msm8610" remote="cm" revision="cm-14.1" />
+
   <!-- Moto G4/G4 Plus -->
   <project path="device/motorola/athene" name="AOKP/device_motorola_athene" remote="github" revision="nougat"/>
   <project path="kernel/motorola/msm8952" name="LineageOS/android_kernel_motorola_msm8952" remote="github" revision="cm-14.1"/>
@@ -57,7 +61,10 @@
   <project path="device/motorola/lux" name="AOKP/device_motorola_lux" remote="github" revision="nougat"/>
   <!-- Common device repos -->
   <project name="AOKP/device_motorola_msm8916-common" path="device/motorola/msm8916-common" remote="aokp" revision="nougat" />
+  <project name="LineageOS/android_device_motorola_msm8610-common" path="device/motorola/msm8916-common" remote="cm" revision="cm-14.1" />
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github"revision="cm-14.1" />
   <project name="LineageOS/android_kernel_motorola_msm8916" path="kernel/motorola/msm8916" remote="cm" revision="cm-14.1" />
+  <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="cm" revision="cm-14.1" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="cm" revision="cm-14.1" />
 
   <!-- Nextbit -->
