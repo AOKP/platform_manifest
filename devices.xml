@@ -47,18 +47,21 @@
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github"revision="cm-14.1" />
 
   <!-- Motorola -->
+  <!-- Droid Turbo/Moto Maxx -->
+  <project name="AOKP/device_motorola_quark" path="device/motorola/quark" remote="aokp" revision="nougat" />
   <!-- Moto G4/G4 Plus -->
   <project path="device/motorola/athene" name="AOKP/device_motorola_athene" remote="github" revision="nougat"/>
   <project path="kernel/motorola/msm8952" name="LineageOS/android_kernel_motorola_msm8952" remote="github" revision="cm-14.1"/>
-
   <!-- Moto G4 Play -->
   <project path="device/motorola/harpia" name="AOKP/device_motorola_harpia" remote="github" revision="nougat"/>
   <!-- Moto X Play -->
   <project path="device/motorola/lux" name="AOKP/device_motorola_lux" remote="github" revision="nougat"/>
-  <!-- Common device repos -->
+
+  <!-- Motorola Common repos -->
   <project name="AOKP/device_motorola_msm8916-common" path="device/motorola/msm8916-common" remote="aokp" revision="nougat" />
   <project name="LineageOS/android_kernel_motorola_msm8916" path="kernel/motorola/msm8916" remote="cm" revision="cm-14.1" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="cm" revision="cm-14.1" />
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="cm" revision="cm-14.1" />
 
   <!-- Nextbit -->
   <!-- Robin (ether) -->
