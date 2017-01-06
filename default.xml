@@ -32,7 +32,7 @@
   <project path="build" name="AOKP/build" groups="pdk" remote="aokp" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <!-- <project path="bootable/recovery" name="AOKP/bootable_recovery" groups="pdk" remote="aokp" /> -->
+  <project path="bootable/recovery" name="AOKP/bootable_recovery" groups="pdk" remote="aokp" />
   <project path="device/qcom/sepolicy" name="AOKP/device_qcom_sepolicy" />
   <project path="external/DUtils" name="AOKP/external_DUtils" />
   <project path="external/mksh" name="AOKP/external_mksh" groups="pdk" />
