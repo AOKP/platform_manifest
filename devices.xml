@@ -120,6 +120,10 @@
   <!-- Xiaomi Mi3/4 W/C -->
   <project name="AOKP/device_xiaomi_cancro" path="device/xiaomi/cancro" remote="aokp" branch="nougat" />
   <project name="LineageOS/android_kernel_xiaomi_cancro" path="kernel/xiaomi/cancro" remote="cm" revision="cm-14.1" />
+  <!-- Xiaomi Redmi 1S -->
+  <project name="AOKP/device_xiaomi_armani" path="device/xiaomi/armani" remote="aokp" branch="nougat" />
+  <project name="LineageOS/android_kernel_xiaomi_armani" path="kernel/xiaomi/armani" remote="cm" revision="cm-14.1" />
+
 
   <!-- *********************** VENDOR BLOBS *********************** -->
 
@@ -152,5 +156,6 @@
   
   <!-- Xiaomi -->
   <project name="TheMuppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="cm-14.1" />
+  <project name="TheMuppets/proprietary_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="github" revision="cm-14.1" />
 
 </manifest>
