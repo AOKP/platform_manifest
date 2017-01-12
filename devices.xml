@@ -98,7 +98,7 @@
 
   <!-- Samsung -->
   <!-- Samsung Galaxy S5 Family -->
-  <project path="device/samsung/klte-common" name="Cyanogenmod/android_device_samsung_klte-common" remote="cm"  revision="cm-14.1"/>
+  <project path="device/samsung/klte-common" name="LineageOS/android_device_samsung_klte-common" remote="cm"  revision="cm-14.1"/>
   <project path="device/samsung/klte" name="AOKP/device_samsung_klte" remote="aokp" />
   <project path="device/samsung/kltedv" name="AOKP/device_samsung_kltedv" remote="aokp"  />
   <project path="device/samsung/kltespr" name="AOKP/device_samsung_kltespr" remote="aokp"  />
@@ -113,7 +113,6 @@
   <project name="AOKP/device_samsung_serrano3gxx" path="device/samsung/serrano3gxx" remote="github" revision="nougat" />
   <project name="AOKP/device_samsung_serranoltexx" path="device/samsung/serranoltexx" remote="github" revision="nougat" />
   <project name="AOKP/device_samsung_serranodsdd" path="device/samsung/serranodsdd"  remote="github" revision="nougat" />
-  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-14.1" />
   
    <!-- Samsung Common Devices Sources -->
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="cm" revision="cm-14.1" />
