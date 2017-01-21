@@ -61,10 +61,13 @@
   <project path="device/motorola/lux" name="AOKP/device_motorola_lux" remote="github" revision="nougat"/>
 
   <!-- Moto G2 LTE thea -->
-  <project path="device/motorola/osprey" name="AOKP/device_motorola_thea" remote="github" revision="nougat"/>
+  <project path="device/motorola/thea" name="AOKP/device_motorola_thea" remote="github" revision="nougat"/>
 
   <!-- Moto G3 osprey -->
   <project path="device/motorola/osprey" name="AOKP/device_motorola_osprey" remote="github" revision="nougat"/>
+
+  <!-- Moto G Turbo Edition Merlin -->
+  <project path="device/motorola/merlin" name="AOKP/device_motorola_merlin" remote="github" revision="nougat"/>
 
   <!-- Common device repos -->
   <project name="AOKP/device_motorola_msm8916-common" path="device/motorola/msm8916-common" remote="aokp" revision="nougat" />
