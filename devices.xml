@@ -51,19 +51,26 @@
   <project path="device/motorola/condor" name="AOKP/device_motorola_condor" remote="github" revision="nougat"/>
   <project name="LineageOS/android_kernel_motorola_msm8610" path="kernel/motorola/msm8610" remote="cm" revision="cm-14.1" />
 
-  <!-- Moto G4/G4 Plus -->
-  <project path="device/motorola/athene" name="AOKP/device_motorola_athene" remote="github" revision="nougat"/>
-  <project path="kernel/motorola/msm8952" name="LineageOS/android_kernel_motorola_msm8952" remote="github" revision="cm-14.1"/>
+  <!-- Moto G Turbo Edition Merlin -->
+  <project path="device/motorola/merlin" name="AOKP/device_motorola_merlin" remote="github" revision="nougat"/>
 
-  <!-- Moto G4 Play -->
-  <project path="device/motorola/harpia" name="AOKP/device_motorola_harpia" remote="github" revision="nougat"/>
-  <!-- Moto X Play -->
-  <project path="device/motorola/lux" name="AOKP/device_motorola_lux" remote="github" revision="nougat"/>
+  <!-- Moto G2 LTE thea -->
+  <project path="device/motorola/thea" name="AOKP/device_motorola_thea" remote="github" revision="nougat"/>
 
   <!-- Moto G3 osprey -->
   <project path="device/motorola/osprey" name="AOKP/device_motorola_osprey" remote="github" revision="nougat"/>
 
-  <!-- Common device repos -->
+  <!-- Moto G4 Play -->
+  <project path="device/motorola/harpia" name="AOKP/device_motorola_harpia" remote="github" revision="nougat"/>
+
+  <!-- Moto G4/G4 Plus -->
+  <project path="device/motorola/athene" name="AOKP/device_motorola_athene" remote="github" revision="nougat"/>
+  <project path="kernel/motorola/msm8952" name="LineageOS/android_kernel_motorola_msm8952" remote="github" revision="cm-14.1"/>
+
+  <!-- Moto X Play -->
+  <project path="device/motorola/lux" name="AOKP/device_motorola_lux" remote="github" revision="nougat"/>
+
+  <!-- Common Moto device repos -->
   <project name="AOKP/device_motorola_msm8916-common" path="device/motorola/msm8916-common" remote="aokp" revision="nougat" />
   <project name="LineageOS/android_device_motorola_msm8610-common" path="device/motorola/msm8916-common" remote="cm" revision="cm-14.1" />
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github"revision="cm-14.1" />
@@ -113,12 +120,12 @@
   <project name="AOKP/device_samsung_serrano3gxx" path="device/samsung/serrano3gxx" remote="github" revision="nougat" />
   <project name="AOKP/device_samsung_serranoltexx" path="device/samsung/serranoltexx" remote="github" revision="nougat" />
   <project name="AOKP/device_samsung_serranodsdd" path="device/samsung/serranodsdd"  remote="github" revision="nougat" />
-  
+
    <!-- Samsung Common Devices Sources -->
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="cm" revision="cm-14.1" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings"  remote="cm" revision="cm-14.1" />
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="cm" revision="cm-14.1" />
-  
+
   <!-- Xiaomi -->
   <!-- Xiaomi Mi3/4 W/C -->
   <project name="AOKP/device_xiaomi_cancro" path="device/xiaomi/cancro" remote="aokp" branch="nougat" />
@@ -154,10 +161,10 @@
   <!-- Oneplus -->
   <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-14.1" />
   <project name="TheMuppets/proprietary_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="github" revision="cm-14.1" />
-  
+
   <!-- Samsung -->
   <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-14.1" />
-  
+
   <!-- Xiaomi -->
   <project name="TheMuppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="cm-14.1" />
   <project name="TheMuppets/proprietary_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="github" revision="cm-14.1" />
