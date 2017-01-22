@@ -101,7 +101,7 @@
   <project name="TheMuppets/proprietary_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="github" revision="cm-14.1" />
 
   <!-- Common device repos -->
-  <project name="Cyanogenmod/android_device_oppo_common" path="device/oppo/common" remote="cm" branch="cm-14.1" />
+  <project name="AOKP/device_oppo_common" path="device/oppo/common" remote="aokp" branch="nougat" />
 
   <!-- Samsung -->
   <!-- Samsung Galaxy S5 Family -->
