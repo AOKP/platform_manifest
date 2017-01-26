@@ -51,6 +51,12 @@
   <project path="device/motorola/condor" name="AOKP/device_motorola_condor" remote="github" revision="nougat"/>
   <project name="LineageOS/android_kernel_motorola_msm8610" path="kernel/motorola/msm8610" remote="cm" revision="cm-14.1" />
 
+  <!-- Moto E 2015 otus -->
+  <project path="device/motorola/otus" name="AOKP/device_motorola_otus" remote="github" revision="nougat"/>
+
+  <!-- Moto G 4G peregrine -->
+  <project path="device/motorola/peregrine" name="AOKP/device_motorola_peregrine" remote="github" revision="nougat"/>
+
   <!-- Moto G Turbo Edition Merlin -->
   <project path="device/motorola/merlin" name="AOKP/device_motorola_merlin" remote="github" revision="nougat"/>
 
