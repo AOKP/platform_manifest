@@ -47,7 +47,7 @@
   <project path="packages/apps/Gello" remote="cm" name="LineageOS/android_packages_apps_Gello" />
   <project path="packages/apps/LockClock" remote="cm" name="LineageOS/android_packages_apps_LockClock" />
   <project path="packages/apps/Profiles" remote="cm" name="LineageOS/android_packages_apps_Profiles" />
-  <project path="packages/apps/Screencast" remote="cm" name="LineageOS/android_packages_apps_Screencast" />
+  <project path="packages/apps/Recorder" remote="cm" name="LineageOS/android_packages_apps_Recorder" />
   <project path="packages/apps/Snap" remote="cm" name="LineageOS/android_packages_apps_Snap" />
   <project path="packages/apps/ThemeChooser" remote="cm" name="LineageOS/android_packages_apps_ThemeChooser" />
   <project path="packages/apps/Trebuchet" remote="cm" name="LineageOS/android_packages_apps_Trebuchet" />

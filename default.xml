@@ -427,7 +427,6 @@
   <project path="packages/apps/PhoneCommon" remote="cm" name="LineageOS/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/SafetyRegulatoryInfo" remote="cm" name="LineageOS/android_packages_apps_SafetyRegulatoryInfo" />
-  <project path="packages/apps/SoundRecorder" remote="cm" name="LineageOS/android_packages_apps_SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/StorageManager" remote="cm" name="LineageOS/android_packages_apps_StorageManager" />
   <project path="packages/apps/Stk" remote="cm" name="LineageOS/android_packages_apps_Stk" groups="apps_stk,pdk-fs" />
   <project path="packages/apps/Tag" remote="cm" name="LineageOS/android_packages_apps_Tag" groups="pdk-fs" />
