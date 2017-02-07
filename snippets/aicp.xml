@@ -14,6 +14,7 @@
   <project path="packages/apps/Contacts" name="AICP/packages_apps_Contacts" groups="pdk-fs" remote="aicp" />
   <project path="packages/apps/ContactsCommon" name="AICP/packages_apps_ContactsCommon" groups="pdk-fs" remote="aicp" />
   <project path="packages/apps/DUI" name="AICP/packages_apps_DUI" remote="aicp" />
+  <project path="packages/apps/OmniStyle" name="AICP/packages_apps_OmniStyle" remote="aicp" />
   <project path="packages/apps/OmniSwitch" name="AICP/packages_apps_OmniSwitch" remote="aicp" />
   <project path="packages/apps/PackageInstaller" name="AICP/packages_apps_PackageInstaller" groups="pdk-fs" remote="aicp" />
   <project path="packages/apps/PhoneCommon" name="AICP/packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
@@ -139,6 +140,4 @@
   <project path="vendor/qcom/opensource/dpm" name="LineageOS/android_vendor_qcom_opensource_dpm" />
   <project path="vendor/qcom/opensource/time-services" name="LineageOS/android_vendor_qcom_opensource_time-services" />
 
-  <!-- OmniRom additions -->
-  <project name="omnirom/android_packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="omni" revision="android-7.1" />
 </manifest>
