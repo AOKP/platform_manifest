@@ -37,7 +37,6 @@
   <project path="packages/apps/AudioFX" remote="cm" name="LineageOS/android_packages_apps_AudioFX" />
   <project path="packages/apps/Browser" remote="cm" name="LineageOS/android_packages_apps_Browser" />
   <project path="packages/apps/CMFileManager" remote="cm" name="LineageOS/android_packages_apps_CMFileManager" />
-  <project path="packages/apps/CMWallpapers" remote="cm" name="LineageOS/android_packages_apps_CMWallpapers" />
   <project path="packages/apps/Eleven" remote="cm" name="LineageOS/android_packages_apps_Eleven" />
   <project path="packages/apps/Exchange" remote="cm" name="LineageOS/android_packages_apps_Exchange" />
   <project path="packages/apps/FMRadio" remote="cm" name="LineageOS/android_packages_apps_FMRadio" />
