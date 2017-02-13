@@ -38,6 +38,7 @@
   <project path="hardware/ril" remote="cm" name="LineageOS/android_hardware_ril" groups="pdk" />
   <project path="hardware/ril-caf" remote="cm" name="LineageOS/android_hardware_ril" groups="pdk" revision="cm-13.0-caf" />
 
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" remote="cm" />
   <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" remote="cm" />
   <project path="vendor/qcom/opensource/display-frameworks" remote="cm" name="LineageOS/android_vendor_qcom_opensource_display-frameworks" />
   <project path="vendor/qcom/opensource/dpm" remote="cm" name="LineageOS/android_vendor_qcom_opensource_dpm" />
