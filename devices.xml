@@ -132,7 +132,13 @@
   <project name="AOKP/device_samsung_serrano3gxx" path="device/samsung/serrano3gxx" remote="github" revision="nougat" />
   <project name="AOKP/device_samsung_serranoltexx" path="device/samsung/serranoltexx" remote="github" revision="nougat" />
   <project name="AOKP/device_samsung_serranodsdd" path="device/samsung/serranodsdd"  remote="github" revision="nougat" />
-
+  
+  <!-- Samsung Galaxy TabS2 Family -->
+  <project path="device/samsung/gts2-common" name="LineageOS/android_device_samsung_gts2-common"  remote="cm" revision="cm-14.1" />
+  <project path="device/samsung/gts210ltexx" name="AOKP/android_device_samsung_gts210ltexx" remote="aokp" revision="nougat" />
+  <project path="device/samsung/gts210wifi" name="AOKP/android_device_samsung_gts210wifi" remote="aokp" revision="nougat" />
+  <project path="kernel/samsung/gts2" name="LineageOS/android_kernel_samsung_gts2" remote="cm" revision="cm-14.1" />
+  
    <!-- Samsung Common Devices Sources -->
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="cm" revision="cm-14.1" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings"  remote="cm" revision="cm-14.1" />
@@ -143,7 +149,8 @@
   <project path="hardware/samsung_slsi-cm/exynos5" name="LineageOS/android_hardware_samsung_slsi-cm_exynos5" remote="cm" revision="cm-14.1" />
   <project path="hardware/samsung_slsi-cm/openmax" name="LineageOS/android_hardware_samsung_slsi-cm_openmax" remote="cm" revision="cm-14.1" />
   <project path="hardware/samsung_slsi-cm/exynos8890" name="LineageOS/android_hardware_samsung_slsi-cm_exynos8890" remote="cm" revision="cm-14.1" />
-
+  <project path="hardware/samsung_slsi-cm/exynos5433" name="LineageOS/android_hardware_samsung_slsi-cm_exynos5433" remote="cm" revision="cm-14.1" />
+  
   <!-- Xiaomi -->
   <!-- Xiaomi Mi3/4 W/C -->
   <project name="AOKP/device_xiaomi_cancro" path="device/xiaomi/cancro" remote="aokp" branch="nougat" />
