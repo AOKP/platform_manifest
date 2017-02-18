@@ -116,15 +116,6 @@
   <project path="device/samsung/hero2lte" name="AOKP/android_device_samsung_hero2lte" remote="aokp" revision="nougat" />
   <project path="kernel/samsung/universal8890" name="LineageOS/android_kernel_samsung_universal8890" remote="cm" revision="cm-14.1" />
 
-  <!-- Samsung Galaxy S5 Family -->
-  <project path="device/samsung/klte-common" name="LineageOS/android_device_samsung_klte-common" remote="cm"  revision="cm-14.1"/>
-  <project path="device/samsung/klte" name="AOKP/device_samsung_klte" remote="aokp" />
-  <project path="device/samsung/kltedv" name="AOKP/device_samsung_kltedv" remote="aokp"  />
-  <project path="device/samsung/kltespr" name="AOKP/device_samsung_kltespr" remote="aokp"  />
-  <project path="device/samsung/klteusc" name="AOKP/device_samsung_klteusc" remote="aokp"  />
-  <project path="kernel/samsung/klte" name="LineageOS/android_kernel_samsung_klte" remote="cm" revision="cm-14.1" />
-  <project path="device/samsung/msm8974-common" name="LineageOS/android_device_samsung_msm8974-common" remote="cm" revision="cm-14.1" />
-
   <!-- Samsung Galaxy S4 Mini Family -->
   <project name="LineageOS/android_device_samsung_msm8930-common" path="device/samsung/msm8930-common" remote="github" revision="cm-14.1" />
   <project name="AOKP/device_samsung_serrano-common" path="device/samsung/serrano-common" remote="github" revision="nougat" />
