@@ -110,6 +110,12 @@
   <project name="AOKP/device_oppo_common" path="device/oppo/common" remote="aokp" branch="nougat" />
 
   <!-- Samsung -->
+  <!-- Samsung Galaxy S7 Family -->
+  <project path="device/samsung/hero-common" name="LineageOS/android_device_samsung_hero-common" remote="cm" revision="cm-14.1" />
+  <project path="device/samsung/herolte" name="AOKP/android_device_samsung_herolte" remote="aokp" revision="nougat" />
+  <project path="device/samsung/hero2lte" name="AOKP/android_device_samsung_hero2lte" remote="aokp" revision="nougat" />
+  <project path="kernel/samsung/universal8890" name="LineageOS/android_kernel_samsung_universal8890" remote="cm" revision="cm-14.1" />
+
   <!-- Samsung Galaxy S5 Family -->
   <project path="device/samsung/klte-common" name="LineageOS/android_device_samsung_klte-common" remote="cm"  revision="cm-14.1"/>
   <project path="device/samsung/klte" name="AOKP/device_samsung_klte" remote="aokp" />
@@ -130,7 +136,13 @@
    <!-- Samsung Common Devices Sources -->
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="cm" revision="cm-14.1" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings"  remote="cm" revision="cm-14.1" />
+  
+  <!-- Samsung Hardware Sources -->
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="cm" revision="cm-14.1" />
+  <project path="hardware/samsung_slsi-cm/exynos" name="LineageOS/android_hardware_samsung_slsi-cm_exynos" remote="cm" revision="cm-14.1" />
+  <project path="hardware/samsung_slsi-cm/exynos5" name="LineageOS/android_hardware_samsung_slsi-cm_exynos5" remote="cm" revision="cm-14.1" />
+  <project path="hardware/samsung_slsi-cm/openmax" name="LineageOS/android_hardware_samsung_slsi-cm_openmax" remote="cm" revision="cm-14.1" />
+  <project path="hardware/samsung_slsi-cm/exynos8890" name="LineageOS/android_hardware_samsung_slsi-cm_exynos8890" remote="cm" revision="cm-14.1" />
 
   <!-- Xiaomi -->
   <!-- Xiaomi Mi3/4 W/C -->
