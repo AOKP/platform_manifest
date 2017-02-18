@@ -10,6 +10,7 @@
   <project path="external/ffmpeg" remote="cm" name="LineageOS/android_external_ffmpeg" />
   <project path="external/fuse" remote="cm" name="LineageOS/android_external_fuse" />
   <project path="external/gello-build" remote="cm" name="LineageOS/android_external_gello_build" />
+  <project path="external/google" remote="cm" name="LineageOS/android_external_google" />
   <project path="external/htop" remote="cm" name="LineageOS/android_external_htop" />
   <project path="external/koush/AndroidAsync" remote="cm" name="LineageOS/AndroidAsync" />
   <project path="external/koush/ion" remote="cm" name="LineageOS/ion" />
