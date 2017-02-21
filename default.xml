@@ -60,7 +60,9 @@
 
   <!-- OMS projects -->
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
-  <!-- end OMS projects -->
+
+  <!-- OmniRom additions -->
+  <project path="packages/apps/OmniStyle" name="Omnirom/android_packages_apps_OmniStyle" remote="github" revision="android-7.1" />
 
   <!-- AOSP Projects -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
