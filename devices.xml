@@ -112,8 +112,8 @@
   <!-- Samsung -->
   <!-- Samsung Galaxy S7 Family -->
   <project path="device/samsung/hero-common" name="LineageOS/android_device_samsung_hero-common" remote="cm" revision="cm-14.1" />
-  <project path="device/samsung/herolte" name="AOKP/android_device_samsung_herolte" remote="aokp" revision="nougat" />
-  <project path="device/samsung/hero2lte" name="AOKP/android_device_samsung_hero2lte" remote="aokp" revision="nougat" />
+  <project path="device/samsung/herolte" name="AOKP/device_samsung_herolte" remote="aokp" revision="nougat" />
+  <project path="device/samsung/hero2lte" name="AOKP/device_samsung_hero2lte" remote="aokp" revision="nougat" />
   <project path="kernel/samsung/universal8890" name="LineageOS/android_kernel_samsung_universal8890" remote="cm" revision="cm-14.1" />
 
   <!-- Samsung Galaxy S5 Family -->
@@ -135,8 +135,8 @@
   
   <!-- Samsung Galaxy TabS2 Family -->
   <project path="device/samsung/gts2-common" name="LineageOS/android_device_samsung_gts2-common"  remote="cm" revision="cm-14.1" />
-  <project path="device/samsung/gts210ltexx" name="AOKP/android_device_samsung_gts210ltexx" remote="aokp" revision="nougat" />
-  <project path="device/samsung/gts210wifi" name="AOKP/android_device_samsung_gts210wifi" remote="aokp" revision="nougat" />
+  <project path="device/samsung/gts210ltexx" name="AOKP/device_samsung_gts210ltexx" remote="aokp" revision="nougat" />
+  <project path="device/samsung/gts210wifi" name="AOKP/device_samsung_gts210wifi" remote="aokp" revision="nougat" />
   <project path="kernel/samsung/gts2" name="LineageOS/android_kernel_samsung_gts2" remote="cm" revision="cm-14.1" />
   
    <!-- Samsung Common Devices Sources -->
