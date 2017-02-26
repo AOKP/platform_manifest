@@ -43,6 +43,7 @@
   <project path="packages/apps/InCallUI" remote="aokp" name="AOKP/packages_apps_InCallUI" groups="pdk-fs" />
   <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="aokp" />
   <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="aokp" groups="pdk-fs" />
+  <project path="packages/apps/SetupWizard" remote="aokp" name="AOKP/packages_apps_SetupWizard" />
   <project path="packages/services/Telecomm" remote="aokp" name="AOKP/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telephony" remote="aokp" name="AOKP/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
   <!--project path="packages/wallpapers/SwagPapers" remote="aokp" name="AOKP/packages_wallpapers_SwagPapers"-->
