@@ -15,6 +15,7 @@
   <project path="packages/apps/CMParts" name="AICP/packages_apps_CMParts" remote="aicp" />
   <project path="packages/apps/Contacts" name="AICP/packages_apps_Contacts" groups="pdk-fs" remote="aicp" />
   <project path="packages/apps/ContactsCommon" name="AICP/packages_apps_ContactsCommon" groups="pdk-fs" remote="aicp" />
+  <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" groups="pdk-fs" remote="aicp" />
   <project path="packages/apps/DUI" name="AICP/packages_apps_DUI" remote="aicp" />
   <project path="packages/apps/OmniStyle" name="AICP/packages_apps_OmniStyle" remote="aicp" />
   <project path="packages/apps/OmniSwitch" name="AICP/packages_apps_OmniSwitch" remote="aicp" />
