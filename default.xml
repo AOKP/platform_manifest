@@ -8,10 +8,81 @@
   <remote  name="aokp"
            fetch="https://github.com/"
            review="gerrit.aokp.co" />
+           
+  <remote name="kecinzer" fetch="https://github.com/kecinzer/" />
+
+  <remote  name="ts"
+           fetch="git://github.com/loosethisskin/" />
+           
+  <remote  name="sm"
+           fetch="https://github.com/SaberMod/" />
+           
+  <remote  name="linaro"
+           fetch="git://android.git.linaro.org/" />
+
+  <remote  name="rootbox"
+     fetch="https://github.com/Root-Box/" />
+
+  <remote  name="bajee"
+	   fetch="https://github.com/Bajee11/" />
+
+  <remote  name="cr"
+           fetch="git://github.com/CarbonDev/" />
+
+  <remote  name="xp"
+           fetch="git://github.com/xplodwild/" />
+
+  <remote  name="baked"
+            fetch="git://github.com/TeamBAKED/" />
+
+  <remote  name="xy"
+           fetch="https://github.com/XYAOSP/" />
+
+  <remote  name="slim"
+           fetch="https://github.com/SlimRoms/" />
+
+  <remote  name="gh"
+	   fetch="https://github.com/" />
+
+  <remote  name="ln"
+           fetch="git://android.git.linaro.org/" />
+
+  <remote  name="ls"
+           fetch="git://github.com/LiquidSmooth/" />
+
+  <remote  name="cmdev"
+           fetch="git://github.com/loosethisskin/" />
 
   <remote  name="cm"
            fetch="https://github.com/"
            review="review.cyanogenmod.com" />
+          
+  <remote  name="mr"
+           fetch="https://github.com/" />
+
+  <remote  name="koz"
+           fetch="git://github.com/kozmikkick/" />
+
+  <remote  name="dori"
+           fetch="git://github.com/dorimanx/" />
+
+  <remote  name="kh"	  	
+           fetch="git://github.com/koush/" />
+           
+  <remote  name="kj"	  	
+           fetch="git://github.com/kejar31/" />
+           
+  <remote  name="fx"
+           fetch="git://github.com/faux123/" />
+
+  <remote  name="ls"
+           fetch="git://github.com/LiquidSmooth/" />
+
+  <remote  name="mv"
+           fetch="git://github.com/Mustaavalkosta/" />
+
+  <remote  name="tm"
+           fetch="git://github.com/TheMuppets/" />
 
   <remote  name="omapzoom"
            fetch="git://git.omapzoom.org/"
@@ -519,5 +590,5 @@
 
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb-mr2" />
 
-  <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" revision="jb-mr2" />
+  <project path="platform_manifest" name="mysteriousaokp/platform_manifest" remote="aokp" revision="jb-mr2" />
 </manifest>
