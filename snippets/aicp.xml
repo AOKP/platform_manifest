@@ -27,6 +27,7 @@
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
   <project path="packages/apps/masquerade" name="substratum/masquerade" remote="substratum" revision="n" />
   <project path="vendor/cmsdk" name="AICP/vendor_cmsdk" remote="aicp" />
+  <project path="packages/services/OmniJaws" name="AICP/packages_services_OmniJaws" remote="aicp" />
   <!-- END AICP -->
 
   <!-- LineageOS additions -->
