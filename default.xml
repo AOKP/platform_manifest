@@ -28,9 +28,9 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-7.1.1_r21" />
 
-  <remote name="teamsubstratum"
+  <remote name="substratum"
            fetch="https://github.com/"
-           review="review.projektsubstratum.com" />
+           review="http://substratum.review" />
 
   <default revision="refs/heads/cm-14.1"
            remote="github"
