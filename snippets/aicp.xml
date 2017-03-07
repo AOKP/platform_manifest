@@ -25,7 +25,7 @@
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
   <!--  <project path="packages/themes/HexoLibre" name="AICP/packages_themes_HexoLibre" groups="themes" /> -->
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
-  <project path="packages/apps/masquerade" name="substratum/masquerade" remote="substratum" revision="n" />
+  <project path="packages/apps/ThemeInterfacer" name="substratum/interfacer" remote="substratum" revision="n" />
   <project path="vendor/cmsdk" name="AICP/vendor_cmsdk" remote="aicp" />
   <!-- END AICP -->
 
