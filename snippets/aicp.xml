@@ -27,6 +27,7 @@
   <project path="packages/apps/ThemeInterfacer" name="substratum/interfacer" remote="substratum" revision="n-rootless" />
   <project path="vendor/cmsdk" name="AICP/vendor_cmsdk" remote="aicp" />
   <project path="packages/services/OmniJaws" name="AICP/packages_services_OmniJaws" remote="aicp" />
+  <project path="prebuilts/build-tools" name="AICP/prebuilts_build-tools" remote="aicp" />
   <!-- END AICP -->
 
   <!-- LineageOS additions -->
