@@ -60,6 +60,7 @@
 
   <!-- OMS projects -->
   <project path="packages/apps/masquerade" name="substratum/masquerade" remote="github" revision="n" />
+  <project path="packages/apps/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
 
   <!-- OmniRom additions -->
   <project path="packages/apps/OmniStyle" name="Omnirom/android_packages_apps_OmniStyle" remote="github" revision="android-7.1" />
