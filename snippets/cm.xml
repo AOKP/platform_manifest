@@ -2,6 +2,7 @@
 <manifest>
 
   <!-- LineageOS additions -->
+  <project path="external/ahbottomnavigation" remote="cm" name="LineageOS/android_external_ahbottomnavigation" />
   <project path="external/android-visualizer" remote="cm" name="LineageOS/android_external_android-visualizer" />
   <project path="external/bash" remote="cm" name="LineageOS/android_external_bash" />
   <project path="external/cmsdk-api-coverage" remote="cm" name="LineageOS/android_external_cmsdk-api-coverage" />
