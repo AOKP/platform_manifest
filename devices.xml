@@ -139,8 +139,15 @@
   <project path="device/samsung/gts210wifi" name="AOKP/device_samsung_gts210wifi" remote="aokp" revision="nougat" />
   <project path="kernel/samsung/gts2" name="LineageOS/android_kernel_samsung_gts2" remote="cm" revision="cm-14.1" />
   
+  <!-- Samsung Galaxy J5 Family -->
+  <project path="device/samsung/j5ltexx" name="AOKP/device_samsung_j5ltexx"  remote="aokp" revision="nougat" />
+  <project path="device/samsung/j5nltexx" name="AOKP/device_samsung_j5nltexx" remote="aokp" revision="nougat" />
+  <project path="device/samsung/j5-common" name="EsromG5/device_samsung_j5-common" remote="github" revision="nougat" />
+  <project path="kernel/samsung/j5lte" name="J5-Dev/kernel_samsung_j5lte" remote="github" revision="cm-14.1-new" />
+
    <!-- Samsung Common Devices Sources -->
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="cm" revision="cm-14.1" />
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="cm" revision="cm-14.1" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings"  remote="cm" revision="cm-14.1" />
   
   <!-- Samsung Hardware Sources -->
@@ -189,7 +196,8 @@
 
   <!-- Samsung -->
   <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-14.1" />
-
+  <project name="J5-Dev/proprietary_vendor_samsung_j5ltexx" path="vendor/samsung/j5ltexx" remote="github" revision="cm-14.1" />
+  <project name="J5-Dev/proprietary_vendor_samsung_j5nltexx" path="vendor/samsung/j5nltexx" remote="github" revision="cm-14.1" />
   <!-- Xiaomi -->
   <project name="TheMuppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="cm-14.1" />
   <project name="TheMuppets/proprietary_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="github" revision="cm-14.1" />
