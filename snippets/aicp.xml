@@ -29,6 +29,7 @@
   <project path="vendor/cmsdk" name="AICP/vendor_cmsdk" remote="aicp" />
   <project path="packages/services/OmniJaws" name="AICP/packages_services_OmniJaws" remote="aicp" />
   <project path="prebuilts/build-tools" name="AICP/prebuilts_build-tools" remote="aicp" />
+  <project path="packages/apps/ExactCalculator" name="AICP/packages_apps_ExactCalculator" remote="aicp" />
   <!-- END AICP -->
 
   <!-- LineageOS additions -->
