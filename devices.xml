@@ -9,6 +9,13 @@
   <project name="LineageOS/android_kernel_htc_msm8974" path="kernel/htc/msm8974" remote="cm" revision="cm-13.0" />
   <project name="TheMuppets/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="cm-13.0" />
 
+  <!-- ARK -->
+  <!-- ARK Benefit A3 -->
+  <project name="BenefitA3/android_device_ark_peach" path="device/ark/peach" remote="github" revision="aokp-mm" />
+  <project name="Cyanogenmod/android_device_cyanogen_msm8916-common" path="device/cyanogen/msm8916-common" remote="cm" revision="cm-13.0" />
+  <project name="BenefitA3/android_kernel_ark_msm8916" path="kernel/ark/msm8916" remote="github" revision="cm-13.0" />
+  <project name="BenefitA3/proprietary_vendor_ark" path="vendor/ark" remote="github" revision="cm-13.0" />
+
   <!-- HTC One 10 -->
   <project name="AOKP/device_htc_pme" path="device/htc/pme" remote="aokp" revision="mm" />
   <project name="LineageOS/android_kernel_htc_msm8996" path="kernel/htc/msm8996" remote="cm" revision="cm-13.0" />
