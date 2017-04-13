@@ -165,6 +165,10 @@
   <!-- Xiaomi Redmi 1S -->
   <project name="AOKP/device_xiaomi_armani" path="device/xiaomi/armani" remote="aokp" branch="nougat" />
   <project name="LineageOS/android_kernel_xiaomi_armani" path="kernel/xiaomi/armani" remote="cm" revision="cm-14.1" />
+  <!-- Xiaomi Redmi 3/Pro -->
+  <project name="AOKP/device_ido" path="device/xiaomi/ido" remote="aokp" branch="nougat" />
+  <project name="LineageOS/android_kernel_xiaomi_msm8916" path="kernel/xiaomi/msm8916" remote="cm" revision="cm-14.1" />
+ 
   <!-- Common repos -->
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github"revision="cm-14.1" />
 
