@@ -76,13 +76,18 @@
   <!-- Moto X Play -->
   <project path="device/motorola/lux" name="AOKP/device_motorola_lux" remote="github" revision="nougat"/>
 
-  <!-- Common Moto device repos -->
+  <!-- Moto Z Play -->
+  <project path="device/motorola/addison" name="AOKP/device_motorola_addison" remote="github" revision="nougat"/>
+  
+<!-- Common Moto device repos -->
   <project name="AOKP/device_motorola_msm8916-common" path="device/motorola/msm8916-common" remote="aokp" revision="nougat" />
   <project name="AOKP/device_motorola_msm8610-common" path="device/motorola/msm8610-common" remote="aokp" revision="nougat" />
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github"revision="cm-14.1" />
   <project name="LineageOS/android_kernel_motorola_msm8916" path="kernel/motorola/msm8916" remote="cm" revision="cm-14.1" />
   <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="cm" revision="cm-14.1" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="cm" revision="cm-14.1" />
+  <project name="LineageOS/android_kernel_motorola_msm8953" path="kernel/motorola/msm8953" remote="cm" revision="cm-14.1" />
+  <project name="LineageOS/android_external_bson" path="external/bson" remote="github" revision="cm-14.1" />
 
   <!-- Nextbit -->
   <!-- Robin (ether) -->
