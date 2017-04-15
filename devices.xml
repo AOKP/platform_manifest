@@ -176,6 +176,14 @@
  
   <!-- Common repos -->
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github"revision="cm-14.1" />
+  
+  <!-- LeEco -->
+  <!-- s2 -->
+  <project name="AOKP/device_leeco_s2" path="device/leeco/s2" remote="aokp" branch="nougat" />
+  <project name="LineageOS/android_kernel_leeco_msm8976" path="kernel/leeco/msm8976" remote="cm" revision="cm-14.1" />
+  <!-- LeEco Common repos -->
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github"revision="cm-14.1" />  
+  
 
   <!-- *********************** VENDOR BLOBS *********************** -->
 
@@ -212,5 +220,8 @@
  <!-- Xiaomi -->
   <project name="TheMuppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="cm-14.1" />
   <project name="TheMuppets/proprietary_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="github" revision="cm-14.1" />
-
+  
+  <!-- LeEco -->
+  <!-- S2 -->
+  <project name="TheMuppets/proprietary_vendor_leeco" path="vendor/leeco" remote="github" revision="cm-14.1" />
 </manifest>
