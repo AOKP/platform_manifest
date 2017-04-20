@@ -36,12 +36,12 @@
   <project path="hardware/ti/wlan" remote="cm" name="LineageOS/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" remote="cm" name="LineageOS/android_hardware_ti_wpan" />
   <project path="packages/apps/AudioFX" remote="cm" name="LineageOS/android_packages_apps_AudioFX" />
-  <project path="packages/apps/Browser" remote="cm" name="LineageOS/android_packages_apps_Browser" />
   <project path="packages/apps/CustomTiles" remote="cm" name="LineageOS/android_packages_apps_CustomTiles" />
   <project path="packages/apps/Eleven" remote="cm" name="LineageOS/android_packages_apps_Eleven" />
   <project path="packages/apps/Exchange" remote="cm" name="LineageOS/android_packages_apps_Exchange" />
   <project path="packages/apps/FMRadio" remote="cm" name="LineageOS/android_packages_apps_FMRadio" />
   <project path="packages/apps/Gello" remote="cm" name="LineageOS/android_packages_apps_Gello" />
+  <project path="packages/apps/Jelly" remote="cm" name="LineageOS/android_packages_apps_Jelly" />
   <project path="packages/apps/LockClock" remote="cm" name="LineageOS/android_packages_apps_LockClock" />
   <project path="packages/apps/Profiles" remote="cm" name="LineageOS/android_packages_apps_Profiles" />
   <project path="packages/apps/Recorder" remote="cm" name="LineageOS/android_packages_apps_Recorder" />
