@@ -79,7 +79,7 @@
   <!-- Moto Z Play -->
   <project path="device/motorola/addison" name="AOKP/device_motorola_addison" remote="github" revision="nougat"/>
   
-<!-- Common Moto device repos -->
+  <!-- Common Moto device repos -->
   <project name="AOKP/device_motorola_msm8916-common" path="device/motorola/msm8916-common" remote="aokp" revision="nougat" />
   <project name="AOKP/device_motorola_msm8610-common" path="device/motorola/msm8610-common" remote="aokp" revision="nougat" />
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github"revision="cm-14.1" />
@@ -177,6 +177,13 @@
   <!-- Common repos -->
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github"revision="cm-14.1" />
 
+  <!-- LeEco -->
+  <!-- LeEco s2 -->
+  <project name="AOKP/device_leeco_s2" path="device/leeco/s2" remote="aokp" branch="nougat" />
+  <project name="LineageOS/android_kernel_leeco_msm8976" path="kernel/leeco/msm8976" remote="github"revision="cm-14.1" />
+                               <!-- Common repos -->
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github"revision="cm-14.1" />
+
   <!-- *********************** VENDOR BLOBS *********************** -->
 
   <!-- Asus -->
@@ -209,8 +216,13 @@
   <project name="J5-Dev-Stable/proprietary_vendor_samsung_j5nltexx" path="vendor/samsung/j5nltexx" remote="github" revision="cm-14.1" />
   <project name="J5-Dev-Stable/proprietary_vendor_samsung_j5-common" path="vendor/samsung/j5-common" remote="github" revision="cm-14.1" /> 
 
- <!-- Xiaomi -->
+  <!-- Xiaomi -->
   <project name="TheMuppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="cm-14.1" />
   <project name="TheMuppets/proprietary_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="github" revision="cm-14.1" />
+
+  <!-- LeEco -->
+  <!-- LeEco s2 -->
+  <project name="TheMuppets/proprietary_vendor_leeco" path="vendor/leeco" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" revision="cm-14.1" />
 
 </manifest>
