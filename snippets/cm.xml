@@ -110,4 +110,8 @@
   <project path="vendor/qcom/opensource/dataservices" remote="cm" name="LineageOS/android_vendor_qcom_opensource_dataservices" />
   <project path="vendor/qcom/opensource/dpm" remote="cm" name="LineageOS/android_vendor_qcom_opensource_dpm" />
   <project path="vendor/qcom/opensource/time-services" remote="cm" name="LineageOS/android_vendor_qcom_opensource_time-services" />
+
+  <!-- Tools -->
+  <project path="lineage/contributors-cloud-generator" remote="cm" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" />
+  <project path="lineage/scripts" remote="cm" name="LineageOS/scripts" groups="tools" revision="master" />
 </manifest>
