@@ -162,6 +162,18 @@
   <project path="hardware/samsung_slsi-cm/openmax" name="LineageOS/android_hardware_samsung_slsi-cm_openmax" remote="cm" revision="cm-14.1" />
   <project path="hardware/samsung_slsi-cm/exynos8890" name="LineageOS/android_hardware_samsung_slsi-cm_exynos8890" remote="cm" revision="cm-14.1" />
   <project path="hardware/samsung_slsi-cm/exynos5433" name="LineageOS/android_hardware_samsung_slsi-cm_exynos5433" remote="cm" revision="cm-14.1" />
+
+  <!-- SONY -->
+  <!-- Sony Xperia Z5 Family -->
+  <project name="AOKP/device_sony_sumire" path="device/sony/sumire" remote="aokp" revision="nougat" />
+  <project name="LineageOS/android_device_sony_kitakami-common" path="device/sony/kitakami-common" remote="cm" revision="cm-14.1" />
+  <!-- Sony Common -->
+  <project name="LineageOS/android_device_sony_common" path="device/sony/common" remote="cm" revision="cm-14.1" />
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="cm" revision="cm-14.1" />
+  <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="cm" revision="cm-14.1" />
+  <project name="LineageOS/android_hardware_broadcom_fm" path="hardware/broadcom/fm" remote="cm" revision="cm-14.1" />
+  <project name="LineageOS/android_kernel_sony_msm8994" path="kernel/sony/msm8994" remote="cm" revision="cm-14.1" />
+
   
   <!-- Xiaomi -->
   <!-- Xiaomi Mi3/4 W/C -->
@@ -215,6 +227,9 @@
   <project name="J5-Dev-Stable/proprietary_vendor_samsung_j5ltexx" path="vendor/samsung/j5ltexx" remote="github" revision="cm-14.1" />
   <project name="J5-Dev-Stable/proprietary_vendor_samsung_j5nltexx" path="vendor/samsung/j5nltexx" remote="github" revision="cm-14.1" />
   <project name="J5-Dev-Stable/proprietary_vendor_samsung_j5-common" path="vendor/samsung/j5-common" remote="github" revision="cm-14.1" /> 
+
+  <!-- Sony -->
+  <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="cm-14.1" />
 
   <!-- Xiaomi -->
   <project name="TheMuppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="cm-14.1" />
