@@ -25,7 +25,7 @@
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
   <!--  <project path="packages/themes/HexoLibre" name="AICP/packages_themes_HexoLibre" groups="themes" /> -->
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
-  <project path="packages/apps/ThemeInterfacer" name="substratum/interfacer" remote="substratum" revision="n-rootless" />
+  <project path="packages/services/ThemeInterfacer" name="substratum/interfacer" remote="substratum" revision="n-rootless" />
   <project path="vendor/cmsdk" name="AICP/vendor_cmsdk" remote="aicp" />
   <project path="packages/services/OmniJaws" name="AICP/packages_services_OmniJaws" remote="aicp" />
   <project path="prebuilts/build-tools" name="AICP/prebuilts_build-tools" remote="aicp" />
