@@ -166,7 +166,7 @@
   <!-- SONY -->
   <!-- Sony Xperia Z5 Family -->
   <project name="AOKP/device_sony_sumire" path="device/sony/sumire" remote="aokp" revision="nougat" />
-  <project name="LineageOS/android_device_sony_kitakami-common" path="device/sony/kitakami-common" remote="cm" revision="cm-14.1" />
+  <project name="AOKP/android_device_sony_kitakami-common" path="device/sony/kitakami-common" remote="aokp" revision="nougat" />
   <!-- Sony Common -->
   <project name="LineageOS/android_device_sony_common" path="device/sony/common" remote="cm" revision="cm-14.1" />
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="cm" revision="cm-14.1" />
