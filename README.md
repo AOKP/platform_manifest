@@ -46,3 +46,89 @@ an XDA thread. Note that the template is a guideline of sort. You may make your 
 and make thread as close to this one as possible. This is to aviod cluttering and make stuff organised.
 
 Link : https://dl.dropboxusercontent.com/u/57672206/xda%20template
+
+
+
+Uploading to our Gerrit
+---------------
+
+1st You must have local ssh keys on your computer if you do not here is a [guide] (http://goo.gl/86CfDP) to generate them.
+
+2nd Make an account on [Gerrit] (http://gerrit.aicp-rom.com) login only using GoogleAuth2
+
+3rd Add your ssh public key to your account
+
+4th Make your changes and commit them
+
+5th use the following command to push your commit to gerrit
+
+(From root android directory)
+    . build/envsetup.sh
+    repo start n7.1 path/to/project
+    (Go to repo you are patching, make your changes and commit)
+    repo upload .
+For more help on using this tool, use this command: repo help upload
+
+You can also use:
+
+    git push ssh://USERNAME@gerrit.aicp-rom.com:29418/AICP/REPO_NAME HEAD:refs/for/branch-name
+
+Example:
+
+    git push ssh://mosimchah@gerrit.aicp-rom.com:29418/AICP/platform_manifest HEAD:refs/for/n7.1
+
+
+6th You will get an error about a missing Change-ID in that error it will show you a suggested commit message copy the change id
+
+7th Do the following command and add the change id to the end of the commit message
+
+    git commit --amend
+
+Here is an example of what the commit message should look like:
+
+> Add how to push to gerrit
+>
+> Change-Id: I93949d30d732de35222d9d78d1f94e33e4bffc47
+
+8th use the same command to push to gerrit and if you did everything properly it will be up on gerrit
+
+
+
+## Maintain Authorship ##
+Please make sure if you submit a patch/fix from another ROM that you maintain authorship.
+This is very important to not only us but to the entire open source community. It's what keeps it going and encourages more developers to contribute their work.
+
+If you manually cherry pick a patch/fix please add the original author prior to pushing to our gerrit.
+This task is very easy and is usually done after you commit a patch/fix locally.
+
+i.e - Once you type in "git commit -a" the commit message and you have saved it, type in the following:
+
+```bash
+git commit --amend --author "Author <email@address.com>"
+```
+
+So it should look like this once you get all author's information:
+
+```bash
+git commit --amend --author "John Doe <john.doe@gmail.com>"
+```
+
+
+Picking changes from our gerrit
+-------------------------------
+
+(From root android directory)
+    . build/envsetup.sh
+
+to pick every change from a topic:
+
+    repopick -t topic
+
+to pick a specific change
+
+    repopick commit-number
+
+example, to pick this commit: http://gerrit.aicp-rom.com/#/c/36939/
+
+    repopick 36939
+
