@@ -8,7 +8,6 @@
   <project path="external/exfat" remote="cm" name="LineageOS/android_external_exfat" />
   <project path="external/ffmpeg" remote="cm" name="LineageOS/android_external_ffmpeg" />
   <project path="external/fuse" remote="cm" name="LineageOS/android_external_fuse" />
-  <project path="external/gello-build" remote="cm" name="LineageOS/android_external_gello_build" />
   <project path="external/htop" remote="cm" name="LineageOS/android_external_htop" />
   <project path="external/koush/AndroidAsync" remote="cm" name="LineageOS/AndroidAsync" />
   <project path="external/koush/ion" remote="cm" name="LineageOS/ion" />
@@ -40,7 +39,6 @@
   <project path="packages/apps/Eleven" remote="cm" name="LineageOS/android_packages_apps_Eleven" />
   <project path="packages/apps/Exchange" remote="cm" name="LineageOS/android_packages_apps_Exchange" />
   <project path="packages/apps/FMRadio" remote="cm" name="LineageOS/android_packages_apps_FMRadio" />
-  <project path="packages/apps/Gello" remote="cm" name="LineageOS/android_packages_apps_Gello" />
   <project path="packages/apps/Jelly" remote="cm" name="LineageOS/android_packages_apps_Jelly" />
   <project path="packages/apps/LockClock" remote="cm" name="LineageOS/android_packages_apps_LockClock" />
   <project path="packages/apps/Profiles" remote="cm" name="LineageOS/android_packages_apps_Profiles" />
