@@ -49,12 +49,12 @@ Link : https://dl.dropboxusercontent.com/u/57672206/xda%20template
 
 
 
-Uploading to our Gerrit
+Uploading to AICP Gerrit
 ---------------
 
-1st You must have local ssh keys on your computer if you do not here is a [guide] (http://goo.gl/86CfDP) to generate them.
+1st You must have local ssh keys on your computer if you do not here is a [guide](http://goo.gl/86CfDP) to generate them.
 
-2nd Make an account on [Gerrit] (http://gerrit.aicp-rom.com) login only using GoogleAuth2
+2nd Make an account on [Gerrit](http://gerrit.aicp-rom.com) login only using GoogleAuth2
 
 3rd Add your ssh public key to your account
 
@@ -131,4 +131,3 @@ to pick a specific change
 example, to pick this commit: http://gerrit.aicp-rom.com/#/c/36939/
 
     repopick 36939
-
