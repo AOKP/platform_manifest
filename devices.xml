@@ -2,6 +2,10 @@
 <manifest>
 
   <!-- *********************** DEVICES & KERNELS *********************** -->
+  <!-- Alcatel -->
+  <project name="AOKP/device_alcatel_idol3" path="device/alcatel/idol3" remote="github" revision="cm-14.1" />
+  <project name="Mvximus/android_kernel_alcatel_msm8916" path="kernel/alcatel/msm8916" remote="github" revision="cm-14.1-new" />
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
 
   <!-- Asus -->
   <!-- Nexus 7 wi-fi -->
@@ -156,7 +160,7 @@
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="cm" revision="cm-14.1" />
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="cm" revision="cm-14.1" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings"  remote="cm" revision="cm-14.1" />
-  
+
   <!-- Samsung Hardware Sources -->
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="cm" revision="cm-14.1" />
   <project path="hardware/samsung_slsi-cm/exynos" name="LineageOS/android_hardware_samsung_slsi-cm_exynos" remote="cm" revision="cm-14.1" />
@@ -176,7 +180,7 @@
   <project name="LineageOS/android_hardware_broadcom_fm" path="hardware/broadcom/fm" remote="cm" revision="cm-14.1" />
   <project name="LineageOS/android_kernel_sony_msm8994" path="kernel/sony/msm8994" remote="cm" revision="cm-14.1" />
 
-  
+
   <!-- Xiaomi -->
   <!-- Xiaomi Mi3/4 W/C -->
   <project name="AOKP/device_xiaomi_cancro" path="device/xiaomi/cancro" remote="aokp" branch="nougat" />
@@ -187,7 +191,7 @@
   <!-- Xiaomi Redmi 3/Pro -->
   <project name="AOKP/device_xiaomi_ido" path="device/xiaomi/ido" remote="aokp" branch="nougat" />
   <project name="LineageOS/android_kernel_xiaomi_msm8916" path="kernel/xiaomi/msm8916" remote="cm" revision="cm-14.1" />
- 
+
   <!-- Common repos -->
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github"revision="cm-14.1" />
 
@@ -218,6 +222,9 @@
   <!-- Asus -->
   <project name="TheMuppets/proprietary_vendor_asus" path="vendor/asus" remote="github" revision="cm-14.1" />
 
+  <!-- Alcatel -->
+  <project name="Mvximus/vendor_alcatel" path="vendor/alcatel" remote="github" revision="cm-14.1" />
+
   <!-- HTC -->
   <project name="TheMuppets/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="cm-14.1" />
 
@@ -240,7 +247,7 @@
   <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-14.1" />
   <project name="J5-Dev-Stable/proprietary_vendor_samsung_j5ltexx" path="vendor/samsung/j5ltexx" remote="github" revision="cm-14.1" />
   <project name="J5-Dev-Stable/proprietary_vendor_samsung_j5nltexx" path="vendor/samsung/j5nltexx" remote="github" revision="cm-14.1" />
-  <project name="J5-Dev-Stable/proprietary_vendor_samsung_j5-common" path="vendor/samsung/j5-common" remote="github" revision="cm-14.1" /> 
+  <project name="J5-Dev-Stable/proprietary_vendor_samsung_j5-common" path="vendor/samsung/j5-common" remote="github" revision="cm-14.1" />
 
   <!-- Sony -->
   <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="cm-14.1" />
