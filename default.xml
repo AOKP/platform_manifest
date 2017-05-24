@@ -65,6 +65,7 @@
 
   <!-- OmniRom additions -->
   <project path="packages/apps/OmniStyle" name="Omnirom/android_packages_apps_OmniStyle" remote="github" revision="android-7.1" />
+  <project path="packages/services/OmniJaws" name="omnirom/android_packages_services_OmniJaws" remote="github" revision="android-7.1"/>
 
   <!-- AOSP Projects -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
