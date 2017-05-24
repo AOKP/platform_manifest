@@ -4,6 +4,10 @@
   <!-- *********************** DEVICES & KERNELS *********************** -->
 
   <!-- Asus -->
+  <!-- Alcatel -->
+  <project name="AOKP/android_device_alcatel_idol3" path="device/alcatel/idol3" remote="github" revision="cm-14.1" />
+  <project name="Mvximus/android_kernel_alcatel_msm8916" path="kernel/alcatel/msm8916" remote="github" revision="cm-14.1-new" />
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
   <!-- Nexus 7 wi-fi -->
   <project name="AOKP/device_asus_flo" path="device/asus/flo" remote="aokp" revision="nougat" />
   <project name="LineageOS/android_kernel_google_msm" path="kernel/google/msm" remote="cm" revision="cm-14.1" />
@@ -207,6 +211,9 @@
 
   <!-- Asus -->
   <project name="TheMuppets/proprietary_vendor_asus" path="vendor/asus" remote="github" revision="cm-14.1" />
+
+  <!-- Alcatel -->
+  <project name="Mvximus/vendor_alcatel" path="vendor/alcatel" remote="github" revision="cm-14.1" />
 
   <!-- HTC -->
   <project name="TheMuppets/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="cm-14.1" />
