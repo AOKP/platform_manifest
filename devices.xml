@@ -78,7 +78,7 @@
 
   <!-- Moto Z Play -->
   <project path="device/motorola/addison" name="AOKP/device_motorola_addison" remote="github" revision="nougat"/>
-  
+
   <!-- Common Moto device repos -->
   <project name="AOKP/device_motorola_msm8916-common" path="device/motorola/msm8916-common" remote="aokp" revision="nougat" />
   <project name="AOKP/device_motorola_msm8610-common" path="device/motorola/msm8610-common" remote="aokp" revision="nougat" />
@@ -137,13 +137,13 @@
   <project name="AOKP/device_samsung_serrano3gxx" path="device/samsung/serrano3gxx" remote="github" revision="nougat" />
   <project name="AOKP/device_samsung_serranoltexx" path="device/samsung/serranoltexx" remote="github" revision="nougat" />
   <project name="AOKP/device_samsung_serranodsdd" path="device/samsung/serranodsdd"  remote="github" revision="nougat" />
-  
+
   <!-- Samsung Galaxy TabS2 Family -->
   <project path="device/samsung/gts2-common" name="LineageOS/android_device_samsung_gts2-common"  remote="cm" revision="cm-14.1" />
   <project path="device/samsung/gts210ltexx" name="AOKP/device_samsung_gts210ltexx" remote="aokp" revision="nougat" />
   <project path="device/samsung/gts210wifi" name="AOKP/device_samsung_gts210wifi" remote="aokp" revision="nougat" />
   <project path="kernel/samsung/gts2" name="LineageOS/android_kernel_samsung_gts2" remote="cm" revision="cm-14.1" />
-  
+
   <!-- Samsung Galaxy J5 Family -->
   <project path="device/samsung/j5ltexx" name="AOKP/device_samsung_j5ltexx"  remote="aokp" revision="nougat" />
   <project path="device/samsung/j5nltexx" name="AOKP/device_samsung_j5nltexx" remote="aokp" revision="nougat" />
@@ -185,7 +185,6 @@
   <!-- Xiaomi Redmi 3/Pro -->
   <project name="AOKP/device_xiaomi_ido" path="device/xiaomi/ido" remote="aokp" branch="nougat" />
   <project name="LineageOS/android_kernel_xiaomi_msm8916" path="kernel/xiaomi/msm8916" remote="cm" revision="cm-14.1" />
- 
   <!-- Common repos -->
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github"revision="cm-14.1" />
 
@@ -193,7 +192,14 @@
   <!-- LeEco s2 -->
   <project name="AOKP/device_leeco_s2" path="device/leeco/s2" remote="aokp" branch="nougat" />
   <project name="LineageOS/android_kernel_leeco_msm8976" path="kernel/leeco/msm8976" remote="github"revision="cm-14.1" />
-                               <!-- Common repos -->
+  <project name="LineageOS/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" revision="cm-14.1" />
+  <!-- LeEco x2 -->
+  <project name="AOKP/device_leeco_x2" path="device/leeco/x2" remote="aokp" branch="nougat" />
+  <project name="LineageOS/android_device_leeco_msm8996-common" path="device/leeco/msm8996-common" remote="cm" revision="cm-14.1" />
+  <project name="LineageOS/android_kernel_leeco_msm8996" path="kernel/leeco/msm8996" remote="cm" revision="cm-14.1" />
+  <project name="LineageOS/android_external_stlport" path="external/stlport" remote="cm" revision="cm-14.1" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="cm" revision="cm-14.1" />
+  <!-- Common repos -->
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github"revision="cm-14.1" />
 
   <!-- *********************** VENDOR BLOBS *********************** -->
@@ -226,7 +232,7 @@
   <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-14.1" />
   <project name="J5-Dev-Stable/proprietary_vendor_samsung_j5ltexx" path="vendor/samsung/j5ltexx" remote="github" revision="cm-14.1" />
   <project name="J5-Dev-Stable/proprietary_vendor_samsung_j5nltexx" path="vendor/samsung/j5nltexx" remote="github" revision="cm-14.1" />
-  <project name="J5-Dev-Stable/proprietary_vendor_samsung_j5-common" path="vendor/samsung/j5-common" remote="github" revision="cm-14.1" /> 
+  <project name="J5-Dev-Stable/proprietary_vendor_samsung_j5-common" path="vendor/samsung/j5-common" remote="github" revision="cm-14.1" />
 
   <!-- Sony -->
   <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="cm-14.1" />
@@ -235,9 +241,7 @@
   <project name="TheMuppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="cm-14.1" />
   <project name="TheMuppets/proprietary_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="github" revision="cm-14.1" />
 
-  <!-- LeEco -->
-  <!-- LeEco s2 -->
+  <!-- LeEco s2/x2 -->
   <project name="TheMuppets/proprietary_vendor_leeco" path="vendor/leeco" remote="github" revision="cm-14.1" />
-  <project name="LineageOS/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" revision="cm-14.1" />
 
 </manifest>
