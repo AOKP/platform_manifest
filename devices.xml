@@ -203,6 +203,12 @@
   <!-- Common repos -->
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github"revision="cm-14.1" />
 
+
+  <!--Huawei -->
+  <!--Nexus 6P -->
+  <project name="MechanicalAndroidN/android_device_huawei_angler.git" path="device/huawei/angler" remote="github"revision="cm-14.1" />
+  <project name="MechanicalAndroidN/android_kernel_huawei_angler.git" path="kernel/huawei/angler" remote="github"revision="cm-14.1" />
+
   <!-- *********************** VENDOR BLOBS *********************** -->
 
   <!-- Asus -->
@@ -244,5 +250,10 @@
 
   <!-- LeEco s2/x2 -->
   <project name="TheMuppets/proprietary_vendor_leeco" path="vendor/leeco" remote="github" revision="cm-14.1" />
+  
+  <!--Huawei -->
+  <project name="TheMuppets/proprietary_vendor_huawei" path="vendor/huawei" remote="github" revision="cm-14.1" />
+
+
 
 </manifest>
