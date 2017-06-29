@@ -31,6 +31,11 @@
   <!-- Common repos -->
   <project name="AOKP/device_bq_msm8916-common" path="device/bq/msm8916-common" remote="aokp" revision="nougat" />
 
+  <!-- Huawei -->
+  <!-- Nexus 6P -->
+  <project name="AOKP/device_huawei_angler" path="device/huawei/angler" remote="aokp" revision="nougat" />
+  <project name="MechanicalAndroidN/android_kernel_huawei_angler" path="kernel/huawei/angler" remote="github" revision="cm-14.1" />
+
   <!-- HTC -->
   <!-- One M8 -->
   <project name="AOKP/device_htc_m8" path="device/htc/m8" remote="aokp" revision="nougat" />
@@ -224,7 +229,6 @@
   <!-- Common repos -->
   <project name="LineageOS/android_device_cyanogen_msm8916-common" path="device/cyanogen/msm8916-common" remote="github" revision="cm-14.1" />
 
-
   <!-- *********************** VENDOR BLOBS *********************** -->
 
   <!-- Alcatel -->
@@ -268,6 +272,9 @@
 
   <!-- LeEco s2/x2 -->
   <project name="TheMuppets/proprietary_vendor_leeco" path="vendor/leeco" remote="github" revision="cm-14.1" />
+  
+  <!--Huawei -->
+  <project name="TheMuppets/proprietary_vendor_huawei" path="vendor/huawei" remote="github" revision="cm-14.1" />
 
   <!-- YU -->
   <project name="TheMuppets/proprietary_vendor_yu" path="vendor/yu" remote="github" revision="cm-14.1" />
