@@ -104,6 +104,9 @@
   <project name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" remote="cm" branch="cm-14.1" />
   <project name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" path="vendor/nxp-nfc/opensource/Nfc" remote="cm" branch="cm-14.1" />
 
+  <!-- Oneplus 5 -->
+  <project name="AOKP/device_oneplus_oneplus_cheeseburger" path="device/oneplus/cheeseburger" remote="aokp" branch="nougat" />
+
   <!-- Onyx -->
   <project name="AOKP/device_oneplus_onyx" path="device/oneplus/onyx" remote="aokp" branch="nougat" />
   <project name="LineageOS/android_kernel_oneplus_onyx" path="kernel/oneplus/onyx" remote="cm" branch="cm-14.1" />
