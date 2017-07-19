@@ -203,6 +203,14 @@
   <!-- Common repos -->
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github"revision="cm-14.1" />
 
+  <!-- YU -->
+  <!-- YU Yureka/Yureka Plus -->
+  <project name="AOKP/device_yu_tomato" path="device/yu/tomato" remote="aokp" revision="nougrnet issuat" />
+  <project name="LineageOS/android_kernel_cyanogen_msm8916" path="kernel/cyanogen/msm8916" remote="github"revision="cm-14.1" />
+  <!-- Common repos -->
+  <project name="LineageOS/android_device_cyanogen_msm8916-common" path="device/cyanogen/msm8916-common" remote="github"revision="cm-14.1" />
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github"revision="cm-14.1" /><project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github"revision="cm-14.1" />
+
   <!-- *********************** VENDOR BLOBS *********************** -->
 
   <!-- Asus -->
@@ -244,5 +252,8 @@
 
   <!-- LeEco s2/x2 -->
   <project name="TheMuppets/proprietary_vendor_leeco" path="vendor/leeco" remote="github" revision="cm-14.1" />
+
+  <!-- YU -->
+  <project name="TheMuppets/proprietary_vendor_yu" path="vendor/yu" remote="github" revision="cm-14.1" />
 
 </manifest>
