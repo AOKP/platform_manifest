@@ -109,7 +109,6 @@
   <project name="LineageOS/android_kernel_oneplus_onyx" path="kernel/oneplus/onyx" remote="cm" branch="cm-14.1" />
   <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="cm" revision="cm-14.1" />
   <project name="LineageOS/android_external_stlport" path="external/stlport" remote="cm" revision="cm-14.1" />
-  <project name="TheMuppets/proprietary_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="github" revision="cm-14.1" />
 
   <!-- Common device repos -->
   <project name="AOKP/device_oppo_common" path="device/oppo/common" remote="aokp" branch="nougat" />
@@ -210,7 +209,6 @@
 
   <!-- HTC -->
   <project name="TheMuppets/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="cm-14.1" />
-  <project name="TheMuppets/proprietary_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="github" revision="cm-14.1" />
 
   <!-- Lenovo -->
   <project path="vendor/lenovo/A6020" name="boulzordev/android_vendor_lenovo_A6020" remote="github" revision="cm-14.1" />
@@ -223,11 +221,9 @@
 
   <!-- Nextbit -->
   <project name="TheMuppets/proprietary_vendor_nextbit" path="vendor/nextbit" remote="github" revision="refs/heads/cm-14.1" />
-  <project name="TheMuppets/proprietary_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="github" revision="refs/heads/cm-14.1" />
 
   <!-- Oneplus -->
   <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-14.1" />
-  <project name="TheMuppets/proprietary_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="github" revision="cm-14.1" />
 
   <!-- Samsung -->
   <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-14.1" />
@@ -240,7 +236,6 @@
 
   <!-- Xiaomi -->
   <project name="TheMuppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="cm-14.1" />
-  <project name="TheMuppets/proprietary_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="github" revision="cm-14.1" />
 
   <!-- LeEco s2/x2 -->
   <project name="TheMuppets/proprietary_vendor_leeco" path="vendor/leeco" remote="github" revision="cm-14.1" />
