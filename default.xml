@@ -98,6 +98,7 @@
   <project path="external/fsck_msdos" remote="cm" name="LineageOS/android_external_fsck_msdos" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/fuse" remote="cm" name="LineageOS/android_external_fuse" />
   <project path="external/gello-build" remote ="cm" name="LineageOS/android_external_gello_build" />
+  <project path="external/giflib" remote ="cm" name="LineageOS/android_external_giflib" groups="pdk" />
   <project path="external/google" remote="cm" name="LineageOS/android_external_google" />
   <project path="external/gmock" remote="cm" name="LineageOS/android_external_gmock"/>
   <project path="external/gptfdisk" remote="cm" name="LineageOS/android_external_gptfdisk" groups="pdk-fs" />
@@ -365,7 +366,6 @@
   <project path="external/fio" name="platform/external/fio" groups="pdk-fs" remote="aosp" />
   <project path="external/fonttools" name="platform/external/fonttools" groups="pdk-fs" remote="aosp" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" remote="aosp" />
-  <project path="external/giflib" name="platform/external/giflib" groups="pdk,qcom_msm8x26" remote="aosp" />
   <project path="external/glide" name="platform/external/glide" groups="pdk-fs" remote="aosp" />
   <project path="external/google-breakpad" name="platform/external/google-breakpad" groups="dragon" remote="aosp" />
   <project path="external/google-fonts/carrois-gothic-sc" name="platform/external/google-fonts/carrois-gothic-sc" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
