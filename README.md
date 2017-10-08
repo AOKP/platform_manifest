@@ -45,7 +45,7 @@ After a build, if you would like to share your build on XDA (Regular Unofficial 
 an XDA thread. Note that the template is a guideline of sort. You may make your own changes to it (esp please do in the download link) but try
 and make thread as close to this one as possible. This is to aviod cluttering and make stuff organised.
 
-Link : https://raw.githubusercontent.com/AICP/vendor_aicp/n7.1/xda_thread-template.txt
+Link : https://raw.githubusercontent.com/AICP/vendor_aicp/n7.1/xda_template/xda_thread-template.txt
 
 
 Uploading to AICP Gerrit
