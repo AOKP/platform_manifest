@@ -85,7 +85,7 @@
   <project path="external/archive-patcher" name="platform/external/archive-patcher" groups="pdk" remote="aosp" />
   <project path="external/autotest" name="platform/external/autotest" remote="aosp" />
   <project path="external/avahi" name="platform/external/avahi" remote="aosp" />
-  <project path="external/bison" name="platform/external/bison" groups="pdk" remote="aosp" />
+  <project path="external/bison" name="LineageOS/android_external_bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/boringssl" name="LineageOS/android_external_boringssl" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" remote="aosp" />
