@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-6.0.1_r78" />
+           revision="refs/tags/android-6.0.1_r81" />
 
   <remote  name="github"
            fetch=".." />
@@ -95,6 +95,7 @@
   <project path="external/f2fs-tools" remote="cm" name="LineageOS/android_external_f2fs-tools" groups="pdk" />
   <project path="external/ffmpeg" remote="cm" name="LineageOS/android_external_ffmpeg" />
   <project path="external/flac" remote="cm" name="LineageOS/android_external_flac" groups="pdk" />
+  <project path="external/freetype" remote="cm" name="LineageOS/android_external_freetype" groups="pdk" />
   <project path="external/fsck_msdos" remote="cm" name="LineageOS/android_external_fsck_msdos" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/fuse" remote="cm" name="LineageOS/android_external_fuse" />
   <project path="external/gello-build" remote ="cm" name="LineageOS/android_external_gello_build" />
@@ -114,7 +115,6 @@
   <project path="external/jsr305" remote="cm" name="LineageOS/android_external_jsr305" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/koush/AndroidAsync" remote="cm" name="LineageOS/AndroidAsync" />
   <project path="external/koush/ion" remote="cm" name="LineageOS/ion" />
-  <project path="external/libavc" remote="cm" name="LineageOS/android_external_libavc" groups="pdk" />
   <project path="external/libncurses" remote="cm" name="LineageOS/android_external_libncurses" />
   <project path="external/libnetfilter_conntrack" remote="cm" name="LineageOS/android_external_libnetfilter_conntrack" />
   <project path="external/libnfc-nci" remote="cm" name="LineageOS/android_external_libnfc-nci" groups="pdk" />
@@ -150,7 +150,6 @@
   <project path="external/sonivox" remote="cm" name="LineageOS/android_external_sonivox" groups="pdk" />
   <project path="external/speex" remote="cm" name="LineageOS/android_external_speex" groups="pdk" />
   <project path="external/spongycastle" remote="cm" name="LineageOS/android_external_spongycastle" groups="pdk" />
-  <project path="external/sqlite" remote="cm" name="LineageOS/android_external_sqlite" groups="pdk" />
   <project path="external/stagefright-plugins" remote="cm" name="LineageOS/android_external_stagefright-plugins" />
   <project path="external/strace" remote="cm" name="LineageOS/android_external_strace" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/tcpdump" remote="cm" name="LineageOS/android_external_tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" />
@@ -158,6 +157,7 @@
   <project path="external/tinycompress" remote="cm" name="LineageOS/android_external_tinycompress" groups="pdk" />
   <project path="external/tinyxml2" remote="cm" name="LineageOS/android_external_tinyxml2" groups="pdk" />
   <project path="external/toybox" remote="cm" name="LineageOS/android_external_toybox" groups="pdk" />
+  <project path="external/tremolo" remote="cm" name="LineageOS/android_external_tremolo" groups="pdk" />
   <project path="external/uicommon" remote="cm" name="LineageOS/android_external_cyanogen_UICommon" />
   <project path="external/unrar" remote="cm" name="LineageOS/android_external_unrar" />
   <project path="external/unzip" remote="cm" name="LineageOS/android_external_unzip" />
@@ -365,7 +365,6 @@
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" remote="aosp" />
   <project path="external/fio" name="platform/external/fio" groups="pdk-fs" remote="aosp" />
   <project path="external/fonttools" name="platform/external/fonttools" groups="pdk-fs" remote="aosp" />
-  <project path="external/freetype" name="platform/external/freetype" groups="pdk" remote="aosp" />
   <project path="external/glide" name="platform/external/glide" groups="pdk-fs" remote="aosp" />
   <project path="external/google-breakpad" name="platform/external/google-breakpad" groups="dragon" remote="aosp" />
   <project path="external/google-fonts/carrois-gothic-sc" name="platform/external/google-fonts/carrois-gothic-sc" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -394,6 +393,7 @@
   <project path="external/junit" name="platform/external/junit" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="external/libavc" name="platform/external/libavc" groups="pdk" remote="aosp" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" remote="aosp" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" remote="aosp" />
@@ -461,13 +461,13 @@
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" remote="aosp" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" remote="aosp" />
+  <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" remote="aosp" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" remote="aosp" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" />
-  <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" remote="aosp" />
   <project path="external/v8" name="platform/external/v8" groups="pdk" remote="aosp" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" remote="aosp" />
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot" remote="aosp" />
