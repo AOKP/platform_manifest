@@ -13,7 +13,7 @@ Initializing Repository
 
 Initiate core trees without any device/kernel/vendor:
 
-    $ repo init -u https://github.com/AOKP/platform_manifest.git -b nougat
+    $ repo init -u https://github.com/AOKP/platform_manifest.git -b oreo
 
 Sync the repository:
 
@@ -29,10 +29,10 @@ After the sync is finished, please read the [instructions from the Android site]
     . build/envsetup.sh
     lunch
 
-You can also build for specific devices (eg. hammerhead) like this:
+You can also build for specific devices (eg. cheeseburger) like this:
 
     . build/envsetup.sh
-    lunch aokp_hammerhead-userdebug
+    lunch aokp_cheeseburger-userdebug
     mka rainbowfarts
 
 Remember to `make clobber && make clean` every now and then!

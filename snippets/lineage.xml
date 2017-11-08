@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- LineageOS additions -->
+  <project path="android" remote="los" name="LineageOS/android" />
+  <project path="device/lineage/sepolicy" remote="los" name="LineageOS/android_device_lineage_sepolicy" />
+  <project path="external/bash" remote="los" name="LineageOS/android_external_bash" />
+  <project path="external/exfat" remote="los" name="LineageOS/android_external_exfat" />
+  <!--<project path="external/ffmpeg" remote="los" name="LineageOS/android_external_ffmpeg" />-->
+  <project path="external/fuse" remote="los" name="LineageOS/android_external_fuse" />
+  <project path="external/htop" remote="los" name="LineageOS/android_external_htop" />
+  <!--<project path="external/koush/ion" remote="los" name="LineageOS/ion" />-->
+  <project path="external/libncurses" remote="los" name="LineageOS/android_external_libncurses" />
+  <project path="external/libnfc-nxp" remote="los" name="LineageOS/android_external_libnfc-nxp" />
+  <project path="external/libtar" remote="los" name="LineageOS/android_external_libtar" />
+  <!--<project path="external/libtruezip" remote="los" name="LineageOS/android_external_libtruezip" />-->
+  <project path="external/lineage-sdk-api-coverage" remote="los" name="LineageOS/android_external_lineage-sdk-api-coverage" />
+  <!--<project path="external/lzo" remote="los" name="LineageOS/android_external_lzo" />-->
+  <project path="external/nano" remote="los" name="LineageOS/android_external_nano" />
+  <project path="external/ntfs-3g" remote="los" name="LineageOS/android_external_ntfs-3g" />
+  <!--<project path="external/p7zip" remote="los" name="LineageOS/android_external_p7zip" />-->
+  <project path="external/pigz" remote="los" name="LineageOS/android_external_pigz" />
+  <!--<project path="external/rsync" remote="los" name="LineageOS/android_external_rsync" />-->
+  <!--<project path="external/stagefright-plugins" remote="los" name="LineageOS/android_external_stagefright-plugins" />-->
+  <!--<project path="external/unrar" remote="los" name="LineageOS/android_external_unrar" />-->
+  <!--<project path="external/unzip" remote="los" name="LineageOS/android_external_unzip" />-->
+  <!--<project path="external/vim" remote="los" name="LineageOS/android_external_vim" />-->
+  <!--<project path="external/yaffs2" remote="los" name="LineageOS/android_external_yaffs2" />-->
+  <!--<project path="external/zip" remote="los" name="LineageOS/android_external_zip" />-->
+  <project path="frameworks/opt/hardware" remote="los" name="LineageOS/android_frameworks_opt_hardware" />
+  <!--<project path="hardware/cyanogen" remote="los" name="LineageOS/android_hardware_cyanogen" />-->
+  <project path="hardware/lineage/interfaces" remote="los" name="LineageOS/android_hardware_lineage_interfaces" >
+    <copyfile dest="hardware/lineage/Android.bp" src="Android.bp"/>
+  </project>
+  <!--<project path="hardware/ti/omap4" remote="los" name="LineageOS/android_hardware_ti_omap4" />-->
+  <!--<project path="hardware/ti/wlan" remote="los" name="LineageOS/android_hardware_ti_wlan" />-->
+  <!--<project path="hardware/ti/wpan" remote="los" name="LineageOS/android_hardware_ti_wpan" />-->
+  <project path="lineage-sdk" remote="los" name="LineageOS/android_lineage-sdk" />
+  <!--<project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" remote="los" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />-->
+  <!--<project path="lineage-sdk/samples/weatherproviderservice/WundergroundWeatherProvider" remote="los" name="LineageOS/android_packages_apps_WundergroundWeatherProvider" />-->
+  <!--<project path="lineage-sdk/samples/weatherproviderservice/YahooWeatherProvider" remote="los" name="LineageOS/android_packages_apps_YahooWeatherProvider" />-->
+  <!--<project path="packages/apps/AudioFX" remote="los" name="LineageOS/android_packages_apps_AudioFX" />-->
+  <project path="packages/apps/Eleven" remote="los" name="LineageOS/android_packages_apps_Eleven" />
+  <!--<project path="packages/apps/Exchange" remote="los" name="LineageOS/android_packages_apps_Exchange" />-->
+  <project path="packages/apps/FMRadio" remote="los" name="LineageOS/android_packages_apps_FMRadio" />
+  <project path="packages/apps/Jelly" remote="los" name="LineageOS/android_packages_apps_Jelly" />
+  <project path="packages/apps/LineageParts" remote="los" name="LineageOS/android_packages_apps_LineageParts" />
+  <!--<project path="packages/apps/LockClock" remote="los" name="LineageOS/android_packages_apps_LockClock" />-->
+  <!--<project path="packages/apps/Profiles" remote="los" name="LineageOS/android_packages_apps_Profiles" />-->
+  <project path="packages/apps/Recorder" remote="los" name="LineageOS/android_packages_apps_Recorder" />
+  <!--<project path="packages/apps/SetupWizard" remote="los" name="LineageOS/android_packages_apps_SetupWizard" />-->
+  <!--<project path="packages/apps/Snap" remote="los" name="LineageOS/android_packages_apps_Snap" />-->
+  <project path="packages/apps/Trebuchet" remote="los" name="LineageOS/android_packages_apps_Trebuchet" />
+  <!--<project path="packages/apps/Updater" remote="los" name="LineageOS/android_packages_apps_Updater" />-->
+  <!--<project path="packages/providers/DataUsageProvider" remote="los" name="LineageOS/android_packages_providers_DataUsageProvider" />-->
+  <!--<project path="packages/providers/WeatherProvider" remote="los" name="LineageOS/android_packages_providers_WeatherProvider" />-->
+  <!--<project path="packages/services/LineageAudioService" remote="los" name="LineageOS/android_packages_services_LineageAudioService" />-->
+  <!--<project path="packages/services/WeatherService" remote="los" name="LineageOS/android_packages_services_WeatherService" />-->
+  <!--<project path="prebuilts/lineage-sdk" remote="los" name="LineageOS/android_prebuilts_lineage-sdk" clone-depth="1" />-->
+  <!--<project path="system/extras/su" remote="los" name="LineageOS/android_system_extras_su" />-->
+  <project path="vendor/lineage" remote="los" name="LineageOS/android_vendor_lineage" />
+
+  <!-- CodeAurora additions -->
+  <project path="device/qcom/sepolicy" remote="los" name="LineageOS/android_device_qcom_sepolicy" />
+  <project path="external/ant-wireless/ant_native" remote="los" name="LineageOS/android_external_ant-wireless_ant_native" />
+  <project path="external/ant-wireless/ant_service" remote="los" name="LineageOS/android_external_ant-wireless_ant_service" />
+  <project path="external/ant-wireless/antradio-library" remote="los" name="LineageOS/android_external_ant-wireless_antradio-library" />
+  <project path="external/brctl" remote="los" name="LineageOS/android_external_brctl" />
+  <project path="external/connectivity" remote="los" name="LineageOS/android_external_connectivity" />
+  <project path="external/ebtables" remote="los" name="LineageOS/android_external_ebtables" />
+  <!--<project path="external/gson" remote="los" name="LineageOS/android_external_gson" />-->
+  <project path="external/json-c" remote="los" name="LineageOS/android_external_json-c" />
+  <project path="external/powertop" remote="los" name="LineageOS/android_external_powertop" />
+  <!--<project path="external/protobuf-c" remote="los" name="LineageOS/android_external_protobuf-c" />-->
+  <project path="hardware/qcom/audio-caf/apq8084" remote="los" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.0-caf-8084" />
+  <project path="hardware/qcom/audio-caf/msm8916" remote="los" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.0-caf-8916" />
+  <!--<project path="hardware/qcom/audio-caf/msm8937" remote="los" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.0-caf-8937" />-->
+  <project path="hardware/qcom/audio-caf/msm8952" remote="los" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.0-caf-8952" />
+  <project path="hardware/qcom/audio-caf/msm8960" remote="los" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.0-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" remote="los" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.0-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" remote="los" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.0-caf-8994" />
+  <project path="hardware/qcom/audio-caf/msm8996" remote="los" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.0-caf-8996" />
+  <project path="hardware/qcom/audio-caf/msm8998" remote="los" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.0-caf-8998" />
+  <project path="hardware/qcom/bt-caf" remote="los" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk" revision="lineage-15.0-caf" />
+  <project path="hardware/qcom/display-caf/apq8084" remote="los" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.0-caf-8084" />
+  <project path="hardware/qcom/display-caf/msm8916" remote="los" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.0-caf-8916" />
+  <!--<project path="hardware/qcom/display-caf/msm8937" remote="los" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.0-caf-8937" />-->
+  <project path="hardware/qcom/display-caf/msm8952" remote="los" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.0-caf-8952" />
+  <project path="hardware/qcom/display-caf/msm8960" remote="los" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.0-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8974" remote="los" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.0-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8994" remote="los" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.0-caf-8994" />
+  <project path="hardware/qcom/display-caf/msm8996" remote="los" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.0-caf-8996" />
+  <project path="hardware/qcom/display-caf/msm8998" remote="los" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.0-caf-8998" />
+  <project path="hardware/qcom/fm" remote="los" name="LineageOS/android_hardware_qcom_fm" groups="qcom,qcom_fm" />
+  <project path="hardware/qcom/media-caf/apq8084" remote="los" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.0-caf-8084" />
+  <project path="hardware/qcom/media-caf/msm8916" remote="los" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.0-caf-8916" />
+  <!--<project path="hardware/qcom/media-caf/msm8937" remote="los" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.0-caf-8937" />-->
+  <project path="hardware/qcom/media-caf/msm8952" remote="los" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.0-caf-8952" />
+  <project path="hardware/qcom/media-caf/msm8960" remote="los" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.0-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8974" remote="los" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.0-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" remote="los" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.0-caf-8994" />
+  <project path="hardware/qcom/media-caf/msm8996" remote="los" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.0-caf-8996" />
+  <project path="hardware/qcom/media-caf/msm8998" remote="los" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.0-caf-8998" />
+  <project path="hardware/qcom/wlan-caf" remote="los" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" revision="lineage-15.0-caf" />
+  <project path="hardware/ril-caf" remote="los" name="LineageOS/android_hardware_ril" groups="pdk" revision="lineage-15.0-caf" />
+  <project path="system/qcom" remote="los" name="LineageOS/android_system_qcom" groups="qcom" />
+  <!--<project path="vendor/codeaurora/telephony" remote="los" name="LineageOS/android_vendor_codeaurora_telephony" />-->
+  <!--<project path="vendor/qcom/opensource/bluetooth" remote="los" name="LineageOS/android_vendor_qcom_opensource_bluetooth" />-->
+  <project path="vendor/qcom/opensource/cryptfs_hw" remote="los" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" />
+  <project path="vendor/qcom/opensource/dataservices" remote="los" name="LineageOS/android_vendor_qcom_opensource_dataservices" />
+  <!--<project path="vendor/qcom/opensource/dpm" remote="los" name="LineageOS/android_vendor_qcom_opensource_dpm" />-->
+  <project path="vendor/qcom/opensource/interfaces" remote="los" name="LineageOS/android_vendor_qcom_opensource_interfaces" >
+    <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
+  </project>
+  <!--<project path="vendor/qcom/opensource/time-services" remote="los" name="LineageOS/android_vendor_qcom_opensource_time-services" />-->
+
+  <!-- Infrastructure -->
+  <project path="lineage/ansible" remote="los" name="LineageOS/ansible" groups="infra" revision="master" />
+  <project path="lineage/crowdin" remote="los" name="LineageOS/cm_crowdin" groups="infra" revision="master" />
+  <project path="lineage/cve" remote="los" name="LineageOS/cve_tracker" groups="infra" revision="master" />
+  <project path="lineage/jenkins" remote="los" name="LineageOS/hudson" groups="infra" revision="master" />
+  <project path="lineage/mirror" remote="los" name="LineageOS/mirror" groups="infra" revision="master" />
+  <project path="lineage/slackbot" remote="los" name="LineageOS/slackbot" groups="infra" revision="master" />
+  <project path="lineage/stats" remote="los" name="LineageOS/tribble-tracker" groups="infra" revision="master" />
+  <project path="lineage/updater" remote="los" name="LineageOS/lineageos_updater" groups="infra" revision="master" />
+  <project path="lineage/website" remote="los" name="LineageOS/www" groups="infra" revision="master" />
+  <project path="lineage/wiki" remote="los" name="LineageOS/lineage_wiki" groups="infra" revision="master" />
+
+  <!-- Tools -->
+  <project path="lineage/contributors-cloud-generator" remote="los" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" />
+  <project path="lineage/scripts" remote="los" name="LineageOS/scripts" groups="tools" revision="master" />
+</manifest>
