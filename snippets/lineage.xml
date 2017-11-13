@@ -57,7 +57,6 @@
   <!--<project path="packages/services/WeatherService" remote="los" name="LineageOS/android_packages_services_WeatherService" />-->
   <!--<project path="prebuilts/lineage-sdk" remote="los" name="LineageOS/android_prebuilts_lineage-sdk" clone-depth="1" />-->
   <!--<project path="system/extras/su" remote="los" name="LineageOS/android_system_extras_su" />-->
-  <project path="vendor/lineage" remote="los" name="LineageOS/android_vendor_lineage" />
 
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" remote="los" name="LineageOS/android_device_qcom_sepolicy" />
