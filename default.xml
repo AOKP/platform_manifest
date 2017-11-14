@@ -38,6 +38,10 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="build/soong" remote="aokp" name="AOKP/build_soong" groups="pdk,tradefed" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
 
   <!-- AOKP projects -->
   <project path="vendor/aokp" name="AOKP/vendor_aokp" />
@@ -46,10 +50,6 @@
   <!-- LOS projects -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/kati" remote="los" name="LineageOS/android_build_kati" groups="pdk,tradefed" />
-  <project path="build/soong" remote="los" name="LineageOS/android_build_soong" groups="pdk,tradefed" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
   <project path="art" name="platform/art" groups="pdk" remote="aosp" />
   <project path="bionic" remote="los" name="LineageOS/android_bionic" groups="pdk" />
   <project path="bootable/recovery" remote="los" name="LineageOS/android_bootable_recovery" groups="pdk" />
