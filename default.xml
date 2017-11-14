@@ -29,7 +29,6 @@
 
   <!-- AOKP projects -->
   <project path="platform_manifest" name="AOKP/platform_manifest" />
-  <project path="bionic" name="AOKP/bionic" groups="pdk" />
   <project path="build/make" name="AOKP/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -39,7 +38,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="AOKP/build_soong" groups="pdk,tradefed" >
+  <project path="build/soong" remote="aokp" name="AOKP/build_soong" groups="pdk,tradefed" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -52,6 +51,7 @@
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/kati" remote="los" name="LineageOS/android_build_kati" groups="pdk,tradefed" />
   <project path="art" name="platform/art" groups="pdk" remote="aosp" />
+  <project path="bionic" remote="los" name="LineageOS/android_bionic" groups="pdk" />
   <project path="bootable/recovery" remote="los" name="LineageOS/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
