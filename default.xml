@@ -43,8 +43,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-
-  <!-- AOKP projects -->
+  <project path="lineage-sdk" name="AOKP/lineage-sdk" />
   <project path="vendor/aokp" name="AOKP/vendor_aokp" />
   <!-- end AOKP projects -->
 

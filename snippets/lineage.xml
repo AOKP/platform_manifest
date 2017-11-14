@@ -34,7 +34,6 @@
   <!--<project path="hardware/ti/omap4" remote="los" name="LineageOS/android_hardware_ti_omap4" />-->
   <!--<project path="hardware/ti/wlan" remote="los" name="LineageOS/android_hardware_ti_wlan" />-->
   <!--<project path="hardware/ti/wpan" remote="los" name="LineageOS/android_hardware_ti_wpan" />-->
-  <project path="lineage-sdk" remote="los" name="LineageOS/android_lineage-sdk" />
   <!--<project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" remote="los" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />-->
   <!--<project path="lineage-sdk/samples/weatherproviderservice/WundergroundWeatherProvider" remote="los" name="LineageOS/android_packages_apps_WundergroundWeatherProvider" />-->
   <!--<project path="lineage-sdk/samples/weatherproviderservice/YahooWeatherProvider" remote="los" name="LineageOS/android_packages_apps_YahooWeatherProvider" />-->
