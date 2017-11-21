@@ -94,10 +94,10 @@ Here is an example of what the commit message should look like:
 
 
 ## Maintain Authorship ##
-Please make sure if you submit a patch/fix from another ROM that you maintain authorship.
+Always make sure if you submit a patch/fix that you maintain authorship.
 This is very important to not only us but to the entire open source community. It's what keeps it going and encourages more developers to contribute their work.
 
-If you manually cherry pick a patch/fix please add the original author prior to pushing to our gerrit.
+If you manually cherry pick a patch/fix add the original author prior to pushing to our gerrit.
 This task is very easy and is usually done after you commit a patch/fix locally.
 
 i.e - Once you type in "git commit -a" the commit message and you have saved it, type in the following:
@@ -111,7 +111,7 @@ So it should look like this once you get all author's information:
 ```bash
 git commit --amend --author "John Doe <john.doe@gmail.com>"
 ```
-
+Note: If you're a Kanger, Alex Cruz ( @Mazda-- ) will hunt you down, burn you at the stake, and eat you alive!
 
 Picking changes from our gerrit
 -------------------------------
