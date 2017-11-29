@@ -29,6 +29,7 @@
 
   <!-- AOKP projects -->
   <project path="platform_manifest" name="AOKP/platform_manifest" />
+  <project path="bionic" name="AOKP/bionic" groups="pdk" />
   <project path="build/make" name="AOKP/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -42,7 +43,9 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="frameworks/base" name="AOKP/frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="lineage-sdk" name="AOKP/lineage-sdk" />
+  <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" groups="pdk-fs" />
   <project path="vendor/aokp" name="AOKP/vendor_aokp" />
   <!-- end AOKP projects -->
 
@@ -50,7 +53,6 @@
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/kati" remote="los" name="LineageOS/android_build_kati" groups="pdk,tradefed" />
   <project path="art" name="platform/art" groups="pdk" remote="aosp" />
-  <project path="bionic" remote="los" name="LineageOS/android_bionic" groups="pdk" />
   <project path="bootable/recovery" remote="los" name="LineageOS/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -336,7 +338,6 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" remote="aosp" />
   <project path="frameworks/av" remote="los" name="LineageOS/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" remote="los" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" />
@@ -429,7 +430,6 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/RetailDemo" name="platform/packages/apps/RetailDemo" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/SafetyRegulatoryInfo" remote="los" name="LineageOS/android_packages_apps_SafetyRegulatoryInfo" groups="pdk-fs" />
-  <project path="packages/apps/Settings" remote="los" name="LineageOS/android_packages_apps_Settings" groups="pdk-fs" />
   <project path="packages/apps/Stk" remote="los" name="LineageOS/android_packages_apps_Stk" groups="apps_stk,pdk-fs" />
   <project path="packages/apps/StorageManager" remote="los" name="LineageOS/android_packages_apps_StorageManager" groups="pdk-fs" />
   <project path="packages/apps/Tag" remote="los" name="LineageOS/android_packages_apps_Tag" groups="pdk-fs" />
