@@ -114,9 +114,9 @@
   <project path="external/jsr305" remote="cm" name="LineageOS/android_external_jsr305" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/koush/AndroidAsync" remote="cm" name="LineageOS/AndroidAsync" />
   <project path="external/koush/ion" remote="cm" name="LineageOS/ion" />
-  <project path="external/libavc" name="LineageOS/android_external_libavc" groups="pdk" />
-  <project path="external/libhevc" name="LineageOS/android_external_libhevc" groups="pdk-fs" />
-  <project path="external/libmpeg2" name="LineageOS/android_external_libmpeg2" groups="pdk" />
+  <project path="external/libavc" remote="cm" name="LineageOS/android_external_libavc" groups="pdk" />
+  <project path="external/libhevc" remote="cm" name="LineageOS/android_external_libhevc" groups="pdk-fs" />
+  <project path="external/libmpeg2" remote="cm" name="LineageOS/android_external_libmpeg2" groups="pdk" />
   <project path="external/libncurses" remote="cm" name="LineageOS/android_external_libncurses" />
   <project path="external/libnetfilter_conntrack" remote="cm" name="LineageOS/android_external_libnetfilter_conntrack" />
   <project path="external/libnfc-nci" remote="cm" name="LineageOS/android_external_libnfc-nci" groups="pdk" />
