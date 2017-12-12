@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- LineageOS additions -->
-  <project path="android" remote="los" name="LineageOS/android" />
   <project path="device/lineage/sepolicy" remote="los" name="LineageOS/android_device_lineage_sepolicy" />
   <project path="external/bash" remote="los" name="LineageOS/android_external_bash" />
   <project path="external/exfat" remote="los" name="LineageOS/android_external_exfat" />
@@ -43,13 +42,10 @@
   <project path="packages/apps/FMRadio" remote="los" name="LineageOS/android_packages_apps_FMRadio" />
   <project path="packages/apps/Jelly" remote="los" name="LineageOS/android_packages_apps_Jelly" />
   <project path="packages/apps/LineageParts" remote="los" name="LineageOS/android_packages_apps_LineageParts" />
-  <!--<project path="packages/apps/LockClock" remote="los" name="LineageOS/android_packages_apps_LockClock" />-->
   <!--<project path="packages/apps/Profiles" remote="los" name="LineageOS/android_packages_apps_Profiles" />-->
   <project path="packages/apps/Recorder" remote="los" name="LineageOS/android_packages_apps_Recorder" />
-  <!--<project path="packages/apps/SetupWizard" remote="los" name="LineageOS/android_packages_apps_SetupWizard" />-->
   <!--<project path="packages/apps/Snap" remote="los" name="LineageOS/android_packages_apps_Snap" />-->
   <project path="packages/apps/Trebuchet" remote="los" name="LineageOS/android_packages_apps_Trebuchet" />
-  <!--<project path="packages/apps/Updater" remote="los" name="LineageOS/android_packages_apps_Updater" />-->
   <!--<project path="packages/providers/DataUsageProvider" remote="los" name="LineageOS/android_packages_providers_DataUsageProvider" />-->
   <!--<project path="packages/providers/WeatherProvider" remote="los" name="LineageOS/android_packages_providers_WeatherProvider" />-->
   <!--<project path="packages/services/LineageAudioService" remote="los" name="LineageOS/android_packages_services_LineageAudioService" />-->
