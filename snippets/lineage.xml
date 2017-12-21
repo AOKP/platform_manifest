@@ -26,10 +26,10 @@
   <!--<project path="external/yaffs2" remote="los" name="LineageOS/android_external_yaffs2" />-->
   <!--<project path="external/zip" remote="los" name="LineageOS/android_external_zip" />-->
   <project path="frameworks/opt/hardware" remote="los" name="LineageOS/android_frameworks_opt_hardware" />
-  <!--<project path="hardware/cyanogen" remote="los" name="LineageOS/android_hardware_cyanogen" />-->
   <project path="hardware/lineage/interfaces" remote="los" name="LineageOS/android_hardware_lineage_interfaces" >
     <copyfile dest="hardware/lineage/Android.bp" src="Android.bp"/>
   </project>
+  <project path="hardware/lineage/lineagehw" remote="los" name="LineageOS/android_hardware_lineage_lineagehw" />
   <!--<project path="hardware/ti/omap4" remote="los" name="LineageOS/android_hardware_ti_omap4" />-->
   <!--<project path="hardware/ti/wlan" remote="los" name="LineageOS/android_hardware_ti_wlan" />-->
   <!--<project path="hardware/ti/wpan" remote="los" name="LineageOS/android_hardware_ti_wpan" />-->
