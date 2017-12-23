@@ -12,7 +12,6 @@
   <project path="external/koush/ion" remote="cm" name="LineageOS/ion" />
   <project path="external/libncurses" remote="cm" name="LineageOS/android_external_libncurses" />
   <project path="external/libtar" remote="cm" name="LineageOS/android_external_libtar" />
-  <project path="external/lzo" remote="cm" name="LineageOS/android_external_lzo" />
   <project path="external/nano" remote="cm" name="LineageOS/android_external_nano" />
   <project path="external/ntfs-3g" remote="cm" name="LineageOS/android_external_ntfs-3g" />
   <project path="external/openssh" remote="cm" name="LineageOS/android_external_openssh" />
