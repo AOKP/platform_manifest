@@ -36,7 +36,7 @@
   <!--<project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" remote="los" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />-->
   <!--<project path="lineage-sdk/samples/weatherproviderservice/WundergroundWeatherProvider" remote="los" name="LineageOS/android_packages_apps_WundergroundWeatherProvider" />-->
   <!--<project path="lineage-sdk/samples/weatherproviderservice/YahooWeatherProvider" remote="los" name="LineageOS/android_packages_apps_YahooWeatherProvider" />-->
-  <!--<project path="packages/apps/AudioFX" remote="los" name="LineageOS/android_packages_apps_AudioFX" />-->
+  <project path="packages/apps/AudioFX" remote="los" name="LineageOS/android_packages_apps_AudioFX" />
   <project path="packages/apps/Eleven" remote="los" name="LineageOS/android_packages_apps_Eleven" />
   <!--<project path="packages/apps/Exchange" remote="los" name="LineageOS/android_packages_apps_Exchange" />-->
   <project path="packages/apps/FMRadio" remote="los" name="LineageOS/android_packages_apps_FMRadio" />
@@ -48,7 +48,6 @@
   <project path="packages/apps/Trebuchet" remote="los" name="LineageOS/android_packages_apps_Trebuchet" />
   <!--<project path="packages/providers/DataUsageProvider" remote="los" name="LineageOS/android_packages_providers_DataUsageProvider" />-->
   <!--<project path="packages/providers/WeatherProvider" remote="los" name="LineageOS/android_packages_providers_WeatherProvider" />-->
-  <!--<project path="packages/services/LineageAudioService" remote="los" name="LineageOS/android_packages_services_LineageAudioService" />-->
   <!--<project path="packages/services/WeatherService" remote="los" name="LineageOS/android_packages_services_WeatherService" />-->
   <!--<project path="prebuilts/lineage-sdk" remote="los" name="LineageOS/android_prebuilts_lineage-sdk" clone-depth="1" />-->
   <!--<project path="system/extras/su" remote="los" name="LineageOS/android_system_extras_su" />-->
