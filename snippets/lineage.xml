@@ -16,15 +16,15 @@
   <!--<project path="external/lzo" remote="los" name="LineageOS/android_external_lzo" />-->
   <project path="external/nano" remote="los" name="LineageOS/android_external_nano" />
   <project path="external/ntfs-3g" remote="los" name="LineageOS/android_external_ntfs-3g" />
-  <!--<project path="external/p7zip" remote="los" name="LineageOS/android_external_p7zip" />-->
+  <project path="external/p7zip" remote="los" name="LineageOS/android_external_p7zip" />
   <project path="external/pigz" remote="los" name="LineageOS/android_external_pigz" />
   <!--<project path="external/rsync" remote="los" name="LineageOS/android_external_rsync" />-->
   <!--<project path="external/stagefright-plugins" remote="los" name="LineageOS/android_external_stagefright-plugins" />-->
-  <!--<project path="external/unrar" remote="los" name="LineageOS/android_external_unrar" />-->
+  <project path="external/unrar" remote="los" name="LineageOS/android_external_unrar" />
   <!--<project path="external/unzip" remote="los" name="LineageOS/android_external_unzip" />-->
   <!--<project path="external/vim" remote="los" name="LineageOS/android_external_vim" />-->
   <!--<project path="external/yaffs2" remote="los" name="LineageOS/android_external_yaffs2" />-->
-  <!--<project path="external/zip" remote="los" name="LineageOS/android_external_zip" />-->
+  <project path="external/zip" remote="los" name="LineageOS/android_external_zip" />
   <project path="frameworks/opt/hardware" remote="los" name="LineageOS/android_frameworks_opt_hardware" />
   <project path="hardware/lineage/interfaces" remote="los" name="LineageOS/android_hardware_lineage_interfaces" >
     <copyfile dest="hardware/lineage/Android.bp" src="Android.bp"/>
