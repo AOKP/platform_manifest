@@ -42,6 +42,7 @@
   <project path="packages/apps/FMRadio" remote="los" name="LineageOS/android_packages_apps_FMRadio" />
   <project path="packages/apps/Jelly" remote="los" name="LineageOS/android_packages_apps_Jelly" />
   <project path="packages/apps/LineageParts" remote="los" name="LineageOS/android_packages_apps_LineageParts" />
+  <project path="packages/apps/LockClock" remote="los" name="LineageOS/android_packages_apps_LockClock" />
   <!--<project path="packages/apps/Profiles" remote="los" name="LineageOS/android_packages_apps_Profiles" />-->
   <project path="packages/apps/Recorder" remote="los" name="LineageOS/android_packages_apps_Recorder" />
   <project path="packages/apps/Snap" remote="los" name="LineageOS/android_packages_apps_Snap" />
