@@ -60,10 +60,8 @@
   <project path="external/brctl" remote="los" name="LineageOS/android_external_brctl" />
   <project path="external/connectivity" remote="los" name="LineageOS/android_external_connectivity" />
   <project path="external/ebtables" remote="los" name="LineageOS/android_external_ebtables" />
-  <!--<project path="external/gson" remote="los" name="LineageOS/android_external_gson" />-->
   <project path="external/json-c" remote="los" name="LineageOS/android_external_json-c" />
   <project path="external/powertop" remote="los" name="LineageOS/android_external_powertop" />
-  <!--<project path="external/protobuf-c" remote="los" name="LineageOS/android_external_protobuf-c" />-->
   <project path="hardware/qcom/audio-caf/apq8084" remote="los" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="staging/lineage-15.1-caf-8084" />
   <project path="hardware/qcom/audio-caf/msm8916" remote="los" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="staging/lineage-15.1-caf-8916" />
   <project path="hardware/qcom/audio-caf/msm8952" remote="los" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="staging/lineage-15.1-caf-8952" />
@@ -95,14 +93,11 @@
   <project path="hardware/ril-caf" remote="los" name="LineageOS/android_hardware_ril" groups="pdk" revision="staging/lineage-15.1-caf" />
   <project path="system/qcom" remote="los" name="LineageOS/android_system_qcom" groups="qcom" />
   <project path="vendor/codeaurora/telephony" remote="los" name="LineageOS/android_vendor_codeaurora_telephony" />
-  <!--<project path="vendor/qcom/opensource/bluetooth" remote="los" name="LineageOS/android_vendor_qcom_opensource_bluetooth" />-->
   <project path="vendor/qcom/opensource/cryptfs_hw" remote="los" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" />
   <project path="vendor/qcom/opensource/dataservices" remote="los" name="LineageOS/android_vendor_qcom_opensource_dataservices" />
-  <!--<project path="vendor/qcom/opensource/dpm" remote="los" name="LineageOS/android_vendor_qcom_opensource_dpm" />-->
   <project path="vendor/qcom/opensource/interfaces" remote="los" name="LineageOS/android_vendor_qcom_opensource_interfaces" >
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
   </project>
-  <!--<project path="vendor/qcom/opensource/time-services" remote="los" name="LineageOS/android_vendor_qcom_opensource_time-services" />-->
 
   <!-- Infrastructure -->
   <project path="lineage/ansible" remote="los" name="LineageOS/ansible" groups="infra" revision="master" />
