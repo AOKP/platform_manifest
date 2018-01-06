@@ -43,6 +43,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="frameworks/av" name="AOKP/frameworks_av" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/base" name="AOKP/frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="lineage-sdk" name="AOKP/lineage-sdk" />
   <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" groups="pdk-fs" />
@@ -351,7 +352,6 @@
   <project path="external/zlib" remote="los" name="LineageOS/android_external_zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" remote="aosp" />
-  <project path="frameworks/av" remote="los" name="LineageOS/android_frameworks_av" groups="pdk" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" />
