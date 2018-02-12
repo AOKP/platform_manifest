@@ -22,7 +22,7 @@
   <remote  name="los"
            fetch=".."
            review="review.lineageos.org"
-           revision="refs/heads/staging/lineage-15.1" />
+           revision="refs/heads/lineage-15.1" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
