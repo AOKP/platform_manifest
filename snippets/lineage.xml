@@ -9,7 +9,7 @@
   <project path="external/htop" remote="los" name="LineageOS/android_external_htop" />
   <project path="external/koush/AndroidAsync" remote="cm" name="LineageOS/AndroidAsync" />
   <project path="external/libncurses" remote="los" name="LineageOS/android_external_libncurses" />
-  <project path="external/libnfc-nxp" remote="los" name="LineageOS/android_external_libnfc-nxp" />
+  <project path="external/libnfc-nxp" remote="los" name="LineageOS/android_external_libnfc-nxp" />1
   <project path="external/libtar" remote="los" name="LineageOS/android_external_libtar" />
   <!--<project path="external/libtruezip" remote="los" name="LineageOS/android_external_libtruezip" />-->
   <project path="external/lineage-sdk-api-coverage" remote="los" name="LineageOS/android_external_lineage-sdk-api-coverage" />
@@ -36,11 +36,13 @@
   <project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" remote="los" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
   <project path="lineage-sdk/samples/weatherproviderservice/WundergroundWeatherProvider" remote="los" name="LineageOS/android_packages_apps_WundergroundWeatherProvider" />
   <project path="lineage-sdk/samples/weatherproviderservice/YahooWeatherProvider" remote="los" name="LineageOS/android_packages_apps_YahooWeatherProvider" />
+  <project path="packages/apps/AppDrawer" remote="los" name="LineageOS/android_packages_apps_AppDrawer" />
   <project path="packages/apps/AudioFX" remote="los" name="LineageOS/android_packages_apps_AudioFX" />
   <project path="packages/apps/Eleven" remote="los" name="LineageOS/android_packages_apps_Eleven" />
   <!--<project path="packages/apps/Exchange" remote="los" name="LineageOS/android_packages_apps_Exchange" />-->
   <project path="packages/apps/FMRadio" remote="los" name="LineageOS/android_packages_apps_FMRadio" />
   <project path="packages/apps/Jelly" remote="los" name="LineageOS/android_packages_apps_Jelly" />
+  <!--<project path="packages/apps/LineageCustomizer" remote="los" name="LineageOS/android_packages_apps_LineageCustomizer" />-->
   <project path="packages/apps/LineageParts" remote="los" name="LineageOS/android_packages_apps_LineageParts" />
   <project path="packages/apps/LockClock" remote="los" name="LineageOS/android_packages_apps_LockClock" />
   <project path="packages/apps/Profiles" remote="los" name="LineageOS/android_packages_apps_Profiles" />
