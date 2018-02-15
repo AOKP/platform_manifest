@@ -104,6 +104,7 @@
 
   <!-- Infrastructure -->
   <project path="lineage/ansible" remote="los" name="LineageOS/ansible" groups="infra" revision="master" />
+  <project path="lineage/charter" remote="los" name="LineageOS/charter" groups="infra" revision="master" />
   <project path="lineage/crowdin" remote="los" name="LineageOS/cm_crowdin" groups="infra" revision="master" />
   <project path="lineage/cve" remote="los" name="LineageOS/cve_tracker" groups="infra" revision="master" />
   <project path="lineage/jenkins" remote="los" name="LineageOS/hudson" groups="infra" revision="master" />
