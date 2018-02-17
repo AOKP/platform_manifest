@@ -53,7 +53,7 @@
   <!--<project path="packages/providers/DataUsageProvider" remote="los" name="LineageOS/android_packages_providers_DataUsageProvider" />-->
   <project path="packages/providers/WeatherProvider" remote="los" name="LineageOS/android_packages_providers_WeatherProvider" />
   <project path="prebuilts/lineage-sdk" remote="los" name="LineageOS/android_prebuilts_lineage-sdk" clone-depth="1" />
-  <!--<project path="system/extras/su" remote="los" name="LineageOS/android_system_extras_su" />-->
+  <project path="system/extras/su" remote="los" name="LineageOS/android_system_extras_su" />
 
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" remote="los" name="LineageOS/android_device_qcom_sepolicy" />
