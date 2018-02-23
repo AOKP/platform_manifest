@@ -57,6 +57,7 @@
   <!-- <project path="packages/services/OmniJaws" name="AOKP/packages_services_OmniJaws" remote="aokp" /> -->
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers" groups="pdk-fs" />
   <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" groups="pdk-fs" />
+  <project path="packages/apps/SetupWizard" name="AOKP/packages_apps_SetupWizard" />
   <project path="vendor/aokp" name="AOKP/vendor_aokp" />
   <!-- end AOKP projects -->
 
