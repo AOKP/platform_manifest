@@ -31,7 +31,6 @@
     <copyfile dest="hardware/lineage/Android.bp" src="Android.bp"/>
   </project>
   <project path="hardware/lineage/lineagehw" remote="los" name="LineageOS/android_hardware_lineage_lineagehw" />
-  <project path="hardware/lineage/livedisplay" remote="los" name="LineageOS/android_hardware_lineage_livedisplay" />
   <!--<project path="hardware/ti/omap4" remote="los" name="LineageOS/android_hardware_ti_omap4" />-->
   <!--<project path="hardware/ti/wlan" remote="los" name="LineageOS/android_hardware_ti_wlan" />-->
   <!--<project path="hardware/ti/wpan" remote="los" name="LineageOS/android_hardware_ti_wpan" />-->
