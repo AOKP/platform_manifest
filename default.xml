@@ -42,6 +42,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="bootable/recovery" name="AOKP/bootable_recovery" groups="pdk" />
   <project path="external/DUtils" name="AOKP/external_DUtils" />
   <project path="frameworks/av" name="AOKP/frameworks_av" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/base" name="AOKP/frameworks_base" groups="pdk-cw-fs,pdk-fs" />
@@ -62,7 +63,6 @@
   <project path="build/kati" remote="los" name="LineageOS/android_build_kati" groups="pdk,tradefed" />
   <project path="art" name="platform/art" groups="pdk" remote="aosp" />
   <project path="bionic" remote="los" name="LineageOS/android_bionic" groups="pdk" />
-  <project path="bootable/recovery" remote="los" name="LineageOS/android_bootable_recovery" groups="pdk" />
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" remote="aosp" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="dalvik" remote="los" name="LineageOS/android_dalvik" groups="pdk-cw-fs,pdk-fs" />
