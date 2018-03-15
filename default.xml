@@ -47,7 +47,7 @@
   <project path="frameworks/av" name="AOKP/frameworks_av" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/base" name="AOKP/frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="lineage-sdk" name="AOKP/lineage-sdk" />
-  <!-- <project path="packages/apps/DUI" name="AOKP/packages_apps_DUI"  /> -->
+  <project path="packages/apps/DUI" name="AOKP/packages_apps_DUI" />
   <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" />
   <!-- <project path="packages/services/OmniJaws" name="AOKP/packages_services_OmniJaws" remote="aokp" /> -->
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers" groups="pdk-fs" />
