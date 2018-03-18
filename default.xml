@@ -13,11 +13,6 @@
            revision="refs/heads/oreo"
            fetch=".."
            review="gerrit.aokp.co" />
-           
-  <remote  name="cm"
-           fetch=".."
-           review="review.lineageos.org"
-           revision="refs/heads/cm-14.1" />
 
   <remote  name="los"
            fetch=".."
