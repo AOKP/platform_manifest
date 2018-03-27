@@ -26,7 +26,6 @@
   <!--<project path="external/vim" remote="los" name="LineageOS/android_external_vim" />-->
   <!--<project path="external/yaffs2" remote="los" name="LineageOS/android_external_yaffs2" />-->
   <project path="external/zip" remote="los" name="LineageOS/android_external_zip" />
-  <project path="hardware/lineage/interfaces" remote="los" name="LineageOS/android_hardware_lineage_interfaces" >
     <copyfile dest="hardware/lineage/Android.bp" src="Android.bp"/>
   </project>
   <project path="hardware/lineage/lineagehw" remote="los" name="LineageOS/android_hardware_lineage_lineagehw" />
