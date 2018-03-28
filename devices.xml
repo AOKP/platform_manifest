@@ -209,6 +209,9 @@
   <!-- Xiaomi Redmi 3/Pro -->
   <project name="AOKP/device_xiaomi_ido" path="device/xiaomi/ido" remote="aokp" branch="nougat" />
   <project name="LineageOS/android_kernel_xiaomi_msm8916" path="kernel/xiaomi/msm8916" remote="cm" revision="cm-14.1" />
+ <!-- Xiaomi Mi A1 -->
+ <project name="AOKP/device_xiaomi_tissot"  path="device/xiaomi/tissot" remote="aokp" branch="nougat" />
+ <project name="AOKP/kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953" remote="aokp" branch="nougat" />
 
   <!-- Common repos -->
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github"revision="cm-14.1" />
@@ -274,6 +277,7 @@
 
   <!-- Xiaomi -->
   <project name="TheMuppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="cm-14.1" />
+  <project name="TheDolls/vendor_xiaomi_tissot" path="vendor/xiaomi/tissot" remote="github" revision="nougat" />
 
   <!-- LeEco s2/x2 -->
   <project name="TheMuppets/proprietary_vendor_leeco" path="vendor/leeco" remote="github" revision="cm-14.1" />
