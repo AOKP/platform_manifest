@@ -54,6 +54,7 @@
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers" groups="pdk-fs" />
   <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" groups="pdk-fs" />
   <project path="packages/apps/SetupWizard" name="AOKP/packages_apps_SetupWizard" />
+  <project path="system/sepolicy" name="AOKP/system_sepolicy" groups="pdk" />
   <project path="vendor/aokp" name="AOKP/vendor_aokp" />
   <!-- end AOKP projects -->
 
@@ -561,7 +562,6 @@
   <project path="system/nfc" remote="los" name="LineageOS/android_system_nfc" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" groups="pdk" remote="aosp" />
   <project path="system/security" name="platform/system/security" groups="pdk" remote="aosp" />
-  <project path="system/sepolicy" remote="los" name="LineageOS/android_system_sepolicy" groups="pdk" />
   <project path="system/timezone" name="platform/system/timezone" groups="pdk" remote="aosp" />
   <project path="system/tools/aidl" remote="los" name="LineageOS/android_system_tools_aidl" groups="pdk" />
   <project path="system/tools/hidl" remote="los" name="LineageOS/android_system_tools_hidl" groups="pdk" />
