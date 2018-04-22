@@ -59,6 +59,9 @@
   <project path="vendor/aokp" name="AOKP/vendor_aokp" />
   <!-- end AOKP projects -->
 
+  <!-- OmniRom additions -->
+  <project path="packages/apps/OmniStyle" name="Omnirom/android_packages_apps_OmniStyle" remote="github" revision="android-8.1" />
+
   <!-- LOS projects -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/kati" remote="los" name="LineageOS/android_build_kati" groups="pdk,tradefed" />
