@@ -38,6 +38,7 @@
   <project path="packages/apps/AppDrawer" remote="los" name="LineageOS/android_packages_apps_AppDrawer" />
   <project path="packages/apps/AudioFX" remote="los" name="LineageOS/android_packages_apps_AudioFX" />
   <project path="packages/apps/Eleven" remote="los" name="LineageOS/android_packages_apps_Eleven" />
+  <project path="packages/apps/Exchange" remote="los" name="LineageOS/android_packages_apps_Exchange" />
   <!--<project path="packages/apps/Exchange" remote="los" name="LineageOS/android_packages_apps_Exchange" />-->
   <project path="packages/apps/FMRadio" remote="los" name="LineageOS/android_packages_apps_FMRadio" />
   <project path="packages/apps/Jelly" remote="los" name="LineageOS/android_packages_apps_Jelly" />
