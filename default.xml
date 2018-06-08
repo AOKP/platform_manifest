@@ -128,6 +128,7 @@
   <project path="external/libtar" remote="cm" name="LineageOS/android_external_libtar" />
   <project path="external/libusb" remote="cm" name="LineageOS/android_external_libusb" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libusbx" remote="cm" name="LineageOS/android_external_libusbx" />
+  <project path="external/libvorbis" remote="cm" name="LineageOS/android_external_libvorbis" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libvpx" remote="cm" name="LineageOS/android_external_libvpx" groups="pdk" />
   <project path="external/libvterm" remote="cm" name="LineageOS/android_external_libvterm" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libxml2" remote="cm" name="LineageOS/android_external_libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" />
@@ -415,7 +416,6 @@
   <project path="external/libusb-compat" name="platform/external/libusb-compat" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/libutf" name="platform/external/libutf" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/libvncserver" name="platform/external/libvncserver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/libvorbis" name="platform/external/libvorbis" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/lld" name="platform/external/lld" groups="pdk-fs" remote="aosp" />
