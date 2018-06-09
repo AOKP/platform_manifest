@@ -33,7 +33,7 @@
 
   <!-- Huawei -->
   <!-- Honor 5x -->
-  <project name="coldhans/android_device_huawei_kiwi" path="kernel/huawei/kiwi" remote="github" revision="nougat" />
+  <project name="AOKP/device_huawei_kiwi" path="device/huawei/kiwi" remote="aokp" revision="nougat" />
   <project name="LineageOS/android_kernel_huawei_kiwi" path="kernel/huawei/kiwi" remote="cm" revision="cm-14.1" />
   <project name="MoKee/android_prebuilts_snapdragon_llvm-3.8" path="prebuilts/clang/linux-x86/host/sdclang-3.8" remote="github" revision="mkn-mr1" />
   <!-- Common repos -->
