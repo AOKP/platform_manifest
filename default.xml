@@ -63,7 +63,7 @@
   <!-- LOS projects -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/kati" remote="los" name="LineageOS/android_build_kati" groups="pdk,tradefed" />
-  <project path="art" name="platform/art" groups="pdk" remote="aosp" />
+  <project path="art" remote="los" name="LineageOS/android_art" groups="pdk" />
   <project path="bionic" remote="los" name="LineageOS/android_bionic" groups="pdk" />
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" remote="aosp" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
