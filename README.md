@@ -13,7 +13,7 @@
 
 Инициировать деревья ядра без указания конкретного устройства/ядра/поставщика:
 
-    $ repo init -u https://github.com/AOKP/platform_manifest.git -b nougat
+    $ repo init -u https://github.com/Areki-san/platform_manifest.git -b nougat
 
 Синхронизировать репозиторий:
 
