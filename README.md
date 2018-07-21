@@ -17,7 +17,7 @@
     
 Инициировать дерево Xiaomi Redmi 4X:
 
-    $ repo init -u https://github.com/Areki-san/platform_manifest.git -b nougat
+    $ repo init -u https://github.com/Areki-san/AOKP_platform_manifest.git -b nougat
 
 Синхронизировать репозиторий:
 
