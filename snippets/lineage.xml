@@ -4,7 +4,6 @@
   <project path="device/lineage/sepolicy" remote="los" name="LineageOS/android_device_lineage_sepolicy" />
   <project path="external/bash" remote="los" name="LineageOS/android_external_bash" />
   <project path="external/exfat" remote="los" name="LineageOS/android_external_exfat" />
-  <!--<project path="external/ffmpeg" remote="los" name="LineageOS/android_external_ffmpeg" />-->
   <project path="external/fuse" remote="los" name="LineageOS/android_external_fuse" />
   <project path="external/htop" remote="los" name="LineageOS/android_external_htop" />
   <project path="external/koush/AndroidAsync" remote="los" name="LineageOS/AndroidAsync" revision="cm-14.1" />
@@ -21,11 +20,9 @@
   <project path="external/p7zip" remote="los" name="LineageOS/android_external_p7zip" />
   <project path="external/pigz" remote="los" name="LineageOS/android_external_pigz" />
   <!--<project path="external/rsync" remote="los" name="LineageOS/android_external_rsync" />-->
-  <!--<project path="external/stagefright-plugins" remote="los" name="LineageOS/android_external_stagefright-plugins" />-->
   <project path="external/unrar" remote="los" name="LineageOS/android_external_unrar" />
   <!--<project path="external/unzip" remote="los" name="LineageOS/android_external_unzip" />-->
   <!--<project path="external/vim" remote="los" name="LineageOS/android_external_vim" />-->
-  <!--<project path="external/yaffs2" remote="los" name="LineageOS/android_external_yaffs2" />-->
   <project path="external/zip" remote="los" name="LineageOS/android_external_zip" />
   <project path="hardware/lineage/interfaces" remote="los" name="LineageOS/android_hardware_lineage_interfaces" >
     <copyfile dest="hardware/lineage/Android.bp" src="Android.bp"/>
@@ -51,7 +48,6 @@
   <project path="packages/apps/Snap" remote="los" name="LineageOS/android_packages_apps_Snap" />
   <project path="packages/apps/Trebuchet" remote="los" name="LineageOS/android_packages_apps_Trebuchet" />
   <project path="packages/overlays/Lineage" remote="los" name="LineageOS/android_packages_overlays_Lineage" />
-  <!--<project path="packages/providers/DataUsageProvider" remote="los" name="LineageOS/android_packages_providers_DataUsageProvider" />-->
   <project path="packages/providers/WeatherProvider" remote="los" name="LineageOS/android_packages_providers_WeatherProvider" />
   <project path="prebuilts/lineage-sdk" remote="los" name="LineageOS/android_prebuilts_lineage-sdk" clone-depth="1" />
 
