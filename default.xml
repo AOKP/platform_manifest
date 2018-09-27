@@ -51,6 +51,11 @@
   <project path="vendor/aokp" remote="aokp" name="AOKP/vendor_aokp" />
   <!-- end AOKP projects -->
   
+  <!-- cm projects -->
+  <project path="external/koush/AndroidAsync" name="LineageOS/AndroidAsync" revision="cm-14.1" />  
+  <project path="external/gson" name="LineageOS/android_external_gson" revision="cm-14.1" />
+  <!-- cm projects -->
+  
   <!-- LOS projects -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/kati" name="LineageOS/android_build_kati" groups="pdk,tradefed" />
