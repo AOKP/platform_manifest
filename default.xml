@@ -62,6 +62,7 @@
   
   <!-- Omni projects -->
   <project path="packages/apps/OmniSwitch" remote="github" name="omnirom/android_packages_apps_OmniSwitch" revision="android-9.0"/>
+  <project path="packages/services/OmniJaws" remote="github" name="omnirom/android_packages_services_OmniJaws" revision="android-9.0"/>
   <!-- Omni projects -->
 
   <!-- LOS projects -->
