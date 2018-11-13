@@ -49,6 +49,7 @@
   <project path="packages/apps/ROMControl" remote="aokp" name="AOKP/packages_apps_ROMControl" />  
   <project path="packages/apps/Settings" remote="aokp" name="AOKP/packages_apps_Settings" groups="pdk-fs" />
   <project path="packages/apps/SetupWizard" remote="aokp" name="AOKP/packages_apps_SetupWizard" />
+  <project path="system/core" remote="aokp" name="AOKP/system_core" groups="pdk" />
   <project path="vendor/aokp" remote="aokp" name="AOKP/vendor_aokp" />
   <!-- end AOKP projects -->
   
@@ -614,7 +615,6 @@
   <project path="system/chre" name="platform/system/chre" groups="pdk" remote="aosp" />
   <project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" groups="pdk" remote="aosp" />
   <project path="system/connectivity/wifilogd" name="platform/system/connectivity/wifilogd" groups="pdk" remote="aosp" />
-  <project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
   <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
   <project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" groups="pdk" remote="aosp" />
