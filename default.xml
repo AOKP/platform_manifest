@@ -46,6 +46,7 @@
   <project path="frameworks/native" remote="aokp" name="AOKP/frameworks_native" groups="pdk" />
   <project path="frameworks/av" remote="aokp" name="AOKP/frameworks_av" groups="pdk" />
   <project path="lineage-sdk" remote="aokp" name="AOKP/lineage-sdk" />
+  <project path="packages/apps/DUI" remote="aokp" name="AOKP/packages_apps_DUI" />
   <project path="packages/apps/LineageParts" remote="aokp" name="AOKP/packages_apps_LineageParts" />
   <project path="packages/apps/ROMControl" remote="aokp" name="AOKP/packages_apps_ROMControl" />  
   <project path="packages/apps/Settings" remote="aokp" name="AOKP/packages_apps_Settings" groups="pdk-fs" />
