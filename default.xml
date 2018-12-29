@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
@@ -8,24 +8,24 @@
 
   <remote  name="github"
            fetch=".." />
-           
+
   <remote  name="aokp"
            revision="refs/heads/pie"
            fetch=".."
            review="gerrit.aokp.co" />
-           
+
   <remote  name="los"
            fetch=".."
            review="review.lineageos.org"
            revision="refs/heads/lineage-16.0" />
-           
+
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
   <default revision="refs/heads/lineage-16.0"
            remote="los"
            sync-c="true"
-		   sync-j="4" />
+           sync-j="4" />
 
   <!-- AOKP Projects -->
   <project path="bionic" remote="aokp" name="AOKP/bionic" groups="pdk" />
@@ -45,23 +45,25 @@
   <project path="frameworks/base" remote="aokp" name="AOKP/frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" remote="aokp" name="AOKP/frameworks_native" groups="pdk" />
   <project path="frameworks/av" remote="aokp" name="AOKP/frameworks_av" groups="pdk" />
+  <project path="hardware/interfaces" remote="aokp" name="AOKP/hardware_interfaces" groups="pdk" />
   <project path="lineage-sdk" remote="aokp" name="AOKP/lineage-sdk" />
   <project path="packages/apps/DUI" remote="aokp" name="AOKP/packages_apps_DUI" />
   <project path="packages/apps/LineageParts" remote="aokp" name="AOKP/packages_apps_LineageParts" />
-  <project path="packages/apps/ROMControl" remote="aokp" name="AOKP/packages_apps_ROMControl" />  
+  <project path="packages/apps/ROMControl" remote="aokp" name="AOKP/packages_apps_ROMControl" />
   <project path="packages/apps/Settings" remote="aokp" name="AOKP/packages_apps_Settings" groups="pdk-fs" />
   <project path="packages/apps/SetupWizard" remote="aokp" name="AOKP/packages_apps_SetupWizard" />
   <project path="packages/services/Telephony" remote="aokp" name="AOKP/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/wallpapers/SwagPapers" remote="aokp" name="AOKP/packages_wallpapers_SwagPapers" />
   <project path="system/core" remote="aokp" name="AOKP/system_core" groups="pdk" />
+  <project path="system/vold" remote="aokp" name="AOKP/system_vold" groups="pdk" />
   <project path="vendor/aokp" remote="aokp" name="AOKP/vendor_aokp" />
   <!-- end AOKP projects -->
-  
+
   <!-- cm projects -->
-  <project path="external/koush/AndroidAsync" name="LineageOS/AndroidAsync" revision="cm-14.1" />  
+  <project path="external/koush/AndroidAsync" name="LineageOS/AndroidAsync" revision="cm-14.1" />
   <project path="external/gson" name="LineageOS/android_external_gson" revision="cm-14.1" />
   <!-- cm projects -->
-  
+
   <!-- Omni projects -->
   <project path="packages/apps/OmniSwitch" remote="github" name="omnirom/android_packages_apps_OmniSwitch" revision="android-9.0"/>
   <project path="packages/services/OmniJaws" remote="github" name="omnirom/android_packages_services_OmniJaws" revision="android-9.0"/>
@@ -392,7 +394,7 @@
   <project path="external/testng" name="platform/external/testng" groups="pdk" remote="aosp" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk" remote="aosp" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" remote="aosp" />
-  <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" /> 
+  <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" remote="aosp" />
   <project path="external/toolchain-utils" name="platform/external/toolchain-utils" remote="aosp" />
@@ -478,7 +480,6 @@
   <project path="hardware/intel/img/hwcomposer" name="platform/hardware/intel/img/hwcomposer" groups="intel,pdk" remote="aosp" />
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel,pdk" remote="aosp" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel,pdk" remote="aosp" />
-  <project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" groups="pdk" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" remote="aosp" />
   <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" groups="pdk" />
@@ -644,7 +645,6 @@
   <project path="system/tools/hidl" name="LineageOS/android_system_tools_hidl" groups="pdk" />
   <project path="system/tpm" name="platform/system/tpm" remote="aosp" />
   <project path="system/update_engine" name="LineageOS/android_system_update_engine" groups="pdk" />
-  <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" />
   <project path="test/framework" name="platform/test/framework" groups="vts,pdk" remote="aosp" />
   <project path="test/suite_harness" name="platform/test/suite_harness" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="test/vti/alert" name="platform/test/vti/alert" groups="vts,pdk" remote="aosp" />
