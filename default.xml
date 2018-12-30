@@ -10,9 +10,9 @@
            fetch=".." />
 
   <remote  name="aokp"
-           revision="refs/heads/pie"
            fetch=".."
-           review="gerrit.aokp.co" />
+           review="gerrit.aokp.co"
+           revision="refs/heads/pie" />
 
   <remote  name="los"
            fetch=".."
@@ -27,7 +27,8 @@
            sync-c="true"
            sync-j="4" />
 
-  <!-- AOKP Projects -->
+  <!-- AOKP projects -->
+  <project path="platform_manifest" remote="aokp" name="AOKP/platform_manifest" groups="pdk" />
   <project path="bionic" remote="aokp" name="AOKP/bionic" groups="pdk" />
   <project path="build/make" remote="aokp" name="AOKP/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -59,17 +60,17 @@
   <project path="vendor/aokp" remote="aokp" name="AOKP/vendor_aokp" />
   <!-- end AOKP projects -->
 
-  <!-- cm projects -->
+  <!-- CM projects -->
   <project path="external/koush/AndroidAsync" name="LineageOS/AndroidAsync" revision="cm-14.1" />
   <project path="external/gson" name="LineageOS/android_external_gson" revision="cm-14.1" />
-  <!-- cm projects -->
+  <!-- end CM projects -->
 
   <!-- Omni projects -->
   <project path="packages/apps/OmniSwitch" remote="github" name="omnirom/android_packages_apps_OmniSwitch" revision="android-9.0"/>
   <project path="packages/services/OmniJaws" remote="github" name="omnirom/android_packages_services_OmniJaws" revision="android-9.0"/>
-  <!-- Omni projects -->
+  <!-- end Omni projects -->
 
-  <!-- LOS projects -->
+  <!-- LOS/AOSP projects -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/kati" name="LineageOS/android_build_kati" groups="pdk,tradefed" />
   <project path="art" name="LineageOS/android_art" groups="pdk" />
@@ -683,9 +684,12 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" remote="aosp" />
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" remote="aosp" />
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" remote="aosp" />
+  <!-- end LOS/AOSP projects -->
 
+  <!-- LOS snippets -->
   <include name="snippets/lineage.xml" />
 
+  <!-- RepoHooks -->
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
 </manifest>
