@@ -58,6 +58,7 @@
   <project path="system/core" remote="aokp" name="AOKP/system_core" groups="pdk" />
   <project path="system/vold" remote="aokp" name="AOKP/system_vold" groups="pdk" />
   <project path="vendor/aokp" remote="aokp" name="AOKP/vendor_aokp" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="AOKP/vendor_qcom_opensource_cryptfs_hw" groups="qcom,pdk-qcom" />
   <!-- end AOKP projects -->
 
   <!-- CM projects -->
