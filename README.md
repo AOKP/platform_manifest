@@ -3,36 +3,40 @@
 
 ![Kanged Unicorn](http://aokp.co/images/cms-images/106.png)
 
-Download the Source
+Загрузка исходников
 ===================
 
-Please read the [AOSP building instructions](http://source.android.com/source/index.html) before proceeding.
+Перед продолжением ознакомьтесь с [инструкциями по сборке AOSP](http://source.android.com/source/index.html).
 
-Initializing Repository
+Инициализация репозитория
 -----------------------
 
-Initiate core trees without any device/kernel/vendor:
+Инициировать деревья ядра без указания конкретного устройства/ядра/поставщика:
 
     $ repo init -u https://github.com/AOKP/platform_manifest.git -b nougat
+    
+Инициировать дерево Xiaomi Redmi 4X:
 
-Sync the repository:
+    $ repo init -u https://github.com/Areki-san/AOKP_platform_manifest.git -b nougat
+
+Синхронизировать репозиторий:
 
     $ repo sync --force-sync
 
 ***
 
-Building
+Сборка
 --------
 
-After the sync is finished, please read the [instructions from the Android site](http://s.android.com/source/building.html) on how to build.
+После завершения синхронизации ознакомьтесь с [официальной инструкцией по сборке Android](http://s.android.com/source/building.html).
 
     . build/envsetup.sh
     lunch
 
-You can also build for specific devices (eg. hammerhead) like this:
+Вы также можете создать сборку для конкретных устройств (например hammerhead):
 
     . build/envsetup.sh
     lunch aokp_hammerhead-userdebug
     mka rainbowfarts
 
-Remember to `make clobber && make clean` every now and then!
+Не забывайте делать `make clobber && make clean` время от времени!
