@@ -11,6 +11,8 @@
 
   <remote  name="aokp"
            fetch=".."
+           upstream-remote="los"
+           upstream-name="LineageOS/android_%P"
            review="gerrit.aokp.co"
            revision="refs/heads/pie" />
 
@@ -28,9 +30,9 @@
            sync-j="4" />
 
   <!-- AOKP projects -->
-  <project path="platform_manifest" remote="aokp" name="AOKP/platform_manifest" groups="pdk" />
+  <project path="platform_manifest" remote="aokp" name="AOKP/platform_manifest" upstream-name="LineageOS/android" groups="pdk" />
   <project path="bionic" remote="aokp" name="AOKP/bionic" groups="pdk" />
-  <project path="build/make" remote="aokp" name="AOKP/build" groups="pdk" >
+  <project path="build/make" remote="aokp" name="AOKP/build" upstream-name="LineageOS/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -48,16 +50,16 @@
   <project path="frameworks/av" remote="aokp" name="AOKP/frameworks_av" groups="pdk" />
   <project path="hardware/interfaces" remote="aokp" name="AOKP/hardware_interfaces" groups="pdk" />
   <project path="lineage-sdk" remote="aokp" name="AOKP/lineage-sdk" />
-  <project path="packages/apps/DUI" remote="aokp" name="AOKP/packages_apps_DUI" />
+  <project path="packages/apps/DUI" remote="aokp" name="AOKP/packages_apps_DUI" upstream-name="" />
   <project path="packages/apps/LineageParts" remote="aokp" name="AOKP/packages_apps_LineageParts" />
-  <project path="packages/apps/ROMControl" remote="aokp" name="AOKP/packages_apps_ROMControl" />
+  <project path="packages/apps/ROMControl" remote="aokp" name="AOKP/packages_apps_ROMControl" upstream-name="" />
   <project path="packages/apps/Settings" remote="aokp" name="AOKP/packages_apps_Settings" groups="pdk-fs" />
   <project path="packages/apps/SetupWizard" remote="aokp" name="AOKP/packages_apps_SetupWizard" />
   <project path="packages/services/Telephony" remote="aokp" name="AOKP/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/wallpapers/SwagPapers" remote="aokp" name="AOKP/packages_wallpapers_SwagPapers" />
+  <project path="packages/wallpapers/SwagPapers" remote="aokp" name="AOKP/packages_wallpapers_SwagPapers" upstream-name="" />
   <project path="system/core" remote="aokp" name="AOKP/system_core" groups="pdk" />
   <project path="system/vold" remote="aokp" name="AOKP/system_vold" groups="pdk" />
-  <project path="vendor/aokp" remote="aokp" name="AOKP/vendor_aokp" />
+  <project path="vendor/aokp" remote="aokp" name="AOKP/vendor_aokp" upstream-name="LineageOS/android_vendor_lineage" />
   <project path="vendor/qcom/opensource/cryptfs_hw" remote="aokp" name="AOKP/vendor_qcom_opensource_cryptfs_hw" groups="qcom,pdk-qcom" />
   <!-- end AOKP projects -->
 
