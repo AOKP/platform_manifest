@@ -58,9 +58,7 @@
   <project path="packages/services/Telephony" remote="aokp" name="AOKP/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/wallpapers/SwagPapers" remote="aokp" name="AOKP/packages_wallpapers_SwagPapers" upstream-name="" />
   <project path="system/core" remote="aokp" name="AOKP/system_core" groups="pdk" />
-  <project path="system/vold" remote="aokp" name="AOKP/system_vold" groups="pdk" />
   <project path="vendor/aokp" remote="aokp" name="AOKP/vendor_aokp" upstream-name="LineageOS/android_vendor_lineage" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" remote="aokp" name="AOKP/vendor_qcom_opensource_cryptfs_hw" groups="qcom,pdk-qcom" />
   <!-- end AOKP projects -->
 
   <!-- CM projects -->
@@ -659,6 +657,7 @@
   <project path="system/tools/hidl" name="LineageOS/android_system_tools_hidl" groups="pdk" />
   <project path="system/tpm" name="platform/system/tpm" remote="aosp" />
   <project path="system/update_engine" name="LineageOS/android_system_update_engine" groups="pdk" />
+  <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" />
   <project path="test/framework" name="platform/test/framework" groups="vts,pdk" remote="aosp" />
   <project path="test/suite_harness" name="platform/test/suite_harness" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="test/vti/alert" name="platform/test/vti/alert" groups="vts,pdk" remote="aosp" />
