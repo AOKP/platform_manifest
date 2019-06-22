@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- AOKP additions -->
+  <project path="system/vold" remote="aokp" name="AOKP/system_vold" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" remote="aokp" name="AOKP/vendor_qcom_opensource_cryptfs_hw" />
+
+</manifest>
