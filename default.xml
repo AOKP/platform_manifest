@@ -48,6 +48,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="bootable/recovery" remote="aokp" name="AOKP/bootable_recovery" groups="pdk" />
   <project path="device/lineage/sepolicy" remote="aokp" name="AOKP/device_lineage_sepolicy" />
   <project path="frameworks/base" remote="aokp" name="AOKP/frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" remote="aokp" name="AOKP/frameworks_native" groups="pdk" />
@@ -78,7 +79,6 @@
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/kati" name="LineageOS/android_build_kati" groups="pdk,tradefed" />
   <project path="art" name="LineageOS/android_art" groups="pdk" />
-  <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" />
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" remote="aosp" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="dalvik" name="LineageOS/android_dalvik" groups="pdk-cw-fs,pdk-fs" />
