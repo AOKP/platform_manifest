@@ -56,9 +56,11 @@
   <project path="lineage-sdk" remote="aokp" name="AOKP/lineage-sdk" />
   <project path="packages/apps/DUI" remote="aokp" name="AOKP/packages_apps_DUI" upstream-name="" />
   <project path="packages/apps/LineageParts" remote="aokp" name="AOKP/packages_apps_LineageParts" />
+  <project path="packages/apps/OmniSwitch" remote="aokp" name="AOKP/packages_apps_OmniSwitch" />
   <project path="packages/apps/ROMControl" remote="aokp" name="AOKP/packages_apps_ROMControl" upstream-name="" />
   <project path="packages/apps/Settings" remote="aokp" name="AOKP/packages_apps_Settings" groups="pdk-fs" />
   <project path="packages/apps/SetupWizard" remote="aokp" name="AOKP/packages_apps_SetupWizard" />
+  <project path="packages/services/OmniJaws" remote="aokp" name="AOKP/packages_services_OmniJaws" />
   <project path="packages/services/Telephony" remote="aokp" name="AOKP/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/wallpapers/SwagPapers" remote="aokp" name="AOKP/packages_wallpapers_SwagPapers" upstream-name="" />
   <project path="system/core" remote="aokp" name="AOKP/system_core" groups="pdk" />
@@ -69,11 +71,6 @@
   <project path="external/koush/AndroidAsync" name="LineageOS/AndroidAsync" revision="cm-14.1" />
   <project path="external/gson" name="LineageOS/android_external_gson" revision="cm-14.1" />
   <!-- end CM projects -->
-
-  <!-- Omni projects -->
-  <project path="packages/apps/OmniSwitch" remote="github" name="omnirom/android_packages_apps_OmniSwitch" revision="android-9.0"/>
-  <project path="packages/services/OmniJaws" remote="github" name="omnirom/android_packages_services_OmniJaws" revision="android-9.0"/>
-  <!-- end Omni projects -->
 
   <!-- LOS/AOSP projects -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
